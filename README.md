@@ -1,3 +1,3 @@
-# tykto.m100w
+# tykto.BJFC
 
-Most common 100 words app
+BJFC app

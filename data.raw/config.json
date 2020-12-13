@@ -1,16 +1,16 @@
 {
   "teams": [
-    { "code": "U18G", "name": "Under 18 Girls", "years": [2003, 2004], "genders": ["Female"] },
-    { "code": "U16G", "name": "Under 16 Girls", "years": [2005, 2006], "genders": ["Female"] },
-    { "code": "U14G", "name": "Under 14 Girls", "years": [2007, 2008], "genders": ["Female"] },
-    { "code": "U12G", "name": "Under 12 Girls", "years": [2009, 2010, 2011, 2012], "genders": ["Female"] },
-    { "code": "U17B-GREEN", "name": "Under 17 Boys (Green)", "years": [2004], "genders": ["Male"] },
-    { "code": "U17B-GOLD", "name": "Under 17 Boys (Gold)", "years": [2005], "genders": ["Male"] },
-    { "code": "U15B", "name": "Under 15 Boys", "years": [2007, 2006], "genders": ["Male"] },
-    { "code": "U13B", "name": "Under 13 Boys", "years": [2009, 2008], "genders": ["Male"] },
-    { "code": "U11B", "name": "Under 11 Boys", "years": [2010], "genders": ["Male"] },
-    { "code": "U10M", "name": "Under 10 Mixed", "years": [2011], "genders": ["Female", "Male"] },
-    { "code": "U9M", "name": "Under 9 Mixed", "years": [2012], "genders": ["Female", "Male"] },
-    { "code": "U8M", "name": "Under 8 Mixed", "years": [2013], "genders": ["Female", "Male"] }
+    { "code": "U18G", "shortName": "U18G", "name": "Under 18 Girls", "years": [2003, 2004], "genders": ["Female"] },
+    { "code": "U17B-GREEN", "shortName": "U17B (Green)", "name": "Under 17 Boys (Green)", "years": [2004], "genders": ["Male"] },
+    { "code": "U17B-GOLD", "shortName": "U17B (Gold)", "name": "Under 17 Boys (Gold)", "years": [2005], "genders": ["Male"] },
+    { "code": "U16G", "shortName": "U16G", "name": "Under 16 Girls", "years": [2005, 2006], "genders": ["Female"] },
+    { "code": "U15B", "shortName": "U15B", "name": "Under 15 Boys", "years": [2007, 2006], "genders": ["Male"] },
+    { "code": "U14G", "shortName": "U14G", "name": "Under 14 Girls", "years": [2007, 2008], "genders": ["Female"] },
+    { "code": "U13B", "shortName": "U13B", "name": "Under 13 Boys", "years": [2009, 2008], "genders": ["Male"] },
+    { "code": "U12G", "shortName": "U12G", "name": "Under 12 Girls", "years": [2009, 2010, 2011, 2012], "genders": ["Female"] },
+    { "code": "U11B", "shortName": "U11B", "name": "Under 11 Boys", "years": [2010], "genders": ["Male"] },
+    { "code": "U10M", "shortName": "U10M", "name": "Under 10 Mixed", "years": [2011], "genders": ["Female", "Male"] },
+    { "code": "U09M", "shortName": "U9M", "name": "Under 9 Mixed", "years": [2012], "genders": ["Female", "Male"] },
+    { "code": "U08M", "shortName": "U8M", "name": "Under 8 Mixed", "years": [2013], "genders": ["Female", "Male"] }
   ]
 }
