@@ -5,12 +5,11 @@
   "version": "0.0.0",
   "scripts": {
     "start": "sapper dev",
-    "ci:build": "run-s _scripts:etl _sapper:build _svelte-check _sapper:export",
-    "ci:build.no": "run-s _scripts:etl _sapper:build _svelte-check _sapper:export _copy:cname",
+    "ci:build": "run-s _scripts:etl _sapper:build _svelte-check _sapper:export _copy:cname",
     "_copy:cname": "shx cp .CNAME __sapper__/export/CNAME",
     "_scripts:etl": "ts-node src/scripts/etl",
     "_sapper:build": "sapper build",
-    "_sapper:export": "sapper export --legacy --entry \"/ /accent/ /affirmation/ /teams/ /teams/games/ /teams/games/flash-cards/ /teams/games/pick-the-word/\"",
+    "_sapper:export": "sapper export --legacy",
     "_svelte-check": "svelte-check --ignore src/node_modules/@sapper"
   },
   "dependencies": {
