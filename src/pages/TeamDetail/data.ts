@@ -291,8 +291,8 @@ export default {
       },
     ],
   },
-  'U17B-GREEN': {
-    name: 'Under 17 Boys (Green)',
+  'U17B-GOLD': {
+    name: 'Under 17 Boys (Gold)',
     members: [
       {
         footyWebNumber: '02263883',
@@ -646,8 +646,8 @@ export default {
       },
     ],
   },
-  'U17B-GOLD': {
-    name: 'Under 17 Boys (Gold)',
+  'U17B-GREEN': {
+    name: 'Under 17 Boys (Green)',
     members: [
       {
         footyWebNumber: '03737182',
