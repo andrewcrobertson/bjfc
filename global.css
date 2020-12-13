@@ -1,0 +1,7 @@
+body {
+  overscroll-behavior-y: contain;
+}
+
+.border-20 {
+  border-width: 20px;
+}
