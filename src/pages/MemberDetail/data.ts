@@ -80,6 +80,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03737182': {
     footyWebNumber: '03737182',
@@ -141,6 +144,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03680520': {
     footyWebNumber: '03680520',
@@ -188,6 +194,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02263883': {
     footyWebNumber: '02263883',
@@ -308,6 +317,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02503773': {
     footyWebNumber: '02503773',
@@ -391,6 +403,9 @@ export default {
         destinationClub: 'East Ringwood',
       },
     ],
+    club: 'East Ringwood',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02090732': {
     footyWebNumber: '02090732',
@@ -481,6 +496,9 @@ export default {
         destinationClub: 'East Ringwood',
       },
     ],
+    club: 'East Ringwood',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02346009': {
     footyWebNumber: '02346009',
@@ -591,6 +609,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03258258': {
     footyWebNumber: '03258258',
@@ -659,6 +680,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02474446': {
     footyWebNumber: '02474446',
@@ -731,6 +755,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03226921': {
     footyWebNumber: '03226921',
@@ -792,6 +819,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02453895': {
     footyWebNumber: '02453895',
@@ -816,6 +846,9 @@ export default {
     ],
     transactions: [],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03558237': {
     footyWebNumber: '03558237',
@@ -891,6 +924,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '03343780': {
     footyWebNumber: '03343780',
@@ -952,6 +988,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03534656': {
     footyWebNumber: '03534656',
@@ -1020,6 +1059,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01420690': {
     footyWebNumber: '01420690',
@@ -1154,6 +1196,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02445097': {
     footyWebNumber: '02445097',
@@ -1274,6 +1319,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03070934': {
     footyWebNumber: '03070934',
@@ -1371,6 +1419,9 @@ export default {
         destinationClub: 'Ferntree Gully Eagles',
       },
     ],
+    club: 'Ferntree Gully Eagles',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03070939': {
     footyWebNumber: '03070939',
@@ -1474,6 +1525,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01561882': {
     footyWebNumber: '01561882',
@@ -1560,6 +1614,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02048274': {
     footyWebNumber: '02048274',
@@ -1666,6 +1723,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03064071': {
     footyWebNumber: '03064071',
@@ -1713,6 +1773,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02845428': {
     footyWebNumber: '02845428',
@@ -1788,6 +1851,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02921605': {
     footyWebNumber: '02921605',
@@ -1877,6 +1943,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03223491': {
     footyWebNumber: '03223491',
@@ -1952,6 +2021,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03337454': {
     footyWebNumber: '03337454',
@@ -2021,6 +2093,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03310424': {
     footyWebNumber: '03310424',
@@ -2082,6 +2157,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02912249': {
     footyWebNumber: '02912249',
@@ -2157,6 +2235,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03505718': {
     footyWebNumber: '03505718',
@@ -2225,6 +2306,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02326407': {
     footyWebNumber: '02326407',
@@ -2272,6 +2356,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03115980': {
     footyWebNumber: '03115980',
@@ -2336,6 +2423,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02058774': {
     footyWebNumber: '02058774',
@@ -2390,6 +2480,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02119149': {
     footyWebNumber: '02119149',
@@ -2444,6 +2537,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03018873': {
     footyWebNumber: '03018873',
@@ -2526,6 +2622,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03018872': {
     footyWebNumber: '03018872',
@@ -2608,6 +2707,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02451070': {
     footyWebNumber: '02451070',
@@ -2691,6 +2793,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '02869775': {
     footyWebNumber: '02869775',
@@ -2766,6 +2871,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03548512': {
     footyWebNumber: '03548512',
@@ -2848,6 +2956,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02091636': {
     footyWebNumber: '02091636',
@@ -2931,6 +3042,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03081904': {
     footyWebNumber: '03081904',
@@ -3034,6 +3148,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02632063': {
     footyWebNumber: '02632063',
@@ -3138,6 +3255,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01879008': {
     footyWebNumber: '01879008',
@@ -3241,6 +3361,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03541757': {
     footyWebNumber: '03541757',
@@ -3316,6 +3439,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03241282': {
     footyWebNumber: '03241282',
@@ -3391,6 +3517,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '04033359': {
     footyWebNumber: '04033359',
@@ -3459,6 +3588,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01635651': {
     footyWebNumber: '01635651',
@@ -3576,6 +3708,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01569577': {
     footyWebNumber: '01569577',
@@ -3638,6 +3773,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02915191': {
     footyWebNumber: '02915191',
@@ -3670,6 +3808,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03329538': {
     footyWebNumber: '03329538',
@@ -3745,6 +3886,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01664958': {
     footyWebNumber: '01664958',
@@ -3814,6 +3958,9 @@ export default {
         destinationClub: 'Point Cook',
       },
     ],
+    club: 'Point Cook',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03062355': {
     footyWebNumber: '03062355',
@@ -3889,6 +4036,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03062353': {
     footyWebNumber: '03062353',
@@ -3971,6 +4121,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03062354': {
     footyWebNumber: '03062354',
@@ -4046,6 +4199,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02011566': {
     footyWebNumber: '02011566',
@@ -4178,6 +4334,9 @@ export default {
         destinationClub: 'Vermont',
       },
     ],
+    club: 'Vermont',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03127859': {
     footyWebNumber: '03127859',
@@ -4232,6 +4391,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02090759': {
     footyWebNumber: '02090759',
@@ -4367,6 +4529,9 @@ export default {
         destinationClub: 'East Ringwood',
       },
     ],
+    club: 'East Ringwood',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02090741': {
     footyWebNumber: '02090741',
@@ -4485,6 +4650,9 @@ export default {
         destinationClub: 'East Ringwood',
       },
     ],
+    club: 'East Ringwood',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02683610': {
     footyWebNumber: '02683610',
@@ -4549,6 +4717,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01627488': {
     footyWebNumber: '01627488',
@@ -4631,6 +4802,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02733467': {
     footyWebNumber: '02733467',
@@ -4741,6 +4915,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03325019': {
     footyWebNumber: '03325019',
@@ -4823,6 +5000,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02939863': {
     footyWebNumber: '02939863',
@@ -4926,6 +5106,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01852149': {
     footyWebNumber: '01852149',
@@ -5029,6 +5212,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03520214': {
     footyWebNumber: '03520214',
@@ -5111,6 +5297,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03561703': {
     footyWebNumber: '03561703',
@@ -5179,6 +5368,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02439956': {
     footyWebNumber: '02439956',
@@ -5255,6 +5447,9 @@ export default {
         destinationClub: 'Kilsyth',
       },
     ],
+    club: 'Kilsyth',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03055429': {
     footyWebNumber: '03055429',
@@ -5323,6 +5518,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02280414': {
     footyWebNumber: '02280414',
@@ -5398,6 +5596,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02870196': {
     footyWebNumber: '02870196',
@@ -5473,6 +5674,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01811501': {
     footyWebNumber: '01811501',
@@ -5542,6 +5746,9 @@ export default {
         destinationClub: 'Heathmont',
       },
     ],
+    club: 'Heathmont',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03649305': {
     footyWebNumber: '03649305',
@@ -5606,6 +5813,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03283702': {
     footyWebNumber: '03283702',
@@ -5649,6 +5859,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02254838': {
     footyWebNumber: '02254838',
@@ -5732,6 +5945,9 @@ export default {
         destinationClub: 'Ferntree Gully Eagles',
       },
     ],
+    club: 'Ferntree Gully Eagles',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03007678': {
     footyWebNumber: '03007678',
@@ -5842,6 +6058,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02058704': {
     footyWebNumber: '02058704',
@@ -5952,6 +6171,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03342147': {
     footyWebNumber: '03342147',
@@ -6006,6 +6228,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03561798': {
     footyWebNumber: '03561798',
@@ -6060,6 +6285,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02289448': {
     footyWebNumber: '02289448',
@@ -6157,6 +6385,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03116190': {
     footyWebNumber: '03116190',
@@ -6233,6 +6464,9 @@ export default {
         destinationClub: 'Norwood',
       },
     ],
+    club: 'Norwood',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02925917': {
     footyWebNumber: '02925917',
@@ -6315,6 +6549,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01609456': {
     footyWebNumber: '01609456',
@@ -6398,6 +6635,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01293769': {
     footyWebNumber: '01293769',
@@ -6543,6 +6783,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '01838065': {
     footyWebNumber: '01838065',
@@ -6681,6 +6924,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '02819220': {
     footyWebNumber: '02819220',
@@ -6766,6 +7012,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02463886': {
     footyWebNumber: '02463886',
@@ -6862,6 +7111,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03298293': {
     footyWebNumber: '03298293',
@@ -6923,6 +7175,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03079763': {
     footyWebNumber: '03079763',
@@ -7005,6 +7260,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '00959535': {
     footyWebNumber: '00959535',
@@ -7088,6 +7346,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02896196': {
     footyWebNumber: '02896196',
@@ -7163,6 +7424,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03355238': {
     footyWebNumber: '03355238',
@@ -7238,6 +7502,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02453886': {
     footyWebNumber: '02453886',
@@ -7262,6 +7529,9 @@ export default {
     ],
     transactions: [],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01596672': {
     footyWebNumber: '01596672',
@@ -7331,6 +7601,9 @@ export default {
         destinationClub: 'Mooroolbark',
       },
     ],
+    club: 'Mooroolbark',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02523265': {
     footyWebNumber: '02523265',
@@ -7363,6 +7636,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03100805': {
     footyWebNumber: '03100805',
@@ -7452,6 +7728,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: true,
   },
   '01810882': {
     footyWebNumber: '01810882',
@@ -7563,6 +7842,9 @@ export default {
         destinationClub: 'The Basin',
       },
     ],
+    club: 'The Basin',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03278431': {
     footyWebNumber: '03278431',
@@ -7624,6 +7906,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: true,
   },
   '03143522': {
     footyWebNumber: '03143522',
@@ -7688,6 +7973,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03298371': {
     footyWebNumber: '03298371',
@@ -7742,6 +8030,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03319479': {
     footyWebNumber: '03319479',
@@ -7789,6 +8080,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01885240': {
     footyWebNumber: '01885240',
@@ -7886,6 +8180,9 @@ export default {
         destinationClub: 'Ferntree Gully Eagles',
       },
     ],
+    club: 'Ferntree Gully Eagles',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03584559': {
     footyWebNumber: '03584559',
@@ -7975,6 +8272,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02289876': {
     footyWebNumber: '02289876',
@@ -8037,6 +8337,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02001335': {
     footyWebNumber: '02001335',
@@ -8137,6 +8440,9 @@ export default {
         destinationClub: 'East Ringwood',
       },
     ],
+    club: 'East Ringwood',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02463394': {
     footyWebNumber: '02463394',
@@ -8220,6 +8526,9 @@ export default {
         destinationClub: 'Ferntree Gully Eagles',
       },
     ],
+    club: 'Ferntree Gully Eagles',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02639289': {
     footyWebNumber: '02639289',
@@ -8295,6 +8604,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01865121': {
     footyWebNumber: '01865121',
@@ -8399,6 +8711,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01838920': {
     footyWebNumber: '01838920',
@@ -8510,6 +8825,9 @@ export default {
         destinationClub: 'Kilsyth',
       },
     ],
+    club: 'Kilsyth',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02073542': {
     footyWebNumber: '02073542',
@@ -8613,6 +8931,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03227856': {
     footyWebNumber: '03227856',
@@ -8696,6 +9017,9 @@ export default {
         destinationClub: 'Boronia',
       },
     ],
+    club: 'Boronia',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01852131': {
     footyWebNumber: '01852131',
@@ -8778,6 +9102,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02832014': {
     footyWebNumber: '02832014',
@@ -8874,6 +9201,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02869796': {
     footyWebNumber: '02869796',
@@ -8970,6 +9300,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03315884': {
     footyWebNumber: '03315884',
@@ -9036,6 +9369,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03247587': {
     footyWebNumber: '03247587',
@@ -9104,6 +9440,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03114280': {
     footyWebNumber: '03114280',
@@ -9172,6 +9511,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01681158': {
     footyWebNumber: '01681158',
@@ -9247,6 +9589,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03081833': {
     footyWebNumber: '03081833',
@@ -9343,6 +9688,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02625774': {
     footyWebNumber: '02625774',
@@ -9432,6 +9780,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02898108': {
     footyWebNumber: '02898108',
@@ -9501,6 +9852,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02278176': {
     footyWebNumber: '02278176',
@@ -9605,6 +9959,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02519779': {
     footyWebNumber: '02519779',
@@ -9640,6 +9997,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03251681': {
     footyWebNumber: '03251681',
@@ -9692,6 +10052,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02902082': {
     footyWebNumber: '02902082',
@@ -9724,6 +10087,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03058232': {
     footyWebNumber: '03058232',
@@ -9792,6 +10158,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '04028466': {
     footyWebNumber: '04028466',
@@ -9853,6 +10222,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03114649': {
     footyWebNumber: '03114649',
@@ -9914,6 +10286,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01601102': {
     footyWebNumber: '01601102',
@@ -10010,6 +10385,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01601097': {
     footyWebNumber: '01601097',
@@ -10093,6 +10471,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01246019': {
     footyWebNumber: '01246019',
@@ -10169,6 +10550,9 @@ export default {
         destinationClub: 'South Croydon',
       },
     ],
+    club: 'South Croydon',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01681163': {
     footyWebNumber: '01681163',
@@ -10240,6 +10624,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02949384': {
     footyWebNumber: '02949384',
@@ -10351,6 +10738,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02070149': {
     footyWebNumber: '02070149',
@@ -10455,6 +10845,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03086371': {
     footyWebNumber: '03086371',
@@ -10523,6 +10916,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01811471': {
     footyWebNumber: '01811471',
@@ -10612,6 +11008,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02464774': {
     footyWebNumber: '02464774',
@@ -10701,6 +11100,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03091295': {
     footyWebNumber: '03091295',
@@ -10769,6 +11171,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '01644349': {
     footyWebNumber: '01644349',
@@ -10841,6 +11246,9 @@ export default {
         destinationClub: 'Upper Ferntree Gully',
       },
     ],
+    club: 'Upper Ferntree Gully',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02480488': {
     footyWebNumber: '02480488',
@@ -10913,6 +11321,9 @@ export default {
         destinationClub: 'The Basin',
       },
     ],
+    club: 'The Basin',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03399767': {
     footyWebNumber: '03399767',
@@ -10974,6 +11385,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02694004': {
     footyWebNumber: '02694004',
@@ -11071,6 +11485,9 @@ export default {
         destinationClub: 'Upper Ferntree Gully',
       },
     ],
+    club: 'Upper Ferntree Gully',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01058256': {
     footyWebNumber: '01058256',
@@ -11132,6 +11549,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02921597': {
     footyWebNumber: '02921597',
@@ -11242,6 +11662,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03567530': {
     footyWebNumber: '03567530',
@@ -11310,6 +11733,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03068383': {
     footyWebNumber: '03068383',
@@ -11385,6 +11811,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01865142': {
     footyWebNumber: '01865142',
@@ -11475,6 +11904,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '00980875': {
     footyWebNumber: '00980875',
@@ -11565,6 +11997,9 @@ export default {
         destinationClub: 'Wantirna South',
       },
     ],
+    club: 'Wantirna South',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01863629': {
     footyWebNumber: '01863629',
@@ -11641,6 +12076,9 @@ export default {
         destinationClub: 'Scoresby',
       },
     ],
+    club: 'Scoresby',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03298275': {
     footyWebNumber: '03298275',
@@ -11688,6 +12126,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02884609': {
     footyWebNumber: '02884609',
@@ -11784,6 +12225,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02753434': {
     footyWebNumber: '02753434',
@@ -11873,6 +12317,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03041607': {
     footyWebNumber: '03041607',
@@ -11935,6 +12382,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03100492': {
     footyWebNumber: '03100492',
@@ -12017,6 +12467,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03072504': {
     footyWebNumber: '03072504',
@@ -12071,6 +12524,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02966475': {
     footyWebNumber: '02966475',
@@ -12103,6 +12559,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02761783': {
     footyWebNumber: '02761783',
@@ -12193,6 +12652,9 @@ export default {
         destinationClub: 'Rowville Knights Community Football Club',
       },
     ],
+    club: 'Rowville Knights Community Football Club',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01693628': {
     footyWebNumber: '01693628',
@@ -12269,6 +12731,9 @@ export default {
         destinationClub: 'Wantirna South',
       },
     ],
+    club: 'Wantirna South',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03310052': {
     footyWebNumber: '03310052',
@@ -12345,6 +12810,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03321278': {
     footyWebNumber: '03321278',
@@ -12435,6 +12903,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '03065674': {
     footyWebNumber: '03065674',
@@ -12482,6 +12953,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03491580': {
     footyWebNumber: '03491580',
@@ -12557,6 +13031,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '02221841': {
     footyWebNumber: '02221841',
@@ -12632,6 +13109,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03081082': {
     footyWebNumber: '03081082',
@@ -12766,6 +13246,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01610634': {
     footyWebNumber: '01610634',
@@ -12883,6 +13366,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03546905': {
     footyWebNumber: '03546905',
@@ -12929,6 +13415,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03399776': {
     footyWebNumber: '03399776',
@@ -12976,6 +13465,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03237698': {
     footyWebNumber: '03237698',
@@ -13051,6 +13543,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '03399779': {
     footyWebNumber: '03399779',
@@ -13124,6 +13619,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '03055886': {
     footyWebNumber: '03055886',
@@ -13192,6 +13690,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03599211': {
     footyWebNumber: '03599211',
@@ -13260,6 +13761,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02282039': {
     footyWebNumber: '02282039',
@@ -13328,6 +13832,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02841920': {
     footyWebNumber: '02841920',
@@ -13360,6 +13867,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03241096': {
     footyWebNumber: '03241096',
@@ -13414,6 +13924,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02743856': {
     footyWebNumber: '02743856',
@@ -13531,6 +14044,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03058040': {
     footyWebNumber: '03058040',
@@ -13635,6 +14151,9 @@ export default {
         destinationClub: 'North Ringwood',
       },
     ],
+    club: 'North Ringwood',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03114883': {
     footyWebNumber: '03114883',
@@ -13703,6 +14222,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02702718': {
     footyWebNumber: '02702718',
@@ -13765,6 +14287,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02497896': {
     footyWebNumber: '02497896',
@@ -13800,6 +14325,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02242702': {
     footyWebNumber: '02242702',
@@ -13843,6 +14371,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02453831': {
     footyWebNumber: '02453831',
@@ -13882,6 +14413,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02231662': {
     footyWebNumber: '02231662',
@@ -13961,6 +14495,9 @@ export default {
         destinationClub: 'Knox',
       },
     ],
+    club: 'Knox',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02258097': {
     footyWebNumber: '02258097',
@@ -14061,6 +14598,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01605656': {
     footyWebNumber: '01605656',
@@ -14130,6 +14670,9 @@ export default {
         destinationClub: 'Norwood',
       },
     ],
+    club: 'Norwood',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01383725': {
     footyWebNumber: '01383725',
@@ -14219,6 +14762,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02915374': {
     footyWebNumber: '02915374',
@@ -14294,6 +14840,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03305352': {
     footyWebNumber: '03305352',
@@ -14370,6 +14919,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02035234': {
     footyWebNumber: '02035234',
@@ -14439,6 +14991,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02051851': {
     footyWebNumber: '02051851',
@@ -14499,6 +15054,9 @@ export default {
     ],
     transactions: [],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02456464': {
     footyWebNumber: '02456464',
@@ -14574,6 +15132,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02900877': {
     footyWebNumber: '02900877',
@@ -14606,6 +15167,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02216545': {
     footyWebNumber: '02216545',
@@ -14671,6 +15235,9 @@ export default {
         destinationClub: 'South Croydon',
       },
     ],
+    club: 'South Croydon',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03869795': {
     footyWebNumber: '03869795',
@@ -14718,6 +15285,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01697365': {
     footyWebNumber: '01697365',
@@ -14764,6 +15334,9 @@ export default {
     ],
     transactions: [],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03034522': {
     footyWebNumber: '03034522',
@@ -14893,6 +15466,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02241904': {
     footyWebNumber: '02241904',
@@ -14976,6 +15552,9 @@ export default {
         destinationClub: 'Wantirna South',
       },
     ],
+    club: 'Wantirna South',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02302183': {
     footyWebNumber: '02302183',
@@ -15066,6 +15645,9 @@ export default {
         destinationClub: 'Knox',
       },
     ],
+    club: 'Knox',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03560928': {
     footyWebNumber: '03560928',
@@ -15141,6 +15723,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01925787': {
     footyWebNumber: '01925787',
@@ -15212,6 +15797,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '00999635': {
     footyWebNumber: '00999635',
@@ -15316,6 +15904,9 @@ export default {
         destinationClub: 'Lysterfield',
       },
     ],
+    club: 'Lysterfield',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02274028': {
     footyWebNumber: '02274028',
@@ -15406,6 +15997,9 @@ export default {
         destinationClub: 'Knox',
       },
     ],
+    club: 'Knox',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02052372': {
     footyWebNumber: '02052372',
@@ -15531,6 +16125,9 @@ export default {
         destinationClub: 'Knox',
       },
     ],
+    club: 'Knox',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02511863': {
     footyWebNumber: '02511863',
@@ -15573,6 +16170,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03233700': {
     footyWebNumber: '03233700',
@@ -15669,6 +16269,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03564476': {
     footyWebNumber: '03564476',
@@ -15737,6 +16340,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03083339': {
     footyWebNumber: '03083339',
@@ -15833,6 +16439,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03323944': {
     footyWebNumber: '03323944',
@@ -15925,6 +16534,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03323972': {
     footyWebNumber: '03323972',
@@ -16031,6 +16643,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02469761': {
     footyWebNumber: '02469761',
@@ -16148,6 +16763,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02469746': {
     footyWebNumber: '02469746',
@@ -16258,6 +16876,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '00978618': {
     footyWebNumber: '00978618',
@@ -16389,6 +17010,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01837285': {
     footyWebNumber: '01837285',
@@ -16513,6 +17137,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01602981': {
     footyWebNumber: '01602981',
@@ -16659,6 +17286,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01635982': {
     footyWebNumber: '01635982',
@@ -16748,6 +17378,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '04027015': {
     footyWebNumber: '04027015',
@@ -16816,6 +17449,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02639396': {
     footyWebNumber: '02639396',
@@ -16884,6 +17520,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02282130': {
     footyWebNumber: '02282130',
@@ -16981,6 +17620,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03069571': {
     footyWebNumber: '03069571',
@@ -17084,6 +17726,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02256250': {
     footyWebNumber: '02256250',
@@ -17208,6 +17853,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03003389': {
     footyWebNumber: '03003389',
@@ -17290,6 +17938,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01843424': {
     footyWebNumber: '01843424',
@@ -17428,6 +18079,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '04034442': {
     footyWebNumber: '04034442',
@@ -17496,6 +18150,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '01843979': {
     footyWebNumber: '01843979',
@@ -17546,6 +18203,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03067710': {
     footyWebNumber: '03067710',
@@ -17614,6 +18274,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01027691': {
     footyWebNumber: '01027691',
@@ -17686,6 +18349,9 @@ export default {
         destinationClub: 'Scoresby',
       },
     ],
+    club: 'Scoresby',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03319307': {
     footyWebNumber: '03319307',
@@ -17740,6 +18406,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03201604': {
     footyWebNumber: '03201604',
@@ -17836,6 +18505,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '02687413': {
     footyWebNumber: '02687413',
@@ -17900,6 +18572,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03350677': {
     footyWebNumber: '03350677',
@@ -17968,6 +18643,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02928071': {
     footyWebNumber: '02928071',
@@ -18064,6 +18742,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03115582': {
     footyWebNumber: '03115582',
@@ -18126,6 +18807,9 @@ export default {
         destinationClub: 'East Ringwood',
       },
     ],
+    club: 'East Ringwood',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01396414': {
     footyWebNumber: '01396414',
@@ -18207,6 +18891,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02853496': {
     footyWebNumber: '02853496',
@@ -18282,6 +18969,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03511285': {
     footyWebNumber: '03511285',
@@ -18343,6 +19033,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01610264': {
     footyWebNumber: '01610264',
@@ -18404,6 +19097,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02675740': {
     footyWebNumber: '02675740',
@@ -18490,6 +19186,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03874725': {
     footyWebNumber: '03874725',
@@ -18554,6 +19253,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03318271': {
     footyWebNumber: '03318271',
@@ -18622,6 +19324,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03064832': {
     footyWebNumber: '03064832',
@@ -18697,6 +19402,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03560394': {
     footyWebNumber: '03560394',
@@ -18792,6 +19500,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03720647': {
     footyWebNumber: '03720647',
@@ -18846,6 +19557,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01264556': {
     footyWebNumber: '01264556',
@@ -18914,6 +19628,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02234531': {
     footyWebNumber: '02234531',
@@ -18978,6 +19695,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01599880': {
     footyWebNumber: '01599880',
@@ -19068,6 +19788,9 @@ export default {
         destinationClub: 'Rowville Hawks Football Club',
       },
     ],
+    club: 'Rowville Hawks Football Club',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02051529': {
     footyWebNumber: '02051529',
@@ -19158,6 +19881,9 @@ export default {
         destinationClub: 'The Basin',
       },
     ],
+    club: 'The Basin',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01599115': {
     footyWebNumber: '01599115',
@@ -19212,6 +19938,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03249514': {
     footyWebNumber: '03249514',
@@ -19273,6 +20002,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03399833': {
     footyWebNumber: '03399833',
@@ -19320,6 +20052,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01287644': {
     footyWebNumber: '01287644',
@@ -19395,6 +20130,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01852931': {
     footyWebNumber: '01852931',
@@ -19485,6 +20223,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '02503907': {
     footyWebNumber: '02503907',
@@ -19570,6 +20311,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02934639': {
     footyWebNumber: '02934639',
@@ -19652,6 +20396,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02362656': {
     footyWebNumber: '02362656',
@@ -19720,6 +20467,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03081384': {
     footyWebNumber: '03081384',
@@ -19788,6 +20538,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02693547': {
     footyWebNumber: '02693547',
@@ -19864,6 +20617,9 @@ export default {
         destinationClub: 'Rowville Hawks Football Club',
       },
     ],
+    club: 'Rowville Hawks Football Club',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02819274': {
     footyWebNumber: '02819274',
@@ -19888,6 +20644,9 @@ export default {
     ],
     transactions: [],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02568230': {
     footyWebNumber: '02568230',
@@ -19970,6 +20729,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03086852': {
     footyWebNumber: '03086852',
@@ -20034,6 +20796,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02755238': {
     footyWebNumber: '02755238',
@@ -20140,6 +20905,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02849448': {
     footyWebNumber: '02849448',
@@ -20222,6 +20990,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03511199': {
     footyWebNumber: '03511199',
@@ -20312,6 +21083,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02706999': {
     footyWebNumber: '02706999',
@@ -20401,6 +21175,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02250406': {
     footyWebNumber: '02250406',
@@ -20469,6 +21246,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02233038': {
     footyWebNumber: '02233038',
@@ -20544,6 +21324,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02286476': {
     footyWebNumber: '02286476',
@@ -20623,6 +21406,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02923006': {
     footyWebNumber: '02923006',
@@ -20655,6 +21441,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03049482': {
     footyWebNumber: '03049482',
@@ -20723,6 +21512,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02341330': {
     footyWebNumber: '02341330',
@@ -20826,6 +21618,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03972330': {
     footyWebNumber: '03972330',
@@ -20957,6 +21752,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '02694971': {
     footyWebNumber: '02694971',
@@ -21025,6 +21823,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02696729': {
     footyWebNumber: '02696729',
@@ -21121,6 +21922,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02728111': {
     footyWebNumber: '02728111',
@@ -21206,6 +22010,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02728107': {
     footyWebNumber: '02728107',
@@ -21261,6 +22068,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01306270': {
     footyWebNumber: '01306270',
@@ -21402,6 +22212,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '02665581': {
     footyWebNumber: '02665581',
@@ -21470,6 +22283,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02915226': {
     footyWebNumber: '02915226',
@@ -21563,6 +22379,9 @@ export default {
         destinationClub: 'Heathmont',
       },
     ],
+    club: 'Heathmont',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01283445': {
     footyWebNumber: '01283445',
@@ -21625,6 +22444,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02851182': {
     footyWebNumber: '02851182',
@@ -21671,6 +22493,9 @@ export default {
     ],
     transactions: [],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01532964': {
     footyWebNumber: '01532964',
@@ -21795,6 +22620,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02841746': {
     footyWebNumber: '02841746',
@@ -21909,6 +22737,9 @@ export default {
         destinationClub: 'Ferntree Gully Eagles',
       },
     ],
+    club: 'Ferntree Gully Eagles',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02016728': {
     footyWebNumber: '02016728',
@@ -22008,6 +22839,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01040203': {
     footyWebNumber: '01040203',
@@ -22028,6 +22862,9 @@ export default {
     ],
     transactions: [],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02954335': {
     footyWebNumber: '02954335',
@@ -22089,6 +22926,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03087991': {
     footyWebNumber: '03087991',
@@ -22157,6 +22997,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01612360': {
     footyWebNumber: '01612360',
@@ -22245,6 +23088,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01437896': {
     footyWebNumber: '01437896',
@@ -22286,6 +23132,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03087332': {
     footyWebNumber: '03087332',
@@ -22333,6 +23182,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02871178': {
     footyWebNumber: '02871178',
@@ -22415,6 +23267,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02841749': {
     footyWebNumber: '02841749',
@@ -22484,6 +23339,9 @@ export default {
         destinationClub: 'Mount Evelyn Junior Football Club',
       },
     ],
+    club: 'Mount Evelyn Junior Football Club',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02256741': {
     footyWebNumber: '02256741',
@@ -22552,6 +23410,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01279360': {
     footyWebNumber: '01279360',
@@ -22620,6 +23481,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02311432': {
     footyWebNumber: '02311432',
@@ -22709,6 +23573,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03268326': {
     footyWebNumber: '03268326',
@@ -22777,6 +23644,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03082639': {
     footyWebNumber: '03082639',
@@ -22869,6 +23739,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01561129': {
     footyWebNumber: '01561129',
@@ -22937,6 +23810,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02874729': {
     footyWebNumber: '02874729',
@@ -23040,6 +23916,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02698729': {
     footyWebNumber: '02698729',
@@ -23164,6 +24043,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '02640219': {
     footyWebNumber: '02640219',
@@ -23281,6 +24163,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '03255492': {
     footyWebNumber: '03255492',
@@ -23370,6 +24255,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02780859': {
     footyWebNumber: '02780859',
@@ -23501,6 +24389,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03136096': {
     footyWebNumber: '03136096',
@@ -23562,6 +24453,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02505196': {
     footyWebNumber: '02505196',
@@ -23665,6 +24559,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01825672': {
     footyWebNumber: '01825672',
@@ -23733,6 +24630,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01266869': {
     footyWebNumber: '01266869',
@@ -23823,6 +24723,9 @@ export default {
         destinationClub: 'Rowville Hawks Football Club',
       },
     ],
+    club: 'Rowville Hawks Football Club',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02007622': {
     footyWebNumber: '02007622',
@@ -23891,6 +24794,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03056282': {
     footyWebNumber: '03056282',
@@ -23990,6 +24896,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01316347': {
     footyWebNumber: '01316347',
@@ -24058,6 +24967,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02256193': {
     footyWebNumber: '02256193',
@@ -24112,6 +25024,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01311910': {
     footyWebNumber: '01311910',
@@ -24205,6 +25120,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01811503': {
     footyWebNumber: '01811503',
@@ -24225,6 +25143,9 @@ export default {
     ],
     transactions: [],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02960615': {
     footyWebNumber: '02960615',
@@ -24290,6 +25211,9 @@ export default {
         destinationClub: 'Kilsyth',
       },
     ],
+    club: 'Kilsyth',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03510781': {
     footyWebNumber: '03510781',
@@ -24354,6 +25278,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03256636': {
     footyWebNumber: '03256636',
@@ -24401,6 +25328,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02470918': {
     footyWebNumber: '02470918',
@@ -24511,6 +25441,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '02022886': {
     footyWebNumber: '02022886',
@@ -24614,6 +25547,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01292196': {
     footyWebNumber: '01292196',
@@ -24745,6 +25681,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '02256004': {
     footyWebNumber: '02256004',
@@ -24862,6 +25801,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01319781': {
     footyWebNumber: '01319781',
@@ -24940,6 +25882,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '00987919': {
     footyWebNumber: '00987919',
@@ -25015,6 +25960,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01311988': {
     footyWebNumber: '01311988',
@@ -25087,6 +26035,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03085445': {
     footyWebNumber: '03085445',
@@ -25148,6 +26099,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01931091': {
     footyWebNumber: '01931091',
@@ -25212,6 +26166,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02230377': {
     footyWebNumber: '02230377',
@@ -25336,6 +26293,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03917772': {
     footyWebNumber: '03917772',
@@ -25383,6 +26343,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02316127': {
     footyWebNumber: '02316127',
@@ -25430,6 +26393,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02696506': {
     footyWebNumber: '02696506',
@@ -25519,6 +26485,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01801039': {
     footyWebNumber: '01801039',
@@ -25587,6 +26556,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03014226': {
     footyWebNumber: '03014226',
@@ -25674,6 +26646,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02345502': {
     footyWebNumber: '02345502',
@@ -25720,6 +26695,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03569388': {
     footyWebNumber: '03569388',
@@ -25774,6 +26752,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03319490': {
     footyWebNumber: '03319490',
@@ -25835,6 +26816,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03217083': {
     footyWebNumber: '03217083',
@@ -25896,6 +26880,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02666938': {
     footyWebNumber: '02666938',
@@ -25981,6 +26968,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02051875': {
     footyWebNumber: '02051875',
@@ -26035,6 +27025,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01562044': {
     footyWebNumber: '01562044',
@@ -26173,6 +27166,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03205317': {
     footyWebNumber: '03205317',
@@ -26277,6 +27273,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02640227': {
     footyWebNumber: '02640227',
@@ -26334,6 +27333,9 @@ export default {
         destinationClub: 'Heathmont',
       },
     ],
+    club: 'Heathmont',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01753854': {
     footyWebNumber: '01753854',
@@ -26417,6 +27419,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02133387': {
     footyWebNumber: '02133387',
@@ -26500,6 +27505,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03512092': {
     footyWebNumber: '03512092',
@@ -26589,6 +27597,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03787511': {
     footyWebNumber: '03787511',
@@ -26650,6 +27661,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '00995161': {
     footyWebNumber: '00995161',
@@ -26712,6 +27726,9 @@ export default {
         destinationClub: 'Leopold',
       },
     ],
+    club: 'Leopold',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03359394': {
     footyWebNumber: '03359394',
@@ -26764,6 +27781,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02900852': {
     footyWebNumber: '02900852',
@@ -26867,6 +27887,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02915130': {
     footyWebNumber: '02915130',
@@ -26928,6 +27951,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02331416': {
     footyWebNumber: '02331416',
@@ -27041,6 +28067,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02457999': {
     footyWebNumber: '02457999',
@@ -27109,6 +28138,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '03033557': {
     footyWebNumber: '03033557',
@@ -27191,6 +28223,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '00832562': {
     footyWebNumber: '00832562',
@@ -27259,6 +28294,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '04074731': {
     footyWebNumber: '04074731',
@@ -27306,6 +28344,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: true,
   },
   '02498546': {
     footyWebNumber: '02498546',
@@ -27360,6 +28401,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03322683': {
     footyWebNumber: '03322683',
@@ -27424,6 +28468,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02012813': {
     footyWebNumber: '02012813',
@@ -27470,6 +28517,9 @@ export default {
     ],
     transactions: [],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03103495': {
     footyWebNumber: '03103495',
@@ -27546,6 +28596,9 @@ export default {
         destinationClub: 'Montrose',
       },
     ],
+    club: 'Montrose',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03340038': {
     footyWebNumber: '03340038',
@@ -27600,6 +28653,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02211926': {
     footyWebNumber: '02211926',
@@ -27657,6 +28713,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03400860': {
     footyWebNumber: '03400860',
@@ -27704,6 +28763,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02672155': {
     footyWebNumber: '02672155',
@@ -27786,6 +28848,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02141010': {
     footyWebNumber: '02141010',
@@ -27854,6 +28919,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03108917': {
     footyWebNumber: '03108917',
@@ -27922,6 +28990,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03255861': {
     footyWebNumber: '03255861',
@@ -27990,6 +29061,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03867608': {
     footyWebNumber: '03867608',
@@ -28022,6 +29096,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03867328': {
     footyWebNumber: '03867328',
@@ -28074,6 +29151,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03247163': {
     footyWebNumber: '03247163',
@@ -28133,6 +29213,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03247167': {
     footyWebNumber: '03247167',
@@ -28192,6 +29275,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02699556': {
     footyWebNumber: '02699556',
@@ -28253,6 +29339,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02023786': {
     footyWebNumber: '02023786',
@@ -28380,6 +29469,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01646973': {
     footyWebNumber: '01646973',
@@ -28484,6 +29576,9 @@ export default {
         destinationClub: 'Boronia',
       },
     ],
+    club: 'Boronia',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01857410': {
     footyWebNumber: '01857410',
@@ -28574,6 +29669,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02275648': {
     footyWebNumber: '02275648',
@@ -28691,6 +29789,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03150878': {
     footyWebNumber: '03150878',
@@ -28767,6 +29868,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02892610': {
     footyWebNumber: '02892610',
@@ -28877,6 +29981,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: true,
   },
   '02859250': {
     footyWebNumber: '02859250',
@@ -28969,6 +30076,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02986477': {
     footyWebNumber: '02986477',
@@ -29023,6 +30133,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01391957': {
     footyWebNumber: '01391957',
@@ -29120,6 +30233,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01331442': {
     footyWebNumber: '01331442',
@@ -29231,6 +30347,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03749910': {
     footyWebNumber: '03749910',
@@ -29284,6 +30403,9 @@ export default {
     ],
     transactions: [],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01863250': {
     footyWebNumber: '01863250',
@@ -29367,6 +30489,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03885213': {
     footyWebNumber: '03885213',
@@ -29412,6 +30537,9 @@ export default {
     ],
     transactions: [],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03917071': {
     footyWebNumber: '03917071',
@@ -29444,6 +30572,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02230365': {
     footyWebNumber: '02230365',
@@ -29520,6 +30651,9 @@ export default {
         destinationClub: 'East Ringwood',
       },
     ],
+    club: 'East Ringwood',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01352409': {
     footyWebNumber: '01352409',
@@ -29603,6 +30737,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01030558': {
     footyWebNumber: '01030558',
@@ -29703,6 +30840,9 @@ export default {
         destinationClub: 'Boronia',
       },
     ],
+    club: 'Boronia',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '01534993': {
     footyWebNumber: '01534993',
@@ -29786,6 +30926,9 @@ export default {
         destinationClub: 'East Ringwood',
       },
     ],
+    club: 'East Ringwood',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03143144': {
     footyWebNumber: '03143144',
@@ -29848,6 +30991,9 @@ export default {
         destinationClub: 'Kilsyth',
       },
     ],
+    club: 'Kilsyth',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03869871': {
     footyWebNumber: '03869871',
@@ -29909,6 +31055,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03869872': {
     footyWebNumber: '03869872',
@@ -29941,6 +31090,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '01603036': {
     footyWebNumber: '01603036',
@@ -30072,6 +31224,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02062851': {
     footyWebNumber: '02062851',
@@ -30147,6 +31302,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '02568249': {
     footyWebNumber: '02568249',
@@ -30229,6 +31387,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03605606': {
     footyWebNumber: '03605606',
@@ -30297,6 +31458,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02286120': {
     footyWebNumber: '02286120',
@@ -30400,6 +31564,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03980514': {
     footyWebNumber: '03980514',
@@ -30461,6 +31628,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02043435': {
     footyWebNumber: '02043435',
@@ -30557,6 +31727,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02762350': {
     footyWebNumber: '02762350',
@@ -30632,6 +31805,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03287395': {
     footyWebNumber: '03287395',
@@ -30689,6 +31865,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: false,
+    registeredThisSeason: false,
   },
   '03588457': {
     footyWebNumber: '03588457',
@@ -30750,6 +31929,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02436867': {
     footyWebNumber: '02436867',
@@ -30833,6 +32015,9 @@ export default {
         destinationClub: 'Bayswater',
       },
     ],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02678558': {
     footyWebNumber: '02678558',
@@ -30918,6 +32103,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '02762847': {
     footyWebNumber: '02762847',
@@ -31028,6 +32216,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03609494': {
     footyWebNumber: '03609494',
@@ -31099,6 +32290,9 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
   '03226863': {
     footyWebNumber: '03226863',
@@ -31181,5 +32375,8 @@ export default {
       },
     ],
     transfers: [],
+    club: 'Bayswater',
+    registeredLastSeason: true,
+    registeredThisSeason: false,
   },
 };

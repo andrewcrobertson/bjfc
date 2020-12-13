@@ -1,4 +1,12 @@
 {
+  "registeredLastSeason": [
+    "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Girls Registration Fee",
+    "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Boys Registration Fee"
+  ],
+  "registeredThisSeason": [
+    "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees",
+    "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Girls Registration fees"
+  ],
   "teams": [
     { "code": "U18G", "shortName": "U18G", "name": "Under 18 Girls", "years": [2003, 2004], "genders": ["Female"] },
     { "code": "U17B-GOLD", "shortName": "U17B (Gold)", "name": "Under 17 Boys (Gold)", "years": [2004], "genders": ["Male"] },

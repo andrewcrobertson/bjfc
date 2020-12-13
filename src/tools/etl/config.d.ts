@@ -7,5 +7,7 @@ export interface ITeam {
 }
 
 export interface IConfig {
+  registeredLastSeason: string[];
+  registeredThisSeason: string[];
   teams: ITeam[];
 }

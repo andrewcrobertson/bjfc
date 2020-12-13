@@ -1,7 +1,6 @@
 <script>
   import Logo from '../Logo';
   import Hamburger from '../Hamburger';
-  import Menu from '../Menu';
 
   export let sidebar = false;
 </script>
@@ -11,6 +10,4 @@
     <Hamburger bind:open={sidebar} />
     <Logo />
   </nav>
-
-  <Menu />
 </header>

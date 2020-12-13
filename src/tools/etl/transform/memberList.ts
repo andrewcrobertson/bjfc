@@ -42,7 +42,7 @@ const transformContact = ({ phoneHome, phoneWork, phoneMobile, email1, email2 })
   return contacts;
 };
 
-export const memberDetail = ({ config, members: membersRaw }: Options) => {
+export const memberList = ({ config, members: membersRaw }: Options) => {
   const members = map(membersRaw, (member) => {
     const contact = transformContact(member.contact ?? ({} as any));
     const emergencyContact = transformEmergencyContact(member.emergencyContact ?? ({} as any));
