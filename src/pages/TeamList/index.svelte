@@ -1,7 +1,13 @@
 <script lang="ts">
+  import Navbar from '@this/components/Navbar';
+  import Sidebar from '@this/components/Sidebar';
   import teams from './data';
+
+  let open = false;
 </script>
 
+<Sidebar bind:open />
+<Navbar bind:sidebar={open} />
 <div class="flex flex-auto flex-col items-center h-full py-2">
   <div class="flex flex-col w-4/5 space-y-2">
     {#each teams as { code, shortName, name }}
