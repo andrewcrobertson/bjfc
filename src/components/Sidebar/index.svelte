@@ -13,6 +13,6 @@
   }
 </style>
 
-<aside class="absolute w-full h-full bg-gray-200 border-r-2 shadow-lg" class:open>
-  <nav class="p-12 text-xl"><a class="block" href="/">Team List</a></nav>
+<aside class="absolute w-4/5 h-full bg-gray-200 border-r-2 shadow-lg" class:open>
+  <nav class="p-12 text-xl"><a class="block" href="/" on:click={() => (open = false)}>Team List</a></nav>
 </aside>

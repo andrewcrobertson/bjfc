@@ -1,3 +1,7 @@
+<script lang="ts">
+  import StandardLayout from '@this/layouts/StandardLayout';
+</script>
+
 <svelte:head>
   <meta name="author" content="Tykto" />
   <meta name="description" content="BJFC" />
@@ -6,4 +10,6 @@
   <title>BJFC</title>
 </svelte:head>
 
-<slot />
+<StandardLayout>
+  <slot />
+</StandardLayout>
