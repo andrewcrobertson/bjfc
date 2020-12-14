@@ -12,7 +12,7 @@
       {firstName}
       {gender}
       {paidThisSeason}
-      url="/members/{footyWebNumber}" />
+      url="/members/{footyWebNumber}/" />
   {:else}
     <p class="p-4">There are no active players</p>
   {/each}

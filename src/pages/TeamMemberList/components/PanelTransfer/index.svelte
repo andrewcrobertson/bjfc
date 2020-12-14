@@ -12,7 +12,7 @@
       {firstName}
       {gender}
       {club}
-      url="/members/{footyWebNumber}" />
+      url="/members/{footyWebNumber}/" />
   {:else}
     <p class="p-4">There are no transferred players</p>
   {/each}

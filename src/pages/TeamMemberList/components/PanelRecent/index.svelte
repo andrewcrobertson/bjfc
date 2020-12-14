@@ -11,7 +11,7 @@
       {familyName}
       {firstName}
       {gender}
-      url="/members/{footyWebNumber}" />
+      url="/members/{footyWebNumber}/" />
   {:else}
     <p class="p-4">There are no recent players</p>
   {/each}
