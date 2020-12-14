@@ -1,5 +1,7 @@
 <script lang="ts">
   import { Tabs, TabList, TabPanel, Tab } from '@this/components/Tabs';
+  import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
+
   import PanelActive from './components/PanelActive';
   import PanelOther from './components/PanelOther';
   import PanelRecent from './components/PanelRecent';
@@ -8,6 +10,7 @@
   export let code: string = null;
 
   const team = teams[code];
+  pageTitle.set(team.name);
 </script>
 
 <Tabs class="max-w-6xl mx-auto xl:py-24">
