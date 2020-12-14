@@ -1,7 +1,7 @@
 import split from 'lodash/split';
 
-export const parseStandardDate = (date: string) => {
-  if (date === '') {
+export const sanitiseSlashDate = (date: string) => {
+  if (date ?? '' === '') {
     return null;
   }
 

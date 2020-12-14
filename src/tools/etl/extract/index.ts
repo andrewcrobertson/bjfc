@@ -9,9 +9,9 @@ import map from 'lodash/map';
 import mapKeys from 'lodash/mapKeys';
 import type { IRawConfig } from '../rawConfig';
 import type { IRawMember } from '../rawMember';
+import { sanitiseConfig } from './config/sanitiseConfig';
 import { getPlayerOldestBirthYear } from './getPlayerOldestBirthYear';
-import { sanitiseConfig } from './sanitiseConfig';
-import { sanitiseMember } from './sanitiseMember';
+import { sanitiseMember } from './member/sanitiseMember';
 
 export interface Options {
   configPath: string;
