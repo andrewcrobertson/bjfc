@@ -1,4 +1,4 @@
-export interface IRawMemberGuardian {
+export interface ISanitisedMemberGuardian {
   familyName: string;
   firstName: string;
   phone1: string;
@@ -7,14 +7,14 @@ export interface IRawMemberGuardian {
   email: string;
 }
 
-export interface IRawMemberEmergencyContact {
+export interface ISanitisedMemberEmergencyContact {
   relationship: string;
   name: string;
   phone1: string;
   phone2: string;
 }
 
-export interface IRawMemberContact {
+export interface ISanitisedMemberContact {
   phoneHome: string;
   phoneWork: string;
   phoneMobile: string;
@@ -22,7 +22,7 @@ export interface IRawMemberContact {
   email2: string;
 }
 
-export interface IRawMemberTransaction {
+export interface ISanitisedMemberTransaction {
   transactionDate: string;
   transactionTime: string;
   product: string;
@@ -30,7 +30,7 @@ export interface IRawMemberTransaction {
   transactionStatus: string;
 }
 
-export interface IRawMemberTransfer {
+export interface ISanitisedMemberTransfer {
   transferYear: string;
   applicationDate: string;
   finalisedDate: string;
@@ -38,16 +38,16 @@ export interface IRawMemberTransfer {
   destinationClub: string;
 }
 
-export interface IRawMember {
+export interface ISanitisedMember {
   footyWebNumber: string;
   activeRecord: boolean;
   familyName: string;
   firstName: string;
   dateOfBirth: string;
   gender: string;
-  guardians: IRawMemberGuardian[];
-  emergencyContact: IRawMemberEmergencyContact;
-  contact: IRawMemberContact;
-  transactions: IRawMemberTransaction[];
-  transfers: IRawMemberTransfer[];
+  guardians: ISanitisedMemberGuardian[];
+  emergencyContact: ISanitisedMemberEmergencyContact;
+  contact: ISanitisedMemberContact;
+  transactions: ISanitisedMemberTransaction[];
+  transfers: ISanitisedMemberTransfer[];
 }

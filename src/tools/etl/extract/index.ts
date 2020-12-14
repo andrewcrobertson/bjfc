@@ -5,8 +5,8 @@ import filter from 'lodash/filter';
 import groupBy from 'lodash/groupBy';
 import map from 'lodash/map';
 import mapKeys from 'lodash/mapKeys';
-import type { IConfig } from '../rawConfig';
-import type { IMember } from '../rawMember';
+import type { IRawConfig } from '../rawConfig';
+import type { IRawMember } from '../rawMember';
 import { getPlayerOldestBirthYear } from './getPlayerOldestBirthYear';
 import { member } from './member';
 import { sanitiseConfig } from './sanitiseConfig';
@@ -19,7 +19,7 @@ export interface Options {
 }
 
 export const extract = async ({ configPath, allMembersCsvPath, allTransactionsCsvPath, allTransfersCsvPath }: Options) => {
-  const config = sanitiseConfig(JSON.parse(fs.readFileSync(configPath, 'utf-8'))) as IConfig;
+  const config = sanitiseConfig(JSON.parse(fs.readFileSync(configPath, 'utf-8'))) as IRawConfig;
 
   const year = getPlayerOldestBirthYear(config);
 
@@ -40,7 +40,7 @@ export const extract = async ({ configPath, allMembersCsvPath, allTransactionsCs
   const allMembersJsonRaw = await csv().fromFile(allMembersCsvPath);
   const allMembersJsonAll = map(allMembersJsonRaw, (obj: any) => mapKeys(obj, (_value, key) => camelCase(key)));
   const allMembersJsonFiltered = filter(allMembersJsonAll, (obj: any) => memberFilter(obj));
-  const allMembersJson = map(allMembersJsonFiltered, (obj: any) => memberMap(obj)) as IMember[];
+  const allMembersJson = map(allMembersJsonFiltered, (obj: any) => memberMap(obj)) as IRawMember[];
 
   return { config, members: allMembersJson };
 };

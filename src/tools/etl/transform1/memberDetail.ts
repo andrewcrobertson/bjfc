@@ -5,12 +5,12 @@ import join from 'lodash/join';
 import keyBy from 'lodash/keyBy';
 import map from 'lodash/map';
 import uniq from 'lodash/uniq';
-import type { IConfig } from '../rawConfig';
-import type { IMember } from '../rawMember';
+import type { IRawConfig } from '../rawConfig';
+import type { IRawMember } from '../rawMember';
 
 export interface Options {
-  config: IConfig;
-  members: IMember[];
+  config: IRawConfig;
+  members: IRawMember[];
 }
 
 const toString = (values: string[]) => {

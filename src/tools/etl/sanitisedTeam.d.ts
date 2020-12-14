@@ -7,7 +7,7 @@ export interface IRawConfigOfficial {
   email: string;
 }
 
-export interface IRawConfigTeam {
+export interface ISanitisedTeam {
   code: string;
   name: string;
   ages: number[];
@@ -16,10 +16,4 @@ export interface IRawConfigTeam {
   assistantCoach: IRawConfigOfficial;
   trainer: IRawConfigOfficial;
   teamManager: IRawConfigOfficial;
-}
-
-export interface IRawConfig {
-  registeredLastSeason: string[];
-  registeredThisSeason: string[];
-  teams: IRawConfigTeam[];
 }
