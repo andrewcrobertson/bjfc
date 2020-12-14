@@ -1,6 +1,5 @@
 <script lang="ts">
   import { background } from '@this/constants/theme';
-
   let rootClass = '';
   export { rootClass as class };
   export let url = '';

@@ -16,7 +16,7 @@ export interface Options {
 export const teamDetail = ({ teams, members }: Options) => {
   const output: any = {};
 
-  each(teams, ({ code, name }) => {
+  each(teams, ({ code, name, headCoach, assistantCoach, teamManager, trainer }) => {
     const team: any = { name, membersRegisteredThisSeason: [], membersRegisteredLastSeason: [], membersTransferred: [], membersOther: [] };
     const teamMembersFiltered = filter(members, ({ teamCode }) => teamCode === code);
 
@@ -48,6 +48,10 @@ export const teamDetail = ({ teams, members }: Options) => {
     team.membersOther = map(team.membersOther, (obj) => pick(obj, 'footyWebNumber', 'initials', 'familyName', 'firstName', 'gender'));
     team.membersOther = orderBy(team.membersOther, ['familyName', 'firstName'], ['asc', 'asc']);
 
+    team.headCoach = headCoach;
+    team.assistantCoach = assistantCoach;
+    team.teamManager = teamManager;
+    team.trainer = trainer;
     output[code] = team;
   });
 

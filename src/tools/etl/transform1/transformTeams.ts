@@ -1,6 +1,6 @@
 import map from 'lodash/map';
-import type { PlayerGenderEnum, TeamGenderEnum } from '../constants/enums';
-import * as playerGenderEnum from '../constants/playerGenderEnum';
+import type { PersonGenderEnum, TeamGenderEnum } from '../constants/enums';
+import * as personGenderEnum from '../constants/personGenderEnum';
 import * as teamGenderEnum from '../constants/teamGenderEnum';
 import type { IRawConfig, IRawConfigOfficial } from '../rawConfig';
 import type { ISanitisedOfficial, ISanitisedTeam } from '../sanitisedTeam';
@@ -10,10 +10,10 @@ export interface Options {
   config: IRawConfig;
 }
 
-const convertGender = (playerGenders: PlayerGenderEnum[]): TeamGenderEnum => {
+const convertGender = (playerGenders: PersonGenderEnum[]): TeamGenderEnum => {
   if (playerGenders.length === 1) {
-    if (playerGenders[0] === playerGenderEnum.female) return teamGenderEnum.female;
-    if (playerGenders[0] === playerGenderEnum.male) return teamGenderEnum.male;
+    if (playerGenders[0] === personGenderEnum.female) return teamGenderEnum.female;
+    if (playerGenders[0] === personGenderEnum.male) return teamGenderEnum.male;
   }
 
   return teamGenderEnum.mixed;

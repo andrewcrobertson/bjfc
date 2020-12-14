@@ -4,7 +4,6 @@
   import { pageTitleStore as pageTitle } from './data/pageTitleStore';
   import config from './data';
 
-  console.log($pageTitle);
   let open = false;
 </script>
 

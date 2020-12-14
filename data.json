@@ -23,29 +23,29 @@
       "playerGenders": ["Male"],
       "teamGender": "Male",
       "headCoach": {
-        "firstName": "Jarrod",
         "familyName": "Amey",
+        "firstName": "Jarrod",
         "phone": "0439 039 578",
         "email": "jazznchaz01@gmail.com",
         "initials": "JA"
       },
       "assistantCoach": {
-        "firstName": "Danny",
         "familyName": "Phillips",
+        "firstName": "Danny",
         "phone": "0417 339 397",
         "email": "danny.phillips@thermon.com",
         "initials": "DP"
       },
       "trainer": {
-        "firstName": "Kim",
         "familyName": "Phillips",
+        "firstName": "Kim",
         "phone": "0418 337 535",
         "email": "littlekim.phillips@gmail.com",
         "initials": "KP"
       },
       "teamManager": {
-        "firstName": "Deanna",
         "familyName": "Derham",
+        "firstName": "Deanna",
         "phone": "0414 952 117",
         "email": "dderham@ldb.com.au",
         "initials": "DD"
@@ -59,29 +59,29 @@
       "playerGenders": ["Male"],
       "teamGender": "Male",
       "headCoach": {
-        "firstName": "Lachie",
         "familyName": "McGuire",
+        "firstName": "Lachie",
         "phone": "0488 149 080",
         "email": "lachlan.mcguire2@bigpond.com",
         "initials": "LM"
       },
       "assistantCoach": {
-        "firstName": "Nic",
         "familyName": "Maxwell",
+        "firstName": "Nic",
         "phone": null,
         "email": "nicmaxwell44@optusnet.com.au",
         "initials": "NM"
       },
       "trainer": {
-        "firstName": "Rob",
         "familyName": "Scripps",
+        "firstName": "Rob",
         "phone": null,
         "email": "rkscripps@gmail.com",
         "initials": "RS"
       },
       "teamManager": {
-        "firstName": "Kelly",
         "familyName": "McGuire",
+        "firstName": "Kelly",
         "phone": null,
         "email": "lachlan.mcguire2@bigpond.com",
         "initials": "KM"
@@ -95,8 +95,8 @@
       "playerGenders": ["Female"],
       "teamGender": "Female",
       "headCoach": {
-        "firstName": "Michael",
         "familyName": "Hughson",
+        "firstName": "Michael",
         "phone": "0401 995 003",
         "email": "Michael.Hughson@trendwindows.com.au",
         "initials": "MH"
@@ -104,8 +104,8 @@
       "assistantCoach": null,
       "trainer": null,
       "teamManager": {
-        "firstName": "Kylie",
         "familyName": "Cameron",
+        "firstName": "Kylie",
         "phone": "0409 017 724",
         "email": "camscove@icloud.com",
         "initials": "KC"
@@ -119,23 +119,23 @@
       "playerGenders": ["Male"],
       "teamGender": "Male",
       "headCoach": {
-        "firstName": "Andrew",
         "familyName": "Peters",
+        "firstName": "Andrew",
         "phone": "0409 794 180",
         "email": "apeters@swin.edu.au",
         "initials": "AP"
       },
       "assistantCoach": {
-        "firstName": "Steve",
         "familyName": "Roberts",
+        "firstName": "Steve",
         "phone": "0474 221 909",
         "email": "cbrsteve.roberts@gmail.com",
         "initials": "SR"
       },
       "trainer": null,
       "teamManager": {
-        "firstName": "Deanna",
         "familyName": "Derham",
+        "firstName": "Deanna",
         "phone": "0414 952 117",
         "email": "dderham@ldb.com.au",
         "initials": "DD"
@@ -149,17 +149,17 @@
       "playerGenders": ["Female"],
       "teamGender": "Female",
       "headCoach": {
-        "firstName": "Matt",
         "familyName": "Rennison",
-        "phone": "",
+        "firstName": "Matt",
+        "phone": null,
         "email": "golfman05@live.com",
         "initials": "MR"
       },
       "assistantCoach": null,
       "trainer": {
-        "firstName": "Dragana",
         "familyName": "Hindson",
-        "phone": "",
+        "firstName": "Dragana",
+        "phone": null,
         "email": "dragana@icircle.net",
         "initials": "DH"
       },
@@ -173,8 +173,8 @@
       "playerGenders": ["Female"],
       "teamGender": "Female",
       "headCoach": {
-        "firstName": "Kevin",
         "familyName": "Maniscalchi",
+        "firstName": "Kevin",
         "phone": "0421 785 622",
         "email": "kmaniscalchi@outlook.com",
         "initials": "KM"
@@ -191,23 +191,23 @@
       "playerGenders": ["Male"],
       "teamGender": "Male",
       "headCoach": {
-        "firstName": "Andrew",
         "familyName": "Rippon",
+        "firstName": "Andrew",
         "phone": "0412 244 056",
         "email": "chipsbricklaying@hotmail.com",
         "initials": "AR"
       },
       "assistantCoach": {
-        "firstName": "Andrew",
         "familyName": "Parker",
-        "phone": "",
-        "email": "",
+        "firstName": "Andrew",
+        "phone": null,
+        "email": null,
         "initials": "AP"
       },
       "trainer": null,
       "teamManager": {
-        "firstName": "Beccy",
         "familyName": "Dawber",
+        "firstName": "Beccy",
         "phone": "0401 306 209",
         "email": "beccydawber@bigpond.com",
         "initials": "BD"
@@ -221,8 +221,8 @@
       "playerGenders": ["Female", "Male"],
       "teamGender": "Mixed",
       "headCoach": {
-        "firstName": "Alex",
         "familyName": "Gunn",
+        "firstName": "Alex",
         "phone": "0403 977 524",
         "email": "algunn71@hotmail.com",
         "initials": "AG"
@@ -230,9 +230,9 @@
       "assistantCoach": null,
       "trainer": null,
       "teamManager": {
-        "firstName": "Deb",
         "familyName": "Pearson",
-        "phone": "",
+        "firstName": "Deb",
+        "phone": null,
         "email": "debbie_rob@optusnet.com.au",
         "initials": "DP"
       }
@@ -245,17 +245,17 @@
       "playerGenders": ["Female", "Male"],
       "teamGender": "Mixed",
       "headCoach": {
-        "firstName": "Ben",
         "familyName": "Beveridge",
+        "firstName": "Ben",
         "phone": "0411 105 440",
         "email": "benbev35@gmail.com",
         "initials": "BB"
       },
       "assistantCoach": {
-        "firstName": "Erin",
         "familyName": "Chamberlain",
-        "phone": "",
-        "email": "",
+        "firstName": "Erin",
+        "phone": null,
+        "email": null,
         "initials": "EC"
       },
       "trainer": null,
@@ -269,16 +269,16 @@
       "playerGenders": ["Female", "Male"],
       "teamGender": "Mixed",
       "headCoach": {
-        "firstName": "Mark",
         "familyName": "Hindson",
+        "firstName": "Mark",
         "phone": "0419 149 500",
         "email": "mark@icircle.net",
         "initials": "MH"
       },
       "assistantCoach": {
-        "firstName": "Rob",
         "familyName": "Kinstler",
-        "phone": "",
+        "firstName": "Rob",
+        "phone": null,
         "email": "robertgk.66@gmail.com",
         "initials": "RK"
       },

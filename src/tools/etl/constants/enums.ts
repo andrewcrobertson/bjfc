@@ -1,2 +1,2 @@
-export type PlayerGenderEnum = 'Male' | 'Female';
+export type PersonGenderEnum = 'Male' | 'Female' | 'Unknown';
 export type TeamGenderEnum = 'Male' | 'Female' | 'Mixed';

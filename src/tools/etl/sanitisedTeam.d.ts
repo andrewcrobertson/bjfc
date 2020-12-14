@@ -13,7 +13,7 @@ export interface ISanitisedTeam {
   ageGroupCode: string;
   name: string;
   birthYears: number[];
-  playerGenders: PlayerGenderEnum[];
+  playerGenders: personGenderEnum[];
   teamGender: TeamGenderEnum;
   headCoach: ISanitisedOfficial;
   assistantCoach: ISanitisedOfficial;

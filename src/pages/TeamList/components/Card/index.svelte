@@ -35,7 +35,7 @@
         {registeredCount}
         Registered
       </span>
-      <span class=" inline-flex items-center leading-none text-sm">
+      <span class="inline-flex items-center leading-none text-sm">
         <CurrencyDollarIcon class="w-5 h-5 mr-1 text-{colour}-500" />
         {paidCount}
         Paid
