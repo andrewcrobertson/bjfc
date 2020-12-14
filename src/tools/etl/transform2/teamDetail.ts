@@ -33,7 +33,7 @@ export const teamDetail = ({ teams, members }: Options) => {
     });
 
     team.membersRegisteredThisSeason = map(team.membersRegisteredThisSeason, (obj) =>
-      pick(obj, 'footyWebNumber', 'initials', 'familyName', 'firstName', 'gender')
+      pick(obj, 'footyWebNumber', 'initials', 'familyName', 'firstName', 'gender', 'paidThisSeason')
     );
     team.membersRegisteredThisSeason = orderBy(team.membersRegisteredThisSeason, ['familyName', 'firstName'], ['asc', 'asc']);
 
@@ -42,7 +42,7 @@ export const teamDetail = ({ teams, members }: Options) => {
     );
     team.membersRegisteredLastSeason = orderBy(team.membersRegisteredLastSeason, ['familyName', 'firstName'], ['asc', 'asc']);
 
-    team.membersTransferred = map(team.membersTransferred, (obj) => pick(obj, 'footyWebNumber', 'initials', 'familyName', 'firstName', 'gender'));
+    team.membersTransferred = map(team.membersTransferred, (obj) => pick(obj, 'footyWebNumber', 'initials', 'familyName', 'firstName', 'gender', 'club'));
     team.membersTransferred = orderBy(team.membersTransferred, ['familyName', 'firstName'], ['asc', 'asc']);
 
     team.membersOther = map(team.membersOther, (obj) => pick(obj, 'footyWebNumber', 'initials', 'familyName', 'firstName', 'gender'));
