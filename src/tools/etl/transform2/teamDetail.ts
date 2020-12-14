@@ -21,12 +21,12 @@ export const teamDetail = ({ teams, members }: Options) => {
     const teamMembersFiltered = filter(members, ({ teamCode }) => teamCode === code);
 
     each(teamMembersFiltered, (member) => {
-      if (member.registeredThisSeason) {
+      if (member.club !== 'Bayswater') {
+        team.membersTransferred.push(member);
+      } else if (member.registeredThisSeason) {
         team.membersRegisteredThisSeason.push(member);
       } else if (member.registeredLastSeason) {
         team.membersRegisteredLastSeason.push(member);
-      } else if (member.club !== 'Bayswater') {
-        team.membersTransferred.push(member);
       } else {
         team.membersOther.push(member);
       }
