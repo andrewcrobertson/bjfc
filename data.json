@@ -3,13 +3,8 @@
     {
       "code": "U18G",
       "name": "Under 18 Girls",
-      "ages": [
-        18,
-        17
-      ],
-      "genders": [
-        "Female"
-      ],
+      "birthYears": [2003, 2004],
+      "gender": "Female",
       "headCoach": null,
       "assistantCoach": null,
       "trainer": null,
@@ -18,12 +13,8 @@
     {
       "code": "U17B-GOLD",
       "name": "Under 17 Boys (Gold)",
-      "ages": [
-        17
-      ],
-      "genders": [
-        "Male"
-      ],
+      "birthYears": [2004],
+      "gender": "Male",
       "headCoach": {
         "firstName": "Jarrod",
         "familyName": "Amey",
@@ -52,12 +43,8 @@
     {
       "code": "U17B-GREEN",
       "name": "Under 17 Boys (Green)",
-      "ages": [
-        16
-      ],
-      "genders": [
-        "Male"
-      ],
+      "birthYears": [2005],
+      "gender": "Male",
       "headCoach": {
         "firstName": "Lachie",
         "familyName": "McGuire",
@@ -86,13 +73,8 @@
     {
       "code": "U16G",
       "name": "Under 16 Girls",
-      "ages": [
-        16,
-        15
-      ],
-      "genders": [
-        "Female"
-      ],
+      "birthYears": [2005, 2006],
+      "gender": "Female",
       "headCoach": {
         "firstName": "Michael",
         "familyName": "Hughson",
@@ -111,13 +93,8 @@
     {
       "code": "U14B",
       "name": "Under 14 Boys",
-      "ages": [
-        14,
-        13
-      ],
-      "genders": [
-        "Male"
-      ],
+      "birthYears": [2007, 2008],
+      "gender": "Male",
       "headCoach": {
         "firstName": "Andrew",
         "familyName": "Peters",
@@ -141,13 +118,8 @@
     {
       "code": "U14G",
       "name": "Under 14 Girls",
-      "ages": [
-        14,
-        13
-      ],
-      "genders": [
-        "Female"
-      ],
+      "birthYears": [2007, 2008],
+      "gender": "Female",
       "headCoach": {
         "firstName": "Matt",
         "familyName": "Rennison",
@@ -166,15 +138,8 @@
     {
       "code": "U12G",
       "name": "Under 12 Girls",
-      "ages": [
-        12,
-        11,
-        10,
-        9
-      ],
-      "genders": [
-        "Female"
-      ],
+      "birthYears": [2009, 2010, 2011, 2012],
+      "gender": "Female",
       "headCoach": {
         "firstName": "Kevin",
         "familyName": "Maniscalchi",
@@ -188,13 +153,8 @@
     {
       "code": "U12B",
       "name": "Under 12 Boys",
-      "ages": [
-        12,
-        11
-      ],
-      "genders": [
-        "Male"
-      ],
+      "birthYears": [2009, 2010],
+      "gender": "Male",
       "headCoach": {
         "firstName": "Andrew",
         "familyName": "Rippon",
@@ -218,13 +178,8 @@
     {
       "code": "U11M",
       "name": "Under 11 Mixed",
-      "ages": [
-        11
-      ],
-      "genders": [
-        "Female",
-        "Male"
-      ],
+      "birthYears": [2010],
+      "gender": "Mixed",
       "headCoach": {
         "firstName": "Alex",
         "familyName": "Gunn",
@@ -243,13 +198,8 @@
     {
       "code": "U10M",
       "name": "Under 10 Mixed",
-      "ages": [
-        10
-      ],
-      "genders": [
-        "Female",
-        "Male"
-      ],
+      "birthYears": [2011],
+      "gender": "Mixed",
       "headCoach": {
         "firstName": "Ben",
         "familyName": "Beveridge",
@@ -268,13 +218,8 @@
     {
       "code": "U09M",
       "name": "Under 9 Mixed",
-      "ages": [
-        9
-      ],
-      "genders": [
-        "Female",
-        "Male"
-      ],
+      "birthYears": [2012],
+      "gender": "Mixed",
       "headCoach": {
         "firstName": "Mark",
         "familyName": "Hindson",
@@ -293,14 +238,8 @@
     {
       "code": "U08M",
       "name": "Under 8 Mixed",
-      "ages": [
-        8,
-        7
-      ],
-      "genders": [
-        "Female",
-        "Male"
-      ],
+      "birthYears": [2013, 2014],
+      "gender": "Mixed",
       "headCoach": null,
       "assistantCoach": null,
       "trainer": null,

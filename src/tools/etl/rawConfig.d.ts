@@ -19,6 +19,7 @@ export interface IRawConfigTeam {
 }
 
 export interface IRawConfig {
+  seasonYear: number;
   registeredLastSeason: string[];
   registeredThisSeason: string[];
   teams: IRawConfigTeam[];

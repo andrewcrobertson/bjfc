@@ -10,7 +10,7 @@ export interface IRawConfigOfficial {
 export interface ISanitisedTeam {
   code: string;
   name: string;
-  ages: number[];
+  birthYears: number[];
   gender: TeamGenderEnum;
   headCoach: IRawConfigOfficial;
   assistantCoach: IRawConfigOfficial;

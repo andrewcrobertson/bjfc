@@ -1,7 +1,7 @@
-import type { PlayerGenderEnum, TeamGenderEnum } from '@this/constants/enums';
-import * as playerGenderEnum from '@this/constants/playerGenderEnum';
-import * as teamGenderEnum from '@this/constants/teamGenderEnum';
 import map from 'lodash/map';
+import type { PlayerGenderEnum, TeamGenderEnum } from '../constants/enums';
+import * as playerGenderEnum from '../constants/playerGenderEnum';
+import * as teamGenderEnum from '../constants/teamGenderEnum';
 import type { IRawConfig } from '../rawConfig';
 import type { ISanitisedTeam } from '../sanitisedTeam';
 
@@ -22,7 +22,7 @@ export const transformTeams = ({ config }: Options): ISanitisedTeam[] =>
   map(config.teams, (team) => ({
     code: team.code,
     name: team.name,
-    ages: team.ages,
+    birthYears: map(team.ages, (age) => config.seasonYear - age),
     gender: convertGender(team.genders),
     headCoach: team.headCoach,
     assistantCoach: team.assistantCoach,
