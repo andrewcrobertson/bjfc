@@ -14,7 +14,11 @@ export const etl = async () => {
   const options = { configPath, allMembersCsvPath, allTransactionsCsvPath, allTransfersCsvPath };
   const raw = await extract(options);
   const data1 = transform1(raw);
-  require('fs').writeFileSync('data.json', JSON.stringify(data1, null, 2));
   const data2 = transform2(data1);
   load(data2);
+
+  // const tempData = uniq(flattenDeep(map(data1.members, (m) => map(m.transfers, (t) => [t.sourceClub, t.destinationClub])))).sort();
+  // const tempData = uniq(flattenDeep(map(data1.members, (m) => map(m.transactions, (t) => t.product)))).sort();
+  const tempData = data1;
+  require('fs').writeFileSync('data.json', JSON.stringify(tempData, null, 2));
 };

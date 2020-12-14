@@ -39,7 +39,7 @@
     <PanelActive members={team.membersRegisteredThisSeason} />
   </TabPanel>
   <TabPanel>
-    <PanelRecent members={team.membersRegisteredLastSeason} />
+    <PanelRecent members={team.membersRegisteredRecently} />
   </TabPanel>
   <TabPanel>
     <PanelTransfer members={team.membersTransferred} />

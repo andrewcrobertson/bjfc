@@ -53,7 +53,7 @@ export const transformMembers = ({ config, members: membersRaw }: Options) => {
       yearOfBirth,
       club: member.transfers.length === 0 ? 'Bayswater' : last(member.transfers).destinationClub,
       teamCode: playerTeamExceptions[member.footyWebNumber] ?? first(teamCodes) ?? null,
-      registeredLastSeason: find(member.transactions, ({ product }) => includes(config.registeredLastSeason, product)) !== undefined,
+      registeredRecently: find(member.transactions, ({ product }) => includes(config.registeredRecently, product)) !== undefined,
       registeredThisSeason,
       paidThisSeason: thisSeasonProduct !== undefined && thisSeasonProduct.transactionStatus === 'Paid',
       guardians: map(member.guardians, (guardian) => transformGuardian(guardian)),

@@ -10,7 +10,7 @@ import { sanitiseGuardian2 } from './sanitiseGuardian2';
 import { sanitiseTransaction } from './sanitiseTransaction';
 import { sanitiseTransfer } from './sanitiseTransfer';
 
-export const sanitiseMember = (obj: any, transactions: any[], transfers: any[]) => ({
+export const sanitiseMember = (obj: any, productMap: any, clubMap: any, transactions: any[], transfers: any[]) => ({
   footyWebNumber: nullIfEmptyString(obj.footyWebNumber),
   activeRecord: obj.activeRecord === 'Yes',
   familyName: nullIfEmptyString(obj.familyName),
@@ -20,6 +20,6 @@ export const sanitiseMember = (obj: any, transactions: any[], transfers: any[]) 
   guardians: compact([nullIfEmpty(sanitiseGuardian1(obj)), nullIfEmpty(sanitiseGuardian2(obj))]),
   emergencyContact: nullIfEmpty(sanitiseEmergencyContact(obj)),
   contact: nullIfEmpty(sanitiseContact(obj)),
-  transactions: compact(map(transactions, sanitiseTransaction)),
-  transfers: compact(map(transfers, sanitiseTransfer)),
+  transactions: compact(map(transactions, (transaction) => sanitiseTransaction(transaction, productMap))),
+  transfers: compact(map(transfers, (transfer) => sanitiseTransfer(transfer, clubMap))),
 });

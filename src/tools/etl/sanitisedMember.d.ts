@@ -61,7 +61,7 @@ export interface ISanitisedMember {
   transfers: ISanitisedMemberTransfer[];
   club: string;
   teamCode: string;
-  registeredLastSeason: boolean;
+  registeredRecently: boolean;
   registeredThisSeason: boolean;
   paidThisSeason: boolean;
 }

@@ -3,9 +3,11 @@ import { sanitiseTeam } from './sanitiseTeam';
 
 export const sanitiseConfig = (obj: any) => ({
   seasonYear: obj.seasonYear,
-  registeredLastSeason: obj.registeredLastSeason,
+  registeredRecently: obj.registeredRecently,
+  registeredThisSeason: obj.registeredThisSeason,
+  clubMap: obj.clubMap,
+  productMap: obj.productMap,
   noContact: obj.noContact,
   playerTeamExceptions: obj.playerTeamExceptions,
-  registeredThisSeason: obj.registeredThisSeason,
   teams: map(obj.teams, sanitiseTeam),
 });

@@ -17,7 +17,7 @@ export const teamDetail = ({ teams, members }: Options) => {
   const output: any = {};
 
   each(teams, ({ code, name, headCoach, assistantCoach, teamManager, trainer }) => {
-    const team: any = { name, membersRegisteredThisSeason: [], membersRegisteredLastSeason: [], membersTransferred: [], membersOther: [] };
+    const team: any = { name, membersRegisteredThisSeason: [], membersRegisteredRecently: [], membersTransferred: [], membersOther: [] };
     const teamMembersFiltered = filter(members, ({ teamCode }) => teamCode === code);
 
     each(teamMembersFiltered, (member) => {
@@ -25,8 +25,8 @@ export const teamDetail = ({ teams, members }: Options) => {
         team.membersTransferred.push(member);
       } else if (member.registeredThisSeason) {
         team.membersRegisteredThisSeason.push(member);
-      } else if (member.registeredLastSeason) {
-        team.membersRegisteredLastSeason.push(member);
+      } else if (member.registeredRecently) {
+        team.membersRegisteredRecently.push(member);
       } else {
         team.membersOther.push(member);
       }
@@ -37,10 +37,8 @@ export const teamDetail = ({ teams, members }: Options) => {
     );
     team.membersRegisteredThisSeason = orderBy(team.membersRegisteredThisSeason, ['familyName', 'firstName'], ['asc', 'asc']);
 
-    team.membersRegisteredLastSeason = map(team.membersRegisteredLastSeason, (obj) =>
-      pick(obj, 'footyWebNumber', 'initials', 'familyName', 'firstName', 'gender')
-    );
-    team.membersRegisteredLastSeason = orderBy(team.membersRegisteredLastSeason, ['familyName', 'firstName'], ['asc', 'asc']);
+    team.membersRegisteredRecently = map(team.membersRegisteredRecently, (obj) => pick(obj, 'footyWebNumber', 'initials', 'familyName', 'firstName', 'gender'));
+    team.membersRegisteredRecently = orderBy(team.membersRegisteredRecently, ['familyName', 'firstName'], ['asc', 'asc']);
 
     team.membersTransferred = map(team.membersTransferred, (obj) => pick(obj, 'footyWebNumber', 'initials', 'familyName', 'firstName', 'gender', 'club'));
     team.membersTransferred = orderBy(team.membersTransferred, ['familyName', 'firstName'], ['asc', 'asc']);

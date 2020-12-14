@@ -1,5 +1,10 @@
 import type { PersonGenderEnum } from '@this/constants/enums';
 
+export interface IRawMap {
+  from: string;
+  to: string;
+}
+
 export interface IRawConfigOfficial {
   firstName: string;
   familyName: string;
@@ -29,8 +34,10 @@ export interface IRawConfigTeam {
 
 export interface IRawConfig {
   seasonYear: number;
-  registeredLastSeason: string[];
+  registeredRecently: string[];
   registeredThisSeason: string[];
+  clubMap: IRawMap[];
+  productMap: IRawMap[];
   noContact: IRawConfigNoContact[];
   playerTeamExceptions: IRawConfigPlayerTeamExceptions[];
   teams: IRawConfigTeam[];
