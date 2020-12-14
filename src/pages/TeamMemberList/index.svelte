@@ -12,23 +12,25 @@
   pageTitle.set(team.name);
 </script>
 
-<Tabs class="max-w-6xl mx-auto xl:pb-24">
-  <TabList>
-    <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Active</Tab>
-    <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Recent</Tab>
-    <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Transfer</Tab>
-    <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Old</Tab>
-  </TabList>
-  <TabPanel>
-    <PanelActive members={team.membersRegisteredThisSeason} />
-  </TabPanel>
-  <TabPanel>
-    <PanelRecent members={team.membersRegisteredRecently} />
-  </TabPanel>
-  <TabPanel>
-    <PanelTransfer members={team.membersTransferred} />
-  </TabPanel>
-  <TabPanel>
-    <PanelOther members={team.membersOther} />
-  </TabPanel>
-</Tabs>
+<div class="max-w-6xl mx-auto xl:py-24">
+  <Tabs class="w-full">
+    <TabList>
+      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Active</Tab>
+      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Recent</Tab>
+      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Transfer</Tab>
+      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Old</Tab>
+    </TabList>
+    <TabPanel>
+      <PanelActive members={team.membersRegisteredThisSeason} />
+    </TabPanel>
+    <TabPanel>
+      <PanelRecent members={team.membersRegisteredRecently} />
+    </TabPanel>
+    <TabPanel>
+      <PanelTransfer members={team.membersTransferred} />
+    </TabPanel>
+    <TabPanel>
+      <PanelOther members={team.membersOther} />
+    </TabPanel>
+  </Tabs>
+</div>
