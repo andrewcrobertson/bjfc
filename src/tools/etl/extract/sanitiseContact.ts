@@ -1,6 +1,6 @@
 import { nullIfEmptyString } from './nullIfEmptyString';
 
-export const contact = (obj: any) => ({
+export const sanitiseContact = (obj: any) => ({
   phoneHome: nullIfEmptyString(obj.telephoneNumberHome),
   phoneWork: nullIfEmptyString(obj.telephoneNumberWork),
   phoneMobile: nullIfEmptyString(obj.telephoneNumberMobile),

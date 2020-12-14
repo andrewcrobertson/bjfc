@@ -1,6 +1,6 @@
 import { nullIfEmptyString } from './nullIfEmptyString';
 
-export const emergencyContact = (obj: any) => ({
+export const sanitiseEmergencyContact = (obj: any) => ({
   relationship: nullIfEmptyString(obj.emergencyContactRelationship),
   name: nullIfEmptyString(obj.emergencyContactName),
   phone1: nullIfEmptyString(obj.emergencyContactTelephoneNumber),

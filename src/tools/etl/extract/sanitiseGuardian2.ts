@@ -1,6 +1,6 @@
 import { nullIfEmptyString } from './nullIfEmptyString';
 
-export const guardian2 = (obj: any) => ({
+export const sanitiseGuardian2 = (obj: any) => ({
   familyName: nullIfEmptyString(obj.parentGuardian2FamilyName),
   firstName: nullIfEmptyString(obj.parentGuardian2FirstName),
   phone1: nullIfEmptyString(obj.parentGuardian2TelephoneNumber),

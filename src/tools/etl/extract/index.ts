@@ -8,8 +8,8 @@ import mapKeys from 'lodash/mapKeys';
 import type { IRawConfig } from '../rawConfig';
 import type { IRawMember } from '../rawMember';
 import { getPlayerOldestBirthYear } from './getPlayerOldestBirthYear';
-import { member } from './member';
 import { sanitiseConfig } from './sanitiseConfig';
+import { sanitiseMember } from './sanitiseMember';
 
 export interface Options {
   configPath: string;
@@ -36,7 +36,7 @@ export const extract = async ({ configPath, allMembersCsvPath, allTransactionsCs
   const allTransfersJson = groupBy(allTransfersJsonFiltered, 'footyWebNumber');
 
   const memberFilter = (obj: any) => parseInt(obj.dateOfBirth.slice(-4)) >= year;
-  const memberMap = (obj: any) => member(obj, allTransactionsJson[obj.footyWebNumber], allTransfersJson[obj.footyWebNumber]);
+  const memberMap = (obj: any) => sanitiseMember(obj, allTransactionsJson[obj.footyWebNumber], allTransfersJson[obj.footyWebNumber]);
   const allMembersJsonRaw = await csv().fromFile(allMembersCsvPath);
   const allMembersJsonAll = map(allMembersJsonRaw, (obj: any) => mapKeys(obj, (_value, key) => camelCase(key)));
   const allMembersJsonFiltered = filter(allMembersJsonAll, (obj: any) => memberFilter(obj));
