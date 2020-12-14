@@ -14,7 +14,7 @@ export const etl = async () => {
   const options = { configPath, allMembersCsvPath, allTransactionsCsvPath, allTransfersCsvPath };
   const raw = await extract(options);
   const data1 = transform1(raw);
+  require('fs').writeFileSync('data.json', JSON.stringify(data1, null, 2));
   const data2 = transform2(data1);
-  require('fs').writeFileSync('data.json', JSON.stringify(data2, null, 2));
   // load(data2);
 };
