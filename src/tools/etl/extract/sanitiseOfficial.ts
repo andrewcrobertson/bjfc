@@ -5,4 +5,5 @@ export const sanitiseOfficial = (obj: any) => ({
   firstName: nullIfEmptyString(obj.firstName),
   phone: nullIfEmptyString(obj.phone),
   email: nullIfEmptyString(obj.email),
+  gender: nullIfEmptyString(obj.gender),
 });

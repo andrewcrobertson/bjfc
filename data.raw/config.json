@@ -16,120 +16,126 @@
       "name": "Under 18 Girls",
       "ages": [18, 17],
       "genders": ["Female"],
-      "headCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "teamManager": { "firstName": "", "familyName": "", "phone": "", "email": "" }
+      "headCoach": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "teamManager": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" }
     },
     {
       "code": "U17B-GOLD",
       "name": "Under 17 Boys (Gold)",
       "ages": [17],
       "genders": ["Male"],
-      "headCoach": { "firstName": "Jarrod", "familyName": "Amey", "phone": "0439 039 578", "email": "jazznchaz01@gmail.com" },
-      "assistantCoach": { "firstName": "Danny", "familyName": "Phillips", "phone": "0417 339 397", "email": "danny.phillips@thermon.com" },
-      "teamManager": { "firstName": "Deanna", "familyName": "Derham", "phone": "0414 952 117", "email": "dderham@ldb.com.au" },
-      "trainer": { "firstName": "Kim", "familyName": "Phillips", "phone": "0418 337 535", "email": "littlekim.phillips@gmail.com" }
+      "headCoach": { "firstName": "Jarrod", "familyName": "Amey", "phone": "0439 039 578", "email": "jazznchaz01@gmail.com", "gender": "Male" },
+      "assistantCoach": { "firstName": "Danny", "familyName": "Phillips", "phone": "0417 339 397", "email": "danny.phillips@thermon.com", "gender": "Male" },
+      "teamManager": { "firstName": "Deanna", "familyName": "Derham", "phone": "0414 952 117", "email": "dderham@ldb.com.au", "gender": "Female" },
+      "trainer": { "firstName": "Kim", "familyName": "Phillips", "phone": "0418 337 535", "email": "littlekim.phillips@gmail.com", "gender": "Female" }
     },
     {
       "code": "U17B-GREEN",
       "name": "Under 17 Boys (Green)",
       "ages": [16, 15],
       "genders": ["Male"],
-      "headCoach": { "firstName": "Lachie", "familyName": "McGuire", "phone": "0488 149 080", "email": "lachlan.mcguire2@bigpond.com" },
-      "assistantCoach": { "firstName": "Nic", "familyName": "Maxwell", "phone": null, "email": "nicmaxwell44@optusnet.com.au" },
-      "teamManager": { "firstName": "Kelly", "familyName": "McGuire", "phone": null, "email": "lachlan.mcguire2@bigpond.com" },
-      "trainer": { "firstName": "Rob", "familyName": "Scripps", "phone": null, "email": "rkscripps@gmail.com" }
+      "headCoach": { "firstName": "Lachie", "familyName": "McGuire", "phone": "0488 149 080", "email": "lachlan.mcguire2@bigpond.com", "gender": "Male" },
+      "assistantCoach": { "firstName": "Nic", "familyName": "Maxwell", "phone": null, "email": "nicmaxwell44@optusnet.com.au", "gender": "Male" },
+      "teamManager": { "firstName": "Kelly", "familyName": "McGuire", "phone": null, "email": "lachlan.mcguire2@bigpond.com", "gender": "Female" },
+      "trainer": { "firstName": "Rob", "familyName": "Scripps", "phone": null, "email": "rkscripps@gmail.com", "gender": "Male" }
     },
     {
       "code": "U16G",
       "name": "Under 16 Girls",
       "ages": [16, 15],
       "genders": ["Female"],
-      "headCoach": { "firstName": "Michael", "familyName": "Hughson", "phone": "0401 995 003", "email": "Michael.Hughson@trendwindows.com.au" },
-      "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "teamManager": { "firstName": "Kylie", "familyName": "Cameron", "phone": "0409 017 724", "email": "camscove@icloud.com" },
-      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "" }
+      "headCoach": {
+        "firstName": "Michael",
+        "familyName": "Hughson",
+        "phone": "0401 995 003",
+        "email": "Michael.Hughson@trendwindows.com.au",
+        "gender": "Male"
+      },
+      "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "teamManager": { "firstName": "Kylie", "familyName": "Cameron", "phone": "0409 017 724", "email": "camscove@icloud.com", "gender": "Female" },
+      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" }
     },
     {
       "code": "U14B",
       "name": "Under 14 Boys",
       "ages": [14, 13],
       "genders": ["Male"],
-      "headCoach": { "firstName": "Andrew", "familyName": "Peters", "phone": "0409 794 180", "email": "apeters@swin.edu.au" },
-      "assistantCoach": { "firstName": "Steve", "familyName": "Roberts", "phone": "0474 221 909", "email": "cbrsteve.roberts@gmail.com" },
-      "teamManager": { "firstName": "Deanna", "familyName": "Derham", "phone": "0414 952 117", "email": "dderham@ldb.com.au" },
-      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "" }
+      "headCoach": { "firstName": "Andrew", "familyName": "Peters", "phone": "0409 794 180", "email": "apeters@swin.edu.au", "gender": "Male" },
+      "assistantCoach": { "firstName": "Steve", "familyName": "Roberts", "phone": "0474 221 909", "email": "cbrsteve.roberts@gmail.com", "gender": "Male" },
+      "teamManager": { "firstName": "Deanna", "familyName": "Derham", "phone": "0414 952 117", "email": "dderham@ldb.com.au", "gender": "Female" },
+      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" }
     },
     {
       "code": "U14G",
       "name": "Under 14 Girls",
       "ages": [14, 13],
       "genders": ["Female"],
-      "headCoach": { "firstName": "Matt", "familyName": "Rennison", "phone": "", "email": "golfman05@live.com" },
-      "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "teamManager": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "trainer": { "firstName": "Dragana", "familyName": "Hindson", "phone": "", "email": "dragana@icircle.net" }
+      "headCoach": { "firstName": "Matt", "familyName": "Rennison", "phone": "", "email": "golfman05@live.com", "gender": "Male" },
+      "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "teamManager": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "trainer": { "firstName": "Dragana", "familyName": "Hindson", "phone": "", "email": "dragana@icircle.net", "gender": "Female" }
     },
     {
       "code": "U12G",
       "name": "Under 12 Girls",
       "ages": [12, 11, 10, 9],
       "genders": ["Female"],
-      "headCoach": { "firstName": "Kevin", "familyName": "Maniscalchi", "phone": "0421 785 622", "email": "kmaniscalchi@outlook.com" },
-      "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "teamManager": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "" }
+      "headCoach": { "firstName": "Kevin", "familyName": "Maniscalchi", "phone": "0421 785 622", "email": "kmaniscalchi@outlook.com", "gender": "Male" },
+      "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "teamManager": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" }
     },
     {
       "code": "U12B",
       "name": "Under 12 Boys",
       "ages": [12, 11],
       "genders": ["Male"],
-      "headCoach": { "firstName": "Andrew", "familyName": "Rippon", "phone": "0412 244 056", "email": "chipsbricklaying@hotmail.com" },
-      "assistantCoach": { "firstName": "Andrew", "familyName": "Parker", "phone": "", "email": "" },
-      "teamManager": { "firstName": "Beccy", "familyName": "Dawber", "phone": "0401 306 209", "email": "beccydawber@bigpond.com" },
-      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "" }
+      "headCoach": { "firstName": "Andrew", "familyName": "Rippon", "phone": "0412 244 056", "email": "chipsbricklaying@hotmail.com", "gender": "Male" },
+      "assistantCoach": { "firstName": "Andrew", "familyName": "Parker", "phone": "", "email": "", "gender": "" },
+      "teamManager": { "firstName": "Beccy", "familyName": "Dawber", "phone": "0401 306 209", "email": "beccydawber@bigpond.com", "gender": "Female" },
+      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" }
     },
     {
       "code": "U11M",
       "name": "Under 11 Mixed",
       "ages": [11],
       "genders": ["Female", "Male"],
-      "headCoach": { "firstName": "Alex", "familyName": "Gunn", "phone": "0403 977 524", "email": "algunn71@hotmail.com" },
-      "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "teamManager": { "firstName": "Deb", "familyName": "Pearson", "phone": "", "email": "debbie_rob@optusnet.com.au" },
-      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "" }
+      "headCoach": { "firstName": "Alex", "familyName": "Gunn", "phone": "0403 977 524", "email": "algunn71@hotmail.com", "gender": "Male" },
+      "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "teamManager": { "firstName": "Deb", "familyName": "Pearson", "phone": "", "email": "debbie_rob@optusnet.com.au", "gender": "Female" },
+      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" }
     },
     {
       "code": "U10M",
       "name": "Under 10 Mixed",
       "ages": [10],
       "genders": ["Female", "Male"],
-      "headCoach": { "firstName": "Ben", "familyName": "Beveridge", "phone": "0411 105 440", "email": "benbev35@gmail.com" },
-      "assistantCoach": { "firstName": "Erin", "familyName": "Chamberlain", "phone": "", "email": "" },
-      "teamManager": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "" }
+      "headCoach": { "firstName": "Ben", "familyName": "Beveridge", "phone": "0411 105 440", "email": "benbev35@gmail.com", "gender": "Male" },
+      "assistantCoach": { "firstName": "Erin", "familyName": "Chamberlain", "phone": "", "email": "", "gender": "Female" },
+      "teamManager": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" }
     },
     {
       "code": "U09M",
       "name": "Under 9 Mixed",
       "ages": [9],
       "genders": ["Female", "Male"],
-      "headCoach": { "firstName": "Mark", "familyName": "Hindson", "phone": "0419 149 500", "email": "mark@icircle.net" },
-      "assistantCoach": { "firstName": "Rob", "familyName": "Kinstler", "phone": "", "email": "robertgk.66@gmail.com" },
-      "teamManager": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "" }
+      "headCoach": { "firstName": "Mark", "familyName": "Hindson", "phone": "0419 149 500", "email": "mark@icircle.net", "gender": "Male" },
+      "assistantCoach": { "firstName": "Rob", "familyName": "Kinstler", "phone": "", "email": "robertgk.66@gmail.com", "gender": "Male" },
+      "teamManager": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" }
     },
     {
       "code": "U08M",
       "name": "Under 8 Mixed",
       "ages": [8, 7],
       "genders": ["Female", "Male"],
-      "headCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "teamManager": { "firstName": "", "familyName": "", "phone": "", "email": "" },
-      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "" }
+      "headCoach": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "teamManager": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" },
+      "trainer": { "firstName": "", "familyName": "", "phone": "", "email": "", "gender": "" }
     }
   ]
 }

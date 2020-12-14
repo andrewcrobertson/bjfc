@@ -27,6 +27,7 @@
         "firstName": "Jarrod",
         "phone": "0439 039 578",
         "email": "jazznchaz01@gmail.com",
+        "gender": "Male",
         "initials": "JA"
       },
       "assistantCoach": {
@@ -34,6 +35,7 @@
         "firstName": "Danny",
         "phone": "0417 339 397",
         "email": "danny.phillips@thermon.com",
+        "gender": "Male",
         "initials": "DP"
       },
       "trainer": {
@@ -41,6 +43,7 @@
         "firstName": "Kim",
         "phone": "0418 337 535",
         "email": "littlekim.phillips@gmail.com",
+        "gender": "Female",
         "initials": "KP"
       },
       "teamManager": {
@@ -48,6 +51,7 @@
         "firstName": "Deanna",
         "phone": "0414 952 117",
         "email": "dderham@ldb.com.au",
+        "gender": "Female",
         "initials": "DD"
       }
     },
@@ -63,6 +67,7 @@
         "firstName": "Lachie",
         "phone": "0488 149 080",
         "email": "lachlan.mcguire2@bigpond.com",
+        "gender": "Male",
         "initials": "LM"
       },
       "assistantCoach": {
@@ -70,6 +75,7 @@
         "firstName": "Nic",
         "phone": null,
         "email": "nicmaxwell44@optusnet.com.au",
+        "gender": "Male",
         "initials": "NM"
       },
       "trainer": {
@@ -77,6 +83,7 @@
         "firstName": "Rob",
         "phone": null,
         "email": "rkscripps@gmail.com",
+        "gender": "Male",
         "initials": "RS"
       },
       "teamManager": {
@@ -84,6 +91,7 @@
         "firstName": "Kelly",
         "phone": null,
         "email": "lachlan.mcguire2@bigpond.com",
+        "gender": "Female",
         "initials": "KM"
       }
     },
@@ -99,6 +107,7 @@
         "firstName": "Michael",
         "phone": "0401 995 003",
         "email": "Michael.Hughson@trendwindows.com.au",
+        "gender": "Male",
         "initials": "MH"
       },
       "assistantCoach": null,
@@ -108,6 +117,7 @@
         "firstName": "Kylie",
         "phone": "0409 017 724",
         "email": "camscove@icloud.com",
+        "gender": "Female",
         "initials": "KC"
       }
     },
@@ -123,6 +133,7 @@
         "firstName": "Andrew",
         "phone": "0409 794 180",
         "email": "apeters@swin.edu.au",
+        "gender": "Male",
         "initials": "AP"
       },
       "assistantCoach": {
@@ -130,6 +141,7 @@
         "firstName": "Steve",
         "phone": "0474 221 909",
         "email": "cbrsteve.roberts@gmail.com",
+        "gender": "Male",
         "initials": "SR"
       },
       "trainer": null,
@@ -138,6 +150,7 @@
         "firstName": "Deanna",
         "phone": "0414 952 117",
         "email": "dderham@ldb.com.au",
+        "gender": "Female",
         "initials": "DD"
       }
     },
@@ -153,6 +166,7 @@
         "firstName": "Matt",
         "phone": null,
         "email": "golfman05@live.com",
+        "gender": "Male",
         "initials": "MR"
       },
       "assistantCoach": null,
@@ -161,6 +175,7 @@
         "firstName": "Dragana",
         "phone": null,
         "email": "dragana@icircle.net",
+        "gender": "Female",
         "initials": "DH"
       },
       "teamManager": null
@@ -177,6 +192,7 @@
         "firstName": "Kevin",
         "phone": "0421 785 622",
         "email": "kmaniscalchi@outlook.com",
+        "gender": "Male",
         "initials": "KM"
       },
       "assistantCoach": null,
@@ -195,6 +211,7 @@
         "firstName": "Andrew",
         "phone": "0412 244 056",
         "email": "chipsbricklaying@hotmail.com",
+        "gender": "Male",
         "initials": "AR"
       },
       "assistantCoach": {
@@ -202,6 +219,7 @@
         "firstName": "Andrew",
         "phone": null,
         "email": null,
+        "gender": null,
         "initials": "AP"
       },
       "trainer": null,
@@ -210,6 +228,7 @@
         "firstName": "Beccy",
         "phone": "0401 306 209",
         "email": "beccydawber@bigpond.com",
+        "gender": "Female",
         "initials": "BD"
       }
     },
@@ -225,6 +244,7 @@
         "firstName": "Alex",
         "phone": "0403 977 524",
         "email": "algunn71@hotmail.com",
+        "gender": "Male",
         "initials": "AG"
       },
       "assistantCoach": null,
@@ -234,6 +254,7 @@
         "firstName": "Deb",
         "phone": null,
         "email": "debbie_rob@optusnet.com.au",
+        "gender": "Female",
         "initials": "DP"
       }
     },
@@ -249,6 +270,7 @@
         "firstName": "Ben",
         "phone": "0411 105 440",
         "email": "benbev35@gmail.com",
+        "gender": "Male",
         "initials": "BB"
       },
       "assistantCoach": {
@@ -256,6 +278,7 @@
         "firstName": "Erin",
         "phone": null,
         "email": null,
+        "gender": "Female",
         "initials": "EC"
       },
       "trainer": null,
@@ -273,6 +296,7 @@
         "firstName": "Mark",
         "phone": "0419 149 500",
         "email": "mark@icircle.net",
+        "gender": "Male",
         "initials": "MH"
       },
       "assistantCoach": {
@@ -280,6 +304,7 @@
         "firstName": "Rob",
         "phone": null,
         "email": "robertgk.66@gmail.com",
+        "gender": "Male",
         "initials": "RK"
       },
       "trainer": null,
