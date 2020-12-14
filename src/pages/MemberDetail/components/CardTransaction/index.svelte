@@ -1,34 +1,25 @@
 <script lang="ts">
-  import { background } from '@this/constants/theme';
-  import BadgeCheckIcon from '@this/icons/BadgeCheckIcon';
   import CurrencyDollarIcon from '@this/icons/CurrencyDollarIcon';
 
   let rootClass = '';
   export { rootClass as class };
-  export let url = '';
-  export let initials = null;
-  export let familyName = null;
-  export let firstName = '';
-  export let gender = null;
-  export let paidThisSeason = false;
+  export let transactionDate = null;
+  export let product = null;
+  export let lineItemTotal = '';
+  export let transactionStatus = null;
 
-  const colour = background[gender] ?? 'gray';
+  const colour = 'blue';
 </script>
 
-<a class="{rootClass} p-2" href={url}>
+<div class="{rootClass} p-2">
   <div class="flex justify-between">
     <div class="flex items-center">
-      <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{initials}</div>
-      <h2 class="text-lg font-medium title-font ml-2">{familyName}, {firstName}</h2>
+      <h2 class="text-lg font-medium title-font ml-2">{product} {transactionDate}</h2>
     </div>
     <span class="mr-3 inline-flex items-center leading-none text-sm py-1">
-      {#if paidThisSeason}
-        <CurrencyDollarIcon class="w-5 h-5 mr-1 text-{colour}-500" />
-        Paid
-      {:else}
-        <BadgeCheckIcon class="w-5 h-5 mr-1 text-{colour}-500" />
-        Registered
-      {/if}
+      <CurrencyDollarIcon class="w-5 h-5 mr-1 text-{colour}-500" />
+      {lineItemTotal}
+      {transactionStatus}
     </span>
   </div>
-</a>
+</div>

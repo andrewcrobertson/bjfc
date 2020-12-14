@@ -32,15 +32,15 @@
   </TabPanel>
 </Tabs>
 
-<!-- <Tabs class="max-w-6xl mx-auto xl:pb-24">
+<Tabs class="max-w-6xl mx-auto xl:pb-24">
   <TabList>
-    <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Transaction</Tab>
-    <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Transfer</Tab>
+    <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Transactions</Tab>
+    <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Transfers</Tab>
   </TabList>
   <TabPanel>
-    <PanelTransaction members={team.membersRegisteredThisSeason} />
+    <PanelTransaction records={member.transactions} />
   </TabPanel>
   <TabPanel>
-    <PanelTransfer members={team.membersTransferred} />
+    <PanelTransfer records={member.transfers} />
   </TabPanel>
-</Tabs> -->
+</Tabs>
