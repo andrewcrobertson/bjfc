@@ -11,5 +11,5 @@
   <div class="flex-1 overflow-y-auto p-5">
     <slot />
   </div>
-  <footer class="py-5">Some Footer</footer>
+  <footer class="py-5 ml-2">Bayswater Junior Football Club</footer>
 </div>
