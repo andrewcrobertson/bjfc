@@ -3,14 +3,14 @@
   import CurrencyDollarIcon from '../CurrencyDollarIcon';
 
   export let url = '';
-  export let code = '';
+  export let ageGroupCode = '';
   export let name = '';
 </script>
 
 <a class="xl:w-1/3 md:w-1/2 p-4" href={url}>
   <div class="border border-gray-300 p-6 rounded-lg">
     <div class="flex justify-between items-center mb-4">
-      <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500">{code}</div>
+      <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500">{ageGroupCode}</div>
       <h2 class="text-lg font-medium title-font">{name}</h2>
     </div>
 

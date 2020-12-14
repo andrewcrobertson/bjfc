@@ -15,8 +15,8 @@
 
 <div class="max-w-6xl mx-auto px-5 py-24 ">
   <div class="flex flex-wrap -m-4">
-    {#each teams as { code, shortName, name }}
-      <Card {code} {name} url="/teams/{code}" />
+    {#each teams as { code, ageGroupCode, name }}
+      <Card {ageGroupCode} {name} url="/teams/{code}" />
     {/each}
   </div>
 </div>

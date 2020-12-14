@@ -1,6 +1,6 @@
 import type { TeamGenderEnum } from '@this/constants/enums';
 
-export interface IRawConfigOfficial {
+export interface ISanitisedOfficial {
   firstName: string;
   familyName: string;
   phone: string;
@@ -14,8 +14,8 @@ export interface ISanitisedTeam {
   birthYears: number[];
   playerGenders: PlayerGenderEnum[];
   teamGender: TeamGenderEnum;
-  headCoach: IRawConfigOfficial;
-  assistantCoach: IRawConfigOfficial;
-  trainer: IRawConfigOfficial;
-  teamManager: IRawConfigOfficial;
+  headCoach: ISanitisedOfficial;
+  assistantCoach: ISanitisedOfficial;
+  trainer: ISanitisedOfficial;
+  teamManager: ISanitisedOfficial;
 }
