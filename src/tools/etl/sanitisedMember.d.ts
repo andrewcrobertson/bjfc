@@ -45,6 +45,7 @@ export interface ISanitisedMember {
   familyName: string;
   firstName: string;
   dateOfBirth: string;
+  yearOfBirth: number;
   gender: string;
   guardians: ISanitisedMemberGuardian[];
   emergencyContact: ISanitisedMemberEmergencyContact;
@@ -52,6 +53,7 @@ export interface ISanitisedMember {
   transactions: ISanitisedMemberTransaction[];
   transfers: ISanitisedMemberTransfer[];
   club: string;
+  teamCode: string;
   registeredLastSeason: boolean;
   registeredThisSeason: boolean;
   paidThisSeason: boolean;

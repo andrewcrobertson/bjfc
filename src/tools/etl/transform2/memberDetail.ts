@@ -1,6 +1,6 @@
-import { orderBy } from 'lodash';
 import keyBy from 'lodash/keyBy';
 import map from 'lodash/map';
+import orderBy from 'lodash/orderBy';
 import type { ISanitisedConfig } from '../sanitisedConfig';
 import type { ISanitisedMember } from '../sanitisedMember';
 import type { ISanitisedTeam } from '../sanitisedTeam';

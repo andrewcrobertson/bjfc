@@ -32,7 +32,7 @@
     {
       "code": "U17B-GREEN",
       "name": "Under 17 Boys (Green)",
-      "ages": [16],
+      "ages": [16, 15],
       "genders": ["Male"],
       "headCoach": { "firstName": "Lachie", "familyName": "McGuire", "phone": "0488 149 080", "email": "lachlan.mcguire2@bigpond.com" },
       "assistantCoach": { "firstName": "Nic", "familyName": "Maxwell", "phone": null, "email": "nicmaxwell44@optusnet.com.au" },

@@ -21,7 +21,8 @@ export interface Options {
 export const extract = async ({ configPath, allMembersCsvPath, allTransactionsCsvPath, allTransfersCsvPath }: Options) => {
   const config = sanitiseConfig(JSON.parse(fs.readFileSync(configPath, 'utf-8'))) as IRawConfig;
 
-  const year = getPlayerOldestBirthYear(config);
+  const yearMale = getPlayerOldestBirthYear(config, 'Male');
+  const yearFemale = getPlayerOldestBirthYear(config, 'Female');
 
   const transactionFilter = (obj: any) => obj.transactionDate !== '' && obj.product !== '' && obj.lineItemTotal !== '';
   const allTransactionsJsonRaw = await csv().fromFile(allTransactionsCsvPath);
@@ -35,7 +36,8 @@ export const extract = async ({ configPath, allMembersCsvPath, allTransactionsCs
   const allTransfersJsonFiltered = filter(allTransfersJsonAll, (obj: any) => transferFilter(obj));
   const allTransfersJson = groupBy(allTransfersJsonFiltered, 'footyWebNumber');
 
-  const memberFilter = (obj: any) => parseInt(obj.dateOfBirth.slice(-4)) >= year;
+  const getYear = (gender) => (gender === 'Male' ? yearMale : gender === 'Female' ? yearFemale : Math.max(yearMale, yearFemale));
+  const memberFilter = (obj: any) => parseInt(obj.dateOfBirth.slice(-4)) >= getYear(obj.gender);
   const memberMap = (obj: any) => sanitiseMember(obj, allTransactionsJson[obj.footyWebNumber], allTransfersJson[obj.footyWebNumber]);
   const allMembersJsonRaw = await csv().fromFile(allMembersCsvPath);
   const allMembersJsonAll = map(allMembersJsonRaw, (obj: any) => mapKeys(obj, (_value, key) => camelCase(key)));

@@ -2,6 +2,7 @@ import compact from 'lodash/compact';
 import map from 'lodash/map';
 import { nullIfEmpty } from './nullIfEmpty';
 import { nullIfEmptyString } from './nullIfEmptyString';
+import { parseStandardDate } from './parseStandardDate';
 import { sanitiseContact } from './sanitiseContact';
 import { sanitiseEmergencyContact } from './sanitiseEmergencyContact';
 import { sanitiseGuardian1 } from './sanitiseGuardian1';
@@ -14,7 +15,7 @@ export const sanitiseMember = (obj: any, transactions: any[], transfers: any[]) 
   activeRecord: obj.activeRecord === 'Yes',
   familyName: nullIfEmptyString(obj.familyName),
   firstName: nullIfEmptyString(obj.firstName),
-  dateOfBirth: nullIfEmptyString(obj.dateOfBirth),
+  dateOfBirth: parseStandardDate(nullIfEmptyString(obj.dateOfBirth)),
   gender: nullIfEmptyString(obj.gender),
   guardians: compact([nullIfEmpty(sanitiseGuardian1(obj)), nullIfEmpty(sanitiseGuardian2(obj))]),
   emergencyContact: nullIfEmpty(sanitiseEmergencyContact(obj)),

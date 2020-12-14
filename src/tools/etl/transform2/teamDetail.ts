@@ -1,7 +1,7 @@
-import { includes } from 'lodash';
 import each from 'lodash/each';
 import filter from 'lodash/filter';
 import groupBy from 'lodash/groupBy';
+import includes from 'lodash/includes';
 import last from 'lodash/last';
 import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
