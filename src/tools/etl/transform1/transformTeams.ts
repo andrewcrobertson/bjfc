@@ -21,6 +21,7 @@ const convertGender = (playerGenders: PlayerGenderEnum[]): TeamGenderEnum => {
 export const transformTeams = ({ config }: Options): ISanitisedTeam[] =>
   map(config.teams, (team) => ({
     code: team.code,
+    ageGroupCode: 'U' + Math.max(...team.ages).toString(),
     name: team.name,
     birthYears: map(team.ages, (age) => config.seasonYear - age),
     gender: convertGender(team.genders),

@@ -9,6 +9,7 @@ export interface IRawConfigOfficial {
 
 export interface ISanitisedTeam {
   code: string;
+  ageGroupCode: string;
   name: string;
   birthYears: number[];
   gender: TeamGenderEnum;

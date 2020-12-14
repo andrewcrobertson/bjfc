@@ -2,6 +2,7 @@
   "teams": [
     {
       "code": "U18G",
+      "iconText": "U18",
       "name": "Under 18 Girls",
       "birthYears": [2003, 2004],
       "gender": "Female",
@@ -12,6 +13,7 @@
     },
     {
       "code": "U17B-GOLD",
+      "iconText": "U17",
       "name": "Under 17 Boys (Gold)",
       "birthYears": [2004],
       "gender": "Male",
@@ -42,6 +44,7 @@
     },
     {
       "code": "U17B-GREEN",
+      "iconText": "U16",
       "name": "Under 17 Boys (Green)",
       "birthYears": [2005],
       "gender": "Male",
@@ -72,6 +75,7 @@
     },
     {
       "code": "U16G",
+      "iconText": "U16",
       "name": "Under 16 Girls",
       "birthYears": [2005, 2006],
       "gender": "Female",
@@ -92,6 +96,7 @@
     },
     {
       "code": "U14B",
+      "iconText": "U14",
       "name": "Under 14 Boys",
       "birthYears": [2007, 2008],
       "gender": "Male",
@@ -117,6 +122,7 @@
     },
     {
       "code": "U14G",
+      "iconText": "U14",
       "name": "Under 14 Girls",
       "birthYears": [2007, 2008],
       "gender": "Female",
@@ -137,6 +143,7 @@
     },
     {
       "code": "U12G",
+      "iconText": "U12",
       "name": "Under 12 Girls",
       "birthYears": [2009, 2010, 2011, 2012],
       "gender": "Female",
@@ -152,6 +159,7 @@
     },
     {
       "code": "U12B",
+      "iconText": "U12",
       "name": "Under 12 Boys",
       "birthYears": [2009, 2010],
       "gender": "Male",
@@ -177,6 +185,7 @@
     },
     {
       "code": "U11M",
+      "iconText": "U11",
       "name": "Under 11 Mixed",
       "birthYears": [2010],
       "gender": "Mixed",
@@ -197,6 +206,7 @@
     },
     {
       "code": "U10M",
+      "iconText": "U10",
       "name": "Under 10 Mixed",
       "birthYears": [2011],
       "gender": "Mixed",
@@ -217,6 +227,7 @@
     },
     {
       "code": "U09M",
+      "iconText": "U9",
       "name": "Under 9 Mixed",
       "birthYears": [2012],
       "gender": "Mixed",
@@ -237,6 +248,7 @@
     },
     {
       "code": "U08M",
+      "iconText": "U8",
       "name": "Under 8 Mixed",
       "birthYears": [2013, 2014],
       "gender": "Mixed",
