@@ -4,10 +4,9 @@
   import CardOfficial from '../CardOfficial';
   import { background } from '@this/constants/theme';
   import * as teamGenderEnum from '@this/constants/teamGenderEnum';
-  import type { TeamGenderEnum } from '@this/constants/enums';
 
   export let url = '';
-  export let teamGender: TeamGenderEnum = teamGenderEnum.mixed;
+  export let teamGender = teamGenderEnum.mixed as string;
   export let ageGroupCode = '';
   export let name = '';
   export let headCoach = null;
