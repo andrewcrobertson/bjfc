@@ -12,7 +12,8 @@ export interface ISanitisedTeam {
   ageGroupCode: string;
   name: string;
   birthYears: number[];
-  gender: TeamGenderEnum;
+  playerGenders: PlayerGenderEnum[];
+  teamGender: TeamGenderEnum;
   headCoach: IRawConfigOfficial;
   assistantCoach: IRawConfigOfficial;
   trainer: IRawConfigOfficial;

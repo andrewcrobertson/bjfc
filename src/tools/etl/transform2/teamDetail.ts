@@ -1,3 +1,4 @@
+import { includes } from 'lodash';
 import each from 'lodash/each';
 import filter from 'lodash/filter';
 import groupBy from 'lodash/groupBy';
@@ -15,15 +16,15 @@ export interface Options {
   teams: ISanitisedTeam[];
 }
 
-export const teamDetail = ({ teams, members }: Options) => {
+export const teamDetail = ({ config, teams, members }: Options) => {
   const membersByBirthYear = groupBy(members, (member) => parseInt(last(split(member.dateOfBirth, '/'))));
   const output: any = {};
 
-  each(teams, ({ code, name, birthYears, gender: teamGender }) => {
+  each(teams, ({ code, name, birthYears, playerGenders }) => {
     const team = { name, members: [] };
     each(birthYears, (birthYear) => {
       const membersAll = membersByBirthYear[birthYear];
-      const membersFiltered = filter(membersAll, ({ gender }) => teamGender === 'Mixed' || teamGender === gender);
+      const membersFiltered = filter(membersAll, ({ gender }) => includes(playerGenders, gender));
       const members = map(membersFiltered, ({ footyWebNumber, familyName, firstName, dateOfBirth, gender }) => ({
         footyWebNumber,
         familyName,
