@@ -9,6 +9,7 @@ export interface Options {
 }
 
 export const transform1 = ({ config, members }: Options) => ({
+  config: { seasonYear: config.seasonYear },
   teams: transformTeams({ config }),
   members: transformMembers({ config, members }),
 });

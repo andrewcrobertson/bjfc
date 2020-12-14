@@ -1,4 +1,3 @@
-import { includes } from 'lodash';
 import each from 'lodash/each';
 import filter from 'lodash/filter';
 import groupBy from 'lodash/groupBy';
@@ -13,18 +12,18 @@ import type { ISanitisedTeam } from '../sanitisedTeam';
 export interface Options {
   config: ISanitisedConfig;
   members: ISanitisedMember[];
-  teams: ISanitisedTeam;
+  teams: ISanitisedTeam[];
 }
 
-export const teamDetail = ({ config, members }: Options) => {
+export const teamDetail = ({ teams, members }: Options) => {
   const membersByBirthYear = groupBy(members, (member) => parseInt(last(split(member.dateOfBirth, '/'))));
   const output: any = {};
 
-  each(config.teams, ({ code, name, years, genders }) => {
+  each(teams, ({ code, name, birthYears, gender: teamGender }) => {
     const team = { name, members: [] };
-    each(years, (year) => {
-      const membersAll = membersByBirthYear[year];
-      const membersFiltered = filter(membersAll, ({ gender }) => includes(genders, gender));
+    each(birthYears, (birthYear) => {
+      const membersAll = membersByBirthYear[birthYear];
+      const membersFiltered = filter(membersAll, ({ gender }) => teamGender === 'Mixed' || teamGender === gender);
       const members = map(membersFiltered, ({ footyWebNumber, familyName, firstName, dateOfBirth, gender }) => ({
         footyWebNumber,
         familyName,

@@ -8,7 +8,7 @@ import { teamList } from './teamList';
 export interface Options {
   config: ISanitisedConfig;
   members: ISanitisedMember[];
-  teams: ISanitisedTeam;
+  teams: ISanitisedTeam[];
 }
 
 export const transform2 = (options: Options) => ({

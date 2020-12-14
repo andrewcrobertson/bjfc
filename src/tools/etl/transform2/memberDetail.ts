@@ -1,6 +1,5 @@
-import { includes, last, orderBy } from 'lodash';
+import { orderBy } from 'lodash';
 import compact from 'lodash/compact';
-import find from 'lodash/find';
 import join from 'lodash/join';
 import keyBy from 'lodash/keyBy';
 import map from 'lodash/map';
@@ -12,7 +11,7 @@ import type { ISanitisedTeam } from '../sanitisedTeam';
 export interface Options {
   config: ISanitisedConfig;
   members: ISanitisedMember[];
-  teams: ISanitisedTeam;
+  teams: ISanitisedTeam[];
 }
 
 const toString = (values: string[]) => {
@@ -48,14 +47,11 @@ export const memberDetail = ({ config, members: membersRaw }: Options) => {
   const members = map(membersRaw, (member) => {
     const contact = transformContact(member.contact ?? ({} as any));
     const emergencyContact = transformEmergencyContact(member.emergencyContact ?? ({} as any));
-    const guardians = map(member.guardians, (guardian) => transformGuardian(guardian));
+    const guardians = map(member.guardians, (guardian) => transformGuardian(guardian as any));
     const transactions = orderBy(member.transactions, ['transactionDate', 'transactionTime'], ['desc', 'desc']);
     const transfers = orderBy(member.transfers, ['applicationDate'], ['desc']);
-    const registeredLastSeason = find(transactions, ({ product }) => includes(config.registeredLastSeason, product)) !== undefined;
-    const registeredThisSeason = find(transactions, ({ product }) => includes(config.registeredThisSeason, product)) !== undefined;
-    const club = transfers.length === 0 ? 'Bayswater' : last(transfers).destinationClub;
 
-    return { ...member, club, registeredLastSeason, registeredThisSeason, contact, emergencyContact, guardians, transactions, transfers };
+    return { ...member, contact, emergencyContact, guardians, transactions, transfers };
   });
 
   return keyBy(members, 'footyWebNumber');

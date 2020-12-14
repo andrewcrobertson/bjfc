@@ -1,17 +1,18 @@
+export interface ISanitisedContactMethod {
+  type: string;
+  value: string;
+}
+
 export interface ISanitisedMemberGuardian {
   familyName: string;
   firstName: string;
-  phone1: string;
-  phone2: string;
-  mobile: string;
-  email: string;
+  contacts: ISanitisedContactMethod[];
 }
 
 export interface ISanitisedMemberEmergencyContact {
   relationship: string;
   name: string;
-  phone1: string;
-  phone2: string;
+  contacts: ISanitisedContactMethod[];
 }
 
 export interface ISanitisedMemberContact {
@@ -47,7 +48,10 @@ export interface ISanitisedMember {
   gender: string;
   guardians: ISanitisedMemberGuardian[];
   emergencyContact: ISanitisedMemberEmergencyContact;
-  contact: ISanitisedMemberContact;
+  contact: ISanitisedContactMethod[];
   transactions: ISanitisedMemberTransaction[];
   transfers: ISanitisedMemberTransfer[];
+  club: string;
+  registeredLastSeason: boolean;
+  registeredThisSeason: boolean;
 }

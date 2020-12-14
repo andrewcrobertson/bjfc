@@ -12,7 +12,7 @@ import type { ISanitisedTeam } from '../sanitisedTeam';
 export interface Options {
   config: ISanitisedConfig;
   members: ISanitisedMember[];
-  teams: ISanitisedTeam;
+  teams: ISanitisedTeam[];
 }
 
 const toString = (values: string[]) => {

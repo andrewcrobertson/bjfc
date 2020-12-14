@@ -7,12 +7,12 @@ import type { ISanitisedTeam } from '../sanitisedTeam';
 export interface Options {
   config: ISanitisedConfig;
   members: ISanitisedMember[];
-  teams: ISanitisedTeam;
+  teams: ISanitisedTeam[];
 }
 
-export const teamList = ({ config }: Options) =>
+export const teamList = ({ teams }: Options) =>
   orderBy(
-    map(config.teams, ({ code, name }) => ({ code, name })),
+    map(teams, ({ code, name }) => ({ code, name })),
     ['code'],
     ['desc']
   );
