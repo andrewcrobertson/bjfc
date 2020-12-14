@@ -8,6 +8,8 @@
     "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees",
     "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Girls Registration fees"
   ],
+  "noContact": [{ "footyWebNumber": "" }],
+  "playerTeamExceptions": [{ "code": "", "footyWebNumber": "" }],
   "teams": [
     {
       "code": "U18G",

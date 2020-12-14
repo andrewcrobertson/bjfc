@@ -7,6 +7,15 @@ export interface IRawConfigOfficial {
   email: string;
 }
 
+export interface IRawConfigNoContact {
+  footyWebNumber: string;
+}
+
+export interface IRawConfigPlayerTeamExceptions {
+  code: string;
+  footyWebNumber: string;
+}
+
 export interface IRawConfigTeam {
   code: string;
   name: string;
@@ -22,5 +31,7 @@ export interface IRawConfig {
   seasonYear: number;
   registeredLastSeason: string[];
   registeredThisSeason: string[];
+  noContact: IRawConfigNoContact[];
+  playerTeamExceptions: IRawConfigPlayerTeamExceptions[];
   teams: IRawConfigTeam[];
 }
