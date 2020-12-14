@@ -2,16 +2,13 @@
   import { background } from '@this/constants/theme';
   import BadgeCheckIcon from '@this/icons/BadgeCheckIcon';
   import CurrencyDollarIcon from '@this/icons/CurrencyDollarIcon';
-  import CardOfficial from '../CardOfficial';
 
   export let url = '';
   export let initials = null;
   export let familyName = null;
   export let firstName = '';
-  export let dateOfBirth = '';
   export let gender = null;
 
-  console.log(dateOfBirth);
   const colour = background[gender] ?? 'gray';
 </script>
 

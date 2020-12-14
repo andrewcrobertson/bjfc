@@ -6,6 +6,7 @@ export interface ISanitisedContactMethod {
 export interface ISanitisedMemberGuardian {
   familyName: string;
   firstName: string;
+  initials: string;
   contacts: ISanitisedContactMethod[];
 }
 
@@ -42,6 +43,7 @@ export interface ISanitisedMemberTransfer {
 export interface ISanitisedMember {
   footyWebNumber: string;
   activeRecord: boolean;
+  initials: string;
   familyName: string;
   firstName: string;
   dateOfBirth: string;

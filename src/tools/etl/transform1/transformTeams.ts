@@ -2,8 +2,9 @@ import map from 'lodash/map';
 import type { PlayerGenderEnum, TeamGenderEnum } from '../constants/enums';
 import * as playerGenderEnum from '../constants/playerGenderEnum';
 import * as teamGenderEnum from '../constants/teamGenderEnum';
-import type { IRawConfig } from '../rawConfig';
-import type { ISanitisedTeam } from '../sanitisedTeam';
+import type { IRawConfig, IRawConfigOfficial } from '../rawConfig';
+import type { ISanitisedOfficial, ISanitisedTeam } from '../sanitisedTeam';
+import { toInitials } from './toInitials';
 
 export interface Options {
   config: IRawConfig;
@@ -18,6 +19,15 @@ const convertGender = (playerGenders: PlayerGenderEnum[]): TeamGenderEnum => {
   return teamGenderEnum.mixed;
 };
 
+const mapOfficial = (official: IRawConfigOfficial): ISanitisedOfficial => {
+  if (official === null) {
+    return null;
+  }
+
+  const initials = toInitials(official.firstName, official.familyName);
+  return { ...official, initials };
+};
+
 export const transformTeams = ({ config }: Options): ISanitisedTeam[] =>
   map(config.teams, (team) => ({
     code: team.code,
@@ -26,8 +36,8 @@ export const transformTeams = ({ config }: Options): ISanitisedTeam[] =>
     birthYears: map(team.ages, (age) => config.seasonYear - age),
     playerGenders: team.genders,
     teamGender: convertGender(team.genders),
-    headCoach: team.headCoach,
-    assistantCoach: team.assistantCoach,
-    trainer: team.trainer,
-    teamManager: team.teamManager,
+    headCoach: mapOfficial(team.headCoach),
+    assistantCoach: mapOfficial(team.assistantCoach),
+    trainer: mapOfficial(team.trainer),
+    teamManager: mapOfficial(team.teamManager),
   }));

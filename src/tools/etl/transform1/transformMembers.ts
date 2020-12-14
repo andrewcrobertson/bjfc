@@ -12,6 +12,7 @@ import split from 'lodash/split';
 import uniq from 'lodash/uniq';
 import type { IRawConfig } from '../rawConfig';
 import type { IRawMember } from '../rawMember';
+import { toInitials } from './toInitials';
 
 export interface Options {
   config: IRawConfig;
@@ -24,7 +25,8 @@ const toString = (values: string[]) => {
 };
 
 const transformGuardian = ({ familyName, firstName, phone1, phone2, mobile, email }) => {
-  const guardian = { familyName, firstName, contacts: [] };
+  const initials = toInitials(firstName, familyName);
+  const guardian = { familyName, firstName, initials, contacts: [] };
   const phones = toString([phone1, phone2, mobile]);
   if (phones !== null) guardian.contacts.push({ type: 'Phone', value: phones });
   if (email !== null) guardian.contacts.push({ type: 'Email', value: email });
@@ -51,6 +53,7 @@ export const transformMembers = ({ config, members: membersRaw }: Options) => {
   const playerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));
   const orderedTeams = sortBy(config.teams, ({ ages }) => Math.max(...ages));
   const members = map(membersRaw, (member) => {
+    const initials = toInitials(member.firstName, member.familyName);
     const yearOfBirth = parseInt(first(split(member.dateOfBirth, '-')));
     const contact = transformContact(member.contact ?? ({} as any));
     const emergencyContact = transformEmergencyContact(member.emergencyContact ?? ({} as any));
@@ -63,7 +66,19 @@ export const transformMembers = ({ config, members: membersRaw }: Options) => {
     const teams = filter(orderedTeams, ({ ages, genders }) => includes(ages, config.seasonYear - yearOfBirth) && includes(genders, member.gender));
     const teamCodes = map(teams, ({ code }) => code);
     const teamCode = playerTeamExceptions[member.footyWebNumber] ?? first(teamCodes) ?? null;
-    return { ...member, yearOfBirth, club, teamCode, registeredLastSeason, registeredThisSeason, paidThisSeason, contact, emergencyContact, guardians };
+    return {
+      ...member,
+      initials,
+      yearOfBirth,
+      club,
+      teamCode,
+      registeredLastSeason,
+      registeredThisSeason,
+      paidThisSeason,
+      contact,
+      emergencyContact,
+      guardians,
+    };
   });
 
   return members;
