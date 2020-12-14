@@ -54,4 +54,5 @@ export interface ISanitisedMember {
   club: string;
   registeredLastSeason: boolean;
   registeredThisSeason: boolean;
+  paidThisSeason: boolean;
 }

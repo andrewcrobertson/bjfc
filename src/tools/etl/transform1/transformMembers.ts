@@ -47,10 +47,12 @@ export const transformMembers = ({ config, members: membersRaw }: Options) => {
     const emergencyContact = transformEmergencyContact(member.emergencyContact ?? ({} as any));
     const guardians = map(member.guardians, (guardian) => transformGuardian(guardian));
     const registeredLastSeason = find(member.transactions, ({ product }) => includes(config.registeredLastSeason, product)) !== undefined;
-    const registeredThisSeason = find(member.transactions, ({ product }) => includes(config.registeredThisSeason, product)) !== undefined;
+    const thisSeasonProduct = find(member.transactions, ({ product }) => includes(config.registeredThisSeason, product));
+    const registeredThisSeason = thisSeasonProduct !== undefined;
+    const paidThisSeason = thisSeasonProduct !== undefined && thisSeasonProduct.transactionStatus === 'Paid';
     const club = member.transfers.length === 0 ? 'Bayswater' : last(member.transfers).destinationClub;
 
-    return { ...member, club, registeredLastSeason, registeredThisSeason, contact, emergencyContact, guardians };
+    return { ...member, club, registeredLastSeason, registeredThisSeason, paidThisSeason, contact, emergencyContact, guardians };
   });
 
   return members;
