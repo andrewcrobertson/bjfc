@@ -5,8 +5,8 @@ import join from 'lodash/join';
 import keyBy from 'lodash/keyBy';
 import map from 'lodash/map';
 import uniq from 'lodash/uniq';
-import type { IConfig } from '../config';
-import type { IMember } from '../member';
+import type { IConfig } from './config';
+import type { IMember } from './member';
 
 export interface Options {
   config: IConfig;
@@ -38,7 +38,7 @@ const transformContact = ({ phoneHome, phoneWork, phoneMobile, email1, email2 })
   const phones = toString([phoneHome, phoneWork, phoneMobile]);
   if (phones !== null) contacts.push({ type: 'Phone', value: phones });
   const email = toString([email1, email2]);
-  if (email !== null) contacts.push({ type: 'email', value: email });
+  if (email !== null) contacts.push({ type: 'Email', value: email });
   return contacts;
 };
 

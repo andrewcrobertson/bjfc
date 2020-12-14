@@ -1,4 +1,5 @@
 {
+  "seasonYear": 2021,
   "registeredLastSeason": [
     "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Girls Registration Fee",
     "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Boys Registration Fee"
@@ -11,7 +12,7 @@
     {
       "code": "U18G",
       "name": "Under 18 Girls",
-      "years": [2003, 2004],
+      "ages": [18, 17],
       "genders": ["Female"],
       "headCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
       "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
@@ -21,7 +22,7 @@
     {
       "code": "U17B-GOLD",
       "name": "Under 17 Boys (Gold)",
-      "years": [2004],
+      "ages": [17],
       "genders": ["Male"],
       "headCoach": { "firstName": "Jarrod", "familyName": "Amey", "phone": "0439 039 578", "email": "jazznchaz01@gmail.com" },
       "assistantCoach": { "firstName": "Danny", "familyName": "Phillips", "phone": "0417 339 397", "email": "danny.phillips@thermon.com" },
@@ -31,7 +32,7 @@
     {
       "code": "U17B-GREEN",
       "name": "Under 17 Boys (Green)",
-      "years": [2005],
+      "ages": [16],
       "genders": ["Male"],
       "headCoach": { "firstName": "Lachie", "familyName": "McGuire", "phone": "0488 149 080", "email": "lachlan.mcguire2@bigpond.com" },
       "assistantCoach": { "firstName": "Nic", "familyName": "Maxwell", "phone": null, "email": "nicmaxwell44@optusnet.com.au" },
@@ -41,7 +42,7 @@
     {
       "code": "U16G",
       "name": "Under 16 Girls",
-      "years": [2005, 2006],
+      "ages": [16, 15],
       "genders": ["Female"],
       "headCoach": { "firstName": "Michael", "familyName": "Hughson", "phone": "0401 995 003", "email": "Michael.Hughson@trendwindows.com.au" },
       "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
@@ -51,7 +52,7 @@
     {
       "code": "U14B",
       "name": "Under 14 Boys",
-      "years": [2007, 2008],
+      "ages": [14, 13],
       "genders": ["Male"],
       "headCoach": { "firstName": "Andrew", "familyName": "Peters", "phone": "0409 794 180", "email": "apeters@swin.edu.au" },
       "assistantCoach": { "firstName": "Steve", "familyName": "Roberts", "phone": "0474 221 909", "email": "cbrsteve.roberts@gmail.com" },
@@ -61,7 +62,7 @@
     {
       "code": "U14G",
       "name": "Under 14 Girls",
-      "years": [2007, 2008],
+      "ages": [14, 13],
       "genders": ["Female"],
       "headCoach": { "firstName": "Matt", "familyName": "Rennison", "phone": "", "email": "golfman05@live.com" },
       "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
@@ -71,7 +72,7 @@
     {
       "code": "U12G",
       "name": "Under 12 Girls",
-      "years": [2009, 2010, 2011, 2012],
+      "ages": [12, 11, 10, 9],
       "genders": ["Female"],
       "headCoach": { "firstName": "Kevin", "familyName": "Maniscalchi", "phone": "0421 785 622", "email": "kmaniscalchi@outlook.com" },
       "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
@@ -81,7 +82,7 @@
     {
       "code": "U12B",
       "name": "Under 12 Boys",
-      "years": [2009, 2010],
+      "ages": [12, 11],
       "genders": ["Male"],
       "headCoach": { "firstName": "Andrew", "familyName": "Rippon", "phone": "0412 244 056", "email": "chipsbricklaying@hotmail.com" },
       "assistantCoach": { "firstName": "Andrew", "familyName": "Parker", "phone": "", "email": "" },
@@ -91,7 +92,7 @@
     {
       "code": "U11M",
       "name": "Under 11 Mixed",
-      "years": [2010],
+      "ages": [11],
       "genders": ["Female", "Male"],
       "headCoach": { "firstName": "Alex", "familyName": "Gunn", "phone": "0403 977 524", "email": "algunn71@hotmail.com" },
       "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
@@ -101,7 +102,7 @@
     {
       "code": "U10M",
       "name": "Under 10 Mixed",
-      "years": [2011],
+      "ages": [10],
       "genders": ["Female", "Male"],
       "headCoach": { "firstName": "Ben", "familyName": "Beveridge", "phone": "0411 105 440", "email": "benbev35@gmail.com" },
       "assistantCoach": { "firstName": "Erin", "familyName": "Chamberlain", "phone": "", "email": "" },
@@ -111,7 +112,7 @@
     {
       "code": "U09M",
       "name": "Under 9 Mixed",
-      "years": [2012],
+      "ages": [9],
       "genders": ["Female", "Male"],
       "headCoach": { "firstName": "Mark", "familyName": "Hindson", "phone": "0419 149 500", "email": "mark@icircle.net" },
       "assistantCoach": { "firstName": "Rob", "familyName": "Kinstler", "phone": "", "email": "robertgk.66@gmail.com" },
@@ -121,7 +122,7 @@
     {
       "code": "U08M",
       "name": "Under 8 Mixed",
-      "years": [2013],
+      "ages": [8, 7],
       "genders": ["Female", "Male"],
       "headCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },
       "assistantCoach": { "firstName": "", "familyName": "", "phone": "", "email": "" },

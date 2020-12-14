@@ -6,8 +6,8 @@ import last from 'lodash/last';
 import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
 import split from 'lodash/split';
-import type { IConfig } from '../config';
-import type { IMember } from '../member';
+import type { IConfig } from './config';
+import type { IMember } from './member';
 
 export interface Options {
   config: IConfig;

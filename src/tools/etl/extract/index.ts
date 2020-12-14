@@ -5,10 +5,11 @@ import filter from 'lodash/filter';
 import groupBy from 'lodash/groupBy';
 import map from 'lodash/map';
 import mapKeys from 'lodash/mapKeys';
-import type { IConfig } from '../config';
-import type { IMember } from '../member';
-import { getYear } from './getYear';
+import type { IConfig } from '../transform1/config';
+import type { IMember } from '../transform1/member';
+import { getPlayerOldestBirthYear } from './getPlayerOldestBirthYear';
 import { member } from './member';
+import { sanitiseConfig } from './sanitiseConfig';
 
 export interface Options {
   configPath: string;
@@ -18,9 +19,9 @@ export interface Options {
 }
 
 export const extract = async ({ configPath, allMembersCsvPath, allTransactionsCsvPath, allTransfersCsvPath }: Options) => {
-  const config = JSON.parse(fs.readFileSync(configPath, 'utf-8')) as IConfig;
+  const config = sanitiseConfig(JSON.parse(fs.readFileSync(configPath, 'utf-8'))) as IConfig;
 
-  const year = getYear(config);
+  const year = getPlayerOldestBirthYear(config);
 
   const transactionFilter = (obj: any) => obj.transactionDate !== '' && obj.product !== '' && obj.lineItemTotal !== '';
   const allTransactionsJsonRaw = await csv().fromFile(allTransactionsCsvPath);
