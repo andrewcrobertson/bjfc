@@ -907,6 +907,13 @@
           "product": "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Boys Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-14",
+          "transactionTime": "07:41",
+          "product": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Unpaid"
         }
       ],
       "transfers": [
@@ -923,7 +930,7 @@
       "club": "Bayswater",
       "teamCode": "U14B",
       "registeredLastSeason": true,
-      "registeredThisSeason": false,
+      "registeredThisSeason": true,
       "paidThisSeason": false
     },
     {
@@ -4634,6 +4641,13 @@
           "product": "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Girls Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-14",
+          "transactionTime": "10:18",
+          "product": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Girls Registration fees",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Paid"
         }
       ],
       "transfers": [],
@@ -4642,8 +4656,8 @@
       "club": "Bayswater",
       "teamCode": "U16G",
       "registeredLastSeason": true,
-      "registeredThisSeason": false,
-      "paidThisSeason": false
+      "registeredThisSeason": true,
+      "paidThisSeason": true
     },
     {
       "footyWebNumber": "03561703",
@@ -7959,6 +7973,13 @@
           "product": "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Boys Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-14",
+          "transactionTime": "14:07",
+          "product": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Unpaid"
         }
       ],
       "transfers": [],
@@ -7967,7 +7988,7 @@
       "club": "Bayswater",
       "teamCode": "U09M",
       "registeredLastSeason": true,
-      "registeredThisSeason": false,
+      "registeredThisSeason": true,
       "paidThisSeason": false
     },
     {
@@ -8105,6 +8126,13 @@
           "product": "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Boys Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-14",
+          "transactionTime": "07:56",
+          "product": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Paid"
         }
       ],
       "transfers": [],
@@ -8113,8 +8141,8 @@
       "club": "Bayswater",
       "teamCode": "U14B",
       "registeredLastSeason": true,
-      "registeredThisSeason": false,
-      "paidThisSeason": false
+      "registeredThisSeason": true,
+      "paidThisSeason": true
     },
     {
       "footyWebNumber": "02625774",
@@ -10631,6 +10659,13 @@
           "product": "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Boys Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-14",
+          "transactionTime": "11:31",
+          "product": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Paid"
         }
       ],
       "transfers": [],
@@ -10639,8 +10674,8 @@
       "club": "Bayswater",
       "teamCode": "U09M",
       "registeredLastSeason": true,
-      "registeredThisSeason": false,
-      "paidThisSeason": false
+      "registeredThisSeason": true,
+      "paidThisSeason": true
     },
     {
       "footyWebNumber": "03491580",
@@ -19047,6 +19082,13 @@
           "product": "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Boys Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-14",
+          "transactionTime": "10:18",
+          "product": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Paid"
         }
       ],
       "transfers": [],
@@ -19055,8 +19097,8 @@
       "club": "Bayswater",
       "teamCode": "U14B",
       "registeredLastSeason": true,
-      "registeredThisSeason": false,
-      "paidThisSeason": false
+      "registeredThisSeason": true,
+      "paidThisSeason": true
     },
     {
       "footyWebNumber": "03268326",
@@ -21390,6 +21432,13 @@
           "product": "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Girls Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-14",
+          "transactionTime": "08:16",
+          "product": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Girls Registration fees",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Unpaid"
         }
       ],
       "transfers": [],
@@ -21398,7 +21447,7 @@
       "club": "Bayswater",
       "teamCode": "U12G",
       "registeredLastSeason": true,
-      "registeredThisSeason": false,
+      "registeredThisSeason": true,
       "paidThisSeason": false
     },
     {
@@ -21448,6 +21497,13 @@
           "product": "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Girls Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-14",
+          "transactionTime": "08:17",
+          "product": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Girls Registration fees",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Unpaid"
         }
       ],
       "transfers": [],
@@ -21456,7 +21512,7 @@
       "club": "Bayswater",
       "teamCode": "U14G",
       "registeredLastSeason": true,
-      "registeredThisSeason": false,
+      "registeredThisSeason": true,
       "paidThisSeason": false
     },
     {
@@ -21528,6 +21584,20 @@
           "product": "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Boys Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-14",
+          "transactionTime": "07:16",
+          "product": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Unpaid"
+        },
+        {
+          "transactionDate": "2020-12-14",
+          "transactionTime": "07:16",
+          "product": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Paid"
         }
       ],
       "transfers": [],
@@ -21536,7 +21606,7 @@
       "club": "Bayswater",
       "teamCode": "U11M",
       "registeredLastSeason": true,
-      "registeredThisSeason": false,
+      "registeredThisSeason": true,
       "paidThisSeason": false
     },
     {
@@ -21794,6 +21864,13 @@
           "product": "Club - 2020 Junior Club Fees (Revised)",
           "lineItemTotal": "135.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-14",
+          "transactionTime": "11:37",
+          "product": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Girls Registration fees",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Paid"
         }
       ],
       "transfers": [
@@ -21810,8 +21887,8 @@
       "club": "Bayswater",
       "teamCode": "U16G",
       "registeredLastSeason": true,
-      "registeredThisSeason": false,
-      "paidThisSeason": false
+      "registeredThisSeason": true,
+      "paidThisSeason": true
     },
     {
       "footyWebNumber": "02640227",
@@ -23756,6 +23833,13 @@
           "product": "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Boys Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-14",
+          "transactionTime": "15:24",
+          "product": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Unpaid"
         }
       ],
       "transfers": [
@@ -23772,7 +23856,7 @@
       "club": "Bayswater",
       "teamCode": "U17B-GOLD",
       "registeredLastSeason": true,
-      "registeredThisSeason": false,
+      "registeredThisSeason": true,
       "paidThisSeason": false
     },
     {
@@ -24128,6 +24212,13 @@
           "product": "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Boys Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-14",
+          "transactionTime": "21:56",
+          "product": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Unpaid"
         }
       ],
       "transfers": [],
@@ -24136,7 +24227,7 @@
       "club": "Bayswater",
       "teamCode": "U11M",
       "registeredLastSeason": true,
-      "registeredThisSeason": false,
+      "registeredThisSeason": true,
       "paidThisSeason": false
     },
     {
