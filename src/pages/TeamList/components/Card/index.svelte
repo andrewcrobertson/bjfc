@@ -1,9 +1,9 @@
 <script lang="ts">
-  import BadgeCheckIcon from '../BadgeCheckIcon';
-  import CurrencyDollarIcon from '../CurrencyDollarIcon';
-  import CardOfficial from '../CardOfficial';
-  import { background } from '@this/constants/theme';
   import * as teamGenderEnum from '@this/constants/teamGenderEnum';
+  import { background } from '@this/constants/theme';
+  import BadgeCheckIcon from '@this/icons/BadgeCheckIcon';
+  import CurrencyDollarIcon from '@this/icons/CurrencyDollarIcon';
+  import CardOfficial from '../CardOfficial';
 
   export let url = '';
   export let teamGender = teamGenderEnum.mixed as string;
