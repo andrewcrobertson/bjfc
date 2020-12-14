@@ -5,7 +5,7 @@
   import CurrencyDollarIcon from '@this/icons/CurrencyDollarIcon';
   import CardOfficial from '../CardOfficial';
 
-  export let url = '';
+  export let code = '';
   export let teamGender = teamGenderEnum.mixed as string;
   export let ageGroupCode = '';
   export let name = '';
@@ -19,7 +19,7 @@
   const colour = background[teamGender];
 </script>
 
-<a class="xl:w-1/3 md:w-1/2 w-full p-2 sm:p-4" href={url}>
+<div class="xl:w-1/3 md:w-1/2 w-full p-2 sm:p-4">
   <div class="border border-gray-300 p-6">
     <div class="flex justify-between items-center mb-4">
       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{ageGroupCode}</div>
@@ -41,5 +41,9 @@
         Paid
       </span>
     </div>
+    <div class="text-center mt-4 leading-none flex justify-between w-full">
+      <a class="text-sm border border-gray-300 px-6 py-3" href="/teams/{code}/officials"> Officials </a>
+      <a class="text-sm border border-gray-300 px-6 py-3" href="/teams/{code}/members"> Players </a>
+    </div>
   </div>
-</a>
+</div>
