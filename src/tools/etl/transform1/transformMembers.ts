@@ -24,29 +24,9 @@ const toString = (values: string[]) => {
   return output === '' ? null : output;
 };
 
-const transformGuardian = ({ familyName, firstName, phone1, phone2, mobile, email }) => {
-  const initials = toInitials(firstName, familyName);
-  const guardian = { familyName, firstName, initials, contacts: [] };
-  const phones = toString([phone1, phone2, mobile]);
-  if (phones !== null) guardian.contacts.push({ type: 'Phone', value: phones });
-  if (email !== null) guardian.contacts.push({ type: 'Email', value: email });
-  return guardian;
-};
-
-const transformEmergencyContact = ({ relationship, name, phone1, phone2 }) => {
-  const emergencyContact = { relationship, name, contacts: [] };
-  const phones = toString([phone1, phone2]);
-  if (phones !== null) emergencyContact.contacts.push({ type: 'Phone', value: phones });
-  return emergencyContact;
-};
-
-const transformContact = ({ phoneHome, phoneWork, phoneMobile, email1, email2 }) => {
-  const contacts = [];
-  const phones = toString([phoneHome, phoneWork, phoneMobile]);
-  if (phones !== null) contacts.push({ type: 'Phone', value: phones });
-  const email = toString([email1, email2]);
-  if (email !== null) contacts.push({ type: 'email', value: email });
-  return contacts;
+const transformGuardian = (guardian) => {
+  const initials = toInitials(guardian.firstName, guardian.familyName);
+  return { initials, ...guardian };
 };
 
 export const transformMembers = ({ config, members: membersRaw }: Options) => {
@@ -55,8 +35,6 @@ export const transformMembers = ({ config, members: membersRaw }: Options) => {
   const members = map(membersRaw, (member) => {
     const initials = toInitials(member.firstName, member.familyName);
     const yearOfBirth = parseInt(first(split(member.dateOfBirth, '-')));
-    const contact = transformContact(member.contact ?? ({} as any));
-    const emergencyContact = transformEmergencyContact(member.emergencyContact ?? ({} as any));
     const guardians = map(member.guardians, (guardian) => transformGuardian(guardian));
     const registeredLastSeason = find(member.transactions, ({ product }) => includes(config.registeredLastSeason, product)) !== undefined;
     const thisSeasonProduct = find(member.transactions, ({ product }) => includes(config.registeredThisSeason, product));
@@ -75,8 +53,6 @@ export const transformMembers = ({ config, members: membersRaw }: Options) => {
       registeredLastSeason,
       registeredThisSeason,
       paidThisSeason,
-      contact,
-      emergencyContact,
       guardians,
     };
   });

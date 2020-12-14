@@ -7,13 +7,18 @@ export interface ISanitisedMemberGuardian {
   familyName: string;
   firstName: string;
   initials: string;
+  phone1: string;
+  phone2: string;
+  mobile: string;
+  email: string;
   contacts: ISanitisedContactMethod[];
 }
 
 export interface ISanitisedMemberEmergencyContact {
   relationship: string;
   name: string;
-  contacts: ISanitisedContactMethod[];
+  phone1: string;
+  phone2: string;
 }
 
 export interface ISanitisedMemberContact {
@@ -51,7 +56,7 @@ export interface ISanitisedMember {
   gender: string;
   guardians: ISanitisedMemberGuardian[];
   emergencyContact: ISanitisedMemberEmergencyContact;
-  contact: ISanitisedContactMethod[];
+  contact: ISanitisedMemberContact;
   transactions: ISanitisedMemberTransaction[];
   transfers: ISanitisedMemberTransfer[];
   club: string;
