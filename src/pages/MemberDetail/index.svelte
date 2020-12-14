@@ -2,12 +2,16 @@
   import { Tabs, TabList, TabPanel, Tab } from '@this/components/Tabs';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import PanelGuardian from './components/PanelGuardian';
+  import PanelEmergency from './components/PanelEmergency';
+  import PanelContact from './components/PanelContact';
   import PanelTransaction from './components/PanelTransaction';
   import PanelTransfer from './components/PanelTransfer';
   import members from './data';
   export let code: string = null;
 
   const member = members[code];
+  const emergencyContacts = member.emergencyContact === null ? [] : [member.emergencyContact];
+  const contacts = member.contact === null ? [] : [member.contact];
   pageTitle.set(`${member.firstName} ${member.familyName}`);
 </script>
 
@@ -21,10 +25,10 @@
     <PanelGuardian guardians={member.guardians} />
   </TabPanel>
   <TabPanel>
-    <PanelGuardian guardians={member.guardians} />
+    <PanelEmergency contacts={emergencyContacts} />
   </TabPanel>
   <TabPanel>
-    <PanelGuardian guardians={member.guardians} />
+    <PanelContact {contacts} />
   </TabPanel>
 </Tabs>
 
