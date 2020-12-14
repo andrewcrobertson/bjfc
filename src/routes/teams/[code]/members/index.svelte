@@ -6,8 +6,8 @@
 </script>
 
 <script lang="ts">
-  import TeamDetailPage from '@this/pages/TeamDetail';
+  import TeamMemberListPage from '@this/pages/TeamMemberList';
   export let code: string = null;
 </script>
 
-<TeamDetailPage {code} />
+<TeamMemberListPage {code} />

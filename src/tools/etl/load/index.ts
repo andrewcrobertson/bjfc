@@ -3,9 +3,10 @@ import path from 'path';
 
 export interface Options {
   standardLayout: any;
-  teamList: any;
-  teamDetail: any;
   memberDetail: any;
+  teamList: any;
+  teamMemberList: any;
+  teamOfficialList: any;
 }
 
 const file = 'data.ts';
@@ -21,7 +22,8 @@ const writeLayout = (name: string, data: any) => write(name, 'layouts', data);
 
 export const load = (options: Options) => {
   writeLayout('StandardLayout', options.standardLayout);
-  writePage('TeamList', options.teamList);
-  writePage('TeamDetail', options.teamDetail);
   writePage('MemberDetail', options.memberDetail);
+  writePage('TeamList', options.teamList);
+  writePage('TeamMemberList', options.teamMemberList);
+  writePage('TeamOfficialList', options.teamOfficialList);
 };

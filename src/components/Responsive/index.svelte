@@ -4,8 +4,6 @@
   $: width = 0;
   $: small = width <= sm;
   const sm = parseInt(config.theme.screens.sm.replace('px', ''));
-
-  $: console.log(small);
 </script>
 
 <svelte:window bind:outerWidth={width} />

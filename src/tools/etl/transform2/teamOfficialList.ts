@@ -13,7 +13,7 @@ export interface Options {
   teams: ISanitisedTeam[];
 }
 
-export const teamDetail = ({ teams, members }: Options) => {
+export const teamOfficialList = ({ teams, members }: Options) => {
   const output: any = {};
 
   each(teams, ({ code, name, headCoach, assistantCoach, teamManager, trainer }) => {
