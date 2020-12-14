@@ -6,12 +6,14 @@ import last from 'lodash/last';
 import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
 import split from 'lodash/split';
-import type { IConfig } from './config';
-import type { IMember } from '../rawConfig
+import type { ISanitisedConfig } from '../sanitisedConfig';
+import type { ISanitisedMember } from '../sanitisedMember';
+import type { ISanitisedTeam } from '../sanitisedTeam';
 
 export interface Options {
-  config: IConfig;
-  members: IMember[];
+  config: ISanitisedConfig;
+  members: ISanitisedMember[];
+  teams: ISanitisedTeam;
 }
 
 export const teamDetail = ({ config, members }: Options) => {

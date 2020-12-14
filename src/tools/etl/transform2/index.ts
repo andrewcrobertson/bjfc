@@ -1,16 +1,18 @@
-import type { IConfig } from './config';
-import type { IMember } from './member';
+import type { ISanitisedConfig } from '../sanitisedConfig';
+import type { ISanitisedMember } from '../sanitisedMember';
+import type { ISanitisedTeam } from '../sanitisedTeam';
 import { memberDetail } from './memberDetail';
 import { teamDetail } from './teamDetail';
 import { teamList } from './teamList';
 
 export interface Options {
-  config: IConfig;
-  members: IMember[];
+  config: ISanitisedConfig;
+  members: ISanitisedMember[];
+  teams: ISanitisedTeam;
 }
 
-export const transform2 = ({ config, members }: Options) => ({
-  teamList: teamList({ config }),
-  teamDetail: teamDetail({ config, members }),
-  memberDetail: memberDetail({ config, members }),
+export const transform2 = (options: Options) => ({
+  teamList: teamList(options),
+  teamDetail: teamDetail(options),
+  memberDetail: memberDetail(options),
 });

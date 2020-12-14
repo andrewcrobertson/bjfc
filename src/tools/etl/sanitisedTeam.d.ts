@@ -1,4 +1,4 @@
-import type { PlayerGenderEnum } from '@this/constants/enums';
+import type { TeamGenderEnum } from '@this/constants/enums';
 
 export interface IRawConfigOfficial {
   firstName: string;
@@ -11,7 +11,7 @@ export interface ISanitisedTeam {
   code: string;
   name: string;
   ages: number[];
-  genders: PlayerGenderEnum[];
+  gender: TeamGenderEnum;
   headCoach: IRawConfigOfficial;
   assistantCoach: IRawConfigOfficial;
   trainer: IRawConfigOfficial;

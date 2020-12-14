@@ -5,12 +5,14 @@ import join from 'lodash/join';
 import keyBy from 'lodash/keyBy';
 import map from 'lodash/map';
 import uniq from 'lodash/uniq';
-import type { IConfig } from './config';
-import type { IMember } from '../rawConfig
+import type { ISanitisedConfig } from '../sanitisedConfig';
+import type { ISanitisedMember } from '../sanitisedMember';
+import type { ISanitisedTeam } from '../sanitisedTeam';
 
 export interface Options {
-  config: IConfig;
-  members: IMember[];
+  config: ISanitisedConfig;
+  members: ISanitisedMember[];
+  teams: ISanitisedTeam;
 }
 
 const toString = (values: string[]) => {
