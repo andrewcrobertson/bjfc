@@ -1,5 +1,6 @@
 import csv from 'csvtojson';
 import fs from 'fs';
+import { includes } from 'lodash';
 import camelCase from 'lodash/camelCase';
 import filter from 'lodash/filter';
 import groupBy from 'lodash/groupBy';
@@ -23,6 +24,7 @@ export const extract = async ({ configPath, allMembersCsvPath, allTransactionsCs
 
   const yearMale = getPlayerOldestBirthYear(config, 'Male');
   const yearFemale = getPlayerOldestBirthYear(config, 'Female');
+  const noContact = map(config.noContact, ({ footyWebNumber }) => footyWebNumber);
 
   const transactionFilter = (obj: any) => obj.transactionDate !== '' && obj.product !== '' && obj.lineItemTotal !== '';
   const allTransactionsJsonRaw = await csv().fromFile(allTransactionsCsvPath);
@@ -37,7 +39,7 @@ export const extract = async ({ configPath, allMembersCsvPath, allTransactionsCs
   const allTransfersJson = groupBy(allTransfersJsonFiltered, 'footyWebNumber');
 
   const getYear = (gender) => (gender === 'Male' ? yearMale : gender === 'Female' ? yearFemale : Math.max(yearMale, yearFemale));
-  const memberFilter = (obj: any) => parseInt(obj.dateOfBirth.slice(-4)) >= getYear(obj.gender);
+  const memberFilter = (obj: any) => parseInt(obj.dateOfBirth.slice(-4)) >= getYear(obj.gender) && !includes(noContact, obj.footyWebNumber);
   const memberMap = (obj: any) => sanitiseMember(obj, allTransactionsJson[obj.footyWebNumber], allTransfersJson[obj.footyWebNumber]);
   const allMembersJsonRaw = await csv().fromFile(allMembersCsvPath);
   const allMembersJsonAll = map(allMembersJsonRaw, (obj: any) => mapKeys(obj, (_value, key) => camelCase(key)));

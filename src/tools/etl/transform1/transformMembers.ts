@@ -2,6 +2,7 @@ import compact from 'lodash/compact';
 import filter from 'lodash/filter';
 import find from 'lodash/find';
 import first from 'lodash/first';
+import fromPairs from 'lodash/fromPairs';
 import includes from 'lodash/includes';
 import join from 'lodash/join';
 import last from 'lodash/last';
@@ -47,6 +48,7 @@ const transformContact = ({ phoneHome, phoneWork, phoneMobile, email1, email2 })
 };
 
 export const transformMembers = ({ config, members: membersRaw }: Options) => {
+  const playerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));
   const orderedTeams = sortBy(config.teams, ({ ages }) => Math.max(...ages));
   const members = map(membersRaw, (member) => {
     const yearOfBirth = parseInt(first(split(member.dateOfBirth, '-')));
@@ -60,7 +62,7 @@ export const transformMembers = ({ config, members: membersRaw }: Options) => {
     const club = member.transfers.length === 0 ? 'Bayswater' : last(member.transfers).destinationClub;
     const teams = filter(orderedTeams, ({ ages, genders }) => includes(ages, config.seasonYear - yearOfBirth) && includes(genders, member.gender));
     const teamCodes = map(teams, ({ code }) => code);
-    const teamCode = first(teamCodes) ?? null;
+    const teamCode = playerTeamExceptions[member.footyWebNumber] ?? first(teamCodes) ?? null;
     return { ...member, yearOfBirth, club, teamCode, registeredLastSeason, registeredThisSeason, paidThisSeason, contact, emergencyContact, guardians };
   });
 
