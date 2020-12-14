@@ -1,4 +1,4 @@
-import type { IConfig } from './config';
+import type { IConfig } from '../rawConfig';
 
 export interface Options {
   config: IConfig;

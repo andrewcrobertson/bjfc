@@ -5,8 +5,8 @@ import join from 'lodash/join';
 import keyBy from 'lodash/keyBy';
 import map from 'lodash/map';
 import uniq from 'lodash/uniq';
-import type { IConfig } from './config';
-import type { IMember } from '../rawConfig
+import type { IConfig } from '../rawConfig';
+import type { IMember } from '../rawMember';
 
 export interface Options {
   config: IConfig;

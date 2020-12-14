@@ -1,6 +1,6 @@
 import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
-import type { IConfig } from './config';
+import type { IConfig } from '../rawConfig
 
 export interface Options {
   config: IConfig;

@@ -3,38 +3,27 @@
     {
       "code": "U18G",
       "name": "Under 18 Girls",
-      "ages": [18, 17],
-      "genders": ["Female"],
-      "headCoach": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
-      "assistantCoach": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
-      "trainer": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
-      "teamManager": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      }
+      "ages": [
+        18,
+        17
+      ],
+      "genders": [
+        "Female"
+      ],
+      "headCoach": null,
+      "assistantCoach": null,
+      "trainer": null,
+      "teamManager": null
     },
     {
       "code": "U17B-GOLD",
       "name": "Under 17 Boys (Gold)",
-      "ages": [17],
-      "genders": ["Male"],
+      "ages": [
+        17
+      ],
+      "genders": [
+        "Male"
+      ],
       "headCoach": {
         "firstName": "Jarrod",
         "familyName": "Amey",
@@ -63,8 +52,12 @@
     {
       "code": "U17B-GREEN",
       "name": "Under 17 Boys (Green)",
-      "ages": [16],
-      "genders": ["Male"],
+      "ages": [
+        16
+      ],
+      "genders": [
+        "Male"
+      ],
       "headCoach": {
         "firstName": "Lachie",
         "familyName": "McGuire",
@@ -93,26 +86,21 @@
     {
       "code": "U16G",
       "name": "Under 16 Girls",
-      "ages": [16, 15],
-      "genders": ["Female"],
+      "ages": [
+        16,
+        15
+      ],
+      "genders": [
+        "Female"
+      ],
       "headCoach": {
         "firstName": "Michael",
         "familyName": "Hughson",
         "phone": "0401 995 003",
         "email": "Michael.Hughson@trendwindows.com.au"
       },
-      "assistantCoach": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
-      "trainer": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
+      "assistantCoach": null,
+      "trainer": null,
       "teamManager": {
         "firstName": "Kylie",
         "familyName": "Cameron",
@@ -123,8 +111,13 @@
     {
       "code": "U14B",
       "name": "Under 14 Boys",
-      "ages": [14, 13],
-      "genders": ["Male"],
+      "ages": [
+        14,
+        13
+      ],
+      "genders": [
+        "Male"
+      ],
       "headCoach": {
         "firstName": "Andrew",
         "familyName": "Peters",
@@ -137,12 +130,7 @@
         "phone": "0474 221 909",
         "email": "cbrsteve.roberts@gmail.com"
       },
-      "trainer": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
+      "trainer": null,
       "teamManager": {
         "firstName": "Deanna",
         "familyName": "Derham",
@@ -153,68 +141,60 @@
     {
       "code": "U14G",
       "name": "Under 14 Girls",
-      "ages": [14, 13],
-      "genders": ["Female"],
+      "ages": [
+        14,
+        13
+      ],
+      "genders": [
+        "Female"
+      ],
       "headCoach": {
         "firstName": "Matt",
         "familyName": "Rennison",
         "phone": "",
         "email": "golfman05@live.com"
       },
-      "assistantCoach": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
+      "assistantCoach": null,
       "trainer": {
         "firstName": "Dragana",
         "familyName": "Hindson",
         "phone": "",
         "email": "dragana@icircle.net"
       },
-      "teamManager": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      }
+      "teamManager": null
     },
     {
       "code": "U12G",
       "name": "Under 12 Girls",
-      "ages": [12, 11, 10, 9],
-      "genders": ["Female"],
+      "ages": [
+        12,
+        11,
+        10,
+        9
+      ],
+      "genders": [
+        "Female"
+      ],
       "headCoach": {
         "firstName": "Kevin",
         "familyName": "Maniscalchi",
         "phone": "0421 785 622",
         "email": "kmaniscalchi@outlook.com"
       },
-      "assistantCoach": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
-      "trainer": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
-      "teamManager": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      }
+      "assistantCoach": null,
+      "trainer": null,
+      "teamManager": null
     },
     {
       "code": "U12B",
       "name": "Under 12 Boys",
-      "ages": [12, 11],
-      "genders": ["Male"],
+      "ages": [
+        12,
+        11
+      ],
+      "genders": [
+        "Male"
+      ],
       "headCoach": {
         "firstName": "Andrew",
         "familyName": "Rippon",
@@ -227,12 +207,7 @@
         "phone": "",
         "email": ""
       },
-      "trainer": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
+      "trainer": null,
       "teamManager": {
         "firstName": "Beccy",
         "familyName": "Dawber",
@@ -243,26 +218,21 @@
     {
       "code": "U11M",
       "name": "Under 11 Mixed",
-      "ages": [11],
-      "genders": ["Female", "Male"],
+      "ages": [
+        11
+      ],
+      "genders": [
+        "Female",
+        "Male"
+      ],
       "headCoach": {
         "firstName": "Alex",
         "familyName": "Gunn",
         "phone": "0403 977 524",
         "email": "algunn71@hotmail.com"
       },
-      "assistantCoach": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
-      "trainer": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
+      "assistantCoach": null,
+      "trainer": null,
       "teamManager": {
         "firstName": "Deb",
         "familyName": "Pearson",
@@ -273,8 +243,13 @@
     {
       "code": "U10M",
       "name": "Under 10 Mixed",
-      "ages": [10],
-      "genders": ["Female", "Male"],
+      "ages": [
+        10
+      ],
+      "genders": [
+        "Female",
+        "Male"
+      ],
       "headCoach": {
         "firstName": "Ben",
         "familyName": "Beveridge",
@@ -287,24 +262,19 @@
         "phone": "",
         "email": ""
       },
-      "trainer": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
-      "teamManager": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      }
+      "trainer": null,
+      "teamManager": null
     },
     {
       "code": "U09M",
       "name": "Under 9 Mixed",
-      "ages": [9],
-      "genders": ["Female", "Male"],
+      "ages": [
+        9
+      ],
+      "genders": [
+        "Female",
+        "Male"
+      ],
       "headCoach": {
         "firstName": "Mark",
         "familyName": "Hindson",
@@ -317,48 +287,24 @@
         "phone": "",
         "email": "robertgk.66@gmail.com"
       },
-      "trainer": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
-      "teamManager": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      }
+      "trainer": null,
+      "teamManager": null
     },
     {
       "code": "U08M",
       "name": "Under 8 Mixed",
-      "ages": [8, 7],
-      "genders": ["Female", "Male"],
-      "headCoach": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
-      "assistantCoach": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
-      "trainer": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      },
-      "teamManager": {
-        "firstName": "",
-        "familyName": "",
-        "phone": "",
-        "email": ""
-      }
+      "ages": [
+        8,
+        7
+      ],
+      "genders": [
+        "Female",
+        "Male"
+      ],
+      "headCoach": null,
+      "assistantCoach": null,
+      "trainer": null,
+      "teamManager": null
     }
   ],
   "members": [
