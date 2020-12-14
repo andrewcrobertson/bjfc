@@ -11,7 +11,7 @@
 </script>
 
 <Tabs class="max-w-6xl mx-auto xl:py-24">
-  <TabList class="">
+  <TabList>
     <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Active</Tab>
     <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Recent</Tab>
     <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Transfer</Tab>
