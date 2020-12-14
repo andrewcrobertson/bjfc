@@ -15,4 +15,5 @@ export const transform2 = (options: Options) => ({
   teamList: teamList(options),
   teamDetail: teamDetail(options),
   memberDetail: memberDetail(options),
+  standardLayout: { seasonYear: options.config.seasonYear },
 });

@@ -4,11 +4,12 @@
   "license": "UNLICENSED",
   "version": "0.0.0",
   "scripts": {
-    "start": "sapper dev",
+    "start": "run-s _scripts:etl _sapper:dev",
     "ci:build": "run-s _scripts:etl _sapper:build _svelte-check _sapper:export _copy:cname",
     "_copy:cname": "shx cp .CNAME __sapper__/export/CNAME",
     "_scripts:etl": "ts-node src/scripts/etl",
     "_sapper:build": "sapper build",
+    "_sapper:dev": "sapper dev",
     "_sapper:export": "sapper export --legacy",
     "_svelte-check": "svelte-check --ignore src/node_modules/@sapper"
   },
