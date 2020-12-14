@@ -5,8 +5,8 @@
 
 <div class="max-w-6xl mx-auto xl:py-24">
   <div class="flex flex-wrap -m-4 sm:p-4">
-    {#each teams as { code, ageGroupCode, name, teamGender, headCoach, assistantCoach, teamManager, trainer }}
-      <Card {ageGroupCode} {name} {teamGender} {headCoach} {assistantCoach} {teamManager} {trainer} url="/teams/{code}" />
+    {#each teams as { code, ageGroupCode, name, teamGender, headCoach, assistantCoach, teamManager, trainer, registeredCount, paidCount }}
+      <Card {ageGroupCode} {name} {teamGender} {headCoach} {assistantCoach} {teamManager} {trainer} {registeredCount} {paidCount} url="/teams/{code}" />
     {/each}
   </div>
 </div>

@@ -13,6 +13,8 @@
   export let assistantCoach = null;
   export let teamManager = null;
   export let trainer = null;
+  export let registeredCount = 0;
+  export let paidCount = 0;
 
   const colour = background[teamGender];
 </script>
@@ -30,11 +32,13 @@
     <div class="text-center mt-4 leading-none flex justify-between w-full">
       <span class="mr-3 inline-flex items-center leading-none text-sm py-1">
         <BadgeCheckIcon class="w-5 h-5 mr-1 text-{colour}-500" />
-        10 (Reg'd)
+        {registeredCount}
+        (Reg'd)
       </span>
       <span class=" inline-flex items-center leading-none text-sm">
         <CurrencyDollarIcon class="w-5 h-5 mr-1 text-{colour}-500" />
-        10 (Reg'd & Paid)
+        {paidCount}
+        (Reg'd & Paid)
       </span>
     </div>
   </div>

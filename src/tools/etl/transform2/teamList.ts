@@ -1,3 +1,4 @@
+import { filter } from 'lodash';
 import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
 import type { ISanitisedConfig } from '../sanitisedConfig';
@@ -12,7 +13,13 @@ export interface Options {
 
 const mapOfficial = (official: ISanitisedOfficial) => (official === null ? null : { firstName: official.firstName, familyName: official.familyName });
 
-const mapTeam = (team: ISanitisedTeam) => ({
+const getRegisteredCount = (code: string, members: ISanitisedMember[]) =>
+  filter(members, ({ teamCode, registeredThisSeason }) => teamCode === code && registeredThisSeason).length;
+
+const getPaidCount = (code: string, members: ISanitisedMember[]) =>
+  filter(members, ({ teamCode, paidThisSeason }) => teamCode === code && paidThisSeason).length;
+
+const mapTeam = (team: ISanitisedTeam, members: ISanitisedMember[]) => ({
   code: team.code,
   ageGroupCode: team.ageGroupCode,
   name: team.name,
@@ -21,6 +28,13 @@ const mapTeam = (team: ISanitisedTeam) => ({
   assistantCoach: mapOfficial(team.assistantCoach),
   trainer: mapOfficial(team.trainer),
   teamManager: mapOfficial(team.teamManager),
+  registeredCount: getRegisteredCount(team.code, members),
+  paidCount: getPaidCount(team.code, members),
 });
 
-export const teamList = ({ teams }: Options) => orderBy(map(teams, mapTeam), ['code'], ['desc']);
+export const teamList = ({ teams, members }: Options) =>
+  orderBy(
+    map(teams, (team) => mapTeam(team, members)),
+    ['code'],
+    ['desc']
+  );

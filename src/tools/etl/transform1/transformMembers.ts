@@ -49,7 +49,6 @@ const transformContact = ({ phoneHome, phoneWork, phoneMobile, email1, email2 })
 
 export const transformMembers = ({ config, members: membersRaw }: Options) => {
   const playerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));
-  console.log(playerTeamExceptions);
   const orderedTeams = sortBy(config.teams, ({ ages }) => Math.max(...ages));
   const members = map(membersRaw, (member) => {
     const yearOfBirth = parseInt(first(split(member.dateOfBirth, '-')));
