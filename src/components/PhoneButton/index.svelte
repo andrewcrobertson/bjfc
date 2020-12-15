@@ -1,4 +1,5 @@
 <script lang="ts">
+  import replace from 'lodash/replace';
   import PhoneIcon from '@this/icons/PhoneIcon';
   let rootClass = '';
   export { rootClass as class };
@@ -13,7 +14,7 @@
     {label}: Not Listed
   </div>
 {:else}
-  <a class="{rootClass} px-6 py-3 inline-flex items-center leading-none text-sm border border-gray-300" href="tel:{phone}">
+  <a class="{rootClass} px-6 py-3 inline-flex items-center leading-none text-sm border border-gray-300" href="tel:{replace(phone, ' ', '')}">
     <PhoneIcon class="inline w-5 h-5 mr-1 text-{colour}-500" />
     {label}:
     {phone}
