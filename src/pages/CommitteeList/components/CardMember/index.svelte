@@ -7,9 +7,9 @@
 
   let rootClass = '';
   export { rootClass as class };
-  export let official: any = {};
+  export let member: any = {};
 
-  const { initials, firstName, lastName, phone, email, gender, role } = official;
+  const { initials, firstName, lastName, phone, email, gender, role } = member;
   const colour = personBackground[gender ?? personGenderEnum.unknown];
 </script>
 
