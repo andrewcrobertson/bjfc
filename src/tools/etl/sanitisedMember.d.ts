@@ -11,7 +11,6 @@ export interface ISanitisedMemberGuardian {
   phone2: string;
   mobile: string;
   email: string;
-  contacts: ISanitisedContactMethod[];
 }
 
 export interface ISanitisedMemberEmergencyContact {
@@ -58,7 +57,9 @@ export interface ISanitisedMember {
   emergencyContact: ISanitisedMemberEmergencyContact;
   contact: ISanitisedMemberContact;
   transactions: ISanitisedMemberTransaction[];
+  lastTransactionDate: string;
   transfers: ISanitisedMemberTransfer[];
+  lastTransferDate: string;
   club: string;
   teamCode: string;
   registeredRecently: boolean;

@@ -9,6 +9,7 @@ import sortBy from 'lodash/sortBy';
 import split from 'lodash/split';
 import type { IRawConfig } from '../../rawConfig';
 import type { IRawMember } from '../../rawMember';
+import type { ISanitisedMember } from '../../sanitisedMember';
 import { toInitials } from '../toInitials';
 import { transformEmergencyContact } from './transformEmergencyContact';
 import { transformGuardian } from './transformGuardian';
@@ -18,7 +19,7 @@ export interface Options {
   members: IRawMember[];
 }
 
-export const transformMembers = ({ config, members: membersRaw }: Options) => {
+export const transformMembers = ({ config, members: membersRaw }: Options): ISanitisedMember[] => {
   const playerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));
   const orderedTeams = sortBy(config.teams, ({ ages }) => Math.max(...ages));
   const members = map(membersRaw, (member) => {
@@ -39,6 +40,8 @@ export const transformMembers = ({ config, members: membersRaw }: Options) => {
       registeredThisSeason,
       paidThisSeason: thisSeasonProduct !== undefined && thisSeasonProduct.transactionStatus === 'Paid',
       guardians: map(member.guardians, (guardian) => transformGuardian(guardian)),
+      lastTransactionDate: last(map(member.transactions, ({ transactionDate }) => transactionDate).sort()),
+      lastTransferDate: last(map(member.transfers, ({ applicationDate, finalisedDate }) => finalisedDate ?? applicationDate).sort()),
     };
   });
 
