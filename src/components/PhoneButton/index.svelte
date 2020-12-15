@@ -8,7 +8,7 @@
   export let label = 'Phone';
   export let colour = 'gray';
 
-  const sanitisePhone = (phone: string) => join(split(phone, ' '));
+  const sanitisePhone = (phone: string) => join(split(phone, ' '), '');
 </script>
 
 {#if phone === null}
