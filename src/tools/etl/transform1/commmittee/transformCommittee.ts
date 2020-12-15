@@ -13,6 +13,6 @@ export const transformCommittee = ({ config }: Options): ISanitisedCommittee[] =
       return null;
     }
 
-    const initials = toInitials(official.firstName, official.familyName);
+    const initials = toInitials(official.firstName, official.lastName);
     return { ...official, initials };
   });

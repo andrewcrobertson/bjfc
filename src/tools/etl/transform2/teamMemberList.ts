@@ -13,10 +13,10 @@ export interface Options {
   teams: ISanitisedTeam[];
 }
 
-const pickRegisteredThisSeason = ['footyWebNumber', 'initials', 'familyName', 'firstName', 'gender', 'paidThisSeason'];
-const pickRegisteredRecently = ['footyWebNumber', 'initials', 'familyName', 'firstName', 'gender', 'lastTransactionDate'];
-const pickMembersTransferred = ['footyWebNumber', 'initials', 'familyName', 'firstName', 'gender', 'club', 'lastTransferDate'];
-const pickMembersOther = ['footyWebNumber', 'initials', 'familyName', 'firstName', 'gender', 'lastTransactionDate'];
+const pickRegisteredThisSeason = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'paidThisSeason'];
+const pickRegisteredRecently = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'lastTransactionDate'];
+const pickMembersTransferred = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'club', 'lastTransferDate'];
+const pickMembersOther = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'lastTransactionDate'];
 
 export const teamMemberList = ({ teams, members }: Options) => {
   const output: any = {};
@@ -38,16 +38,16 @@ export const teamMemberList = ({ teams, members }: Options) => {
     });
 
     team.membersRegisteredThisSeason = map(team.membersRegisteredThisSeason, (obj) => pick(obj, ...pickRegisteredThisSeason));
-    team.membersRegisteredThisSeason = orderBy(team.membersRegisteredThisSeason, ['familyName', 'firstName'], ['asc', 'asc']);
+    team.membersRegisteredThisSeason = orderBy(team.membersRegisteredThisSeason, ['lastName', 'firstName'], ['asc', 'asc']);
 
     team.membersRegisteredRecently = map(team.membersRegisteredRecently, (obj) => pick(obj, ...pickRegisteredRecently));
-    team.membersRegisteredRecently = orderBy(team.membersRegisteredRecently, ['familyName', 'firstName'], ['asc', 'asc']);
+    team.membersRegisteredRecently = orderBy(team.membersRegisteredRecently, ['lastName', 'firstName'], ['asc', 'asc']);
 
     team.membersTransferred = map(team.membersTransferred, (obj) => pick(obj, pickMembersTransferred));
-    team.membersTransferred = orderBy(team.membersTransferred, ['familyName', 'firstName'], ['asc', 'asc']);
+    team.membersTransferred = orderBy(team.membersTransferred, ['lastName', 'firstName'], ['asc', 'asc']);
 
     team.membersOther = map(team.membersOther, (obj) => pick(obj, ...pickMembersOther));
-    team.membersOther = orderBy(team.membersOther, ['familyName', 'firstName'], ['asc', 'asc']);
+    team.membersOther = orderBy(team.membersOther, ['lastName', 'firstName'], ['asc', 'asc']);
 
     output[code] = team;
   });

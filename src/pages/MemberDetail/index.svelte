@@ -12,7 +12,7 @@
   const member = members[code];
   const emergencyContacts = member.emergencyContact === null ? [] : [member.emergencyContact];
   const contacts = member.contact === null ? [] : [member.contact];
-  pageTitle.set(`${member.firstName} ${member.familyName}`);
+  pageTitle.set(`${member.firstName} ${member.lastName}`);
 </script>
 
 <Tabs class="max-w-6xl mx-auto xl:pt-24 xl:pb-12">

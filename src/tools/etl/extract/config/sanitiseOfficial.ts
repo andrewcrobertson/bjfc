@@ -3,7 +3,7 @@ import { sanitisePhone } from '../utility/sanitisePhone';
 import { sanitiseString } from '../utility/sanitiseString';
 
 export const sanitiseOfficial = (obj: any) => ({
-  familyName: sanitiseString(obj.familyName),
+  lastName: sanitiseString(obj.lastName),
   firstName: sanitiseString(obj.firstName),
   phone: sanitisePhone(obj.phone),
   email: sanitiseEmail(obj.email),

@@ -7,6 +7,6 @@ export const transformOfficial = (official: IRawConfigOfficial): ISanitisedOffic
     return null;
   }
 
-  const initials = toInitials(official.firstName, official.familyName);
+  const initials = toInitials(official.firstName, official.lastName);
   return { ...official, initials };
 };

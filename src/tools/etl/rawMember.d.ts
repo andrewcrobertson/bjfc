@@ -1,5 +1,5 @@
 export interface IRawMemberGuardian {
-  familyName: string;
+  lastName: string;
   firstName: string;
   phone1: string;
   phone2: string;
@@ -41,7 +41,7 @@ export interface IRawMemberTransfer {
 export interface IRawMember {
   footyWebNumber: string;
   activeRecord: boolean;
-  familyName: string;
+  lastName: string;
   firstName: string;
   dateOfBirth: string;
   gender: string;

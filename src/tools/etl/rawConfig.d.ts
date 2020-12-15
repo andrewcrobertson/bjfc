@@ -7,7 +7,7 @@ export interface IRawMap {
 
 export interface IRawConfigOfficial {
   firstName: string;
-  familyName: string;
+  lastName: string;
   phone: string;
   email: string;
   gender: string;
@@ -16,7 +16,7 @@ export interface IRawConfigOfficial {
 export interface IRawConfigCommittee {
   role: string;
   firstName: string;
-  familyName: string;
+  lastName: string;
   phone: string;
   email: string;
   gender: string;

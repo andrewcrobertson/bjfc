@@ -4,7 +4,7 @@ import { sanitiseString } from '../utility/sanitiseString';
 
 export const sanitiseCommittee = (obj: any) => ({
   role: sanitiseString(obj.role),
-  familyName: sanitiseString(obj.familyName),
+  lastName: sanitiseString(obj.lastName),
   firstName: sanitiseString(obj.firstName),
   phone: sanitisePhone(obj.phone),
   email: sanitiseEmail(obj.email),
