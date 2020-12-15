@@ -14,7 +14,7 @@ export interface Options {
 }
 
 const pickRegisteredThisSeason = ['footyWebNumber', 'initials', 'familyName', 'firstName', 'gender', 'paidThisSeason'];
-const pickRegisteredRecently = ['footyWebNumber', 'initials', 'familyName', 'firstName', 'gender'];
+const pickRegisteredRecently = ['footyWebNumber', 'initials', 'familyName', 'firstName', 'gender', 'lastTransactionDate'];
 const pickMembersTransferred = ['footyWebNumber', 'initials', 'familyName', 'firstName', 'gender', 'club', 'lastTransferDate'];
 const pickMembersOther = ['footyWebNumber', 'initials', 'familyName', 'firstName', 'gender', 'lastTransactionDate'];
 
@@ -49,10 +49,6 @@ export const teamMemberList = ({ teams, members }: Options) => {
     team.membersOther = map(team.membersOther, (obj) => pick(obj, ...pickMembersOther));
     team.membersOther = orderBy(team.membersOther, ['familyName', 'firstName'], ['asc', 'asc']);
 
-    team.headCoach = headCoach;
-    team.assistantCoach = assistantCoach;
-    team.teamManager = teamManager;
-    team.trainer = trainer;
     output[code] = team;
   });
 

@@ -6,6 +6,10 @@ export const sanitisePhone = (value: string) => {
   const digitsRaw = (value.match(/\d/g) ?? []).join('');
   const digits = (digitsRaw.length === 9 && digitsRaw[0] === '4' ? `0` : '') + digitsRaw;
 
+  if (digits.length === 0) {
+    return null;
+  }
+
   if (digits.length === 10) {
     if (startsWith(digits, '04')) {
       return `${digits[0]}${digits[1]}${digits[2]}${digits[3]} ${digits[4]}${digits[5]}${digits[6]} ${digits[7]}${digits[8]}${digits[9]}`;
