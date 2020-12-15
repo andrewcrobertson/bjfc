@@ -20127,6 +20127,13 @@
           "product": "2020 EFL Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-15",
+          "transactionTime": "14:19",
+          "product": "2021 EFL Registration Fee",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Unpaid"
         }
       ],
       "transfers": [],
@@ -20135,9 +20142,9 @@
       "club": "Bayswater",
       "teamCode": "U12G",
       "registeredRecently": true,
-      "registeredThisSeason": false,
+      "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-09",
+      "lastTransactionDate": "2020-12-15",
       "lastTransferDate": null
     },
     {
@@ -20250,6 +20257,13 @@
           "product": "2020 EFL Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-15",
+          "transactionTime": "14:18",
+          "product": "2021 EFL Registration Fee",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Unpaid"
         }
       ],
       "transfers": [],
@@ -20258,9 +20272,9 @@
       "club": "Bayswater",
       "teamCode": "U18G",
       "registeredRecently": true,
-      "registeredThisSeason": false,
+      "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-09",
+      "lastTransactionDate": "2020-12-15",
       "lastTransferDate": null
     },
     {
@@ -20304,6 +20318,13 @@
           "product": "2020 EFL Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-15",
+          "transactionTime": "14:20",
+          "product": "2021 EFL Registration Fee",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Unpaid"
         }
       ],
       "transfers": [],
@@ -20312,9 +20333,9 @@
       "club": "Bayswater",
       "teamCode": "U09M",
       "registeredRecently": true,
-      "registeredThisSeason": false,
+      "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-09",
+      "lastTransactionDate": "2020-12-15",
       "lastTransferDate": null
     },
     {
