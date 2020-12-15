@@ -7,8 +7,7 @@
   export let applicationDate = null;
   export let sourceClub = null;
   export let destinationClub = '';
-
-  const colour = 'blue';
+  export let colour = 'gray';
 </script>
 
 <Responsive>

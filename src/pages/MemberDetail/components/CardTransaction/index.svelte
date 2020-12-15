@@ -9,8 +9,7 @@
   export let product = null;
   export let lineItemTotal = '';
   export let transactionStatus = null;
-
-  const colour = 'blue';
+  export let colour = 'gray';
 </script>
 
 <Responsive>
