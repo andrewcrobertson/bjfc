@@ -2,7 +2,7 @@
   export let official = null;
   export let role = null;
 
-  const officialString = official === null ? 'TBD' : `${official.firstName} ${official.familyName}`;
+  const officialString = official === null ? 'TBD' : `${official.firstName} ${official.lastName}`;
 </script>
 
 <p class="text-sm"><span class="font-medium">{role}:</span> {officialString}</p>

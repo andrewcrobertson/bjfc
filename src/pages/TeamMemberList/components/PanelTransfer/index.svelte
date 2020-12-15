@@ -4,11 +4,11 @@
 </script>
 
 <div class="flex flex-wrap sm:p-4">
-  {#each members as { footyWebNumber, initials, familyName, firstName, gender, club, lastTransferDate }, i}
+  {#each members as { footyWebNumber, initials, lastName, firstName, gender, club, lastTransferDate }, i}
     <CardTransfer
       class="w-full border-l border-r border-b border-gray-300 {i === 0 ? 'border-t' : ''}"
       {initials}
-      {familyName}
+      {lastName}
       {firstName}
       {gender}
       {club}

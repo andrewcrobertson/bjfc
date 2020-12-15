@@ -10,7 +10,7 @@
   export let official: any = {};
   export let role = '';
 
-  const { initials, firstName, familyName, phone, email, gender } = official;
+  const { initials, firstName, lastName, phone, email, gender } = official;
   const colour = personBackground[gender ?? personGenderEnum.unknown];
 </script>
 
@@ -18,7 +18,7 @@
   <div class="border border-gray-300 p-6">
     <div class="flex items-center mb-4">
       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{initials}</div>
-      <h2 class="text-lg font-medium title-font ml-2">{firstName} {familyName}</h2>
+      <h2 class="text-lg font-medium title-font ml-2">{firstName} {lastName}</h2>
     </div>
     <div class="flex flex-col -mb-3">
       <div class="mb-2 cursor-default px-6 py-3 inline-flex items-center leading-none text-sm border border-gray-300 border-dotted">
