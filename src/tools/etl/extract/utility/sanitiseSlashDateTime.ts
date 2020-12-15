@@ -2,7 +2,7 @@ import split from 'lodash/split';
 import { sanitiseSlashDate } from './sanitiseSlashDate';
 
 export const sanitiseSlashDateTime = (dateTime: string) => {
-  if (dateTime ?? '' === '') {
+  if ((dateTime ?? '') === '') {
     return { date: null, time: null };
   }
 

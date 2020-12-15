@@ -1,9 +1,10 @@
-import { sanitiseString } from '../utility/sanitiseString';
+import { sanitiseEmail } from '../utility/sanitiseEmail';
+import { sanitisePhone } from '../utility/sanitisePhone';
 
 export const sanitiseContact = (obj: any) => ({
-  phoneHome: sanitiseString(obj.telephoneNumberHome),
-  phoneWork: sanitiseString(obj.telephoneNumberWork),
-  phoneMobile: sanitiseString(obj.telephoneNumberMobile),
-  email1: sanitiseString(obj.email),
-  email2: sanitiseString(obj.email2),
+  phoneHome: sanitisePhone(obj.telephoneNumberHome),
+  phoneWork: sanitisePhone(obj.telephoneNumberWork),
+  phoneMobile: sanitisePhone(obj.telephoneNumberMobile),
+  email1: sanitiseEmail(obj.email),
+  email2: sanitiseEmail(obj.email2),
 });

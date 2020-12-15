@@ -1,7 +1,7 @@
 import split from 'lodash/split';
 
 export const sanitiseSlashDate = (date: string) => {
-  if (date ?? '' === '') {
+  if ((date ?? '') === '') {
     return null;
   }
 

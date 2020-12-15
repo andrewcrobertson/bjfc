@@ -2,7 +2,7 @@ import includes from 'lodash/includes';
 import split from 'lodash/split';
 
 export const sanitiseDashDateTime = (dateTime) => {
-  if (dateTime ?? '' === '') {
+  if ((dateTime ?? '') === '') {
     return { date: null, time: null };
   }
 
