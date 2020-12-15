@@ -10,6 +10,16 @@ export interface IRawConfigOfficial {
   familyName: string;
   phone: string;
   email: string;
+  gender: string;
+}
+
+export interface IRawConfigCommittee {
+  role: string;
+  firstName: string;
+  familyName: string;
+  phone: string;
+  email: string;
+  gender: string;
 }
 
 export interface IRawConfigNoContact {
@@ -41,4 +51,5 @@ export interface IRawConfig {
   noContact: IRawConfigNoContact[];
   playerTeamExceptions: IRawConfigPlayerTeamExceptions[];
   teams: IRawConfigTeam[];
+  committee: IRawConfigCommittee[];
 }

@@ -6,6 +6,7 @@ export interface ISanitisedOfficial {
   familyName: string;
   phone: string;
   email: string;
+  gender: string;
 }
 
 export interface ISanitisedTeam {
