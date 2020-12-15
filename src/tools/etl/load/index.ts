@@ -3,6 +3,7 @@ import path from 'path';
 
 export interface Options {
   standardLayout: any;
+  committeeList: any;
   memberDetail: any;
   teamList: any;
   teamMemberList: any;
@@ -22,6 +23,7 @@ const writeLayout = (name: string, data: any) => write(name, 'layouts', data);
 
 export const load = (options: Options) => {
   writeLayout('StandardLayout', options.standardLayout);
+  writePage('CommitteeList', options.committeeList);
   writePage('MemberDetail', options.memberDetail);
   writePage('TeamList', options.teamList);
   writePage('TeamMemberList', options.teamMemberList);

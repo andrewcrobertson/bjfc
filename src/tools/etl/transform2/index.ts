@@ -1,3 +1,4 @@
+import type { ISanitisedCommittee } from '../sanitisedCommittee';
 import type { ISanitisedConfig } from '../sanitisedConfig';
 import type { ISanitisedMember } from '../sanitisedMember';
 import type { ISanitisedTeam } from '../sanitisedTeam';
@@ -10,6 +11,7 @@ export interface Options {
   config: ISanitisedConfig;
   members: ISanitisedMember[];
   teams: ISanitisedTeam[];
+  committee: ISanitisedCommittee[];
 }
 
 export const transform2 = (options: Options) => ({
@@ -18,4 +20,5 @@ export const transform2 = (options: Options) => ({
   teamList: teamList(options),
   teamMemberList: teamMemberList(options),
   teamOfficialList: teamOfficialList(options),
+  committeeList: options.committee,
 });
