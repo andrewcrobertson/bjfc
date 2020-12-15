@@ -3,38 +3,20 @@ import find from 'lodash/find';
 import first from 'lodash/first';
 import fromPairs from 'lodash/fromPairs';
 import includes from 'lodash/includes';
-import join from 'lodash/join';
 import last from 'lodash/last';
 import map from 'lodash/map';
-import replace from 'lodash/replace';
 import sortBy from 'lodash/sortBy';
 import split from 'lodash/split';
-import type { IRawConfig } from '../rawConfig';
-import type { IRawMember } from '../rawMember';
-import { toInitials } from './toInitials';
+import type { IRawConfig } from '../../rawConfig';
+import type { IRawMember } from '../../rawMember';
+import { toInitials } from '../toInitials';
+import { transformEmergencyContact } from './transformEmergencyContact';
+import { transformGuardian } from './transformGuardian';
 
 export interface Options {
   config: IRawConfig;
   members: IRawMember[];
 }
-
-const transformEmergencyContact = (emergencyContact) => {
-  if (emergencyContact === null) {
-    return null;
-  }
-
-  const tokens = split(replace(emergencyContact.name, '-', ' '), ' ');
-  const initials = join(
-    map(tokens, (t) => first(t)),
-    ''
-  ).toUpperCase();
-  return { initials, ...emergencyContact };
-};
-
-const transformGuardian = (guardian) => {
-  const initials = toInitials(guardian.firstName, guardian.familyName);
-  return { initials, ...guardian };
-};
 
 export const transformMembers = ({ config, members: membersRaw }: Options) => {
   const playerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));

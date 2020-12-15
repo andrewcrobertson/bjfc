@@ -1,7 +1,7 @@
 import type { IRawConfig } from '../rawConfig';
 import type { IRawMember } from '../rawMember';
-import { transformMembers } from './transformMembers';
-import { transformTeams } from './transformTeams';
+import { transformMembers } from './members/transformMembers';
+import { transformTeams } from './teams/transformTeams';
 
 export interface Options {
   config: IRawConfig;
