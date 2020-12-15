@@ -22,13 +22,13 @@
       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{initials}</div>
       <h2 class="text-lg font-medium title-font">{lastName}, {firstName}</h2>
     </div>
-    <div class="flex justify-end space-x-2">
-      <span class="inline-flex items-center leading-none text-sm py-1">
-        <LogoutIcon class="w-5 h-5 mr-1 text-{colour}-500" />
+    <div class="flex justify-between sm:space-x-4">
+      <span class="inline-flex items-center leading-none text-sm py-1 ml-2">
+        <LogoutIcon class="text-{colour}-500 w-5 h-5 mr-1" />
         {club}
       </span>
-      <span class="inline-flex items-center leading-none text-sm py-1">
-        <CalendarIcon class="w-5 h-5 mr-1 text-{colour}-500" />
+      <span class="inline-flex items-center leading-none text-sm py-1 mr-2">
+        <CalendarIcon class="text-{colour}-500 w-5 h-5 mr-1" />
         {lastTransferDate}
       </span>
     </div>

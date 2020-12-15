@@ -3,7 +3,7 @@
   export let records: any[] = [];
 </script>
 
-<div class="flex flex-wrap sm:p-4">
+<div class="flex flex-wrap sm:p-4 mt-2">
   {#each records as { transactionDate, product, lineItemTotal, transactionStatus }, i}
     <CardTransaction
       class="w-full border-l border-r border-b border-gray-300 {i === 0 ? 'border-t' : ''}"
