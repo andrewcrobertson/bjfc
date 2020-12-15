@@ -4,7 +4,7 @@ export interface ISanitisedContactMethod {
 }
 
 export interface ISanitisedMemberGuardian {
-  familyName: string;
+  lastName: string;
   firstName: string;
   initials: string;
   phone1: string;
@@ -47,7 +47,7 @@ export interface ISanitisedMember {
   footyWebNumber: string;
   activeRecord: boolean;
   initials: string;
-  familyName: string;
+  lastName: string;
   firstName: string;
   dateOfBirth: string;
   yearOfBirth: number;

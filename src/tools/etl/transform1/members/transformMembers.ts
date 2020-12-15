@@ -33,7 +33,7 @@ export const transformMembers = ({ config, members: membersRaw }: Options): ISan
     return {
       ...member,
       emergencyContact: transformEmergencyContact(member.emergencyContact),
-      initials: toInitials(member.firstName, member.familyName),
+      initials: toInitials(member.firstName, member.lastName),
       yearOfBirth,
       club: member.transfers.length === 0 ? 'Bayswater' : last(member.transfers).destinationClub,
       teamCode: playerTeamExceptions[member.footyWebNumber] ?? first(teamCodes) ?? null,

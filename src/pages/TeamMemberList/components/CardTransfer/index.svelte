@@ -22,7 +22,7 @@
       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{initials}</div>
       <h2 class="text-lg font-medium title-font">{lastName}, {firstName}</h2>
     </div>
-    <div class="flex space-x-2">
+    <div class="flex justify-end space-x-2">
       <span class="inline-flex items-center leading-none text-sm py-1">
         <LogoutIcon class="w-5 h-5 mr-1 text-{colour}-500" />
         {club}

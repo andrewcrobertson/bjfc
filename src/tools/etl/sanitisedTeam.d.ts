@@ -3,7 +3,7 @@ import type { TeamGenderEnum } from '@this/constants/enums';
 export interface ISanitisedOfficial {
   initials: string;
   firstName: string;
-  familyName: string;
+  lastName: string;
   phone: string;
   email: string;
   gender: string;

@@ -11,7 +11,7 @@ export interface Options {
   teams: ISanitisedTeam[];
 }
 
-const mapOfficial = (official: ISanitisedOfficial) => (official === null ? null : { firstName: official.firstName, familyName: official.familyName });
+const mapOfficial = (official: ISanitisedOfficial) => (official === null ? null : { firstName: official.firstName, lastName: official.lastName });
 
 const getRegisteredCount = (code: string, members: ISanitisedMember[]) =>
   filter(members, ({ teamCode, registeredThisSeason }) => teamCode === code && registeredThisSeason).length;

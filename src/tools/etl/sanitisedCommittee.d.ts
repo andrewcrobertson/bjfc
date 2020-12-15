@@ -1,7 +1,7 @@
 export interface ISanitisedCommittee {
   initials: string;
   firstName: string;
-  familyName: string;
+  lastName: string;
   phone: string;
   email: string;
   gender: string;
