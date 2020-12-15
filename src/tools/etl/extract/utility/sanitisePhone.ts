@@ -15,11 +15,11 @@ export const sanitisePhone = (value: string) => {
       return `${digits[0]}${digits[1]}${digits[2]}${digits[3]} ${digits[4]}${digits[5]}${digits[6]} ${digits[7]}${digits[8]}${digits[9]}`;
     }
 
-    return `${digits[0]}${digits[1]} ${digits[2]}${digits[3]}${digits[4]}${digits[5]} ${digits[6]} ${digits[7]}${digits[8]}${digits[9]}`;
+    return `${digits[0]}${digits[1]} ${digits[2]}${digits[3]}${digits[4]}${digits[5]} ${digits[6]}${digits[7]}${digits[8]}${digits[9]}`;
   }
 
   if (digits.length === 8) {
-    return `${digits[0]}${digits[1]}${digits[2]}${digits[3]} ${digits[4]}${digits[5]}${digits[6]} ${digits[7]}`;
+    return `${digits[0]}${digits[1]}${digits[2]}${digits[3]} ${digits[4]}${digits[5]}${digits[6]}${digits[7]}`;
   }
 
   return digits;
