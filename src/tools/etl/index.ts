@@ -1,6 +1,7 @@
 import path from 'path';
 import { extract } from './extract';
 import { load } from './load';
+import { recentlyRegisteredEmail } from './misc/recentlyRegisteredEmail';
 import { transform1 } from './transform1';
 import { transform2 } from './transform2';
 
@@ -17,8 +18,8 @@ export const etl = async () => {
   const data2 = transform2(data1);
   load(data2);
 
+  if (false) recentlyRegisteredEmail(data1.members);
   // const tempData = uniq(flattenDeep(map(data1.members, (m) => map(m.transfers, (t) => [t.sourceClub, t.destinationClub])))).sort();
-  // const tempData = uniq(flattenDeep(map(data1.members, (m) => map(m.transactions, (t) => t.product)))).sort();
   const tempData = data1;
   require('fs').writeFileSync('data.json', JSON.stringify(tempData, null, 2));
 };
