@@ -401,7 +401,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-16"
+      "lastTransactionDate": "2020-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03737182",
@@ -455,7 +456,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-05-17"
+      "lastTransactionDate": "2019-05-17",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03680520",
@@ -500,7 +502,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-04-28"
+      "lastTransactionDate": "2019-04-28",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02263883",
@@ -616,7 +619,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-06-29"
+      "lastTransactionDate": "2019-06-29",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02503773",
@@ -799,7 +803,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-13"
+      "lastTransactionDate": "2020-02-13",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03258258",
@@ -865,7 +870,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-07-01"
+      "lastTransactionDate": "2020-07-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02474446",
@@ -1000,7 +1006,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-04-05"
+      "lastTransactionDate": "2019-04-05",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02453895",
@@ -1026,7 +1033,9 @@
       "teamCode": "U18G",
       "registeredRecently": false,
       "registeredThisSeason": false,
-      "paidThisSeason": false
+      "paidThisSeason": false,
+      "lastTransactionDate": null,
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03558237",
@@ -1094,7 +1103,8 @@
       "registeredRecently": false,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-11-13"
+      "lastTransactionDate": "2020-11-13",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03343780",
@@ -1148,7 +1158,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-19"
+      "lastTransactionDate": "2020-06-19",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03534656",
@@ -1209,7 +1220,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-20"
+      "lastTransactionDate": "2020-06-20",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02445097",
@@ -1325,7 +1337,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-14"
+      "lastTransactionDate": "2019-11-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03070934",
@@ -1510,7 +1523,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-01-06"
+      "lastTransactionDate": "2020-01-06",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01561882",
@@ -1695,7 +1709,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-10"
+      "lastTransactionDate": "2020-03-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03064071",
@@ -1740,7 +1755,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-19"
+      "lastTransactionDate": "2020-06-19",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02845428",
@@ -1813,7 +1829,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-19"
+      "lastTransactionDate": "2020-06-19",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02921605",
@@ -1899,7 +1916,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-03-28"
+      "lastTransactionDate": "2019-03-28",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03223491",
@@ -1967,7 +1985,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-15"
+      "lastTransactionDate": "2020-02-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03337454",
@@ -2084,7 +2103,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-19"
+      "lastTransactionDate": "2020-06-19",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02912249",
@@ -2156,7 +2176,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-02-07"
+      "lastTransactionDate": "2018-02-07",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03505718",
@@ -2217,7 +2238,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-02-17"
+      "lastTransactionDate": "2019-02-17",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02326407",
@@ -2262,7 +2284,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2015-04-29"
+      "lastTransactionDate": "2015-04-29",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03115980",
@@ -2322,7 +2345,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-04-22"
+      "lastTransactionDate": "2017-04-22",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02058774",
@@ -2374,7 +2398,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2014-03-18"
+      "lastTransactionDate": "2014-03-18",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02119149",
@@ -2426,7 +2451,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-18"
+      "lastTransactionDate": "2020-02-18",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03018873",
@@ -2501,7 +2527,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03018872",
@@ -2576,7 +2603,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02451070",
@@ -2725,7 +2753,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-10"
+      "lastTransactionDate": "2020-03-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03548512",
@@ -2800,7 +2829,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-16"
+      "lastTransactionDate": "2020-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02091636",
@@ -2971,7 +3001,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-11-11"
+      "lastTransactionDate": "2018-11-11",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02632063",
@@ -3163,7 +3194,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-11-10"
+      "lastTransactionDate": "2017-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03541757",
@@ -3230,7 +3262,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-04"
+      "lastTransactionDate": "2019-11-04",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03241282",
@@ -3297,7 +3330,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-22"
+      "lastTransactionDate": "2020-02-22",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "04033359",
@@ -3358,7 +3392,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-07-01"
+      "lastTransactionDate": "2020-07-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01635651",
@@ -3467,7 +3502,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-21"
+      "lastTransactionDate": "2019-11-21",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01569577",
@@ -3562,7 +3598,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2016-04-15"
+      "lastTransactionDate": "2016-04-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03329538",
@@ -3630,7 +3667,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03062355",
@@ -3698,7 +3736,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-13"
+      "lastTransactionDate": "2020-02-13",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03062353",
@@ -3773,7 +3812,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-13"
+      "lastTransactionDate": "2020-02-13",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03062354",
@@ -3841,7 +3881,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-13"
+      "lastTransactionDate": "2020-02-13",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02011566",
@@ -4017,7 +4058,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-04-30"
+      "lastTransactionDate": "2017-04-30",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02090741",
@@ -4188,7 +4230,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-03-30"
+      "lastTransactionDate": "2017-03-30",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01627488",
@@ -4267,7 +4310,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-11-11"
+      "lastTransactionDate": "2018-11-11",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02733467",
@@ -4374,7 +4418,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-16"
+      "lastTransactionDate": "2020-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03325019",
@@ -4449,7 +4494,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-07-02"
+      "lastTransactionDate": "2020-07-02",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02939863",
@@ -4549,7 +4595,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-03-28"
+      "lastTransactionDate": "2019-03-28",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01852149",
@@ -4644,7 +4691,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-05-29"
+      "lastTransactionDate": "2019-05-29",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03520214",
@@ -4726,7 +4774,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-12-14"
+      "lastTransactionDate": "2020-12-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03561703",
@@ -4787,7 +4836,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-15"
+      "lastTransactionDate": "2020-02-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02439956",
@@ -4917,7 +4967,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-16"
+      "lastTransactionDate": "2020-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02280414",
@@ -4985,7 +5036,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-01-14"
+      "lastTransactionDate": "2019-01-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02870196",
@@ -5058,7 +5110,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-18"
+      "lastTransactionDate": "2020-06-18",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03649305",
@@ -5119,7 +5172,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-04-17"
+      "lastTransactionDate": "2019-04-17",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03283702",
@@ -5164,6 +5218,7 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
+      "lastTransactionDate": null,
       "lastTransferDate": "2020-03-10"
     },
     {
@@ -5342,7 +5397,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-14"
+      "lastTransactionDate": "2019-11-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02058704",
@@ -5444,7 +5500,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-14"
+      "lastTransactionDate": "2019-11-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03342147",
@@ -5496,7 +5553,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-15"
+      "lastTransactionDate": "2020-03-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03561798",
@@ -5548,7 +5606,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-03-26"
+      "lastTransactionDate": "2019-03-26",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03116190",
@@ -5691,7 +5750,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-04-12"
+      "lastTransactionDate": "2018-04-12",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01609456",
@@ -5904,7 +5964,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-11-08"
+      "lastTransactionDate": "2020-11-08",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01838065",
@@ -6034,7 +6095,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-11-08"
+      "lastTransactionDate": "2020-11-08",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02819220",
@@ -6115,7 +6177,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-11-12"
+      "lastTransactionDate": "2017-11-12",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02463886",
@@ -6203,7 +6266,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-02-18"
+      "lastTransactionDate": "2018-02-18",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03298293",
@@ -6257,7 +6321,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-04-14"
+      "lastTransactionDate": "2018-04-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03079763",
@@ -6331,7 +6396,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-11-12"
+      "lastTransactionDate": "2017-11-12",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02896196",
@@ -6404,7 +6470,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-06"
+      "lastTransactionDate": "2020-02-06",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03355238",
@@ -6472,7 +6539,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-11-12"
+      "lastTransactionDate": "2018-11-12",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02453886",
@@ -6498,7 +6566,9 @@
       "teamCode": "U18G",
       "registeredRecently": false,
       "registeredThisSeason": false,
-      "paidThisSeason": false
+      "paidThisSeason": false,
+      "lastTransactionDate": null,
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01596672",
@@ -6647,7 +6717,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-11-08"
+      "lastTransactionDate": "2020-11-08",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01810882",
@@ -6810,7 +6881,8 @@
       "registeredRecently": false,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-11-15"
+      "lastTransactionDate": "2020-11-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03143522",
@@ -6870,7 +6942,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-05-11"
+      "lastTransactionDate": "2017-05-11",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03298371",
@@ -6922,7 +6995,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-04-04"
+      "lastTransactionDate": "2019-04-04",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03319479",
@@ -6967,7 +7041,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-04-28"
+      "lastTransactionDate": "2018-04-28",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01885240",
@@ -7139,7 +7214,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-04-06"
+      "lastTransactionDate": "2019-04-06",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02289876",
@@ -7450,7 +7526,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-02-17"
+      "lastTransactionDate": "2019-02-17",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01838920",
@@ -7649,7 +7726,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03227856",
@@ -7800,7 +7878,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-01"
+      "lastTransactionDate": "2020-03-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02832014",
@@ -7889,7 +7968,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02869796",
@@ -7978,7 +8058,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-12"
+      "lastTransactionDate": "2020-02-12",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03315884",
@@ -8046,7 +8127,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-16"
+      "lastTransactionDate": "2020-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03247587",
@@ -8114,7 +8196,8 @@
       "registeredRecently": false,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-12-14"
+      "lastTransactionDate": "2020-12-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03114280",
@@ -8174,7 +8257,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-04-21"
+      "lastTransactionDate": "2017-04-21",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03081833",
@@ -8269,7 +8353,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-12-14"
+      "lastTransactionDate": "2020-12-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02625774",
@@ -8351,7 +8436,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-02"
+      "lastTransactionDate": "2019-11-02",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02898108",
@@ -8558,7 +8644,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2015-05-07"
+      "lastTransactionDate": "2015-05-07",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03251681",
@@ -8612,7 +8699,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-03-12"
+      "lastTransactionDate": "2018-03-12",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02902082",
@@ -8647,7 +8735,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2016-04-14"
+      "lastTransactionDate": "2016-04-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03058232",
@@ -8708,7 +8797,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-17"
+      "lastTransactionDate": "2020-02-17",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "04028466",
@@ -8762,7 +8852,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-20"
+      "lastTransactionDate": "2020-06-20",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03114649",
@@ -8820,7 +8911,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-02-18"
+      "lastTransactionDate": "2018-02-18",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01601102",
@@ -8908,7 +9000,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-11-11"
+      "lastTransactionDate": "2018-11-11",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01601097",
@@ -9315,7 +9408,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-03-31"
+      "lastTransactionDate": "2017-03-31",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02464774",
@@ -9397,7 +9491,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03091295",
@@ -9458,7 +9553,8 @@
       "registeredRecently": false,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-11-01"
+      "lastTransactionDate": "2020-11-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01644349",
@@ -9650,7 +9746,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-11-11"
+      "lastTransactionDate": "2018-11-11",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02694004",
@@ -9842,7 +9939,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-12-02"
+      "lastTransactionDate": "2019-12-02",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03567530",
@@ -9903,7 +10001,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-12-02"
+      "lastTransactionDate": "2019-12-02",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03068383",
@@ -9971,7 +10070,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-12-02"
+      "lastTransactionDate": "2019-12-02",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01865142",
@@ -10099,7 +10199,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-04-14"
+      "lastTransactionDate": "2018-04-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02884609",
@@ -10193,7 +10294,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-07-01"
+      "lastTransactionDate": "2020-07-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02753434",
@@ -10275,7 +10377,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-07-01"
+      "lastTransactionDate": "2020-07-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03041607",
@@ -10410,7 +10513,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-22"
+      "lastTransactionDate": "2020-02-22",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03072504",
@@ -10461,7 +10565,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-03-23"
+      "lastTransactionDate": "2017-03-23",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02966475",
@@ -10496,7 +10601,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2016-06-23"
+      "lastTransactionDate": "2016-06-23",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02761783",
@@ -10854,7 +10960,8 @@
       "registeredRecently": false,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-12-14"
+      "lastTransactionDate": "2020-12-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03491580",
@@ -10922,7 +11029,8 @@
       "registeredRecently": false,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-11-06"
+      "lastTransactionDate": "2020-11-06",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02221841",
@@ -10994,7 +11102,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-04-21"
+      "lastTransactionDate": "2018-04-21",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03081082",
@@ -11124,7 +11233,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-07-02"
+      "lastTransactionDate": "2020-07-02",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01610634",
@@ -11238,7 +11348,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-07-02"
+      "lastTransactionDate": "2020-07-02",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03546905",
@@ -11287,7 +11398,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-13"
+      "lastTransactionDate": "2020-02-13",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03399776",
@@ -11332,7 +11444,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-11-11"
+      "lastTransactionDate": "2018-11-11",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03237698",
@@ -11405,7 +11518,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-11-03"
+      "lastTransactionDate": "2020-11-03",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03399779",
@@ -11480,7 +11594,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-11-29"
+      "lastTransactionDate": "2020-11-29",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03055886",
@@ -11541,7 +11656,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-16"
+      "lastTransactionDate": "2020-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02282039",
@@ -11606,7 +11722,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-04-01"
+      "lastTransactionDate": "2019-04-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02841920",
@@ -11641,7 +11758,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2016-04-09"
+      "lastTransactionDate": "2016-04-09",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03241096",
@@ -11692,7 +11810,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-19"
+      "lastTransactionDate": "2020-06-19",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02743856",
@@ -11801,7 +11920,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-02"
+      "lastTransactionDate": "2020-03-02",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03058040",
@@ -11941,7 +12061,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2015-04-10"
+      "lastTransactionDate": "2015-04-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02242702",
@@ -11986,7 +12107,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2015-05-09"
+      "lastTransactionDate": "2015-05-09",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02231662",
@@ -12227,7 +12349,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-16"
+      "lastTransactionDate": "2020-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03305352",
@@ -12414,7 +12537,9 @@
       "teamCode": "U17B-GREEN",
       "registeredRecently": false,
       "registeredThisSeason": false,
-      "paidThisSeason": false
+      "paidThisSeason": false,
+      "lastTransactionDate": null,
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02456464",
@@ -12481,7 +12606,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-03-28"
+      "lastTransactionDate": "2017-03-28",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02900877",
@@ -12516,7 +12642,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2016-04-08"
+      "lastTransactionDate": "2016-04-08",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02216545",
@@ -12624,7 +12751,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-09"
+      "lastTransactionDate": "2019-11-09",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03034522",
@@ -12754,7 +12882,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-29"
+      "lastTransactionDate": "2020-02-29",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02241904",
@@ -12981,7 +13110,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-21"
+      "lastTransactionDate": "2020-06-21",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01925787",
@@ -13048,7 +13178,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2016-04-09"
+      "lastTransactionDate": "2016-04-09",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02274028",
@@ -13298,7 +13429,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2015-04-13"
+      "lastTransactionDate": "2015-04-13",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03233700",
@@ -13387,7 +13519,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-18"
+      "lastTransactionDate": "2020-02-18",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03564476",
@@ -13448,7 +13581,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-19"
+      "lastTransactionDate": "2020-06-19",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03083339",
@@ -13536,7 +13670,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-19"
+      "lastTransactionDate": "2020-06-19",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03323944",
@@ -13625,7 +13760,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-09"
+      "lastTransactionDate": "2020-03-09",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03323972",
@@ -13728,7 +13864,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-09"
+      "lastTransactionDate": "2020-03-09",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02469761",
@@ -13837,7 +13974,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-01"
+      "lastTransactionDate": "2020-02-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02469746",
@@ -13939,7 +14077,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-01"
+      "lastTransactionDate": "2020-02-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "00978618",
@@ -14062,7 +14201,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-28"
+      "lastTransactionDate": "2020-02-28",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01837285",
@@ -14178,7 +14318,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-03-18"
+      "lastTransactionDate": "2019-03-18",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01602981",
@@ -14403,7 +14544,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-03-31"
+      "lastTransactionDate": "2017-03-31",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "04027015",
@@ -14464,7 +14606,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-15"
+      "lastTransactionDate": "2020-06-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02639396",
@@ -14525,7 +14668,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-02-20"
+      "lastTransactionDate": "2018-02-20",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02282130",
@@ -14710,7 +14854,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-11"
+      "lastTransactionDate": "2019-11-11",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02256250",
@@ -14826,7 +14971,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-20"
+      "lastTransactionDate": "2020-06-20",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03003389",
@@ -14900,7 +15046,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-02-22"
+      "lastTransactionDate": "2018-02-22",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01843424",
@@ -15030,7 +15177,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-11-15"
+      "lastTransactionDate": "2020-11-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "04034442",
@@ -15091,7 +15239,8 @@
       "registeredRecently": false,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-11-15"
+      "lastTransactionDate": "2020-11-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01843979",
@@ -15143,7 +15292,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2015-05-29"
+      "lastTransactionDate": "2015-05-29",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03067710",
@@ -15203,7 +15353,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-03-20"
+      "lastTransactionDate": "2017-03-20",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03319307",
@@ -15255,7 +15406,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-02-25"
+      "lastTransactionDate": "2019-02-25",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03201604",
@@ -15344,7 +15496,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-12-11"
+      "lastTransactionDate": "2020-12-11",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03350677",
@@ -15405,7 +15558,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-09"
+      "lastTransactionDate": "2019-11-09",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02928071",
@@ -15494,7 +15648,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-04-23"
+      "lastTransactionDate": "2018-04-23",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03115582",
@@ -15627,7 +15782,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-09"
+      "lastTransactionDate": "2020-03-09",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03511285",
@@ -15681,7 +15837,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-02-17"
+      "lastTransactionDate": "2019-02-17",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01610264",
@@ -15739,7 +15896,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2013-04-20"
+      "lastTransactionDate": "2013-04-20",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02675740",
@@ -15883,7 +16041,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-22"
+      "lastTransactionDate": "2019-11-22",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03318271",
@@ -15944,7 +16103,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-05-02"
+      "lastTransactionDate": "2018-05-02",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03064832",
@@ -16012,7 +16172,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-19"
+      "lastTransactionDate": "2020-06-19",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03560394",
@@ -16110,7 +16271,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-27"
+      "lastTransactionDate": "2020-02-27",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03720647",
@@ -16162,7 +16324,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-05-10"
+      "lastTransactionDate": "2019-05-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02234531",
@@ -16222,7 +16385,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2016-04-12"
+      "lastTransactionDate": "2016-04-12",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01599880",
@@ -16447,7 +16611,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-01-21"
+      "lastTransactionDate": "2020-01-21",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03399833",
@@ -16492,7 +16657,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-11-11"
+      "lastTransactionDate": "2018-11-11",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01852931",
@@ -16656,7 +16822,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-03-23"
+      "lastTransactionDate": "2017-03-23",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02934639",
@@ -16730,7 +16897,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-04-28"
+      "lastTransactionDate": "2018-04-28",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02362656",
@@ -16791,7 +16959,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-10"
+      "lastTransactionDate": "2020-03-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03081384",
@@ -16851,7 +17020,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-03-29"
+      "lastTransactionDate": "2017-03-29",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02693547",
@@ -16995,7 +17165,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03086852",
@@ -17055,7 +17226,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-03-31"
+      "lastTransactionDate": "2017-03-31",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02755238",
@@ -17157,7 +17329,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-03"
+      "lastTransactionDate": "2020-03-03",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02849448",
@@ -17237,7 +17410,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-11"
+      "lastTransactionDate": "2020-03-11",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03511199",
@@ -17402,7 +17576,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-05"
+      "lastTransactionDate": "2020-02-05",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02250406",
@@ -17462,7 +17637,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-05-05"
+      "lastTransactionDate": "2017-05-05",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02233038",
@@ -17530,7 +17706,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-12-23"
+      "lastTransactionDate": "2018-12-23",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02286476",
@@ -17641,7 +17818,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2016-04-21"
+      "lastTransactionDate": "2016-04-21",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03049482",
@@ -17702,7 +17880,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-11-12"
+      "lastTransactionDate": "2017-11-12",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02341330",
@@ -17797,7 +17976,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-25"
+      "lastTransactionDate": "2020-06-25",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03972330",
@@ -17920,7 +18100,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-11-07"
+      "lastTransactionDate": "2020-11-07",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02694971",
@@ -17986,7 +18167,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-19"
+      "lastTransactionDate": "2020-06-19",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02696729",
@@ -18074,7 +18256,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-02-16"
+      "lastTransactionDate": "2019-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02728111",
@@ -18155,6 +18338,7 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
+      "lastTransactionDate": null,
       "lastTransferDate": "2018-03-08"
     },
     {
@@ -18346,7 +18530,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-11-15"
+      "lastTransactionDate": "2020-11-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02665581",
@@ -18412,7 +18597,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-02-24"
+      "lastTransactionDate": "2019-02-24",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02915226",
@@ -18604,7 +18790,9 @@
       "teamCode": "U17B-GREEN",
       "registeredRecently": false,
       "registeredThisSeason": false,
-      "paidThisSeason": false
+      "paidThisSeason": false,
+      "lastTransactionDate": null,
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01532964",
@@ -18720,7 +18908,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-12"
+      "lastTransactionDate": "2019-11-12",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02841746",
@@ -18926,7 +19115,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-18"
+      "lastTransactionDate": "2020-06-18",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01040203",
@@ -18952,7 +19142,9 @@
       "teamCode": "U17B-GREEN",
       "registeredRecently": false,
       "registeredThisSeason": false,
-      "paidThisSeason": false
+      "paidThisSeason": false,
+      "lastTransactionDate": null,
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02954335",
@@ -19010,7 +19202,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-03-27"
+      "lastTransactionDate": "2017-03-27",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03087991",
@@ -19070,7 +19263,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-04-01"
+      "lastTransactionDate": "2017-04-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03087332",
@@ -19115,7 +19309,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02871178",
@@ -19195,7 +19390,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02841749",
@@ -19323,7 +19519,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-18"
+      "lastTransactionDate": "2020-06-18",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02311432",
@@ -19412,7 +19609,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-12-14"
+      "lastTransactionDate": "2020-12-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03268326",
@@ -19473,7 +19671,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03082639",
@@ -19561,7 +19760,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01561129",
@@ -19621,7 +19821,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2016-04-12"
+      "lastTransactionDate": "2016-04-12",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02874729",
@@ -19716,7 +19917,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-05"
+      "lastTransactionDate": "2020-03-05",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02698729",
@@ -19832,7 +20034,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-11-15"
+      "lastTransactionDate": "2020-11-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02640219",
@@ -19941,7 +20144,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-11-15"
+      "lastTransactionDate": "2020-11-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03255492",
@@ -20023,7 +20227,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-09"
+      "lastTransactionDate": "2020-03-09",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02780859",
@@ -20146,7 +20351,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-09"
+      "lastTransactionDate": "2020-03-09",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03136096",
@@ -20200,7 +20406,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-09"
+      "lastTransactionDate": "2020-03-09",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02505196",
@@ -20295,7 +20502,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-05-06"
+      "lastTransactionDate": "2019-05-06",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01825672",
@@ -20355,7 +20563,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-03-31"
+      "lastTransactionDate": "2017-03-31",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01266869",
@@ -20533,7 +20742,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-19"
+      "lastTransactionDate": "2020-06-19",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02256193",
@@ -20584,7 +20794,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2016-03-29"
+      "lastTransactionDate": "2016-03-29",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02960615",
@@ -20708,7 +20919,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-16"
+      "lastTransactionDate": "2020-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03256636",
@@ -20753,7 +20965,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-03-16"
+      "lastTransactionDate": "2018-03-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02470918",
@@ -20855,7 +21068,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-12-01"
+      "lastTransactionDate": "2020-12-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02022886",
@@ -20950,7 +21164,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-02-22"
+      "lastTransactionDate": "2019-02-22",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01292196",
@@ -21073,7 +21288,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-12-01"
+      "lastTransactionDate": "2020-12-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02256004",
@@ -21182,7 +21398,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-01"
+      "lastTransactionDate": "2020-06-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01311988",
@@ -21309,7 +21526,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-04-21"
+      "lastTransactionDate": "2018-04-21",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01931091",
@@ -21369,7 +21587,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-02-04"
+      "lastTransactionDate": "2017-02-04",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02230377",
@@ -21485,7 +21704,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-10"
+      "lastTransactionDate": "2020-03-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03917772",
@@ -21530,7 +21750,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-16"
+      "lastTransactionDate": "2020-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01801039",
@@ -21591,7 +21812,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-05"
+      "lastTransactionDate": "2020-03-05",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03014226",
@@ -21680,7 +21902,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-10"
+      "lastTransactionDate": "2020-02-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02345502",
@@ -21729,7 +21952,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2015-05-07"
+      "lastTransactionDate": "2015-05-07",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03319490",
@@ -21795,7 +22019,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-12-14"
+      "lastTransactionDate": "2020-12-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03217083",
@@ -21861,7 +22086,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-12-14"
+      "lastTransactionDate": "2020-12-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02666938",
@@ -21956,7 +22182,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-12-14"
+      "lastTransactionDate": "2020-12-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02051875",
@@ -22007,7 +22234,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2016-04-01"
+      "lastTransactionDate": "2016-04-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01562044",
@@ -22137,7 +22365,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-12"
+      "lastTransactionDate": "2020-03-12",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03205317",
@@ -22295,6 +22524,7 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
+      "lastTransactionDate": null,
       "lastTransferDate": "2015-04-08"
     },
     {
@@ -22453,7 +22683,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-07-03"
+      "lastTransactionDate": "2020-07-03",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03787511",
@@ -22512,7 +22743,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-03"
+      "lastTransactionDate": "2019-11-03",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03359394",
@@ -22566,7 +22798,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-07-19"
+      "lastTransactionDate": "2018-07-19",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02900852",
@@ -22666,7 +22899,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-07-01"
+      "lastTransactionDate": "2020-07-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02915130",
@@ -22724,7 +22958,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-04-01"
+      "lastTransactionDate": "2017-04-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02331416",
@@ -22833,7 +23068,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02457999",
@@ -22894,7 +23130,8 @@
       "registeredRecently": false,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-11-16"
+      "lastTransactionDate": "2020-11-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03033557",
@@ -22969,7 +23206,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-20"
+      "lastTransactionDate": "2020-06-20",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "04074731",
@@ -23014,7 +23252,8 @@
       "registeredRecently": false,
       "registeredThisSeason": true,
       "paidThisSeason": true,
-      "lastTransactionDate": "2020-12-06"
+      "lastTransactionDate": "2020-12-06",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02498546",
@@ -23065,7 +23304,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2016-04-08"
+      "lastTransactionDate": "2016-04-08",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03322683",
@@ -23126,7 +23366,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-11-11"
+      "lastTransactionDate": "2018-11-11",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02012813",
@@ -23168,7 +23409,9 @@
       "teamCode": "U17B-GREEN",
       "registeredRecently": false,
       "registeredThisSeason": false,
-      "paidThisSeason": false
+      "paidThisSeason": false,
+      "lastTransactionDate": null,
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03103495",
@@ -23349,7 +23592,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-03-29"
+      "lastTransactionDate": "2019-03-29",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03400860",
@@ -23478,7 +23722,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-16"
+      "lastTransactionDate": "2020-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02141010",
@@ -23544,7 +23789,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-03-27"
+      "lastTransactionDate": "2019-03-27",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03108917",
@@ -23604,7 +23850,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-04-19"
+      "lastTransactionDate": "2017-04-19",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03255861",
@@ -23665,7 +23912,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-03-15"
+      "lastTransactionDate": "2018-03-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03867608",
@@ -23700,7 +23948,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-02"
+      "lastTransactionDate": "2019-11-02",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03867328",
@@ -23754,7 +24003,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-02"
+      "lastTransactionDate": "2019-11-02",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03247163",
@@ -23815,7 +24065,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-03-07"
+      "lastTransactionDate": "2018-03-07",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03247167",
@@ -23876,7 +24127,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-03-07"
+      "lastTransactionDate": "2018-03-07",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02699556",
@@ -23930,7 +24182,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-04-04"
+      "lastTransactionDate": "2018-04-04",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02023786",
@@ -24053,7 +24306,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-29"
+      "lastTransactionDate": "2020-06-29",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01646973",
@@ -24354,7 +24608,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-07-04"
+      "lastTransactionDate": "2020-07-04",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03150878",
@@ -24525,7 +24780,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-11-01"
+      "lastTransactionDate": "2020-11-01",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02859250",
@@ -24621,7 +24877,8 @@
       "registeredRecently": true,
       "registeredThisSeason": true,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-12-14"
+      "lastTransactionDate": "2020-12-14",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02986477",
@@ -24673,7 +24930,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-15"
+      "lastTransactionDate": "2020-02-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01391957",
@@ -24808,7 +25066,9 @@
       "teamCode": "U14B",
       "registeredRecently": false,
       "registeredThisSeason": false,
-      "paidThisSeason": false
+      "paidThisSeason": false,
+      "lastTransactionDate": null,
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01863250",
@@ -24929,7 +25189,9 @@
       "teamCode": "U10M",
       "registeredRecently": false,
       "registeredThisSeason": false,
-      "paidThisSeason": false
+      "paidThisSeason": false,
+      "lastTransactionDate": null,
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03917071",
@@ -24964,7 +25226,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-16"
+      "lastTransactionDate": "2020-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02230365",
@@ -25223,7 +25486,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03869872",
@@ -25258,7 +25522,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "01603036",
@@ -25381,7 +25646,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2019-11-10"
+      "lastTransactionDate": "2019-11-10",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02062851",
@@ -25453,7 +25719,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2017-12-06"
+      "lastTransactionDate": "2017-12-06",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02568249",
@@ -25532,7 +25799,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-18"
+      "lastTransactionDate": "2020-06-18",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03605606",
@@ -25593,7 +25861,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-27"
+      "lastTransactionDate": "2020-06-27",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02286120",
@@ -25688,7 +25957,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2018-04-02"
+      "lastTransactionDate": "2018-04-02",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03980514",
@@ -25742,7 +26012,8 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-03-11"
+      "lastTransactionDate": "2020-03-11",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02043435",
@@ -25830,7 +26101,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-16"
+      "lastTransactionDate": "2020-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02762350",
@@ -25903,7 +26175,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-15"
+      "lastTransactionDate": "2020-02-15",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03287395",
@@ -25957,6 +26230,7 @@
       "registeredRecently": false,
       "registeredThisSeason": false,
       "paidThisSeason": false,
+      "lastTransactionDate": null,
       "lastTransferDate": "2019-03-30"
     },
     {
@@ -26016,7 +26290,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-06-19"
+      "lastTransactionDate": "2020-06-19",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02436867",
@@ -26174,7 +26449,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-17"
+      "lastTransactionDate": "2020-02-17",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "02762847",
@@ -26276,7 +26552,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-02-16"
+      "lastTransactionDate": "2020-02-16",
+      "lastTransferDate": null
     },
     {
       "footyWebNumber": "03226863",
@@ -26351,7 +26628,8 @@
       "registeredRecently": true,
       "registeredThisSeason": false,
       "paidThisSeason": false,
-      "lastTransactionDate": "2020-01-20"
+      "lastTransactionDate": "2020-01-20",
+      "lastTransferDate": null
     }
   ]
 }

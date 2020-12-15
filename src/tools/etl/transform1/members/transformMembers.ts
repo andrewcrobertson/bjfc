@@ -40,8 +40,8 @@ export const transformMembers = ({ config, members: membersRaw }: Options): ISan
       registeredThisSeason,
       paidThisSeason: thisSeasonProduct !== undefined && thisSeasonProduct.transactionStatus === 'Paid',
       guardians: map(member.guardians, (guardian) => transformGuardian(guardian)),
-      lastTransactionDate: last(map(member.transactions, ({ transactionDate }) => transactionDate).sort()),
-      lastTransferDate: last(map(member.transfers, ({ applicationDate, finalisedDate }) => finalisedDate ?? applicationDate).sort()),
+      lastTransactionDate: last(map(member.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,
+      lastTransferDate: last(map(member.transfers, ({ applicationDate, finalisedDate }) => finalisedDate ?? applicationDate).sort()) ?? null,
     };
   });
 

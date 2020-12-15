@@ -18,6 +18,5 @@ export const sanitisePhone = (value: string) => {
     return `${digits[0]}${digits[1]}${digits[2]}${digits[3]} ${digits[4]}${digits[5]}${digits[6]} ${digits[7]}`;
   }
 
-  if (digits !== '') console.log(value, digits);
   return digits;
 };
