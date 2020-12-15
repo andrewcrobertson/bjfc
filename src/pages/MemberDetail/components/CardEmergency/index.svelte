@@ -26,6 +26,7 @@
       </div>
       <PhoneButton class="mb-2" label="Phone 1" phone={phone1} {colour} />
       <PhoneButton class="mb-2" label="Phone 2" phone={phone2} {colour} />
+      <div class="mb-2 cursor-default px-6 py-3 inline-flex items-center leading-none text-sm border border-gray-300 border-dotted">&nbsp;</div>
     </div>
   </div>
 </div>

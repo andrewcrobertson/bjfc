@@ -11,6 +11,7 @@ import type { IRawConfig } from '../../rawConfig';
 import type { IRawMember } from '../../rawMember';
 import type { ISanitisedMember } from '../../sanitisedMember';
 import { toInitials } from '../toInitials';
+import { transformContact } from './transformContact';
 import { transformEmergencyContact } from './transformEmergencyContact';
 import { transformGuardian } from './transformGuardian';
 
@@ -39,6 +40,7 @@ export const transformMembers = ({ config, members: membersRaw }: Options): ISan
       registeredRecently: find(member.transactions, ({ product }) => includes(config.registeredRecently, product)) !== undefined,
       registeredThisSeason,
       paidThisSeason: thisSeasonProduct !== undefined && thisSeasonProduct.transactionStatus === 'Paid',
+      contact: transformContact(member.contact),
       guardians: map(member.guardians, (guardian) => transformGuardian(guardian)),
       lastTransactionDate: last(map(member.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,
       lastTransferDate: last(map(member.transfers, ({ applicationDate, finalisedDate }) => finalisedDate ?? applicationDate).sort()) ?? null,
