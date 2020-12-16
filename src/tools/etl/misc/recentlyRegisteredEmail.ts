@@ -1,4 +1,4 @@
-import { compact, each, filter, flattenDeep, fromPairs, join, map, pick } from 'lodash';
+import { compact, each, filter, flattenDeep, fromPairs, join, map, pick, uniq } from 'lodash';
 import type { ISanitisedMember } from '../sanitisedMember';
 
 export const recentlyRegisteredEmail = (members: ISanitisedMember[]) => {
@@ -28,9 +28,7 @@ export const recentlyRegisteredEmail = (members: ISanitisedMember[]) => {
 
   const tempData0 = filter(members, (m) => m.registeredRecently);
   const tempData1 = flattenDeep(map(tempData0, getRecs));
-  const tempData2 = map(tempData1, ({ name, email }) => `"${name}" <${email}>`).sort();
+  const tempData2 = uniq(map(tempData1, ({ name, email }) => `${email}`)).sort();
   const tempData3 = join(tempData2, ';\r\n') + ';';
   require('fs').writeFileSync('email.txt', tempData3);
-
-  require('fs').writeFileSync('temp.json', JSON.stringify(map(tempData0, (x) => x.lastName + ', ' + x.firstName).sort(), null, 2));
 };
