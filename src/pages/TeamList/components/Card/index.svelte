@@ -1,8 +1,8 @@
 <script lang="ts">
   import * as teamGenderEnum from '@this/constants/teamGenderEnum';
   import { background } from '@this/constants/theme';
-  import BadgeCheckIcon from '@this/icons/BadgeCheckIcon';
-  import CurrencyDollarIcon from '@this/icons/CurrencyDollarIcon';
+  import ClipboardListIcon from '@this/icons/ClipboardListIcon';
+  import ShieldCheckIcon from '@this/icons/ShieldCheckIcon';
   import CardOfficial from '../CardOfficial';
 
   export let code = '';
@@ -14,7 +14,7 @@
   export let teamManager = false;
   export let trainer = false;
   export let registeredCount = 0;
-  export let paidCount = 0;
+  export let insuredCount = 0;
 
   const colour = background[teamGender];
 </script>
@@ -28,14 +28,14 @@
     <div class="mt-4 flex justify-between w-full">
       <div class="flex flex-col">
         <span class="inline-flex items-center text-sm">
-          <BadgeCheckIcon class="w-5 h-5 mr-1 text-{colour}-500" />
+          <ClipboardListIcon class="w-5 h-5 mr-1 text-{colour}-500" />
           {registeredCount}
           Registered
         </span>
         <span class="inline-flex items-center text-sm">
-          <CurrencyDollarIcon class="w-5 h-5 mr-1 text-{colour}-500" />
-          {paidCount}
-          Paid
+          <ShieldCheckIcon class="w-5 h-5 mr-1 text-{colour}-500" />
+          {insuredCount}
+          Insured
         </span>
       </div>
       <div class="flex flex-col">

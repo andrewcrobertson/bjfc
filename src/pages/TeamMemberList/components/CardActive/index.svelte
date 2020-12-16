@@ -1,7 +1,7 @@
 <script lang="ts">
   import { background } from '@this/constants/theme';
-  import BadgeCheckIcon from '@this/icons/BadgeCheckIcon';
-  import CurrencyDollarIcon from '@this/icons/CurrencyDollarIcon';
+  import ClipboardListIcon from '@this/icons/ClipboardListIcon';
+  import ShieldCheckIcon from '@this/icons/ShieldCheckIcon';
 
   let rootClass = '';
   export { rootClass as class };
@@ -10,7 +10,7 @@
   export let lastName = null;
   export let firstName = '';
   export let gender = null;
-  export let paidThisSeason = false;
+  export let insuredThisSeason = false;
 
   const colour = background[gender] ?? 'gray';
 </script>
@@ -22,11 +22,11 @@
       <h2 class="text-lg font-medium title-font">{lastName}, {firstName}</h2>
     </div>
     <span class="flex justify-end items-center text-sm mr-2 py-1">
-      {#if paidThisSeason}
-        <CurrencyDollarIcon class="w-5 h-5 mr-1 text-{colour}-500" />
-        Paid
+      {#if insuredThisSeason}
+        <ShieldCheckIcon class="w-5 h-5 mr-1 text-{colour}-500" />
+        Insured
       {:else}
-        <BadgeCheckIcon class="w-5 h-5 mr-1 text-{colour}-500" />
+        <ClipboardListIcon class="w-5 h-5 mr-1 text-{colour}-500" />
         Registered
       {/if}
     </span>

@@ -13,7 +13,7 @@ export interface Options {
   teams: ISanitisedTeam[];
 }
 
-const pickRegisteredThisSeason = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'paidThisSeason'];
+const pickRegisteredThisSeason = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'insuredThisSeason'];
 const pickRegisteredRecently = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'lastTransactionDate'];
 const pickMembersTransferred = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'club', 'lastTransferDate'];
 const pickMembersOther = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'lastTransactionDate'];

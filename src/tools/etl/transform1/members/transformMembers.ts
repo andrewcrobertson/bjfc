@@ -39,7 +39,7 @@ export const transformMembers = ({ config, members: membersRaw }: Options): ISan
       teamCode: playerTeamExceptions[member.footyWebNumber] ?? first(teamCodes) ?? null,
       registeredRecently: find(member.transactions, ({ product }) => includes(config.registeredRecently, product)) !== undefined,
       registeredThisSeason,
-      paidThisSeason: thisSeasonProduct !== undefined && thisSeasonProduct.transactionStatus === 'Paid',
+      insuredThisSeason: thisSeasonProduct !== undefined && thisSeasonProduct.transactionStatus === 'Paid',
       contact: transformContact(member.contact),
       guardians: map(member.guardians, (guardian) => transformGuardian(guardian)),
       lastTransactionDate: last(map(member.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,

@@ -8,7 +8,7 @@
 
 <div class="max-w-6xl mx-auto xl:py-24">
   <div class="flex flex-wrap -m-4 sm:p-4">
-    {#each teams as { code, ageGroupCode, name, teamGender, headCoach, assistantCoach, teamManager, trainer, registeredCount, paidCount }}
+    {#each teams as { code, ageGroupCode, name, teamGender, headCoach, assistantCoach, teamManager, trainer, registeredCount, insuredCount }}
       <Card
         {code}
         {ageGroupCode}
@@ -19,7 +19,7 @@
         teamManager={teamManager !== null}
         trainer={trainer !== null}
         {registeredCount}
-        {paidCount} />
+        {insuredCount} />
     {/each}
   </div>
 </div>

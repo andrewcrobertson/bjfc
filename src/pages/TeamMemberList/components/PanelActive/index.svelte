@@ -4,14 +4,14 @@
 </script>
 
 <div class="flex flex-wrap sm:p-4 mt-2">
-  {#each members as { footyWebNumber, initials, lastName, firstName, gender, paidThisSeason }, i}
+  {#each members as { footyWebNumber, initials, lastName, firstName, gender, insuredThisSeason }, i}
     <CardActive
       class="w-full border-l border-r border-b border-gray-300 {i === 0 ? 'border-t' : ''}"
       {initials}
       {lastName}
       {firstName}
       {gender}
-      {paidThisSeason}
+      {insuredThisSeason}
       url="/members/{footyWebNumber}/" />
   {:else}
     <p class="p-4">There are no active players</p>

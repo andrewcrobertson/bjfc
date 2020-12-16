@@ -63,5 +63,5 @@ export interface ISanitisedMember {
   teamCode: string;
   registeredRecently: boolean;
   registeredThisSeason: boolean;
-  paidThisSeason: boolean;
+  insuredThisSeason: boolean;
 }
