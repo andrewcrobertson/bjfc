@@ -5,12 +5,11 @@
   import PanelGuardian from './components/PanelGuardian';
   import PanelEmergency from './components/PanelEmergency';
   import PanelContact from './components/PanelContact';
-  import PanelTransaction from './components/PanelTransaction';
-  import PanelTransfer from './components/PanelTransfer';
   import players from './data';
   export let code: string = null;
 
   const player = players[code];
+  const footyWebNumber = player.footyWebNumber;
   const emergencyContacts = player.emergencyContact === null ? [] : [player.emergencyContact];
   const contacts = player.contact === null ? [] : [player.contact];
   const colour = 'gray';
@@ -21,8 +20,7 @@
   <div class="flex flex-col sm:flex-row sm:justify-between pb-5">
     <AvatarHeading class="flex items-center space-x-2" {colour} initials={player.initials} text="{player.firstName} {player.lastName}" />
     <div class="flex justify-end items-center text-sm mr-2 py-1">
-      <a class="text-sm border border-gray-300 px-3 py-1 mr-2" href="/teams/{code}/players/archived">Archived</a>
-      <a class="text-sm border border-gray-300 px-3 py-1" href="/teams/{code}/officials">Officials</a>
+      <a class="text-sm border border-gray-300 px-3 py-1" href="/players/{footyWebNumber}/more/">More</a>
     </div>
   </div>
   <Tabs class="max-w-6xl mx-auto xl:pt-24 xl:pb-12">

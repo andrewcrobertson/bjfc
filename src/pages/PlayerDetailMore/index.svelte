@@ -2,27 +2,22 @@
   import AvatarHeading from '@this/components/AvatarHeading';
   import { Tabs, TabList, TabPanel, Tab } from '@this/components/Tabs';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
-  import PanelGuardian from './components/PanelGuardian';
-  import PanelEmergency from './components/PanelEmergency';
-  import PanelContact from './components/PanelContact';
   import PanelTransaction from './components/PanelTransaction';
   import PanelTransfer from './components/PanelTransfer';
   import players from './data';
   export let code: string = null;
 
   const player = players[code];
-  const emergencyContacts = player.emergencyContact === null ? [] : [player.emergencyContact];
-  const contacts = player.contact === null ? [] : [player.contact];
+  const footyWebNumber = player.footyWebNumber;
   const colour = 'gray';
   pageTitle.set('Player');
 </script>
 
 <div class="max-w-6xl mx-auto xl:py-24">
   <div class="flex flex-col sm:flex-row sm:justify-between pb-5">
-    <AvatarHeading class="flex items-center space-x-2" {colour} initials={player.initials} text="{player.firstName} {player.lastName}" />
+    <AvatarHeading class="flex items-center space-x-2" {colour} initials={player.initials} text="{player.firstName} {player.lastName} (More)" />
     <div class="flex justify-end items-center text-sm mr-2 py-1">
-      <a class="text-sm border border-gray-300 px-3 py-1 mr-2" href="/teams/{code}/players/archived">Archived</a>
-      <a class="text-sm border border-gray-300 px-3 py-1" href="/teams/{code}/officials">Officials</a>
+      <a class="text-sm border border-gray-300 px-3 py-1" href="/players/{footyWebNumber}/">Main</a>
     </div>
   </div>
   <Tabs class="max-w-6xl mx-auto xl:pb-24">
