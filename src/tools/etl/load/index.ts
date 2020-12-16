@@ -4,7 +4,8 @@ import path from 'path';
 export interface Options {
   standardLayout: any;
   committeeList: any;
-  memberDetail: any;
+  playerDetail: any;
+  playerDetailMore: any;
   teamList: any;
   teamPlayerArchivedList: any;
   teamPlayerCurrentList: any;
@@ -25,7 +26,8 @@ const writeLayout = (name: string, data: any) => write(name, 'layouts', data);
 export const load = (options: Options) => {
   writeLayout('StandardLayout', options.standardLayout);
   writePage('CommitteeList', options.committeeList);
-  writePage('PlayerDetail', options.memberDetail);
+  writePage('PlayerDetail', options.playerDetail);
+  writePage('PlayerDetailMore', options.playerDetailMore);
   writePage('TeamDashboard', options.teamList);
   writePage('TeamPlayerArchivedList', options.teamPlayerArchivedList);
   writePage('TeamPlayerCurrentList', options.teamPlayerCurrentList);

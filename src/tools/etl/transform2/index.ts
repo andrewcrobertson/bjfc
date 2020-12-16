@@ -3,7 +3,8 @@ import type { ISanitisedConfig } from '../sanitisedConfig';
 import type { ISanitisedMember } from '../sanitisedMember';
 import type { ISanitisedTeam } from '../sanitisedTeam';
 import { committeeList } from './committeeList';
-import { memberDetail } from './memberDetail';
+import { playerDetail } from './playerDetail';
+import { playerDetailMore } from './playerDetailMore';
 import { teamList } from './teamList';
 import { teamOfficialList } from './teamOfficialList';
 import { teamPlayerArchivedList } from './teamPlayerArchivedList';
@@ -18,7 +19,8 @@ export interface Options {
 
 export const transform2 = (options: Options) => ({
   standardLayout: { seasonYear: options.config.seasonYear },
-  memberDetail: memberDetail(options),
+  playerDetail: playerDetail(options),
+  playerDetailMore: playerDetailMore(options),
   teamList: teamList(options),
   teamPlayerCurrentList: teamPlayerCurrentList(options),
   teamPlayerArchivedList: teamPlayerArchivedList(options),

@@ -25,20 +25,16 @@
       <a class="text-sm border border-gray-300 px-3 py-1" href="/teams/{code}/officials">Officials</a>
     </div>
   </div>
-  <Tabs class="max-w-6xl mx-auto xl:pt-24 xl:pb-12">
+  <Tabs class="max-w-6xl mx-auto xl:pb-24">
     <TabList>
-      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Guardians</Tab>
-      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Emergency</Tab>
-      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Contact</Tab>
+      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Transactions</Tab>
+      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Transfers</Tab>
     </TabList>
     <TabPanel>
-      <PanelGuardian guardians={player.guardians} />
+      <PanelTransaction records={player.transactions} />
     </TabPanel>
     <TabPanel>
-      <PanelEmergency contacts={emergencyContacts} />
-    </TabPanel>
-    <TabPanel>
-      <PanelContact {contacts} />
+      <PanelTransfer records={player.transfers} />
     </TabPanel>
   </Tabs>
 </div>
