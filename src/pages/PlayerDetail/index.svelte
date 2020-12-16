@@ -16,14 +16,14 @@
   pageTitle.set('Player');
 </script>
 
-<div class="max-w-6xl mx-auto xl:py-24">
+<div class="container mx-auto xl:py-10">
   <div class="flex flex-col sm:flex-row sm:justify-between pb-5">
     <AvatarHeading class="flex items-center space-x-2" {colour} initials={player.initials} text="{player.firstName} {player.lastName}" />
     <div class="flex justify-end items-center text-sm mr-2 py-1">
       <a class="text-sm border border-gray-300 px-3 py-1" href="/players/{footyWebNumber}/more/">More</a>
     </div>
   </div>
-  <Tabs class="max-w-6xl mx-auto xl:pt-24 xl:pb-12">
+  <Tabs class="container xl:pt-4">
     <TabList>
       <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Guardians</Tab>
       <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Emergency</Tab>
