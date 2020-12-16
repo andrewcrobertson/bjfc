@@ -19,10 +19,10 @@
       <h2 class="text-lg font-medium title-font ml-2">{firstName} {lastName}</h2>
     </div>
     <div class="flex flex-col -mb-3">
-      <PhoneButton class="mb-2" label="Phone 1" phone={phone1} {colour} />
-      <PhoneButton class="mb-2" label="Phone 2" phone={phone2} {colour} />
-      <PhoneButton class="mb-2" label="Mobile" phone={mobile} {colour} />
-      <EmailButton class="mb-2" label="Email" {email} {colour} />
+      <PhoneButton class="mb-2" phone={phone1} {colour} />
+      <PhoneButton class="mb-2" phone={phone2} {colour} />
+      <PhoneButton class="mb-2" phone={mobile} {colour} />
+      <EmailButton class="mb-2" {email} {colour} />
     </div>
   </div>
 </div>

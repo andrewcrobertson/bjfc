@@ -19,10 +19,10 @@
       <h2 class="text-lg font-medium title-font ml-2">Registered Contact</h2>
     </div>
     <div class="flex flex-col -mb-3">
-      <PhoneButton class="mb-2" label="Phone 1" phone={phone1} {colour} />
-      <PhoneButton class="mb-2" label="Phone 2" phone={phone2} {colour} />
-      <EmailButton class="mb-2" label="Email 1" email={email1} {colour} />
-      <EmailButton class="mb-2" label="Email 2" email={email2} {colour} />
+      <PhoneButton class="mb-2" phone={phone1} {colour} />
+      <PhoneButton class="mb-2" phone={phone2} {colour} />
+      <EmailButton class="mb-2" email={email1} {colour} />
+      <EmailButton class="mb-2" email={email2} {colour} />
     </div>
   </div>
 </div>
