@@ -1,9 +1,11 @@
 <script lang="ts">
   import CardTransfer from '../CardTransfer';
+  let rootClass = '';
+  export { rootClass as class };
   export let members: any[] = [];
 </script>
 
-<div class="flex flex-wrap sm:p-4 mt-2">
+<div class="{rootClass} flex flex-wrap sm:p-4">
   {#each members as { footyWebNumber, initials, lastName, firstName, gender, club, lastTransferDate }, i}
     <CardTransfer
       class="w-full border-l border-r border-b border-gray-300 {i === 0 ? 'border-t' : ''}"

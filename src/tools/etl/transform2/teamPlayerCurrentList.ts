@@ -19,16 +19,13 @@ const pickRecent = ['footyWebNumber', 'status', 'initials', 'lastName', 'firstNa
 export const teamPlayerCurrentList = ({ teams, members: players }: Options) => {
   const output: any = {};
 
-  each(teams, ({ code, name }) => {
-    const teamMembersFiltered = orderBy(
-      filter(players, ({ teamCode }) => teamCode === code),
-      ['lastName', 'firstName'],
-      ['asc', 'asc']
-    );
-    const team: any = { name, playersActive: [], playersRecent: [] };
-    team.playersActive = filter(teamMembersFiltered, (player) => player.status === 'Insured' || player.status === 'Registered');
+  each(teams, ({ code, name, ageGroupCode, teamGender }) => {
+    const teamMembersFiltered = filter(players, ({ teamCode }) => teamCode === code);
+    const teamMembersSorted = orderBy(teamMembersFiltered, ['lastName', 'firstName'], ['asc', 'asc']);
+    const team: any = { code, name, ageGroupCode, teamGender, playersActive: [], playersRecent: [] };
+    team.playersActive = filter(teamMembersSorted, (player) => player.status === 'Insured' || player.status === 'Registered');
     team.playersActive = map(team.playersActive, (player) => pick(player, ...pickActive));
-    team.playersRecent = filter(teamMembersFiltered, (player) => player.status === 'Recent');
+    team.playersRecent = filter(teamMembersSorted, (player) => player.status === 'Recent');
     team.playersRecent = map(team.playersRecent, (player) => pick(player, ...pickRecent));
     output[code] = team;
   });

@@ -19,13 +19,10 @@ const pickArchived = ['footyWebNumber', 'status', 'initials', 'lastName', 'first
 export const teamPlayerArchivedList = ({ teams, members: players }: Options) => {
   const output: any = {};
 
-  each(teams, ({ code, name }) => {
-    const teamMembersFiltered = orderBy(
-      filter(players, ({ teamCode }) => teamCode === code),
-      ['lastName', 'firstName'],
-      ['asc', 'asc']
-    );
-    const team: any = { name, playersTransferred: [], playersArchived: [] };
+  each(teams, ({ code, name, ageGroupCode, teamGender }) => {
+    const teamMembersFiltered = filter(players, ({ teamCode }) => teamCode === code);
+    const teamMembersSorted = orderBy(teamMembersFiltered, ['lastName', 'firstName'], ['asc', 'asc']);
+    const team: any = { code, name, ageGroupCode, teamGender, playersTransferred: [], playersArchived: [] };
     team.playersTransferred = filter(teamMembersFiltered, (player) => player.status === 'Transferred');
     team.playersTransferred = map(team.playersTransferred, (player) => pick(player, pickTransferred));
     team.playersArchived = filter(teamMembersFiltered, (player) => player.status === 'Archived');
