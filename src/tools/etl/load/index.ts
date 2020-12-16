@@ -6,7 +6,7 @@ export interface Options {
   committeeList: any;
   memberDetail: any;
   teamList: any;
-  teamMemberList: any;
+  teamPlayerActiveList: any;
   teamOfficialList: any;
 }
 
@@ -26,6 +26,6 @@ export const load = (options: Options) => {
   writePage('CommitteeList', options.committeeList);
   writePage('MemberDetail', options.memberDetail);
   writePage('TeamList', options.teamList);
-  writePage('TeamMemberList', options.teamMemberList);
+  writePage('TeamPlayerCurrentList', options.teamPlayerActiveList);
   writePage('TeamOfficialList', options.teamOfficialList);
 };

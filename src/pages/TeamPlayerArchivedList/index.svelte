@@ -21,16 +21,16 @@
       <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Old</Tab>
     </TabList>
     <TabPanel>
-      <PanelActive members={team.membersRegisteredThisSeason} />
+      <PanelActive members={team.playersActive} />
     </TabPanel>
     <TabPanel>
-      <PanelRecent members={team.membersRegisteredRecently} />
+      <PanelRecent members={team.playersCurrent} />
     </TabPanel>
     <TabPanel>
-      <PanelTransfer members={team.membersTransferred} />
+      <PanelTransfer members={team.playersTransferred} />
     </TabPanel>
     <TabPanel>
-      <PanelOther members={team.membersOther} />
+      <PanelOther members={team.playersArchived} />
     </TabPanel>
   </Tabs>
 </div>

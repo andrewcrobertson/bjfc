@@ -5,8 +5,9 @@ import type { ISanitisedTeam } from '../sanitisedTeam';
 import { committeeList } from './committeeList';
 import { memberDetail } from './memberDetail';
 import { teamList } from './teamList';
-import { teamMemberList } from './teamMemberList';
 import { teamOfficialList } from './teamOfficialList';
+import { teamPlayerActiveList } from './teamPlayerActiveList';
+import { teamPlayerArchivedList } from './teamPlayerArchivedList';
 
 export interface Options {
   config: ISanitisedConfig;
@@ -19,7 +20,8 @@ export const transform2 = (options: Options) => ({
   standardLayout: { seasonYear: options.config.seasonYear },
   memberDetail: memberDetail(options),
   teamList: teamList(options),
-  teamMemberList: teamMemberList(options),
+  teamPlayerActiveList: teamPlayerActiveList(options),
+  teamPlayerArchivedList: teamPlayerArchivedList(options),
   teamOfficialList: teamOfficialList(options),
   committeeList: committeeList(options),
 });

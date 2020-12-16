@@ -1,0 +1,19 @@
+<script lang="ts">
+  import CardGeneral from '../CardGeneral';
+  export let members: any[] = [];
+</script>
+
+<div class="flex flex-wrap sm:p-4 mt-2">
+  {#each members as { footyWebNumber, initials, lastName, firstName, gender, lastTransactionDate }, i}
+    <CardGeneral
+      class="w-full border-l border-r border-b border-gray-300 {i === 0 ? 'border-t' : ''}"
+      {initials}
+      {lastName}
+      {firstName}
+      {gender}
+      {lastTransactionDate}
+      url="/members/{footyWebNumber}/" />
+  {:else}
+    <p class="p-4">There are no recent players</p>
+  {/each}
+</div>

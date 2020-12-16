@@ -10,7 +10,7 @@
   {#if filled}
     <CheckIcon class="inline w-5 h-5 mr-1 text-{colour}-500" />
   {:else}
-    <XIcon class="inline w-5 h-5 mr-1 text-{colour}-500" />
+    <XIcon class="inline w-5 h-5 mr-1 text-white" />
   {/if}
   {role}
 </span>
