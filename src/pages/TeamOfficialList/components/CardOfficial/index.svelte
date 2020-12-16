@@ -15,7 +15,7 @@
 </script>
 
 <div class={rootClass}>
-  <div class="border border-gray-300 p-6">
+  <div class="border border-gray-300 p-4 lg:p-6">
     <div class="flex items-center mb-4">
       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{initials}</div>
       <h2 class="text-lg font-medium title-font ml-2">{firstName} {lastName}</h2>
