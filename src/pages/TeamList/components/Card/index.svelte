@@ -5,6 +5,8 @@
   import PlayerInsuredCount from '../PlayerInsuredCount';
   import PlayerRegisteredCount from '../PlayerRegisteredCount';
   import PlayerTotalCount from '../PlayerTotalCount';
+  let rootClass = '';
+  export { rootClass as class };
   export let team: any = {};
 
   const code = team.code;
@@ -18,7 +20,7 @@
   const colour = background[teamGender];
 </script>
 
-<div class="w-full md:w-1/2 xl:w-1/3 p-2 sm:p-4">
+<div class="{rootClass} p-2 sm:p-4">
   <div class="border border-gray-300 p-4 lg:p-6">
     <div class="flex items-center mb-2">
       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{ageGroupCode}</div>

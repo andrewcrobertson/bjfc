@@ -13,7 +13,7 @@
   const colour = personBackground[gender ?? personGenderEnum.unknown];
 </script>
 
-<div class={rootClass}>
+<div class="{rootClass} p-2 sm:p-4">
   <div class="border border-gray-300 p-4 lg:p-6">
     <AvatarHeading class="mb-4" {colour} {initials} text="{firstName} {lastName}" />
     <div class="flex flex-col -mb-3">
