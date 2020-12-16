@@ -19,13 +19,13 @@
       <h2 class="text-lg font-medium title-font ml-2">To Be Determined</h2>
     </div>
     <div class="flex flex-col -mb-3">
-      <div class="mb-2 cursor-default px-6 py-3 inline-flex items-center leading-none text-sm border border-gray-300 border-dotted">
-        <EmojiHappyIcon class="inline w-5 h-5 mr-1 text-{colour}-500" />
+      <div class="cursor-default inline-flex items-center leading-none text-sm border border-gray-300 border-dotted mb-2 px-3 py-3">
+        <EmojiHappyIcon class="inline w-5 h-5 mr-2 text-{colour}-500" />
         Role:
         {role}
       </div>
-      <PhoneButton class="mb-2" label="Phone" {colour} />
-      <EmailButton class="mb-2" label="Email" {colour} />
+      <PhoneButton class="mb-2" {colour} />
+      <EmailButton class="mb-2" {colour} />
     </div>
   </div>
 </div>
