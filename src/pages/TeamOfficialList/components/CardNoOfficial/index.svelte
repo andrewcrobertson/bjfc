@@ -20,9 +20,7 @@
     </div>
     <div class="flex flex-col -mb-3">
       <div class="cursor-default inline-flex items-center text-sm border border-gray-300 border-dotted mb-2 px-3 py-3">
-        <EmojiHappyIcon class="inline w-5 h-5 mr-2 text-{colour}-500" />
-        Role:
-        {role}
+        <EmojiHappyIcon class="inline w-5 h-5 mr-2 text-{colour}-500" />{role}
       </div>
       <PhoneButton class="mb-2" {colour} />
       <EmailButton class="mb-2" {colour} />
