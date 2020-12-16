@@ -1,3 +1,5 @@
+import { PlayerStatusEnum } from '@this/constants/enums';
+
 export interface ISanitisedContactMethod {
   type: string;
   value: string;
@@ -45,7 +47,7 @@ export interface ISanitisedMemberTransfer {
 
 export interface ISanitisedMember {
   footyWebNumber: string;
-  activeRecord: boolean;
+  status: PlayerStatusEnum;
   initials: string;
   lastName: string;
   firstName: string;
