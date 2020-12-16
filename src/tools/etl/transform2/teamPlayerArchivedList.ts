@@ -25,7 +25,7 @@ export const teamPlayerArchivedList = ({ teams, members: players }: Options) => 
     const team: any = { code, name, ageGroupCode, teamGender, playersTransferred: [], playersArchived: [] };
     team.playersTransferred = filter(teamMembersFiltered, (player) => player.status === 'Transferred');
     team.playersTransferred = map(team.playersTransferred, (player) => pick(player, pickTransferred));
-    team.playersArchived = filter(teamMembersFiltered, (player) => player.status === 'Archived');
+    team.playersArchived = filter(teamMembersFiltered, (player) => player.status === 'Historical');
     team.playersArchived = map(team.playersArchived, (player) => pick(player, ...pickArchived));
     output[code] = team;
   });

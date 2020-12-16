@@ -1,7 +1,7 @@
 <script lang="ts">
+  import type { PlayerStatusEnum } from '@this/constants/enums';
   import { background } from '@this/constants/theme';
-  import ClipboardListIcon from '@this/icons/ClipboardListIcon';
-  import ShieldCheckIcon from '@this/icons/ShieldCheckIcon';
+  import PlayerStatus from '@this/components/PlayerStatus';
 
   let rootClass = '';
   export { rootClass as class };
@@ -10,7 +10,7 @@
   export let lastName = null;
   export let firstName = '';
   export let gender = null;
-  export let insuredThisSeason = false;
+  export let status: PlayerStatusEnum = null;
 
   const colour = background[gender] ?? 'gray';
 </script>
@@ -22,13 +22,7 @@
       <h2 class="text-lg font-medium title-font">{lastName}, {firstName}</h2>
     </div>
     <span class="flex justify-end items-center text-sm mr-2 py-1">
-      {#if insuredThisSeason}
-        <ShieldCheckIcon class="w-5 h-5 mr-1 text-{colour}-500" />
-        Insured
-      {:else}
-        <ClipboardListIcon class="w-5 h-5 mr-1 text-{colour}-500" />
-        Registered
-      {/if}
+      <PlayerStatus class="text-{colour}-500" {status} />
     </span>
   </div>
 </a>
