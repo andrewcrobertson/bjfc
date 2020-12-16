@@ -28,10 +28,10 @@
       <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Historical</Tab>
     </TabList>
     <TabPanel>
-      <PanelTransferred class="mt-2" members={team.playersTransferred} />
+      <PanelTransferred class="mt-2" players={team.playersTransferred} />
     </TabPanel>
     <TabPanel>
-      <PanelHistorical class="mt-2" members={team.playersArchived} />
+      <PanelHistorical class="mt-2" players={team.playersArchived} />
     </TabPanel>
   </Tabs>
 </div>

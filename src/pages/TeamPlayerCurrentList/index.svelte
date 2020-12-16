@@ -28,10 +28,10 @@
       <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Recent</Tab>
     </TabList>
     <TabPanel>
-      <PanelActive class="mt-2" members={team.playersActive} />
+      <PanelActive class="mt-2" players={team.playersActive} />
     </TabPanel>
     <TabPanel>
-      <PanelRecent class="mt-2" members={team.playersRecent} />
+      <PanelRecent class="mt-2" players={team.playersRecent} />
     </TabPanel>
   </Tabs>
 </div>

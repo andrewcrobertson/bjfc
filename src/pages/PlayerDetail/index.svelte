@@ -6,10 +6,10 @@
   import PanelContact from './components/PanelContact';
   import PanelTransaction from './components/PanelTransaction';
   import PanelTransfer from './components/PanelTransfer';
-  import members from './data';
+  import players from './data';
   export let code: string = null;
 
-  const member = members[code];
+  const member = players[code];
   const emergencyContacts = member.emergencyContact === null ? [] : [member.emergencyContact];
   const contacts = member.contact === null ? [] : [member.contact];
   pageTitle.set(`${member.firstName} ${member.lastName}`);

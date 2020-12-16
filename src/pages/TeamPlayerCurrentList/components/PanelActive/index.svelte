@@ -2,11 +2,11 @@
   import CardActive from '../CardActive';
   let rootClass = '';
   export { rootClass as class };
-  export let members: any[] = [];
+  export let players: any[] = [];
 </script>
 
 <div class="{rootClass} flex flex-wrap">
-  {#each members as { footyWebNumber, initials, lastName, firstName, gender, status }, i}
+  {#each players as { footyWebNumber, initials, lastName, firstName, gender, status }, i}
     <CardActive
       class="w-full border-l border-r border-b border-gray-300 {i === 0 ? 'border-t' : ''}"
       {initials}
