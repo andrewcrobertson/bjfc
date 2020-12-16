@@ -1,5 +1,6 @@
 <script lang="ts">
   import ShieldCheckIcon from '@this/icons/ShieldCheckIcon';
+
   export let insuredCount: number = 0;
   export let colour = 'gray';
 </script>

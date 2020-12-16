@@ -1,15 +1,18 @@
 <script lang="ts">
   import { background } from '@this/constants/theme';
   import CalendarIcon from '@this/icons/CalendarIcon';
+
   let rootClass = '';
   export { rootClass as class };
-  export let url = '';
-  export let initials = null;
-  export let lastName = null;
-  export let firstName = '';
-  export let gender = null;
-  export let lastTransactionDate = '';
+  export let player: any = {};
 
+  const footyWebNumber = player.footyWebNumber;
+  const initials = player.initials;
+  const lastName = player.lastName;
+  const firstName = player.firstName;
+  const gender = player.gender;
+  const lastTransactionDate = player.lastTransactionDate;
+  const url = `/players/${footyWebNumber}/`;
   const colour = background[gender] ?? 'gray';
 </script>
 

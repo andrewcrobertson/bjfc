@@ -9,7 +9,11 @@
   export { rootClass as class };
   export let member: any = {};
 
-  const { initials, firstName, lastName, gender, role } = member;
+  const initials = member.initials;
+  const firstName = member.firstName;
+  const lastName = member.lastName;
+  const gender = member.gender;
+  const role = member.role;
   const colour = personBackground[gender ?? personGenderEnum.unknown];
 </script>
 

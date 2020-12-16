@@ -5,14 +5,16 @@
 
   let rootClass = '';
   export { rootClass as class };
-  export let url = '';
-  export let initials = null;
-  export let lastName = null;
-  export let firstName = '';
-  export let gender = null;
-  export let club = '';
-  export let lastTransferDate = '';
+  export let player: any = {};
 
+  const footyWebNumber = player.footyWebNumber;
+  const initials = player.initials;
+  const lastName = player.lastName;
+  const firstName = player.firstName;
+  const gender = player.gender;
+  const club = player.club;
+  const lastTransferDate = player.lastTransferDate;
+  const url = `/players/${footyWebNumber}/`;
   const colour = background[gender] ?? 'gray';
 </script>
 

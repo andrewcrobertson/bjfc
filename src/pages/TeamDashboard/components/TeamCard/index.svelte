@@ -5,19 +5,20 @@
   import PlayerInsuredCount from '../PlayerInsuredCount';
   import PlayerRegisteredCount from '../PlayerRegisteredCount';
   import PlayerTotalCount from '../PlayerTotalCount';
+
   let rootClass = '';
   export { rootClass as class };
   export let team: any = {};
 
   const code = team.code;
-  const teamGender = team.teamGender ?? (teamGenderEnum.mixed as string);
+  const teamGender = team.teamGender;
   const ageGroupCode = team.ageGroupCode;
   const name = team.name;
   const roles = team.roles;
   const totalCount = team.totalCount;
   const registeredCount = team.registeredCount;
   const insuredCount = team.insuredCount;
-  const colour = background[teamGender];
+  const colour = background[teamGender ?? teamGenderEnum.mixed];
 </script>
 
 <div class="{rootClass} p-2 sm:p-4">

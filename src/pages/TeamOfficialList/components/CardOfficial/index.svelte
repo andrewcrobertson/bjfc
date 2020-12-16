@@ -10,7 +10,10 @@
   export let official: any = {};
   export let role = '';
 
-  const { initials, firstName, lastName, gender } = official;
+  const initials = official.initials;
+  const firstName = official.firstName;
+  const lastName = official.lastName;
+  const gender = official.gender;
   const colour = personBackground[gender ?? personGenderEnum.unknown];
 </script>
 

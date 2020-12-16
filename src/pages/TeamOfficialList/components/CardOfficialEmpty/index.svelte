@@ -4,6 +4,7 @@
   import PersonItem from '@this/components/PersonItem';
   import * as personGenderEnum from '@this/constants/personGenderEnum';
   import { personBackground } from '@this/constants/theme';
+
   let rootClass = '';
   export { rootClass as class };
   export let role = '';

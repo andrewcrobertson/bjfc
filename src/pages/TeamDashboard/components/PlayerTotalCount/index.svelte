@@ -1,5 +1,6 @@
 <script lang="ts">
   import EmojiHappyIcon from '@this/icons/EmojiHappyIcon';
+
   export let totalCount: number = 0;
   export let colour = 'gray';
 </script>
