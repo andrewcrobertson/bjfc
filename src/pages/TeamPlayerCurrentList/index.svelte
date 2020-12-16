@@ -14,7 +14,7 @@
   pageTitle.set('Team');
 </script>
 
-<div class="max-w-6xl mx-auto xl:py-24">
+<div class="container mx-auto xl:py-24">
   <div class="flex flex-col sm:flex-row sm:justify-between pb-5">
     <AvatarHeading class="flex items-center space-x-2" {colour} initials={team.ageGroupCode} text={team.name} />
     <div class="flex justify-end items-center text-sm mr-2 py-1">
