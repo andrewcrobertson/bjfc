@@ -26,7 +26,7 @@ export const recentlyRegisteredEmail = (members: ISanitisedMember[]) => {
     return recs;
   };
 
-  const tempData0 = filter(members, (m) => m.registeredRecently);
+  const tempData0 = filter(members, (m) => m.status === 'Registered' || m.status === 'Recent');
   const tempData1 = flattenDeep(map(tempData0, getRecs));
   const tempData2 = uniq(map(tempData1, ({ name, email }) => `${email}`)).sort();
   const tempData3 = join(tempData2, ';\r\n') + ';';

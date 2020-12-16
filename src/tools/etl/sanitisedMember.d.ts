@@ -63,7 +63,4 @@ export interface ISanitisedMember {
   lastTransferDate: string;
   club: string;
   teamCode: string;
-  registeredRecently: boolean;
-  registeredThisSeason: boolean;
-  insuredThisSeason: boolean;
 }

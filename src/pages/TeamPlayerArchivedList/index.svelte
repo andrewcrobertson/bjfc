@@ -24,7 +24,7 @@
       <PanelActive members={team.playersActive} />
     </TabPanel>
     <TabPanel>
-      <PanelRecent members={team.playersCurrent} />
+      <PanelRecent members={team.playersRecent} />
     </TabPanel>
     <TabPanel>
       <PanelTransfer members={team.playersTransferred} />

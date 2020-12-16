@@ -29,11 +29,12 @@ const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, reg
   } else if (registeredThisSeason) {
     return playerStatusEnum.registered;
   } else if (registeredRecently) {
-    return playerStatusEnum.registered;
+    return playerStatusEnum.recent;
   } else {
     return playerStatusEnum.archived;
   }
 };
+
 export const transformMembers = ({ config, members: membersRaw }: Options): ISanitisedMember[] => {
   const playerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));
   const orderedTeams = sortBy(config.teams, ({ ages }) => Math.max(...ages));
@@ -55,9 +56,6 @@ export const transformMembers = ({ config, members: membersRaw }: Options): ISan
       yearOfBirth,
       club: member.transfers.length === 0 ? 'Bayswater' : last(member.transfers).destinationClub,
       teamCode: playerTeamExceptions[member.footyWebNumber] ?? first(teamCodes) ?? null,
-      registeredRecently,
-      registeredThisSeason,
-      insuredThisSeason,
       contact: transformContact(member.contact),
       guardians: map(member.guardians, (guardian) => transformGuardian(guardian)),
       lastTransactionDate: last(map(member.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,

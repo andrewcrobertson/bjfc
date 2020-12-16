@@ -13,8 +13,8 @@ export interface Options {
 
 const mapTeam = (team: ISanitisedTeam, members: ISanitisedMember[]) => {
   const teamMembers = filter(members, ({ teamCode }) => teamCode === team.code);
-  const insuredCount = filter(teamMembers, ({ insuredThisSeason }) => insuredThisSeason).length;
-  const registeredCount = filter(teamMembers, ({ registeredThisSeason, insuredThisSeason }) => registeredThisSeason && !insuredThisSeason).length;
+  const insuredCount = filter(teamMembers, ({ status }) => status === 'Insured').length;
+  const registeredCount = filter(teamMembers, ({ status }) => status === 'Registered').length;
 
   return {
     code: team.code,
