@@ -3,7 +3,7 @@ import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
 import type { ISanitisedConfig } from '../sanitisedConfig';
 import type { ISanitisedMember } from '../sanitisedMember';
-import type { ISanitisedOfficial, ISanitisedTeam } from '../sanitisedTeam';
+import type { ISanitisedTeam } from '../sanitisedTeam';
 
 export interface Options {
   config: ISanitisedConfig;
@@ -11,26 +11,25 @@ export interface Options {
   teams: ISanitisedTeam[];
 }
 
-const mapOfficial = (official: ISanitisedOfficial) => (official === null ? null : { firstName: official.firstName, lastName: official.lastName });
+const mapTeam = (team: ISanitisedTeam, members: ISanitisedMember[]) => {
+  const teamMembers = filter(members, ({ teamCode }) => teamCode === team.code);
+  const insuredCount = filter(teamMembers, ({ insuredThisSeason }) => insuredThisSeason).length;
+  const registeredCount = filter(teamMembers, ({ registeredThisSeason, insuredThisSeason }) => registeredThisSeason && !insuredThisSeason).length;
 
-const getRegisteredCount = (code: string, members: ISanitisedMember[]) =>
-  filter(members, ({ teamCode, registeredThisSeason }) => teamCode === code && registeredThisSeason).length;
-
-const getInsuredCount = (code: string, members: ISanitisedMember[]) =>
-  filter(members, ({ teamCode, insuredThisSeason }) => teamCode === code && insuredThisSeason).length;
-
-const mapTeam = (team: ISanitisedTeam, members: ISanitisedMember[]) => ({
-  code: team.code,
-  ageGroupCode: team.ageGroupCode,
-  name: team.name,
-  teamGender: team.teamGender,
-  headCoach: mapOfficial(team.headCoach),
-  assistantCoach: mapOfficial(team.assistantCoach),
-  trainer: mapOfficial(team.trainer),
-  teamManager: mapOfficial(team.teamManager),
-  registeredCount: getRegisteredCount(team.code, members),
-  insuredCount: getInsuredCount(team.code, members),
-});
+  return {
+    code: team.code,
+    ageGroupCode: team.ageGroupCode,
+    name: team.name,
+    teamGender: team.teamGender,
+    headCoach: team.headCoach !== null,
+    assistantCoach: team.assistantCoach !== null,
+    trainer: team.trainer !== null,
+    teamManager: team.teamManager !== null,
+    totalCount: insuredCount + registeredCount,
+    insuredCount,
+    registeredCount,
+  };
+};
 
 export const teamList = ({ teams, members }: Options) =>
   orderBy(

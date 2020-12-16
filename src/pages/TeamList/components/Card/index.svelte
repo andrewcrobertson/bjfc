@@ -2,6 +2,7 @@
   import * as teamGenderEnum from '@this/constants/teamGenderEnum';
   import { background } from '@this/constants/theme';
   import ClipboardListIcon from '@this/icons/ClipboardListIcon';
+  import EmojiHappyIcon from '@this/icons/EmojiHappyIcon';
   import ShieldCheckIcon from '@this/icons/ShieldCheckIcon';
   import CardOfficial from '../CardOfficial';
 
@@ -13,6 +14,7 @@
   export let assistantCoach = false;
   export let teamManager = false;
   export let trainer = false;
+  export let totalCount = 0;
   export let registeredCount = 0;
   export let insuredCount = 0;
 
@@ -28,14 +30,20 @@
     <div class="mt-4 flex justify-between w-full">
       <div class="flex flex-col">
         <span class="inline-flex items-center text-sm">
-          <ClipboardListIcon class="w-5 h-5 mr-1 text-{colour}-500" />
-          {registeredCount}
-          Registered
+          <EmojiHappyIcon class="w-5 h-5 mr-1 text-{colour}-500" />
+          {totalCount}
+          {totalCount === 1 ? 'Player' : 'Players'}
         </span>
+        <hr class="mt-1 mb-1 border border-gray-300 border-t-0" />
         <span class="inline-flex items-center text-sm">
           <ShieldCheckIcon class="w-5 h-5 mr-1 text-{colour}-500" />
           {insuredCount}
           Insured
+        </span>
+        <span class="inline-flex items-center text-sm">
+          <ClipboardListIcon class="w-5 h-5 mr-1 text-{colour}-500" />
+          {registeredCount}
+          Registered
         </span>
       </div>
       <div class="flex flex-col">
