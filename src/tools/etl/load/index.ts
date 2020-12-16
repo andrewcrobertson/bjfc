@@ -25,8 +25,8 @@ const writeLayout = (name: string, data: any) => write(name, 'layouts', data);
 export const load = (options: Options) => {
   writeLayout('StandardLayout', options.standardLayout);
   writePage('CommitteeList', options.committeeList);
-  writePage('MemberDetail', options.memberDetail);
-  writePage('TeamList', options.teamList);
+  writePage('PlayerDetail', options.memberDetail);
+  writePage('TeamDashboard', options.teamList);
   writePage('TeamPlayerArchivedList', options.teamPlayerArchivedList);
   writePage('TeamPlayerCurrentList', options.teamPlayerCurrentList);
   writePage('TeamOfficialList', options.teamOfficialList);

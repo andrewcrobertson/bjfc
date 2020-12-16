@@ -6,8 +6,8 @@
 </script>
 
 <script lang="ts">
-  import MemberDetailPage from '@this/pages/MemberDetail';
+  import PlayerDetailPage from '@this/pages/PlayerDetail';
   export let code: string = null;
 </script>
 
-<MemberDetailPage {code} />
+<PlayerDetailPage {code} />

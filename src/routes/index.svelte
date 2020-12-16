@@ -1,5 +1,5 @@
 <script lang="ts">
-  import TeamListPage from '@this/pages/TeamList';
+  import TeamDashboardPage from '@this/pages/TeamDashboard';
 </script>
 
-<TeamListPage />
+<TeamDashboardPage />
