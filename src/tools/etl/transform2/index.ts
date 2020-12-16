@@ -2,6 +2,7 @@ import type { ISanitisedCommittee } from '../sanitisedCommittee';
 import type { ISanitisedConfig } from '../sanitisedConfig';
 import type { ISanitisedMember } from '../sanitisedMember';
 import type { ISanitisedTeam } from '../sanitisedTeam';
+import { committeeList } from './committeeList';
 import { memberDetail } from './memberDetail';
 import { teamList } from './teamList';
 import { teamMemberList } from './teamMemberList';
@@ -20,5 +21,5 @@ export const transform2 = (options: Options) => ({
   teamList: teamList(options),
   teamMemberList: teamMemberList(options),
   teamOfficialList: teamOfficialList(options),
-  committeeList: options.committee,
+  committeeList: committeeList(options),
 });

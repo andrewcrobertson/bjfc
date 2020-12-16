@@ -1,16 +1,16 @@
 <script lang="ts">
   import AvatarHeading from '@this/components/AvatarHeading';
   import ContactButton from '@this/components/ContactButton';
+  import PersonItem from '@this/components/PersonItem';
   import * as personGenderEnum from '@this/constants/personGenderEnum';
   import { personBackground } from '@this/constants/theme';
-  import RoleItem from '../RoleItem';
 
   let rootClass = '';
   export { rootClass as class };
   export let official: any = {};
   export let role = '';
 
-  const { initials, firstName, lastName, phone, email, gender } = official;
+  const { initials, firstName, lastName, gender } = official;
   const colour = personBackground[gender ?? personGenderEnum.unknown];
 </script>
 
@@ -18,7 +18,7 @@
   <div class="border border-gray-300 p-4 lg:p-6">
     <AvatarHeading class="mb-4" {colour} {initials} text="{firstName} {lastName}" />
     <div class="flex flex-col -mb-3">
-      <RoleItem class="mb-2" {colour} {role} />
+      <PersonItem class="mb-2" {colour} text={role} />
       {#each official.contacts as { type, value }}
         <ContactButton {type} {value} {colour} />
       {/each}
