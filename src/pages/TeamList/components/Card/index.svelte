@@ -20,7 +20,7 @@
 </script>
 
 <div class="xl:w-1/3 md:w-1/2 w-full p-2 sm:p-4">
-  <div class="border border-gray-300 p-6">
+  <div class="border border-gray-300 p-4 lg:p-6">
     <div class="flex items-center mb-4">
       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{ageGroupCode}</div>
       <h2 class="text-lg font-medium title-font ml-2">{name}</h2>
