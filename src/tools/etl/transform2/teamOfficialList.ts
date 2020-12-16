@@ -28,7 +28,9 @@ const mapOfficial = ({ role, official }: { role: string; official: ISanitisedOff
 
 const mapTeam = (team: ISanitisedTeam) => ({
   code: team.code,
+  ageGroupCode: team.ageGroupCode,
   name: team.name,
+  teamGender: team.teamGender,
   officials: map(
     [
       { role: 'Head Coach', official: team.headCoach },
