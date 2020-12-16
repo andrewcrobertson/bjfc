@@ -4,7 +4,7 @@
   import { background } from '@this/constants/theme';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import PanelTransferred from './components/PanelTransferred';
-  import PanelArchived from './components/PanelArchived';
+  import PanelHistorical from './components/PanelHistorical';
   import teams from './data';
   export let code: string = null;
 
@@ -25,13 +25,13 @@
   <Tabs class="w-full">
     <TabList>
       <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Transferred</Tab>
-      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Archived</Tab>
+      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Historical</Tab>
     </TabList>
     <TabPanel>
       <PanelTransferred class="mt-2" members={team.playersTransferred} />
     </TabPanel>
     <TabPanel>
-      <PanelArchived class="mt-2" members={team.playersArchived} />
+      <PanelHistorical class="mt-2" members={team.playersArchived} />
     </TabPanel>
   </Tabs>
 </div>

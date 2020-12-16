@@ -13,8 +13,8 @@ export interface Options {
   teams: ISanitisedTeam[];
 }
 
-const pickTransferred = ['footyWebNumber', 'status', 'initials', 'lastName', 'firstName', 'gender', 'club', 'lastTransferDate'];
-const pickArchived = ['footyWebNumber', 'status', 'initials', 'lastName', 'firstName', 'gender', 'lastTransactionDate'];
+const pickTransferred = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'club', 'lastTransferDate'];
+const pickArchived = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'lastTransactionDate'];
 
 export const teamPlayerArchivedList = ({ teams, members: players }: Options) => {
   const output: any = {};
@@ -23,9 +23,9 @@ export const teamPlayerArchivedList = ({ teams, members: players }: Options) => 
     const teamMembersFiltered = filter(players, ({ teamCode }) => teamCode === code);
     const teamMembersSorted = orderBy(teamMembersFiltered, ['lastName', 'firstName'], ['asc', 'asc']);
     const team: any = { code, name, ageGroupCode, teamGender, playersTransferred: [], playersArchived: [] };
-    team.playersTransferred = filter(teamMembersFiltered, (player) => player.status === 'Transferred');
+    team.playersTransferred = filter(teamMembersSorted, (player) => player.status === 'Transferred');
     team.playersTransferred = map(team.playersTransferred, (player) => pick(player, pickTransferred));
-    team.playersArchived = filter(teamMembersFiltered, (player) => player.status === 'Historical');
+    team.playersArchived = filter(teamMembersSorted, (player) => player.status === 'Historical');
     team.playersArchived = map(team.playersArchived, (player) => pick(player, ...pickArchived));
     output[code] = team;
   });
