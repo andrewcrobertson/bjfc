@@ -9,10 +9,10 @@
   import players from './data';
   export let code: string = null;
 
-  const member = players[code];
-  const emergencyContacts = member.emergencyContact === null ? [] : [member.emergencyContact];
-  const contacts = member.contact === null ? [] : [member.contact];
-  pageTitle.set(`${member.firstName} ${member.lastName}`);
+  const player = players[code];
+  const emergencyContacts = player.emergencyContact === null ? [] : [player.emergencyContact];
+  const contacts = player.contact === null ? [] : [player.contact];
+  pageTitle.set(`${player.firstName} ${player.lastName}`);
 </script>
 
 <Tabs class="max-w-6xl mx-auto xl:pt-24 xl:pb-12">
@@ -22,7 +22,7 @@
     <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Contact</Tab>
   </TabList>
   <TabPanel>
-    <PanelGuardian guardians={member.guardians} />
+    <PanelGuardian guardians={player.guardians} />
   </TabPanel>
   <TabPanel>
     <PanelEmergency contacts={emergencyContacts} />
@@ -38,9 +38,9 @@
     <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Transfers</Tab>
   </TabList>
   <TabPanel>
-    <PanelTransaction records={member.transactions} />
+    <PanelTransaction records={player.transactions} />
   </TabPanel>
   <TabPanel>
-    <PanelTransfer records={member.transfers} />
+    <PanelTransfer records={player.transfers} />
   </TabPanel>
 </Tabs>
