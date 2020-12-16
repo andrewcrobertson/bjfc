@@ -40,7 +40,7 @@
       </div>
     </div>
     <div class="mt-4 flex justify-between w-full">
-      <a class="text-sm border border-gray-300 px-6 py-3" href="/teams/{code}/members/">Players</a>
+      <a class="text-sm border border-gray-300 px-6 py-3" href="/teams/{code}/players/">Players</a>
       <a class="text-sm border border-gray-300 px-6 py-3" href="/teams/{code}/officials/">Officials</a>
     </div>
   </div>

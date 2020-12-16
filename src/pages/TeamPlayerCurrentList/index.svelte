@@ -18,7 +18,7 @@
   <div class="flex justify-between items-center">
     <AvatarHeading class="pb-5" {colour} initials={team.ageGroupCode} text={team.name} />
     <div class="flex">
-      <a class="text-sm border border-gray-300 px-3 py-3 mr-2" href="/teams/{code}/members/archived">Archived</a>
+      <a class="text-sm border border-gray-300 px-3 py-3 mr-2" href="/teams/{code}/players/archived">Archived</a>
       <a class="text-sm border border-gray-300 px-3 py-3" href="/teams/{code}/officials">Officials</a>
     </div>
   </div>

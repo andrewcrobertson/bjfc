@@ -15,7 +15,7 @@
       {gender}
       {club}
       {lastTransferDate}
-      url="/members/{footyWebNumber}/" />
+      url="/players/{footyWebNumber}/" />
   {:else}
     <p class="p-4">There are no transferred players</p>
   {/each}

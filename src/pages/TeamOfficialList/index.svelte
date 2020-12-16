@@ -16,7 +16,7 @@
 <div class="max-w-6xl mx-auto xl:py-24">
   <div class="flex justify-between items-center">
     <AvatarHeading class="pb-5" {colour} initials={team.ageGroupCode} text={team.name} />
-    <div class="flex"><a class="text-sm border border-gray-300 px-3 py-3 mr-2" href="/teams/{code}/members">Players</a></div>
+    <div class="flex"><a class="text-sm border border-gray-300 px-3 py-3 mr-2" href="/teams/{code}/players">Players</a></div>
   </div>
   <div class="flex flex-wrap -m-4 sm:p-4">
     {#each team.officials as { role, official }}

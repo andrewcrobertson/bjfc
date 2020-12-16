@@ -14,7 +14,7 @@
       {firstName}
       {gender}
       {insuredThisSeason}
-      url="/members/{footyWebNumber}/" />
+      url="/players/{footyWebNumber}/" />
   {:else}
     <p class="p-4">There are no active players</p>
   {/each}
