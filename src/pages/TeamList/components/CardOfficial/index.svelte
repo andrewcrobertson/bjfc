@@ -1,8 +1,16 @@
 <script lang="ts">
-  export let official = null;
+  import XIcon from '@this/icons/XIcon';
+  import CheckIcon from '@this/icons/CheckIcon';
+  export let filled = false;
   export let role = null;
-
-  const officialString = official === null ? 'TBD' : `${official.firstName} ${official.lastName}`;
+  export let colour = 'gray';
 </script>
 
-<p class="text-sm"><span class="font-medium">{role}:</span> {officialString}</p>
+<span class="inline-flex items-center text-sm">
+  {#if filled}
+    <CheckIcon class="inline w-5 h-5 mr-1 text-{colour}-500" />
+  {:else}
+    <XIcon class="inline w-5 h-5 mr-1 text-{colour}-500" />
+  {/if}
+  {role}
+</span>
