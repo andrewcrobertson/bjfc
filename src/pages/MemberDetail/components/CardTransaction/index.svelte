@@ -1,6 +1,6 @@
 <script lang="ts">
   import CalendarIcon from '@this/icons/CalendarIcon';
-  import ShieldCheckIcon from '@this/icons/ShieldCheckIcon';
+  import CurrencyDollarIcon from '@this/icons/CurrencyDollarIcon';
 
   let rootClass = '';
   export { rootClass as class };
@@ -16,7 +16,7 @@
     <h2 class="text-lg font-medium title-font ml-2">{product}</h2>
     <div class="flex justify-between sm:space-x-4">
       <span class="inline-flex items-center text-sm py-1 ml-2">
-        <ShieldCheckIcon class="text-{colour}-500 w-5 h-5 mr-1" />
+        <CurrencyDollarIcon class="text-{colour}-500 w-5 h-5 mr-1" />
         {lineItemTotal}
         {transactionStatus}
       </span>

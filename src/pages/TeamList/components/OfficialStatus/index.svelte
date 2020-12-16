@@ -6,7 +6,7 @@
   export let colour = 'gray';
 </script>
 
-<span class="inline-flex items-center text-sm">
+<span class="flex items-center text-sm">
   {#if filled}
     <CheckIcon class="inline w-5 h-5 mr-1 text-{colour}-500" />
   {:else}

@@ -46,7 +46,7 @@
     { "from": "Club - 2017 Junior Club Fees", "to": "2017 Club Fees" }
   ],
   "noContact": [{ "footyWebNumber": "" }],
-  "playerTeamExceptions": [{ "code": "U12B", "footyWebNumber": "02892610.no" }],
+  "playerTeamExceptions": [{ "code": "U12B", "footyWebNumber": "02892610" }],
   "committee": [
     {
       "role": "President",

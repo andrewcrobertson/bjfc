@@ -1,56 +1,40 @@
 <script lang="ts">
   import * as teamGenderEnum from '@this/constants/teamGenderEnum';
   import { background } from '@this/constants/theme';
-  import ClipboardListIcon from '@this/icons/ClipboardListIcon';
-  import EmojiHappyIcon from '@this/icons/EmojiHappyIcon';
-  import ShieldCheckIcon from '@this/icons/ShieldCheckIcon';
-  import CardOfficial from '../CardOfficial';
+  import OfficialStatus from '../OfficialStatus';
+  import PlayerInsuredCount from '../PlayerInsuredCount';
+  import PlayerRegisteredCount from '../PlayerRegisteredCount';
+  import PlayerTotalCount from '../PlayerTotalCount';
+  export let team: any = {};
 
-  export let code = '';
-  export let teamGender = teamGenderEnum.mixed as string;
-  export let ageGroupCode = '';
-  export let name = '';
-  export let headCoach = false;
-  export let assistantCoach = false;
-  export let teamManager = false;
-  export let trainer = false;
-  export let totalCount = 0;
-  export let registeredCount = 0;
-  export let insuredCount = 0;
-
+  const code = team.code;
+  const teamGender = team.teamGender ?? (teamGenderEnum.mixed as string);
+  const ageGroupCode = team.ageGroupCode;
+  const name = team.name;
+  const roles = team.roles;
+  const totalCount = team.totalCount;
+  const registeredCount = team.registeredCount;
+  const insuredCount = team.insuredCount;
   const colour = background[teamGender];
 </script>
 
-<div class="xl:w-1/3 md:w-1/2 w-full p-2 sm:p-4">
+<div class="w-full md:w-1/2 xl:w-1/3 p-2 sm:p-4">
   <div class="border border-gray-300 p-4 lg:p-6">
     <div class="flex items-center mb-2">
       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{ageGroupCode}</div>
       <h2 class="text-lg font-medium title-font ml-2">{name}</h2>
     </div>
-    <div class="mt-4 flex justify-between w-full">
+    <div class="flex justify-between w-full mt-4">
       <div class="flex flex-col">
-        <span class="inline-flex items-center text-sm">
-          <EmojiHappyIcon class="w-5 h-5 mr-1 text-{colour}-500" />
-          {totalCount}
-          {totalCount === 1 ? 'Player' : 'Players'}
-        </span>
+        <PlayerTotalCount {totalCount} {colour} />
         <hr class="mt-1 mb-1 border border-gray-300 border-t-0" />
-        <span class="inline-flex items-center text-sm">
-          <ShieldCheckIcon class="w-5 h-5 mr-1 text-{colour}-500" />
-          {insuredCount}
-          Insured
-        </span>
-        <span class="inline-flex items-center text-sm">
-          <ClipboardListIcon class="w-5 h-5 mr-1 text-{colour}-500" />
-          {registeredCount}
-          Registered
-        </span>
+        <PlayerInsuredCount {insuredCount} {colour} />
+        <PlayerRegisteredCount {registeredCount} {colour} />
       </div>
       <div class="flex flex-col">
-        <CardOfficial role="Head Coach" filled={headCoach} {colour} />
-        <CardOfficial role="Assistant Coach" filled={assistantCoach} {colour} />
-        <CardOfficial role="Team Manager" filled={teamManager} {colour} />
-        <CardOfficial role="Trainer" filled={trainer} {colour} />
+        {#each roles as { name, filled }}
+          <OfficialStatus role={name} {filled} {colour} />
+        {/each}
       </div>
     </div>
     <div class="mt-4 flex justify-between w-full">
