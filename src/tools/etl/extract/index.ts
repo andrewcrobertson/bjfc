@@ -34,7 +34,7 @@ export const extract = async (options: Options) => {
   const teams = map(allTeamsJsonRaw, (team) => sanitiseTeam(team)) as IRawConfigTeam[];
 
   const allCommitteeJsonRaw = YAML.parse(fs.readFileSync(options.committeePath, 'utf-8'));
-  const committee = map(allCommitteeJsonRaw, (member) => sanitiseCommittee(member)) as IRawConfigCommittee[];
+  const committee = map(allCommitteeJsonRaw.committee, (member) => sanitiseCommittee(member)) as IRawConfigCommittee[];
 
   const yearMale = getPlayerOldestBirthYear(teams, config.seasonYear, 'Male');
   const yearFemale = getPlayerOldestBirthYear(teams, config.seasonYear, 'Female');
