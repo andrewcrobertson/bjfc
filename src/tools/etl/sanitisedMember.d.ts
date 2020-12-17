@@ -60,6 +60,7 @@ export interface ISanitisedMember {
   emergencyContact: ISanitisedMemberEmergencyContact;
   contact: ISanitisedMemberContact;
   transactions: ISanitisedMemberTransaction[];
+  firstTransactionDate: string;
   lastTransactionDate: string;
   transfers: ISanitisedMemberTransfer[];
   lastTransferDate: string;

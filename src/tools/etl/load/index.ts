@@ -5,7 +5,6 @@ export interface Options {
   standardLayout: any;
   committeeList: any;
   playerDetail: any;
-  playerDetailMore: any;
   teamList: any;
   teamPlayerArchivedList: any;
   teamPlayerCurrentList: any;
@@ -27,7 +26,6 @@ export const load = (options: Options) => {
   writeLayout('StandardLayout', options.standardLayout);
   writePage('CommitteeList', options.committeeList);
   writePage('PlayerDetail', options.playerDetail);
-  writePage('PlayerDetailMore', options.playerDetailMore);
   writePage('TeamDashboard', options.teamList);
   writePage('TeamPlayerArchivedList', options.teamPlayerArchivedList);
   writePage('TeamPlayerCurrentList', options.teamPlayerCurrentList);
