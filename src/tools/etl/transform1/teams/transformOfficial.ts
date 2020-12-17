@@ -1,5 +1,5 @@
-import type { IRawConfigOfficial } from '../../rawConfig';
 import type { ISanitisedOfficial } from '../../sanitisedTeam';
+import type { IRawConfigOfficial } from '../../types/rawConfig';
 import { toInitials } from '../toInitials';
 
 export const transformOfficial = (official: IRawConfigOfficial): ISanitisedOfficial => {

@@ -1,5 +1,5 @@
-import type { IRawConfig, IRawConfigCommittee, IRawConfigTeam, IRawProducts } from '../rawConfig';
-import type { IRawPlayer } from '../rawPlayer';
+import type { IRawConfig, IRawConfigCommittee, IRawConfigTeam, IRawProducts } from '../types/rawConfig';
+import type { IRawPlayer } from '../types/rawPlayer';
 import { transformCommittee } from './commmittee/transformCommittee';
 import { transformMembers } from './members/transformMembers';
 import { transformTeams } from './teams/transformTeams';

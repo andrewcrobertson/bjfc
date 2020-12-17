@@ -1,5 +1,5 @@
 import replace from 'lodash/replace';
-import type { IRawPlayerTransaction } from '../../rawPlayer';
+import type { IRawPlayerTransaction } from '../../types/rawPlayer';
 import { sanitiseSlashDateTime } from '../utility/sanitiseSlashDateTime';
 import { sanitiseWithMap } from './sanitiseWithMap';
 

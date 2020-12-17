@@ -1,5 +1,5 @@
 import map from 'lodash/map';
-import type { IRawConfig } from '../../rawConfig';
+import type { IRawConfig } from '../../types/rawConfig';
 import { sanitiseMap } from '../utility/sanitiseMap';
 
 export const sanitiseConfig = (obj: any): IRawConfig => ({

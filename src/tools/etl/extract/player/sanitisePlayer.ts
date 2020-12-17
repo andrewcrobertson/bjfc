@@ -1,6 +1,6 @@
 import compact from 'lodash/compact';
 import map from 'lodash/map';
-import type { IRawPlayer } from '../../rawPlayer';
+import type { IRawPlayer } from '../../types/rawPlayer';
 import { sanitiseObject } from '../utility/sanitiseObject';
 import { sanitisePersonGender } from '../utility/sanitisePersonGender';
 import { sanitiseSlashDate } from '../utility/sanitiseSlashDate';

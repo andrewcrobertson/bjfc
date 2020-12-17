@@ -1,4 +1,4 @@
-import type { IRawConfigTeam } from '../../rawConfig';
+import type { IRawConfigTeam } from '../../types/rawConfig';
 import { sanitiseObject } from '../utility/sanitiseObject';
 import { sanitiseString } from '../utility/sanitiseString';
 import { sanitiseOfficial } from './sanitiseOfficial';

@@ -1,6 +1,6 @@
 import map from 'lodash/map';
-import type { IRawConfigCommittee } from '../../rawConfig';
 import type { ISanitisedCommittee } from '../../sanitisedCommittee';
+import type { IRawConfigCommittee } from '../../types/rawConfig';
 import { toInitials } from '../toInitials';
 
 export interface Options {

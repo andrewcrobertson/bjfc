@@ -1,5 +1,5 @@
-- seasonYear: 2021
-- clubMap:
+seasonYear: 2021
+clubMap:
   - { from: Ashwood Junior Football Club, to: Ashwood }
   - { from: Bayswater Blues Primary School Football Club, to: Bayswater Blues PS }
   - { from: Berwick JFC, to: Berwick }
@@ -12,7 +12,7 @@
   - { from: Rowville Hawks Football Club, to: Rowville Hawks }
   - { from: Rowville Knights Community Football Club, to: Rowville Knights }
   - { from: Woori Yallock Junior Football Club, to: Woori Yallock }
-- noContact:
+noContact:
   - { footyWebNumber: sample }
-- playerTeamExceptions: 
+playerTeamExceptions: 
   - { code: U12B, footyWebNumber: 02892610 }

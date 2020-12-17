@@ -1,4 +1,4 @@
-import type { IRawPlayerRegisteredContact } from '../../rawPlayer';
+import type { IRawPlayerRegisteredContact } from '../../types/rawPlayer';
 import { arrayToString } from '../arrayToString';
 
 export const transformRegisteredContact = ({

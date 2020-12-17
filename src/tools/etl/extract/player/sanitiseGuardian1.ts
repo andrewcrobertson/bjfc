@@ -1,4 +1,4 @@
-import type { IRawPlayerGuardian } from '../../rawPlayer';
+import type { IRawPlayerGuardian } from '../../types/rawPlayer';
 import { sanitiseEmail } from '../utility/sanitiseEmail';
 import { sanitisePhone } from '../utility/sanitisePhone';
 import { sanitiseString } from '../utility/sanitiseString';

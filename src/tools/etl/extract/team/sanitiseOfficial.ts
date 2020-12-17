@@ -1,4 +1,4 @@
-import type { IRawConfigOfficial } from '../../rawConfig';
+import type { IRawConfigOfficial } from '../../types/rawConfig';
 import { sanitiseEmail } from '../utility/sanitiseEmail';
 import { sanitisePersonGender } from '../utility/sanitisePersonGender';
 import { sanitisePhone } from '../utility/sanitisePhone';

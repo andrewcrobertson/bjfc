@@ -1,4 +1,4 @@
-import type { IRawPlayerGuardian } from '../../rawPlayer';
+import type { IRawPlayerGuardian } from '../../types/rawPlayer';
 import { toInitials } from '../toInitials';
 
 export const transformGuardian = (guardian: IRawPlayerGuardian) => {

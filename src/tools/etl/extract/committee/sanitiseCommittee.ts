@@ -1,4 +1,4 @@
-import type { IRawConfigCommittee } from '../../rawConfig';
+import type { IRawConfigCommittee } from '../../types/rawConfig';
 import { sanitiseEmail } from '../utility/sanitiseEmail';
 import { sanitisePersonGender } from '../utility/sanitisePersonGender';
 import { sanitisePhone } from '../utility/sanitisePhone';

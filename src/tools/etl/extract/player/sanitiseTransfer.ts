@@ -1,4 +1,4 @@
-import type { IRawPlayerTransfer } from '../../rawPlayer';
+import type { IRawPlayerTransfer } from '../../types/rawPlayer';
 import { sanitiseDashDateTime } from '../utility/sanitiseDashDateTime';
 import { sanitiseSlashDate } from '../utility/sanitiseSlashDate';
 import { sanitiseWithMap } from './sanitiseWithMap';

@@ -1,4 +1,4 @@
-import type { IRawPlayerEmergencyContact } from '../../rawPlayer';
+import type { IRawPlayerEmergencyContact } from '../../types/rawPlayer';
 import { sanitisePhone } from '../utility/sanitisePhone';
 import { sanitiseString } from '../utility/sanitiseString';
 
