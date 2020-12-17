@@ -7,5 +7,5 @@ export const sanitiseSlashDateTime = (dateTime: string) => {
   }
 
   const [date, time] = split(dateTime, ' ');
-  return { date: sanitiseSlashDate(date), time };
+  return { date: sanitiseSlashDate(date), time: time ?? null };
 };

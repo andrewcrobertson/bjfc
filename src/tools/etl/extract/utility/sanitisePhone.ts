@@ -12,14 +12,14 @@ export const sanitisePhone = (value: string) => {
 
   if (digits.length === 10) {
     if (startsWith(digits, '04')) {
-      return `${digits[0]}${digits[1]}${digits[2]}${digits[3]} ${digits[4]}${digits[5]}${digits[6]} ${digits[7]}${digits[8]}${digits[9]}`;
+      return `${digits.substring(0, 4)} ${digits.substring(4, 7)} ${digits.substring(7, 10)}`;
     }
 
-    return `${digits[0]}${digits[1]} ${digits[2]}${digits[3]}${digits[4]}${digits[5]} ${digits[6]}${digits[7]}${digits[8]}${digits[9]}`;
+    return `${digits.substring(0, 2)} ${digits.substring(2, 6)} ${digits.substring(6, 10)}`;
   }
 
   if (digits.length === 8) {
-    return `${digits[0]}${digits[1]}${digits[2]}${digits[3]} ${digits[4]}${digits[5]}${digits[6]}${digits[7]}`;
+    return `${digits.substring(0, 4)} ${digits.substring(4, 8)}`;
   }
 
   return digits;

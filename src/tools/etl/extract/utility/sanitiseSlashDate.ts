@@ -6,5 +6,9 @@ export const sanitiseSlashDate = (date: string) => {
   }
 
   const [day, month, year] = split(date, '/');
+  if ((day ?? null) === null || (month ?? null) === null || (year ?? null) === null) {
+    return null;
+  }
+
   return `${year}-${month}-${day}`;
 };

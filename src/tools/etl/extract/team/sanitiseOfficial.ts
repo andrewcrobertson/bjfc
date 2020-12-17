@@ -1,5 +1,6 @@
 import type { IRawConfigOfficial } from '../../rawConfig';
 import { sanitiseEmail } from '../utility/sanitiseEmail';
+import { sanitisePersonGender } from '../utility/sanitisePersonGender';
 import { sanitisePhone } from '../utility/sanitisePhone';
 import { sanitiseString } from '../utility/sanitiseString';
 
@@ -8,5 +9,5 @@ export const sanitiseOfficial = (obj: any): IRawConfigOfficial => ({
   firstName: sanitiseString(obj.firstName),
   phone: sanitisePhone(obj.phone),
   email: sanitiseEmail(obj.email),
-  gender: sanitiseString(obj.gender),
+  gender: sanitisePersonGender(obj.gender),
 });

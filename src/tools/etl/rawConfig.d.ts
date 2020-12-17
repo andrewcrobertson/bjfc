@@ -10,7 +10,7 @@ export interface IRawConfigOfficial {
   lastName: string;
   phone: string;
   email: string;
-  gender: string;
+  gender: PersonGenderEnum;
 }
 
 export interface IRawConfigCommittee {
