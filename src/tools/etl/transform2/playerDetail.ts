@@ -1,11 +1,11 @@
-import { compact } from 'lodash';
+import { compact, filter } from 'lodash';
 import fromPairs from 'lodash/fromPairs';
 import keyBy from 'lodash/keyBy';
 import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
 import pick from 'lodash/pick';
 import type { ISanitisedConfig } from '../sanitisedConfig';
-import type { ISanitisedMember } from '../sanitisedMember';
+import type { ISanitisedMember, ISanitisedMemberTransaction, ISanitisedMemberTransfer } from '../sanitisedMember';
 import type { ISanitisedTeam } from '../sanitisedTeam';
 
 export interface Options {
@@ -92,7 +92,26 @@ const transformRegistered = (contact: any) => ({
   ]),
 });
 
-export const playerDetail = ({ teams, members: membersRaw }: Options) => {
+const transformTransactions = (transactions: ISanitisedMemberTransaction[], seasonYear: number) =>
+  filter(
+    map(transactions, (transaction) => ({
+      year: parseInt(transaction.product.substring(0, 4)),
+      transactionDate: transaction.transactionDate,
+      product: transaction.product,
+      lineItemTotal: transaction.lineItemTotal,
+      transactionStatus: transaction.transactionStatus,
+    })),
+    ({ year }) => year >= seasonYear - 1
+  );
+
+const transformTransfers = (transactions: ISanitisedMemberTransfer[], firstTransactionDate: string) => {
+  return [
+    ...map(transactions, ({ destinationClub, finalisedDate, applicationDate }) => ({ date: finalisedDate ?? applicationDate, club: destinationClub })),
+    { date: firstTransactionDate, club: 'Bayswater' },
+  ];
+};
+
+export const playerDetail = ({ config, teams, members: membersRaw }: Options) => {
   const teamMap = fromPairs(map(teams, (team) => [team.code, pick(team, teamFields)]));
   const members = map(membersRaw, (memberRaw) => {
     const member = pick(memberRaw, ...fields) as any;
@@ -101,8 +120,8 @@ export const playerDetail = ({ teams, members: membersRaw }: Options) => {
       memberRaw.emergencyContact === null ? null : transformEmergency(memberRaw.emergencyContact),
       memberRaw.contact === null ? null : transformRegistered(memberRaw.contact),
     ]);
-    member.transactions = orderBy(memberRaw.transactions, ['transactionDate', 'transactionTime'], ['desc', 'desc']);
-    member.transfers = orderBy(memberRaw.transfers, ['applicationDate'], ['desc']);
+    member.transactions = orderBy(transformTransactions(memberRaw.transactions, config.seasonYear), ['transactionDate', 'transactionTime'], ['desc', 'desc']);
+    member.transfers = orderBy(transformTransfers(memberRaw.transfers, memberRaw.firstTransactionDate), ['date'], ['desc']);
     member.team = teamMap[memberRaw.teamCode] ?? null;
     return member;
   });

@@ -67,6 +67,7 @@ export const transformMembers = ({ config, members: membersRaw }: Options): ISan
       contact: transformContact(member.contact),
       transactions: member.transactions,
       lastTransactionDate: last(map(member.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,
+      firstTransactionDate: first(map(member.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,
       transfers: member.transfers,
       lastTransferDate: last(map(member.transfers, ({ applicationDate, finalisedDate }) => finalisedDate ?? applicationDate).sort()) ?? null,
     };

@@ -574,6 +574,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2016-04-20",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -630,6 +631,7 @@
         }
       ],
       "lastTransactionDate": "2019-05-17",
+      "firstTransactionDate": "2019-05-17",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -676,6 +678,7 @@
         }
       ],
       "lastTransactionDate": "2019-04-28",
+      "firstTransactionDate": "2019-04-28",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -794,6 +797,7 @@
         }
       ],
       "lastTransactionDate": "2019-06-29",
+      "firstTransactionDate": "2013-04-06",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -863,6 +867,7 @@
         }
       ],
       "lastTransactionDate": "2015-04-09",
+      "firstTransactionDate": "2014-04-05",
       "transfers": [
         {
           "transferYear": "2016",
@@ -979,6 +984,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-13",
+      "firstTransactionDate": "2014-04-03",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -1046,6 +1052,7 @@
         }
       ],
       "lastTransactionDate": "2020-07-01",
+      "firstTransactionDate": "2018-11-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -1115,6 +1122,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-14",
+      "firstTransactionDate": "2020-06-29",
       "transfers": [
         {
           "transferYear": "2020",
@@ -1183,6 +1191,7 @@
         }
       ],
       "lastTransactionDate": "2019-04-05",
+      "firstTransactionDate": "2018-02-16",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -1210,6 +1219,7 @@
       },
       "transactions": [],
       "lastTransactionDate": null,
+      "firstTransactionDate": null,
       "transfers": [],
       "lastTransferDate": null
     },
@@ -1280,6 +1290,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-13",
+      "firstTransactionDate": "2020-06-01",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -1336,6 +1347,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-19",
+      "firstTransactionDate": "2020-06-19",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -1399,6 +1411,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-20",
+      "firstTransactionDate": "2019-03-10",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -1517,6 +1530,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-14",
+      "firstTransactionDate": "2014-02-24",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -1600,6 +1614,7 @@
         }
       ],
       "lastTransactionDate": "2019-02-09",
+      "firstTransactionDate": "2017-03-22",
       "transfers": [
         {
           "transferYear": "2020",
@@ -1705,6 +1720,7 @@
         }
       ],
       "lastTransactionDate": "2020-01-06",
+      "firstTransactionDate": "2017-03-22",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -1781,6 +1797,7 @@
         }
       ],
       "lastTransactionDate": "2015-12-30",
+      "firstTransactionDate": "2013-02-26",
       "transfers": [
         {
           "transferYear": "2015",
@@ -1893,6 +1910,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-10",
+      "firstTransactionDate": "2015-03-31",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -1946,6 +1964,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2020-06-19",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -2027,6 +2046,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2018-02-18",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -2114,6 +2134,7 @@
         }
       ],
       "lastTransactionDate": "2019-03-28",
+      "firstTransactionDate": "2016-04-20",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -2184,6 +2205,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-15",
+      "firstTransactionDate": "2019-05-04",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -2240,6 +2262,7 @@
         }
       ],
       "lastTransactionDate": "2018-05-15",
+      "firstTransactionDate": "2018-05-15",
       "transfers": [
         {
           "transferYear": "2018",
@@ -2304,6 +2327,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-19",
+      "firstTransactionDate": "2020-06-19",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -2377,6 +2401,7 @@
         }
       ],
       "lastTransactionDate": "2018-02-07",
+      "firstTransactionDate": "2016-04-14",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -2440,6 +2465,7 @@
         }
       ],
       "lastTransactionDate": "2019-02-17",
+      "firstTransactionDate": "2019-02-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -2486,6 +2512,7 @@
         }
       ],
       "lastTransactionDate": "2015-04-29",
+      "firstTransactionDate": "2015-04-29",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -2548,6 +2575,7 @@
         }
       ],
       "lastTransactionDate": "2017-04-22",
+      "firstTransactionDate": "2017-04-22",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -2601,6 +2629,7 @@
         }
       ],
       "lastTransactionDate": "2014-03-18",
+      "firstTransactionDate": "2013-02-22",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -2654,6 +2683,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-18",
+      "firstTransactionDate": "2020-02-18",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -2731,6 +2761,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-10",
+      "firstTransactionDate": "2018-11-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -2808,6 +2839,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-10",
+      "firstTransactionDate": "2017-11-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -2877,6 +2909,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-15",
+      "firstTransactionDate": "2019-11-17",
       "transfers": [
         {
           "transferYear": "2020",
@@ -2959,6 +2992,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-10",
+      "firstTransactionDate": "2018-03-24",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -3036,6 +3070,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2019-03-21",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -3105,6 +3140,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-24",
+      "firstTransactionDate": "2019-04-08",
       "transfers": [
         {
           "transferYear": "2020",
@@ -3210,6 +3246,7 @@
         }
       ],
       "lastTransactionDate": "2018-11-11",
+      "firstTransactionDate": "2017-03-29",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -3293,6 +3330,7 @@
         }
       ],
       "lastTransactionDate": "2017-11-10",
+      "firstTransactionDate": "2016-04-03",
       "transfers": [
         {
           "transferYear": "2016",
@@ -3405,6 +3443,7 @@
         }
       ],
       "lastTransactionDate": "2017-11-10",
+      "firstTransactionDate": "2016-04-03",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -3481,6 +3520,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2019-03-16",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -3557,6 +3597,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2019-11-04",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -3627,6 +3668,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2020-07-01",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -3738,6 +3780,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-21",
+      "firstTransactionDate": "2013-03-15",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -3790,6 +3833,7 @@
         }
       ],
       "lastTransactionDate": "2013-03-10",
+      "firstTransactionDate": "2013-03-10",
       "transfers": [
         {
           "transferYear": "2020",
@@ -3833,6 +3877,7 @@
         }
       ],
       "lastTransactionDate": "2016-04-15",
+      "firstTransactionDate": "2016-04-15",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -3903,6 +3948,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-10",
+      "firstTransactionDate": "2018-05-06",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -3973,6 +4019,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-13",
+      "firstTransactionDate": "2019-02-21",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -4050,6 +4097,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-13",
+      "firstTransactionDate": "2018-04-20",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -4120,6 +4168,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-13",
+      "firstTransactionDate": "2019-02-21",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -4238,6 +4287,7 @@
         }
       ],
       "lastTransactionDate": "2019-12-08",
+      "firstTransactionDate": "2014-04-15",
       "transfers": [
         {
           "transferYear": "2021",
@@ -4298,6 +4348,7 @@
         }
       ],
       "lastTransactionDate": "2017-04-30",
+      "firstTransactionDate": "2017-04-30",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -4388,6 +4439,7 @@
         }
       ],
       "lastTransactionDate": "2018-03-15",
+      "firstTransactionDate": "2014-04-03",
       "transfers": [
         {
           "transferYear": "2016",
@@ -4472,6 +4524,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-30",
+      "firstTransactionDate": "2017-03-30",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -4552,6 +4605,7 @@
         }
       ],
       "lastTransactionDate": "2018-11-11",
+      "firstTransactionDate": "2016-03-06",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -4660,6 +4714,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2015-04-30",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -4737,6 +4792,7 @@
         }
       ],
       "lastTransactionDate": "2020-07-02",
+      "firstTransactionDate": "2018-05-03",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -4838,6 +4894,7 @@
         }
       ],
       "lastTransactionDate": "2019-03-28",
+      "firstTransactionDate": "2016-05-04",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -4935,6 +4992,7 @@
         }
       ],
       "lastTransactionDate": "2019-05-29",
+      "firstTransactionDate": "2013-04-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -5019,6 +5077,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-14",
+      "firstTransactionDate": "2019-02-25",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -5082,6 +5141,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-15",
+      "firstTransactionDate": "2020-02-15",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -5144,6 +5204,7 @@
         }
       ],
       "lastTransactionDate": "2017-05-05",
+      "firstTransactionDate": "2017-05-05",
       "transfers": [
         {
           "transferYear": "2018",
@@ -5222,6 +5283,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2020-02-16",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -5292,6 +5354,7 @@
         }
       ],
       "lastTransactionDate": "2019-01-14",
+      "firstTransactionDate": "2018-05-02",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -5366,6 +5429,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-18",
+      "firstTransactionDate": "2018-04-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -5429,6 +5493,7 @@
         }
       ],
       "lastTransactionDate": "2019-04-17",
+      "firstTransactionDate": "2019-04-17",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -5467,6 +5532,7 @@
       },
       "transactions": [],
       "lastTransactionDate": null,
+      "firstTransactionDate": null,
       "transfers": [
         {
           "transferYear": "2020",
@@ -5544,6 +5610,7 @@
         }
       ],
       "lastTransactionDate": "2016-11-25",
+      "firstTransactionDate": "2016-03-05",
       "transfers": [
         {
           "transferYear": "2018",
@@ -5656,6 +5723,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-14",
+      "firstTransactionDate": "2016-11-25",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -5760,6 +5828,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-14",
+      "firstTransactionDate": "2016-03-23",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -5813,6 +5882,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-15",
+      "firstTransactionDate": "2020-03-15",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -5866,6 +5936,7 @@
         }
       ],
       "lastTransactionDate": "2019-03-26",
+      "firstTransactionDate": "2019-03-26",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -5928,6 +5999,7 @@
         }
       ],
       "lastTransactionDate": "2017-04-22",
+      "firstTransactionDate": "2017-04-22",
       "transfers": [
         {
           "transferYear": "2018",
@@ -6012,6 +6084,7 @@
         }
       ],
       "lastTransactionDate": "2018-04-12",
+      "firstTransactionDate": "2016-04-23",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -6081,6 +6154,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-01",
+      "firstTransactionDate": "2019-03-30",
       "transfers": [
         {
           "transferYear": "2019",
@@ -6228,6 +6302,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-08",
+      "firstTransactionDate": "2014-02-23",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -6360,6 +6435,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-08",
+      "firstTransactionDate": "2015-03-05",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -6443,6 +6519,7 @@
         }
       ],
       "lastTransactionDate": "2017-11-12",
+      "firstTransactionDate": "2016-03-23",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -6533,6 +6610,7 @@
         }
       ],
       "lastTransactionDate": "2018-02-18",
+      "firstTransactionDate": "2015-04-07",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -6589,6 +6667,7 @@
         }
       ],
       "lastTransactionDate": "2018-04-14",
+      "firstTransactionDate": "2018-04-14",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -6665,6 +6744,7 @@
         }
       ],
       "lastTransactionDate": "2017-11-12",
+      "firstTransactionDate": "2017-03-28",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -6739,6 +6819,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-06",
+      "firstTransactionDate": "2017-11-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -6809,6 +6890,7 @@
         }
       ],
       "lastTransactionDate": "2018-11-12",
+      "firstTransactionDate": "2018-06-27",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -6836,6 +6918,7 @@
       },
       "transactions": [],
       "lastTransactionDate": null,
+      "firstTransactionDate": null,
       "transfers": [],
       "lastTransferDate": null
     },
@@ -6896,6 +6979,7 @@
         }
       ],
       "lastTransactionDate": "2018-02-16",
+      "firstTransactionDate": "2014-03-30",
       "transfers": [
         {
           "transferYear": "2019",
@@ -6987,6 +7071,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-08",
+      "firstTransactionDate": "2017-06-15",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -7088,6 +7173,7 @@
         }
       ],
       "lastTransactionDate": "2019-03-15",
+      "firstTransactionDate": "2014-03-13",
       "transfers": [
         {
           "transferYear": "2020",
@@ -7152,6 +7238,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-15",
+      "firstTransactionDate": "2020-11-15",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -7214,6 +7301,7 @@
         }
       ],
       "lastTransactionDate": "2017-05-11",
+      "firstTransactionDate": "2017-05-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -7267,6 +7355,7 @@
         }
       ],
       "lastTransactionDate": "2019-04-04",
+      "firstTransactionDate": "2018-04-14",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -7313,6 +7402,7 @@
         }
       ],
       "lastTransactionDate": "2018-04-28",
+      "firstTransactionDate": "2018-04-28",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -7396,6 +7486,7 @@
         }
       ],
       "lastTransactionDate": "2016-04-09",
+      "firstTransactionDate": "2013-04-11",
       "transfers": [
         {
           "transferYear": "2017",
@@ -7488,6 +7579,7 @@
         }
       ],
       "lastTransactionDate": "2019-04-06",
+      "firstTransactionDate": "2019-04-02",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -7540,6 +7632,7 @@
         }
       ],
       "lastTransactionDate": "2019-04-04",
+      "firstTransactionDate": "2019-04-04",
       "transfers": [
         {
           "transferYear": "2019",
@@ -7639,6 +7732,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-07",
+      "firstTransactionDate": "2018-04-29",
       "transfers": [
         {
           "transferYear": "2020",
@@ -7720,6 +7814,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-24",
+      "firstTransactionDate": "2014-04-02",
       "transfers": [
         {
           "transferYear": "2017",
@@ -7801,6 +7896,7 @@
         }
       ],
       "lastTransactionDate": "2019-02-17",
+      "firstTransactionDate": "2015-04-09",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -7898,6 +7994,7 @@
         }
       ],
       "lastTransactionDate": "2017-11-01",
+      "firstTransactionDate": "2013-02-22",
       "transfers": [
         {
           "transferYear": "2019",
@@ -8003,6 +8100,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-10",
+      "firstTransactionDate": "2015-04-09",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -8072,6 +8170,7 @@
         }
       ],
       "lastTransactionDate": "2018-02-18",
+      "firstTransactionDate": "2018-02-18",
       "transfers": [
         {
           "transferYear": "2019",
@@ -8157,6 +8256,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-01",
+      "firstTransactionDate": "2019-03-06",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -8248,6 +8348,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-10",
+      "firstTransactionDate": "2018-04-20",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -8339,6 +8440,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-12",
+      "firstTransactionDate": "2017-11-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -8409,6 +8511,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2018-04-26",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -8479,6 +8582,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-14",
+      "firstTransactionDate": "2020-07-02",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -8541,6 +8645,7 @@
         }
       ],
       "lastTransactionDate": "2017-04-21",
+      "firstTransactionDate": "2017-04-21",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -8638,6 +8743,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-14",
+      "firstTransactionDate": "2017-03-29",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -8722,6 +8828,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-02",
+      "firstTransactionDate": "2017-03-29",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -8778,6 +8885,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-26",
+      "firstTransactionDate": "2020-02-26",
       "transfers": [
         {
           "transferYear": "2020",
@@ -8880,6 +8988,7 @@
         }
       ],
       "lastTransactionDate": "2018-11-11",
+      "firstTransactionDate": "2015-04-09",
       "transfers": [
         {
           "transferYear": "2015",
@@ -8930,6 +9039,7 @@
         }
       ],
       "lastTransactionDate": "2015-05-07",
+      "firstTransactionDate": "2014-04-23",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -8986,6 +9096,7 @@
         }
       ],
       "lastTransactionDate": "2018-03-12",
+      "firstTransactionDate": "2018-03-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -9021,6 +9132,7 @@
         }
       ],
       "lastTransactionDate": "2016-04-14",
+      "firstTransactionDate": "2016-04-14",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -9084,6 +9196,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-17",
+      "firstTransactionDate": "2020-02-17",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -9140,6 +9253,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-20",
+      "firstTransactionDate": "2020-06-20",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -9199,6 +9313,7 @@
         }
       ],
       "lastTransactionDate": "2018-02-18",
+      "firstTransactionDate": "2017-04-21",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -9289,6 +9404,7 @@
         }
       ],
       "lastTransactionDate": "2018-11-11",
+      "firstTransactionDate": "2016-03-29",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -9358,6 +9474,7 @@
         }
       ],
       "lastTransactionDate": "2018-11-11",
+      "firstTransactionDate": "2013-02-26",
       "transfers": [
         {
           "transferYear": "2018",
@@ -9428,6 +9545,7 @@
         }
       ],
       "lastTransactionDate": "2013-04-11",
+      "firstTransactionDate": "2013-04-11",
       "transfers": [
         {
           "transferYear": "2013",
@@ -9540,6 +9658,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2017-04-28",
       "transfers": [
         {
           "transferYear": "2017",
@@ -9646,6 +9765,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2017-11-30",
       "transfers": [
         {
           "transferYear": "2017",
@@ -9716,6 +9836,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-31",
+      "firstTransactionDate": "2017-03-31",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -9813,6 +9934,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2018-02-18",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -9876,6 +9998,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-01",
+      "firstTransactionDate": "2020-02-14",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -9938,6 +10061,7 @@
         }
       ],
       "lastTransactionDate": "2015-05-07",
+      "firstTransactionDate": "2015-05-07",
       "transfers": [
         {
           "transferYear": "2018",
@@ -10008,6 +10132,7 @@
         }
       ],
       "lastTransactionDate": "2017-02-19",
+      "firstTransactionDate": "2017-02-19",
       "transfers": [
         {
           "transferYear": "2017",
@@ -10072,6 +10197,7 @@
         }
       ],
       "lastTransactionDate": "2018-11-11",
+      "firstTransactionDate": "2018-11-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -10155,6 +10281,7 @@
         }
       ],
       "lastTransactionDate": "2019-04-04",
+      "firstTransactionDate": "2018-02-18",
       "transfers": [
         {
           "transferYear": "2020",
@@ -10267,6 +10394,7 @@
         }
       ],
       "lastTransactionDate": "2019-12-02",
+      "firstTransactionDate": "2016-04-20",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -10330,6 +10458,7 @@
         }
       ],
       "lastTransactionDate": "2019-12-02",
+      "firstTransactionDate": "2019-03-28",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -10400,6 +10529,7 @@
         }
       ],
       "lastTransactionDate": "2019-12-02",
+      "firstTransactionDate": "2019-02-28",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -10476,6 +10606,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-22",
+      "firstTransactionDate": "2019-05-17",
       "transfers": [
         {
           "transferYear": "2019",
@@ -10530,6 +10661,7 @@
         }
       ],
       "lastTransactionDate": "2018-04-14",
+      "firstTransactionDate": "2018-04-14",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -10625,6 +10757,7 @@
         }
       ],
       "lastTransactionDate": "2020-07-01",
+      "firstTransactionDate": "2018-05-25",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -10709,6 +10842,7 @@
         }
       ],
       "lastTransactionDate": "2020-07-01",
+      "firstTransactionDate": "2018-05-25",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -10761,6 +10895,7 @@
         }
       ],
       "lastTransactionDate": "2019-04-06",
+      "firstTransactionDate": "2019-04-06",
       "transfers": [
         {
           "transferYear": "2017",
@@ -10846,6 +10981,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-22",
+      "firstTransactionDate": "2019-02-01",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -10898,6 +11034,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-23",
+      "firstTransactionDate": "2017-03-23",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -10933,6 +11070,7 @@
         }
       ],
       "lastTransactionDate": "2016-06-23",
+      "firstTransactionDate": "2016-06-23",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -11009,6 +11147,7 @@
         }
       ],
       "lastTransactionDate": "2016-11-25",
+      "firstTransactionDate": "2015-05-29",
       "transfers": [
         {
           "transferYear": "2018",
@@ -11079,6 +11218,7 @@
         }
       ],
       "lastTransactionDate": "2016-05-13",
+      "firstTransactionDate": "2016-05-13",
       "transfers": [
         {
           "transferYear": "2017",
@@ -11150,6 +11290,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-17",
+      "firstTransactionDate": "2020-02-17",
       "transfers": [
         {
           "transferYear": "2020",
@@ -11235,6 +11376,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-15",
+      "firstTransactionDate": "2019-04-27",
       "transfers": [
         {
           "transferYear": "2019",
@@ -11296,6 +11438,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-14",
+      "firstTransactionDate": "2019-11-10",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -11366,6 +11509,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-06",
+      "firstTransactionDate": "2020-02-23",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -11439,6 +11583,7 @@
         }
       ],
       "lastTransactionDate": "2018-04-21",
+      "firstTransactionDate": "2015-04-10",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -11571,6 +11716,7 @@
         }
       ],
       "lastTransactionDate": "2020-07-02",
+      "firstTransactionDate": "2017-03-29",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -11686,6 +11832,7 @@
         }
       ],
       "lastTransactionDate": "2020-07-02",
+      "firstTransactionDate": "2013-04-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -11735,6 +11882,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-13",
+      "firstTransactionDate": "2019-03-20",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -11781,6 +11929,7 @@
         }
       ],
       "lastTransactionDate": "2018-11-11",
+      "firstTransactionDate": "2018-11-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -11855,6 +12004,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-03",
+      "firstTransactionDate": "2018-02-26",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -11932,6 +12082,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-29",
+      "firstTransactionDate": "2018-11-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -11995,6 +12146,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2020-02-16",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -12061,6 +12213,7 @@
         }
       ],
       "lastTransactionDate": "2019-04-01",
+      "firstTransactionDate": "2017-04-01",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -12096,6 +12249,7 @@
         }
       ],
       "lastTransactionDate": "2016-04-09",
+      "firstTransactionDate": "2016-04-09",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -12148,6 +12302,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-19",
+      "firstTransactionDate": "2020-06-19",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -12259,6 +12414,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-02",
+      "firstTransactionDate": "2017-04-01",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -12350,6 +12506,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-18",
+      "firstTransactionDate": "2018-06-02",
       "transfers": [
         {
           "transferYear": "2021",
@@ -12400,6 +12557,7 @@
         }
       ],
       "lastTransactionDate": "2015-04-10",
+      "firstTransactionDate": "2014-04-02",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -12446,6 +12604,7 @@
         }
       ],
       "lastTransactionDate": "2015-05-09",
+      "firstTransactionDate": "2015-05-09",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -12515,6 +12674,7 @@
         }
       ],
       "lastTransactionDate": "2014-04-03",
+      "firstTransactionDate": "2013-03-04",
       "transfers": [
         {
           "transferYear": "2018",
@@ -12613,6 +12773,7 @@
         }
       ],
       "lastTransactionDate": "2019-12-05",
+      "firstTransactionDate": "2013-03-20",
       "transfers": [
         {
           "transferYear": "2018",
@@ -12691,6 +12852,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2016-04-15",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -12753,6 +12915,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-08",
+      "firstTransactionDate": "2020-03-08",
       "transfers": [
         {
           "transferYear": "2020",
@@ -12820,6 +12983,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-29",
+      "firstTransactionDate": "2013-03-22",
       "transfers": [
         {
           "transferYear": "2020",
@@ -12882,6 +13046,7 @@
       },
       "transactions": [],
       "lastTransactionDate": null,
+      "firstTransactionDate": null,
       "transfers": [],
       "lastTransferDate": null
     },
@@ -12951,6 +13116,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-28",
+      "firstTransactionDate": "2016-04-09",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -12986,6 +13152,7 @@
         }
       ],
       "lastTransactionDate": "2016-04-08",
+      "firstTransactionDate": "2016-04-08",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -13042,6 +13209,7 @@
         }
       ],
       "lastTransactionDate": "2015-03-26",
+      "firstTransactionDate": "2015-03-26",
       "transfers": [
         {
           "transferYear": "2019",
@@ -13096,6 +13264,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-09",
+      "firstTransactionDate": "2019-11-09",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -13228,6 +13397,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-29",
+      "firstTransactionDate": "2017-02-19",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -13297,6 +13467,7 @@
         }
       ],
       "lastTransactionDate": "2016-04-05",
+      "firstTransactionDate": "2015-04-08",
       "transfers": [
         {
           "transferYear": "2020",
@@ -13381,6 +13552,7 @@
         }
       ],
       "lastTransactionDate": "2017-02-17",
+      "firstTransactionDate": "2015-05-07",
       "transfers": [
         {
           "transferYear": "2017",
@@ -13459,6 +13631,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-21",
+      "firstTransactionDate": "2019-03-25",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -13528,6 +13701,7 @@
         }
       ],
       "lastTransactionDate": "2016-04-09",
+      "firstTransactionDate": "2015-05-29",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -13604,6 +13778,7 @@
         }
       ],
       "lastTransactionDate": "2017-11-12",
+      "firstTransactionDate": "2016-04-02",
       "transfers": [
         {
           "transferYear": "2019",
@@ -13716,6 +13891,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2015-04-09",
       "transfers": [
         {
           "transferYear": "2019",
@@ -13780,6 +13956,7 @@
         }
       ],
       "lastTransactionDate": "2015-04-13",
+      "firstTransactionDate": "2014-04-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -13871,6 +14048,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-18",
+      "firstTransactionDate": "2018-02-23",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -13934,6 +14112,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-19",
+      "firstTransactionDate": "2019-03-27",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -14024,6 +14203,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-19",
+      "firstTransactionDate": "2017-03-30",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -14115,6 +14295,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-09",
+      "firstTransactionDate": "2018-05-02",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -14220,6 +14401,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-09",
+      "firstTransactionDate": "2018-05-02",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -14331,6 +14513,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-01",
+      "firstTransactionDate": "2016-03-29",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -14435,6 +14618,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-01",
+      "firstTransactionDate": "2017-03-28",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -14560,6 +14744,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-28",
+      "firstTransactionDate": "2013-05-17",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -14678,6 +14863,7 @@
         }
       ],
       "lastTransactionDate": "2019-03-18",
+      "firstTransactionDate": "2013-04-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -14810,6 +14996,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-13",
+      "firstTransactionDate": "2014-02-27",
       "transfers": [
         {
           "transferYear": "2014",
@@ -14905,6 +15092,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-31",
+      "firstTransactionDate": "2013-04-10",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -14968,6 +15156,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-15",
+      "firstTransactionDate": "2020-06-15",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -15031,6 +15220,7 @@
         }
       ],
       "lastTransactionDate": "2018-02-20",
+      "firstTransactionDate": "2018-02-20",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -15114,6 +15304,7 @@
         }
       ],
       "lastTransactionDate": "2018-02-20",
+      "firstTransactionDate": "2015-04-10",
       "transfers": [
         {
           "transferYear": "2015",
@@ -15219,6 +15410,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-11",
+      "firstTransactionDate": "2017-03-21",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -15337,6 +15529,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-20",
+      "firstTransactionDate": "2015-03-31",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -15413,6 +15606,7 @@
         }
       ],
       "lastTransactionDate": "2018-02-22",
+      "firstTransactionDate": "2016-11-03",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -15545,6 +15739,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-15",
+      "firstTransactionDate": "2014-03-19",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -15608,6 +15803,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-15",
+      "firstTransactionDate": "2020-07-03",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -15661,6 +15857,7 @@
         }
       ],
       "lastTransactionDate": "2015-05-29",
+      "firstTransactionDate": "2014-05-30",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -15723,6 +15920,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-20",
+      "firstTransactionDate": "2017-03-20",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -15776,6 +15974,7 @@
         }
       ],
       "lastTransactionDate": "2019-02-25",
+      "firstTransactionDate": "2018-04-28",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -15867,6 +16066,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-11",
+      "firstTransactionDate": "2017-11-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -15930,6 +16130,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-09",
+      "firstTransactionDate": "2019-05-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -16021,6 +16222,7 @@
         }
       ],
       "lastTransactionDate": "2018-04-23",
+      "firstTransactionDate": "2018-04-18",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -16073,6 +16275,7 @@
         }
       ],
       "lastTransactionDate": "2017-04-22",
+      "firstTransactionDate": "2017-04-22",
       "transfers": [
         {
           "transferYear": "2018",
@@ -16162,6 +16365,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-15",
+      "firstTransactionDate": "2018-02-14",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -16218,6 +16422,7 @@
         }
       ],
       "lastTransactionDate": "2019-02-17",
+      "firstTransactionDate": "2019-02-17",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -16277,6 +16482,7 @@
         }
       ],
       "lastTransactionDate": "2013-04-20",
+      "firstTransactionDate": "2013-04-20",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -16353,6 +16559,7 @@
         }
       ],
       "lastTransactionDate": "2018-04-05",
+      "firstTransactionDate": "2016-03-30",
       "transfers": [
         {
           "transferYear": "2015",
@@ -16424,6 +16631,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-22",
+      "firstTransactionDate": "2019-11-22",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -16487,6 +16695,7 @@
         }
       ],
       "lastTransactionDate": "2018-05-02",
+      "firstTransactionDate": "2018-04-27",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -16557,6 +16766,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-19",
+      "firstTransactionDate": "2019-04-14",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -16655,6 +16865,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-27",
+      "firstTransactionDate": "2019-03-25",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -16708,6 +16919,7 @@
         }
       ],
       "lastTransactionDate": "2019-05-10",
+      "firstTransactionDate": "2019-05-10",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -16770,6 +16982,7 @@
         }
       ],
       "lastTransactionDate": "2016-04-12",
+      "firstTransactionDate": "2016-04-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -16846,6 +17059,7 @@
         }
       ],
       "lastTransactionDate": "2016-03-30",
+      "firstTransactionDate": "2013-03-23",
       "transfers": [
         {
           "transferYear": "2017",
@@ -16930,6 +17144,7 @@
         }
       ],
       "lastTransactionDate": "2016-11-25",
+      "firstTransactionDate": "2015-04-08",
       "transfers": [
         {
           "transferYear": "2018",
@@ -16998,6 +17213,7 @@
         }
       ],
       "lastTransactionDate": "2020-01-21",
+      "firstTransactionDate": "2019-05-31",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -17044,6 +17260,7 @@
         }
       ],
       "lastTransactionDate": "2018-11-11",
+      "firstTransactionDate": "2018-11-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -17120,6 +17337,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-01",
+      "firstTransactionDate": "2019-11-18",
       "transfers": [
         {
           "transferYear": "2020",
@@ -17211,6 +17429,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-23",
+      "firstTransactionDate": "2014-04-05",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -17287,6 +17506,7 @@
         }
       ],
       "lastTransactionDate": "2018-04-28",
+      "firstTransactionDate": "2016-04-30",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -17350,6 +17570,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-10",
+      "firstTransactionDate": "2018-06-30",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -17412,6 +17633,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-29",
+      "firstTransactionDate": "2017-03-29",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -17474,6 +17696,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-29",
+      "firstTransactionDate": "2017-03-29",
       "transfers": [
         {
           "transferYear": "2018",
@@ -17559,6 +17782,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-10",
+      "firstTransactionDate": "2017-11-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -17621,6 +17845,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-31",
+      "firstTransactionDate": "2017-03-31",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -17725,6 +17950,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-03",
+      "firstTransactionDate": "2017-06-16",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -17806,6 +18032,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-11",
+      "firstTransactionDate": "2018-06-21",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -17882,6 +18109,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-18",
+      "firstTransactionDate": "2019-04-06",
       "transfers": [
         {
           "transferYear": "2020",
@@ -17974,6 +18202,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-05",
+      "firstTransactionDate": "2018-02-18",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -18036,6 +18265,7 @@
         }
       ],
       "lastTransactionDate": "2017-05-05",
+      "firstTransactionDate": "2017-05-05",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -18106,6 +18336,7 @@
         }
       ],
       "lastTransactionDate": "2018-12-23",
+      "firstTransactionDate": "2018-05-21",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -18175,6 +18406,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-30",
+      "firstTransactionDate": "2017-03-30",
       "transfers": [
         {
           "transferYear": "2017",
@@ -18218,6 +18450,7 @@
         }
       ],
       "lastTransactionDate": "2016-04-21",
+      "firstTransactionDate": "2016-04-21",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -18281,6 +18514,7 @@
         }
       ],
       "lastTransactionDate": "2017-11-12",
+      "firstTransactionDate": "2017-11-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -18378,6 +18612,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-25",
+      "firstTransactionDate": "2016-04-09",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -18503,6 +18738,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-07",
+      "firstTransactionDate": "2014-04-01",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -18570,6 +18806,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-19",
+      "firstTransactionDate": "2017-12-27",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -18660,6 +18897,7 @@
         }
       ],
       "lastTransactionDate": "2019-02-16",
+      "firstTransactionDate": "2015-05-07",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -18714,6 +18952,7 @@
       },
       "transactions": [],
       "lastTransactionDate": null,
+      "firstTransactionDate": null,
       "transfers": [
         {
           "transferYear": "2015",
@@ -18789,6 +19028,7 @@
         }
       ],
       "lastTransactionDate": "2016-04-08",
+      "firstTransactionDate": "2016-04-08",
       "transfers": [
         {
           "transferYear": "2015",
@@ -18936,6 +19176,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-15",
+      "firstTransactionDate": "2014-03-16",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -19003,6 +19244,7 @@
         }
       ],
       "lastTransactionDate": "2019-02-24",
+      "firstTransactionDate": "2017-11-13",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -19072,6 +19314,7 @@
         }
       ],
       "lastTransactionDate": "2018-02-18",
+      "firstTransactionDate": "2018-02-18",
       "transfers": [
         {
           "transferYear": "2019",
@@ -19146,6 +19389,7 @@
         }
       ],
       "lastTransactionDate": "2019-04-06",
+      "firstTransactionDate": "2019-04-06",
       "transfers": [
         {
           "transferYear": "2019",
@@ -19198,6 +19442,7 @@
       },
       "transactions": [],
       "lastTransactionDate": null,
+      "firstTransactionDate": null,
       "transfers": [],
       "lastTransferDate": null
     },
@@ -19316,6 +19561,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-12",
+      "firstTransactionDate": "2014-03-10",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -19413,6 +19659,7 @@
         }
       ],
       "lastTransactionDate": "2019-03-26",
+      "firstTransactionDate": "2016-03-23",
       "transfers": [
         {
           "transferYear": "2018",
@@ -19525,6 +19772,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-18",
+      "firstTransactionDate": "2016-03-23",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -19552,6 +19800,7 @@
       },
       "transactions": [],
       "lastTransactionDate": null,
+      "firstTransactionDate": null,
       "transfers": [],
       "lastTransferDate": null
     },
@@ -19611,6 +19860,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-27",
+      "firstTransactionDate": "2016-05-21",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -19673,6 +19923,7 @@
         }
       ],
       "lastTransactionDate": "2017-04-01",
+      "firstTransactionDate": "2017-04-01",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -19726,6 +19977,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2019-11-10",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -19821,6 +20073,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2017-11-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -19880,6 +20133,7 @@
         }
       ],
       "lastTransactionDate": "2016-12-29",
+      "firstTransactionDate": "2016-04-06",
       "transfers": [
         {
           "transferYear": "2018",
@@ -19951,6 +20205,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-18",
+      "firstTransactionDate": "2019-04-18",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -20042,6 +20297,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-14",
+      "firstTransactionDate": "2017-11-25",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -20105,6 +20361,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-10",
+      "firstTransactionDate": "2019-11-10",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -20195,6 +20452,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-10",
+      "firstTransactionDate": "2017-05-25",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -20257,6 +20515,7 @@
         }
       ],
       "lastTransactionDate": "2016-04-12",
+      "firstTransactionDate": "2016-04-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -20354,6 +20613,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-05",
+      "firstTransactionDate": "2017-03-29",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -20472,6 +20732,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-15",
+      "firstTransactionDate": "2015-04-09",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -20583,6 +20844,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-15",
+      "firstTransactionDate": "2015-04-08",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -20674,6 +20936,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-15",
+      "firstTransactionDate": "2018-03-15",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -20806,6 +21069,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-15",
+      "firstTransactionDate": "2015-07-24",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -20869,6 +21133,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-15",
+      "firstTransactionDate": "2020-03-09",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -20966,6 +21231,7 @@
         }
       ],
       "lastTransactionDate": "2019-05-06",
+      "firstTransactionDate": "2015-04-22",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -21028,6 +21294,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-31",
+      "firstTransactionDate": "2017-03-31",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -21104,6 +21371,7 @@
         }
       ],
       "lastTransactionDate": "2015-04-09",
+      "firstTransactionDate": "2013-04-11",
       "transfers": [
         {
           "transferYear": "2017",
@@ -21209,6 +21477,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-19",
+      "firstTransactionDate": "2017-03-10",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -21261,6 +21530,7 @@
         }
       ],
       "lastTransactionDate": "2016-03-29",
+      "firstTransactionDate": "2016-03-29",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -21317,6 +21587,7 @@
         }
       ],
       "lastTransactionDate": "2016-06-03",
+      "firstTransactionDate": "2016-06-03",
       "transfers": [
         {
           "transferYear": "2017",
@@ -21388,6 +21659,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2019-02-17",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -21434,6 +21706,7 @@
         }
       ],
       "lastTransactionDate": "2018-03-16",
+      "firstTransactionDate": "2018-03-16",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -21538,6 +21811,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-01",
+      "firstTransactionDate": "2017-03-27",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -21635,6 +21909,7 @@
         }
       ],
       "lastTransactionDate": "2019-02-22",
+      "firstTransactionDate": "2015-03-04",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -21760,6 +22035,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-01",
+      "firstTransactionDate": "2013-02-20",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -21871,6 +22147,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-01",
+      "firstTransactionDate": "2015-03-04",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -21933,6 +22210,7 @@
         }
       ],
       "lastTransactionDate": "2013-04-09",
+      "firstTransactionDate": "2013-04-09",
       "transfers": [
         {
           "transferYear": "2020",
@@ -22000,6 +22278,7 @@
         }
       ],
       "lastTransactionDate": "2018-04-21",
+      "firstTransactionDate": "2017-03-31",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -22062,6 +22341,7 @@
         }
       ],
       "lastTransactionDate": "2017-02-04",
+      "firstTransactionDate": "2017-02-04",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -22180,6 +22460,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-10",
+      "firstTransactionDate": "2013-02-20",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -22226,6 +22507,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2020-02-16",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -22289,6 +22571,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-05",
+      "firstTransactionDate": "2020-03-05",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -22380,6 +22663,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-10",
+      "firstTransactionDate": "2017-11-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -22429,6 +22713,7 @@
         }
       ],
       "lastTransactionDate": "2015-05-07",
+      "firstTransactionDate": "2013-05-24",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -22496,6 +22781,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-14",
+      "firstTransactionDate": "2018-04-28",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -22563,6 +22849,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-14",
+      "firstTransactionDate": "2018-02-07",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -22660,6 +22947,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-14",
+      "firstTransactionDate": "2017-11-01",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -22712,6 +23000,7 @@
         }
       ],
       "lastTransactionDate": "2016-04-01",
+      "firstTransactionDate": "2016-04-01",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -22844,6 +23133,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-12",
+      "firstTransactionDate": "2013-04-03",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -22941,6 +23231,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-14",
+      "firstTransactionDate": "2018-04-10",
       "transfers": [
         {
           "transferYear": "2018",
@@ -22997,6 +23288,7 @@
       },
       "transactions": [],
       "lastTransactionDate": null,
+      "firstTransactionDate": null,
       "transfers": [
         {
           "transferYear": "2015",
@@ -23074,6 +23366,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-19",
+      "firstTransactionDate": "2013-03-18",
       "transfers": [
         {
           "transferYear": "2020",
@@ -23166,6 +23459,7 @@
         }
       ],
       "lastTransactionDate": "2020-07-03",
+      "firstTransactionDate": "2019-02-18",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -23233,6 +23527,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2019-06-24",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -23289,6 +23584,7 @@
         }
       ],
       "lastTransactionDate": "2018-07-19",
+      "firstTransactionDate": "2018-07-19",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -23390,6 +23686,7 @@
         }
       ],
       "lastTransactionDate": "2020-07-01",
+      "firstTransactionDate": "2016-04-08",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -23449,6 +23746,7 @@
         }
       ],
       "lastTransactionDate": "2017-04-01",
+      "firstTransactionDate": "2016-04-15",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -23560,6 +23858,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-10",
+      "firstTransactionDate": "2015-04-08",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -23623,6 +23922,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-16",
+      "firstTransactionDate": "2019-11-10",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -23700,6 +24000,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-20",
+      "firstTransactionDate": "2019-03-06",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -23746,6 +24047,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-06",
+      "firstTransactionDate": "2020-12-06",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -23798,6 +24100,7 @@
         }
       ],
       "lastTransactionDate": "2016-04-08",
+      "firstTransactionDate": "2016-04-08",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -23861,6 +24164,7 @@
         }
       ],
       "lastTransactionDate": "2018-11-11",
+      "firstTransactionDate": "2018-05-01",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -23905,6 +24209,7 @@
       },
       "transactions": [],
       "lastTransactionDate": null,
+      "firstTransactionDate": null,
       "transfers": [],
       "lastTransferDate": null
     },
@@ -23967,6 +24272,7 @@
         }
       ],
       "lastTransactionDate": "2017-04-14",
+      "firstTransactionDate": "2017-04-14",
       "transfers": [
         {
           "transferYear": "2017",
@@ -24024,6 +24330,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-15",
+      "firstTransactionDate": "2018-11-22",
       "transfers": [
         {
           "transferYear": "2019",
@@ -24088,6 +24395,7 @@
         }
       ],
       "lastTransactionDate": "2019-03-29",
+      "firstTransactionDate": "2019-03-29",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -24129,6 +24437,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2020-02-16",
       "transfers": [
         {
           "transferYear": "2020",
@@ -24217,6 +24526,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2017-11-13",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -24284,6 +24594,7 @@
         }
       ],
       "lastTransactionDate": "2019-03-27",
+      "firstTransactionDate": "2018-04-08",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -24346,6 +24657,7 @@
         }
       ],
       "lastTransactionDate": "2017-04-19",
+      "firstTransactionDate": "2017-04-19",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -24409,6 +24721,7 @@
         }
       ],
       "lastTransactionDate": "2018-03-15",
+      "firstTransactionDate": "2018-03-15",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -24444,6 +24757,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-02",
+      "firstTransactionDate": "2019-11-02",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -24500,6 +24814,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-02",
+      "firstTransactionDate": "2019-11-02",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -24563,6 +24878,7 @@
         }
       ],
       "lastTransactionDate": "2018-03-07",
+      "firstTransactionDate": "2018-03-07",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -24626,6 +24942,7 @@
         }
       ],
       "lastTransactionDate": "2018-03-07",
+      "firstTransactionDate": "2018-03-07",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -24682,6 +24999,7 @@
         }
       ],
       "lastTransactionDate": "2018-04-04",
+      "firstTransactionDate": "2018-04-04",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -24814,6 +25132,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2013-04-09",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -24894,6 +25213,7 @@
         }
       ],
       "lastTransactionDate": "2017-03-17",
+      "firstTransactionDate": "2013-04-11",
       "transfers": [
         {
           "transferYear": "2013",
@@ -24999,6 +25319,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-14",
+      "firstTransactionDate": "2013-02-26",
       "transfers": [
         {
           "transferYear": "2020",
@@ -25118,6 +25439,7 @@
         }
       ],
       "lastTransactionDate": "2020-07-04",
+      "firstTransactionDate": "2014-04-03",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -25180,6 +25502,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-22",
+      "firstTransactionDate": "2020-06-22",
       "transfers": [
         {
           "transferYear": "2020",
@@ -25292,6 +25615,7 @@
         }
       ],
       "lastTransactionDate": "2020-11-01",
+      "firstTransactionDate": "2017-03-27",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -25390,6 +25714,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-14",
+      "firstTransactionDate": "2017-11-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -25443,6 +25768,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-15",
+      "firstTransactionDate": "2020-01-14",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -25526,6 +25852,7 @@
         }
       ],
       "lastTransactionDate": "2019-03-25",
+      "firstTransactionDate": "2018-04-17",
       "transfers": [
         {
           "transferYear": "2018",
@@ -25582,6 +25909,7 @@
       },
       "transactions": [],
       "lastTransactionDate": null,
+      "firstTransactionDate": null,
       "transfers": [],
       "lastTransferDate": null
     },
@@ -25651,6 +25979,7 @@
         }
       ],
       "lastTransactionDate": "2019-04-01",
+      "firstTransactionDate": "2013-03-13",
       "transfers": [
         {
           "transferYear": "2019",
@@ -25707,6 +26036,7 @@
       },
       "transactions": [],
       "lastTransactionDate": null,
+      "firstTransactionDate": null,
       "transfers": [],
       "lastTransferDate": null
     },
@@ -25742,6 +26072,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2020-02-16",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -25804,6 +26135,7 @@
         }
       ],
       "lastTransactionDate": "2013-04-12",
+      "firstTransactionDate": "2013-04-12",
       "transfers": [
         {
           "transferYear": "2013",
@@ -25881,6 +26213,7 @@
         }
       ],
       "lastTransactionDate": "2015-04-09",
+      "firstTransactionDate": "2014-04-02",
       "transfers": [
         {
           "transferYear": "2019",
@@ -25941,6 +26274,7 @@
         }
       ],
       "lastTransactionDate": "2017-05-11",
+      "firstTransactionDate": "2017-05-11",
       "transfers": [
         {
           "transferYear": "2019",
@@ -26012,6 +26346,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2019-11-10",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -26054,6 +26389,7 @@
         }
       ],
       "lastTransactionDate": "2020-12-16",
+      "firstTransactionDate": "2019-11-10",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -26179,6 +26515,7 @@
         }
       ],
       "lastTransactionDate": "2019-11-10",
+      "firstTransactionDate": "2013-04-12",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -26252,6 +26589,7 @@
         }
       ],
       "lastTransactionDate": "2017-12-06",
+      "firstTransactionDate": "2016-03-28",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -26332,6 +26670,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-18",
+      "firstTransactionDate": "2017-11-29",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -26395,6 +26734,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-27",
+      "firstTransactionDate": "2019-04-06",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -26492,6 +26832,7 @@
         }
       ],
       "lastTransactionDate": "2018-04-02",
+      "firstTransactionDate": "2013-04-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -26548,6 +26889,7 @@
         }
       ],
       "lastTransactionDate": "2020-03-11",
+      "firstTransactionDate": "2020-03-11",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -26638,6 +26980,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2018-05-02",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -26712,6 +27055,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-15",
+      "firstTransactionDate": "2018-04-21",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -26760,6 +27104,7 @@
       },
       "transactions": [],
       "lastTransactionDate": null,
+      "firstTransactionDate": null,
       "transfers": [
         {
           "transferYear": "2019",
@@ -26828,6 +27173,7 @@
         }
       ],
       "lastTransactionDate": "2020-06-19",
+      "firstTransactionDate": "2019-04-03",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -26897,6 +27243,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-20",
+      "firstTransactionDate": "2020-02-20",
       "transfers": [
         {
           "transferYear": "2020",
@@ -26989,6 +27336,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-17",
+      "firstTransactionDate": "2018-02-17",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -27093,6 +27441,7 @@
         }
       ],
       "lastTransactionDate": "2020-02-16",
+      "firstTransactionDate": "2017-04-01",
       "transfers": [],
       "lastTransferDate": null
     },
@@ -27170,6 +27519,7 @@
         }
       ],
       "lastTransactionDate": "2020-01-20",
+      "firstTransactionDate": "2018-02-16",
       "transfers": [],
       "lastTransferDate": null
     }
