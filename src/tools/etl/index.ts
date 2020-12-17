@@ -9,9 +9,9 @@ const dataPath = path.resolve(__dirname, '..', '..', '..', 'data.raw');
 const allMembersCsvPath = path.resolve(dataPath, 'all-members.csv');
 const allTransactionsCsvPath = path.resolve(dataPath, 'all-transactions.csv');
 const allTransfersCsvPath = path.resolve(dataPath, 'all-transfers.csv');
-const configPath = path.resolve(dataPath, 'config.json');
-const committeePath = path.resolve(dataPath, 'committee.json');
-const teamsPath = path.resolve(dataPath, 'teams.json');
+const configPath = path.resolve(dataPath, 'config.yaml');
+const committeePath = path.resolve(dataPath, 'committee.yaml');
+const teamsPath = path.resolve(dataPath, 'teams.yaml');
 
 export const etl = async () => {
   const options = { configPath, allMembersCsvPath, allTransactionsCsvPath, allTransfersCsvPath, committeePath, teamsPath };
