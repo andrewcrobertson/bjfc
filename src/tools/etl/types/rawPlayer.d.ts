@@ -28,22 +28,6 @@ export interface IRawPlayerRegisteredContact {
   assistanceRole3: string;
 }
 
-export interface IRawPlayerTransaction {
-  transactionDate: string;
-  transactionTime: string;
-  product: string;
-  lineItemTotal: string;
-  transactionStatus: string;
-}
-
-export interface IRawPlayerTransfer {
-  transferYear: string;
-  applicationDate: string;
-  finalisedDate: string;
-  sourceClub: string;
-  destinationClub: string;
-}
-
 export interface IRawPlayer {
   footyWebNumber: string;
   activeRecord: boolean;
@@ -54,8 +38,6 @@ export interface IRawPlayer {
   guardians: IRawPlayerGuardian[];
   emergencyContact: IRawPlayerEmergencyContact;
   contact: IRawPlayerRegisteredContact;
-  transactions: IRawPlayerTransaction[];
-  transfers: IRawPlayerTransfer[];
   disability: boolean;
   disabilityType1: string;
   disabilityType2: string;
