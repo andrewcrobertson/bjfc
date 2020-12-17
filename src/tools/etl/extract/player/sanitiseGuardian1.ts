@@ -1,9 +1,10 @@
+import type { IRawPlayerGuardian } from '../../rawPlayer';
 import { sanitiseEmail } from '../utility/sanitiseEmail';
 import { sanitisePhone } from '../utility/sanitisePhone';
 import { sanitiseString } from '../utility/sanitiseString';
 import { sanitiseAssistInRole } from './sanitiseAssistInRole';
 
-export const sanitiseGuardian1 = (obj: any) => ({
+export const sanitiseGuardian1 = (obj: any): IRawPlayerGuardian => ({
   lastName: sanitiseString(obj.parentGuardian1Surname),
   firstName: sanitiseString(obj.parentGuardian1Firstname),
   phone1: sanitisePhone(obj.parentGuardian1TelephoneNumber),

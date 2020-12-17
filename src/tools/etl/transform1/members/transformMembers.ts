@@ -1,3 +1,4 @@
+import type { PlayerStatusEnum } from '@this/constants/enums';
 import filter from 'lodash/filter';
 import find from 'lodash/find';
 import first from 'lodash/first';
@@ -7,7 +8,6 @@ import last from 'lodash/last';
 import map from 'lodash/map';
 import sortBy from 'lodash/sortBy';
 import split from 'lodash/split';
-import * as playerStatusEnum from '../../constants/playerStatusEnum';
 import type { IRawConfig, IRawConfigTeam, IRawProducts } from '../../rawConfig';
 import type { IRawPlayer } from '../../rawPlayer';
 import type { ISanitisedMember } from '../../sanitisedMember';
@@ -24,18 +24,12 @@ export interface Options {
   teams: IRawConfigTeam[];
 }
 
-const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, registeredThisSeason: boolean, registeredRecently: boolean) => {
-  if (club !== 'Bayswater') {
-    return playerStatusEnum.transferred;
-  } else if (insuredThisSeason) {
-    return playerStatusEnum.insured;
-  } else if (registeredThisSeason) {
-    return playerStatusEnum.registered;
-  } else if (registeredRecently) {
-    return playerStatusEnum.recent;
-  } else {
-    return playerStatusEnum.historical;
-  }
+const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, registeredThisSeason: boolean, registeredRecently: boolean): PlayerStatusEnum => {
+  if (club !== 'Bayswater') return 'Transferred';
+  if (insuredThisSeason) return 'Insured';
+  if (registeredThisSeason) return 'Registered';
+  if (registeredRecently) return 'Recent';
+  return 'Historical';
 };
 
 export const transformMembers = ({ config, players: membersRaw, ...options }: Options): ISanitisedMember[] => {

@@ -1,12 +1,10 @@
-import type { PersonGenderEnum, TeamGenderEnum } from '../../constants/enums';
-import * as personGenderEnum from '../../constants/personGenderEnum';
-import * as teamGenderEnum from '../../constants/teamGenderEnum';
+import type { PersonGenderEnum, TeamGenderEnum } from '@this/constants/enums';
 
 export const transformGender = (playerGenders: PersonGenderEnum[]): TeamGenderEnum => {
   if (playerGenders.length === 1) {
-    if (playerGenders[0] === personGenderEnum.female) return teamGenderEnum.female;
-    if (playerGenders[0] === personGenderEnum.male) return teamGenderEnum.male;
+    if (playerGenders[0] === 'Female') return 'Female';
+    if (playerGenders[0] === 'Male') return 'Male';
   }
 
-  return teamGenderEnum.mixed;
+  return 'Mixed';
 };
