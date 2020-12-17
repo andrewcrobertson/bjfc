@@ -1,19 +1,20 @@
 import map from 'lodash/map';
-import type { IRawConfig } from '../../rawConfig';
+import type { IRawConfig, IRawConfigTeam } from '../../rawConfig';
 import type { ISanitisedTeam } from '../../sanitisedTeam';
 import { transformGender } from './transformGender';
 import { transformOfficial } from './transformOfficial';
 
 export interface Options {
   config: IRawConfig;
+  teams: IRawConfigTeam[];
 }
 
-export const transformTeams = ({ config }: Options): ISanitisedTeam[] =>
-  map(config.teams, (team) => ({
+export const transformTeams = (options: Options): ISanitisedTeam[] =>
+  map(options.teams, (team) => ({
     code: team.code,
     ageGroupCode: 'U' + Math.max(...team.ages).toString(),
     name: team.name,
-    birthYears: map(team.ages, (age) => config.seasonYear - age),
+    birthYears: map(team.ages, (age) => options.config.seasonYear - age),
     playerGenders: team.genders,
     teamGender: transformGender(team.genders),
     headCoach: transformOfficial(team.headCoach),

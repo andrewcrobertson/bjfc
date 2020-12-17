@@ -8,7 +8,7 @@ import map from 'lodash/map';
 import sortBy from 'lodash/sortBy';
 import split from 'lodash/split';
 import * as playerStatusEnum from '../../constants/playerStatusEnum';
-import type { IRawConfig } from '../../rawConfig';
+import type { IRawConfig, IRawProducts } from '../../rawConfig';
 import type { IRawPlayer } from '../../rawPlayer';
 import type { ISanitisedMember } from '../../sanitisedMember';
 import { arrayToString } from '../arrayToString';
@@ -20,6 +20,7 @@ import { transformRegisteredContact } from './transformRegisteredContact';
 export interface Options {
   config: IRawConfig;
   members: IRawPlayer[];
+  products: IRawProducts;
 }
 
 const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, registeredThisSeason: boolean, registeredRecently: boolean) => {
@@ -36,17 +37,17 @@ const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, reg
   }
 };
 
-export const transformMembers = ({ config, members: membersRaw }: Options): ISanitisedMember[] => {
+export const transformMembers = ({ config, members: membersRaw, ...options }: Options): ISanitisedMember[] => {
   const playerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));
   const orderedTeams = sortBy(config.teams, ({ ages }) => Math.max(...ages));
   const members = map(membersRaw, (member) => {
     const yearOfBirth = parseInt(first(split(member.dateOfBirth, '-')));
-    const thisSeasonProduct = find(member.transactions, ({ product }) => includes(config.registeredThisSeason, product));
+    const thisSeasonProduct = find(member.transactions, ({ product }) => includes(options.products.registeredThisSeason, product));
     const registeredThisSeason = thisSeasonProduct !== undefined;
     const teams = filter(orderedTeams, ({ ages, genders }) => includes(ages, config.seasonYear - yearOfBirth) && includes(genders, member.gender));
     const teamCodes = map(teams, ({ code }) => code);
     const club = member.transfers.length === 0 ? 'Bayswater' : last(member.transfers).destinationClub;
-    const registeredRecently = find(member.transactions, ({ product }) => includes(config.registeredRecently, product)) !== undefined;
+    const registeredRecently = find(member.transactions, ({ product }) => includes(options.products.registeredRecently, product)) !== undefined;
     const insuredThisSeason = thisSeasonProduct !== undefined && thisSeasonProduct.transactionStatus === 'Paid';
 
     return {

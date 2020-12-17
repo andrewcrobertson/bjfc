@@ -8,7 +8,7 @@ import includes from 'lodash/includes';
 import map from 'lodash/map';
 import mapKeys from 'lodash/mapKeys';
 import YAML from 'yaml';
-import type { IRawConfig, IRawConfigCommittee, IRawConfigTeam } from '../rawConfig';
+import type { IRawConfig, IRawConfigCommittee, IRawConfigTeam, IRawProducts } from '../rawConfig';
 import type { IRawPlayer, IRawPlayerGenderEnum } from '../rawPlayer';
 import { sanitiseCommittee } from './config/sanitiseCommittee';
 import { sanitiseConfig } from './config/sanitiseConfig';
@@ -19,6 +19,7 @@ import { sanitisePlayer } from './player/sanitisePlayer';
 export interface Options {
   configPath: string;
   committeePath: string;
+  productsPath: string;
   teamsPath: string;
   allMembersCsvPath: string;
   allTransactionsCsvPath: string;
@@ -27,14 +28,17 @@ export interface Options {
 
 export const extract = async (options: Options) => {
   const config = sanitiseConfig(YAML.parse(fs.readFileSync(options.configPath, 'utf-8'))) as IRawConfig;
-  const productMap = fromPairs(map(config.productMap, ({ from, to }) => [from, to]));
-  const clubMap = fromPairs(map(config.clubMap, ({ from, to }) => [from, to]));
 
   const allTeamsJsonRaw = YAML.parse(fs.readFileSync(options.teamsPath, 'utf-8'));
   const teams = map(allTeamsJsonRaw.teams, (team) => sanitiseTeam(team)) as IRawConfigTeam[];
 
   const allCommitteeJsonRaw = YAML.parse(fs.readFileSync(options.committeePath, 'utf-8'));
   const committee = map(allCommitteeJsonRaw.committee, (member) => sanitiseCommittee(member)) as IRawConfigCommittee[];
+
+  const products = YAML.parse(fs.readFileSync(options.productsPath, 'utf-8')) as IRawProducts;
+
+  const productMap = fromPairs(map(products.productMap, ({ from, to }) => [from, to]));
+  const clubMap = fromPairs(map(config.clubMap, ({ from, to }) => [from, to]));
 
   const yearMale = getPlayerOldestBirthYear(teams, config.seasonYear, 'Male');
   const yearFemale = getPlayerOldestBirthYear(teams, config.seasonYear, 'Female');
@@ -60,5 +64,5 @@ export const extract = async (options: Options) => {
   const allMembersJsonFiltered = filter(allMembersJsonAll, (obj: any) => memberFilter(obj));
   const allMembersJson = map(allMembersJsonFiltered, (obj: any) => memberMap(obj)) as IRawPlayer[];
 
-  return { config: { ...config, teams, committee }, members: allMembersJson };
+  return { config, teams, committee, products, members: allMembersJson };
 };

@@ -42,12 +42,15 @@ export interface IRawConfigTeam {
   teamManager: IRawConfigOfficial;
 }
 
-export interface IRawConfig {
-  seasonYear: number;
+export interface IRawProducts {
   registeredRecently: string[];
   registeredThisSeason: string[];
-  clubMap: IRawMap[];
   productMap: IRawMap[];
+}
+
+export interface IRawConfig {
+  seasonYear: number;
+  clubMap: IRawMap[];
   noContact: IRawConfigNoContact[];
   playerTeamExceptions: IRawConfigPlayerTeamExceptions[];
   teams: IRawConfigTeam[];

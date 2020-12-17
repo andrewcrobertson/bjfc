@@ -1,18 +1,18 @@
 import map from 'lodash/map';
-import type { IRawConfig } from '../../rawConfig';
+import type { IRawConfigCommittee } from '../../rawConfig';
 import type { ISanitisedCommittee } from '../../sanitisedCommittee';
 import { toInitials } from '../toInitials';
 
 export interface Options {
-  config: IRawConfig;
+  committee: IRawConfigCommittee[];
 }
 
-export const transformCommittee = ({ config }: Options): ISanitisedCommittee[] =>
-  map(config.committee, (official) => {
-    if (official === null) {
+export const transformCommittee = ({ committee }: Options): ISanitisedCommittee[] =>
+  map(committee, (member) => {
+    if (member === null) {
       return null;
     }
 
-    const initials = toInitials(official.firstName, official.lastName);
-    return { ...official, initials };
+    const initials = toInitials(member.firstName, member.lastName);
+    return { ...member, initials };
   });
