@@ -22,9 +22,6 @@ const fields = [
   'dateOfBirth',
   'club',
   'gender',
-  'guardians',
-  'emergencyContact',
-  'contact',
   'disability',
   'disabilityNotes',
   'transactions',
@@ -99,12 +96,12 @@ export const playerDetail = ({ teams, members: membersRaw }: Options) => {
   const teamMap = fromPairs(map(teams, (team) => [team.code, pick(team, teamFields)]));
   const members = map(membersRaw, (memberRaw) => {
     const member = pick(memberRaw, ...fields) as any;
-    (member.contacts = compact([
+    member.contacts = compact([
       ...map(memberRaw.guardians, (guardian) => transformGuardian(guardian)),
       memberRaw.emergencyContact === null ? null : transformEmergency(memberRaw.emergencyContact),
       memberRaw.contact === null ? null : transformRegistered(memberRaw.contact),
-    ])),
-      (member.transactions = orderBy(memberRaw.transactions, ['transactionDate', 'transactionTime'], ['desc', 'desc']));
+    ]);
+    member.transactions = orderBy(memberRaw.transactions, ['transactionDate', 'transactionTime'], ['desc', 'desc']);
     member.transfers = orderBy(memberRaw.transfers, ['applicationDate'], ['desc']);
     member.team = teamMap[memberRaw.teamCode] ?? null;
     return member;
