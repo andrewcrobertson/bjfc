@@ -16,7 +16,7 @@ export interface Options {
 const pickActive = ['footyWebNumber', 'status', 'initials', 'lastName', 'firstName', 'gender'];
 const pickRecent = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'lastTransactionDate'];
 
-export const teamPlayerCurrentList = ({ teams, members: players }: Options) => {
+export const teamPlayerListCurrent = ({ teams, members: players }: Options) => {
   const output: any = {};
 
   each(teams, ({ code, name, ageGroupCode, teamGender }) => {

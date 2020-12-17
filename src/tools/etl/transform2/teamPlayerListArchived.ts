@@ -16,7 +16,7 @@ export interface Options {
 const pickTransferred = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'club', 'lastTransferDate'];
 const pickArchived = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'lastTransactionDate'];
 
-export const teamPlayerArchivedList = ({ teams, members: players }: Options) => {
+export const teamPlayerListArchived = ({ teams, members: players }: Options) => {
   const output: any = {};
 
   each(teams, ({ code, name, ageGroupCode, teamGender }) => {
