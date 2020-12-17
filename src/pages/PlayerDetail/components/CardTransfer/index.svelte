@@ -3,7 +3,7 @@
 
   let rootClass = '';
   export { rootClass as class };
-  export let date = null;
+  export let date: any = null;
   export let club = '';
   export let colour = 'gray';
 </script>
