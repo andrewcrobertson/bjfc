@@ -53,8 +53,6 @@ const transformContactMethods = (contactMethods: any[]) => {
   return [...phone, ...email, ...other];
 };
 
-// map(contactMethods, ({ type, value }) => value === null ? ({ type: null, value }) : ({ type, value }))
-
 const transformGuardian = (contact: any) => ({
   type: 'Guardian',
   relationship: 'Guardian',
@@ -86,7 +84,7 @@ const transformEmergency = (contact: any) => ({
 const transformRegistered = (contact: any) => ({
   type: 'Registered',
   relationship: `Registered`,
-  initials: 'R',
+  initials: 'RC',
   name: 'Registered Contact',
   assistInRole: contact.assistInRole,
   contactMethods: transformContactMethods([
