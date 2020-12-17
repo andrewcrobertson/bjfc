@@ -7,6 +7,7 @@ import groupBy from 'lodash/groupBy';
 import includes from 'lodash/includes';
 import map from 'lodash/map';
 import mapKeys from 'lodash/mapKeys';
+import YAML from 'yaml';
 import type { IRawConfig, IRawConfigCommittee, IRawConfigTeam } from '../rawConfig';
 import type { IRawPlayer, IRawPlayerGenderEnum } from '../rawPlayer';
 import { sanitiseCommittee } from './config/sanitiseCommittee';
@@ -25,14 +26,14 @@ export interface Options {
 }
 
 export const extract = async (options: Options) => {
-  const config = sanitiseConfig(JSON.parse(fs.readFileSync(options.configPath, 'utf-8'))) as IRawConfig;
+  const config = sanitiseConfig(YAML.parse(fs.readFileSync(options.configPath, 'utf-8'))) as IRawConfig;
   const productMap = fromPairs(map(config.productMap, ({ from, to }) => [from, to]));
   const clubMap = fromPairs(map(config.clubMap, ({ from, to }) => [from, to]));
 
-  const allTeamsJsonRaw = JSON.parse(fs.readFileSync(options.teamsPath, 'utf-8'));
+  const allTeamsJsonRaw = YAML.parse(fs.readFileSync(options.teamsPath, 'utf-8'));
   const teams = map(allTeamsJsonRaw, (team) => sanitiseTeam(team)) as IRawConfigTeam[];
 
-  const allCommitteeJsonRaw = JSON.parse(fs.readFileSync(options.committeePath, 'utf-8'));
+  const allCommitteeJsonRaw = YAML.parse(fs.readFileSync(options.committeePath, 'utf-8'));
   const committee = map(allCommitteeJsonRaw, (member) => sanitiseCommittee(member)) as IRawConfigCommittee[];
 
   const yearMale = getPlayerOldestBirthYear(teams, config.seasonYear, 'Male');
