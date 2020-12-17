@@ -57,7 +57,7 @@ const transformContactMethods = (contactMethods: any[]) => {
 
 const transformGuardian = (contact: any) => ({
   type: 'Guardian',
-  relationship: 'Guardian',
+  relationship: 'Parent/Guardian',
   initials: contact.initials,
   name: `${contact.firstName} ${contact.lastName}`,
   assistInRole: contact.assistInRole,
