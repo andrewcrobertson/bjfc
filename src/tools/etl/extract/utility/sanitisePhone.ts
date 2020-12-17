@@ -1,9 +1,11 @@
 import startsWith from 'lodash/startsWith';
+import { sanitiseString } from './sanitiseString';
 
 export const sanitisePhone = (value: string) => {
-  if (value === null) return null;
+  const sanitisedString = sanitiseString(value);
+  if (sanitisedString === null) return null;
 
-  const digitsRaw = (value.match(/\d/g) ?? []).join('');
+  const digitsRaw = (sanitisedString.match(/\d/g) ?? []).join('');
   const digits = (digitsRaw.length === 9 && digitsRaw[0] === '4' ? `0` : '') + digitsRaw;
 
   if (digits.length === 0) {

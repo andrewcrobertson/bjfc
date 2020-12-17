@@ -31,10 +31,10 @@ export const extract = async (options: Options) => {
   const config = sanitiseConfig(YAML.parse(fs.readFileSync(options.configPath, 'utf-8')));
 
   const teamsRaw = YAML.parse(fs.readFileSync(options.teamsPath, 'utf-8'));
-  const teams = map(teamsRaw.teams, (team) => sanitiseTeam(team));
+  const teams = map(teamsRaw, (team) => sanitiseTeam(team));
 
   const committeeRaw = YAML.parse(fs.readFileSync(options.committeePath, 'utf-8'));
-  const committee = map(committeeRaw.committee, (member) => sanitiseCommittee(member));
+  const committee = map(committeeRaw, (member) => sanitiseCommittee(member));
 
   const productsRaw = YAML.parse(fs.readFileSync(options.productsPath, 'utf-8'));
   const products = sanitiseProducts(productsRaw);

@@ -2,7 +2,416 @@
   "config": {
     "clubMap": []
   },
-  "teams": [],
+  "teams": [
+    {
+      "code": "U18G",
+      "name": "Under 18 Girls",
+      "ages": [18, 17],
+      "genders": ["Female"],
+      "headCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "assistantCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "trainer": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "teamManager": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      }
+    },
+    {
+      "code": "U17B-GOLD",
+      "name": "Under 17 Boys (Gold)",
+      "ages": [17],
+      "genders": ["Male"],
+      "headCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "assistantCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "trainer": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "teamManager": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      }
+    },
+    {
+      "code": "U17B-GREEN",
+      "name": "Under 17 Boys (Green)",
+      "ages": [16, 15],
+      "genders": ["Male"],
+      "headCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "assistantCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "trainer": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "teamManager": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      }
+    },
+    {
+      "code": "U16G",
+      "name": "Under 16 Girls",
+      "ages": [16, 15],
+      "genders": ["Female"],
+      "headCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "assistantCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "trainer": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "teamManager": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      }
+    },
+    {
+      "code": "U14B",
+      "name": "Under 14 Boys",
+      "ages": [14, 13],
+      "genders": ["Male"],
+      "headCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "assistantCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "trainer": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "teamManager": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      }
+    },
+    {
+      "code": "U14G",
+      "name": "Under 14 Girls",
+      "ages": [14, 13],
+      "genders": ["Female"],
+      "headCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "assistantCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "trainer": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "teamManager": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      }
+    },
+    {
+      "code": "U12G",
+      "name": "Under 12 Girls",
+      "ages": [12, 11, 10, 9],
+      "genders": ["Female"],
+      "headCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "assistantCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "trainer": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "teamManager": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      }
+    },
+    {
+      "code": "U12B",
+      "name": "Under 12 Boys",
+      "ages": [12, 11],
+      "genders": ["Male"],
+      "headCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "assistantCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "trainer": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "teamManager": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      }
+    },
+    {
+      "code": "U11M",
+      "name": "Under 11 Mixed",
+      "ages": [11],
+      "genders": ["Female", "Male"],
+      "headCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "assistantCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "trainer": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "teamManager": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      }
+    },
+    {
+      "code": "U10M",
+      "name": "Under 10 Mixed",
+      "ages": [10],
+      "genders": ["Female", "Male"],
+      "headCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "assistantCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "trainer": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "teamManager": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      }
+    },
+    {
+      "code": "U09M",
+      "name": "Under 9 Mixed",
+      "ages": [9],
+      "genders": ["Female", "Male"],
+      "headCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "assistantCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "trainer": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "teamManager": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      }
+    },
+    {
+      "code": "U08M",
+      "name": "Under 8 Mixed",
+      "ages": [8, 7],
+      "genders": ["Female", "Male"],
+      "headCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "assistantCoach": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "trainer": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      },
+      "teamManager": {
+        "lastName": null,
+        "firstName": null,
+        "phone": null,
+        "email": null,
+        "gender": "Unknown"
+      }
+    }
+  ],
   "committee": [
     {
       "role": "President",
