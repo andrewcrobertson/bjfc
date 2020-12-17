@@ -13,6 +13,7 @@ export interface ISanitisedMemberGuardian {
   phone2: string;
   mobile: string;
   email: string;
+  assistInRole: string;
 }
 
 export interface ISanitisedMemberEmergencyContact {
@@ -27,6 +28,7 @@ export interface ISanitisedMemberContact {
   phone2: string;
   email1: string;
   email2: string;
+  assistInRole: string;
 }
 
 export interface ISanitisedMemberTransaction {
@@ -63,4 +65,6 @@ export interface ISanitisedMember {
   lastTransferDate: string;
   club: string;
   teamCode: string;
+  disability: string;
+  disabilityNotes: string;
 }
