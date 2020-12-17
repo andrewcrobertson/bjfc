@@ -3,9 +3,9 @@
   export let contacts: any[] = [];
 </script>
 
-<div class="flex flex-wrap sm:p-4">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
   {#each contacts as contact}
-    <CardContact class="md:w-1/2 w-full p-2 sm:p-4" {contact} />
+    <CardContact class="w-full" {contact} />
   {:else}
     <p class="p-4">There are no contacts</p>
   {/each}
