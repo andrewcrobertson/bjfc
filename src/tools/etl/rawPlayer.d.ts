@@ -1,4 +1,6 @@
-export interface IRawMemberGuardian {
+export type IRawPlayerGenderEnum = 'Male' | 'Female';
+
+export interface IRawPlayerGuardian {
   lastName: string;
   firstName: string;
   phone1: string;
@@ -8,14 +10,14 @@ export interface IRawMemberGuardian {
   assistInRole: string;
 }
 
-export interface IRawMemberEmergencyContact {
+export interface IRawPlayerEmergencyContact {
   relationship: string;
   name: string;
   phone1: string;
   phone2: string;
 }
 
-export interface IRawMemberContact {
+export interface IRawPlayerRegisteredContact {
   phoneHome: string;
   phoneWork: string;
   phoneMobile: string;
@@ -26,7 +28,7 @@ export interface IRawMemberContact {
   assistanceRole3: string;
 }
 
-export interface IRawMemberTransaction {
+export interface IRawPlayerTransaction {
   transactionDate: string;
   transactionTime: string;
   product: string;
@@ -34,7 +36,7 @@ export interface IRawMemberTransaction {
   transactionStatus: string;
 }
 
-export interface IRawMemberTransfer {
+export interface IRawPlayerTransfer {
   transferYear: string;
   applicationDate: string;
   finalisedDate: string;
@@ -42,18 +44,18 @@ export interface IRawMemberTransfer {
   destinationClub: string;
 }
 
-export interface IRawMember {
+export interface IRawPlayer {
   footyWebNumber: string;
   activeRecord: boolean;
   lastName: string;
   firstName: string;
   dateOfBirth: string;
-  gender: string;
-  guardians: IRawMemberGuardian[];
-  emergencyContact: IRawMemberEmergencyContact;
-  contact: IRawMemberContact;
-  transactions: IRawMemberTransaction[];
-  transfers: IRawMemberTransfer[];
+  gender: IRawPlayerGenderEnum;
+  guardians: IRawPlayerGuardian[];
+  emergencyContact: IRawPlayerEmergencyContact;
+  contact: IRawPlayerRegisteredContact;
+  transactions: IRawPlayerTransaction[];
+  transfers: IRawPlayerTransfer[];
   disability: boolean;
   disabilityType1: string;
   disabilityType2: string;

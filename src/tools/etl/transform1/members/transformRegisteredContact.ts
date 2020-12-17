@@ -1,7 +1,7 @@
-import type { IRawMemberContact } from '../../rawMember';
+import type { IRawPlayerRegisteredContact } from '../../rawPlayer';
 import { arrayToString } from '../arrayToString';
 
-export const transformContact = ({
+export const transformRegisteredContact = ({
   email1,
   email2,
   phoneHome,
@@ -10,7 +10,7 @@ export const transformContact = ({
   assistanceRole1,
   assistanceRole2,
   assistanceRole3,
-}: IRawMemberContact) => ({
+}: IRawPlayerRegisteredContact) => ({
   phone1: phoneMobile,
   phone2: phoneHome,
   email1,

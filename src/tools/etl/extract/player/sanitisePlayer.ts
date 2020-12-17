@@ -13,7 +13,7 @@ import { sanitiseGuardian2 } from './sanitiseGuardian2';
 import { sanitiseTransaction } from './sanitiseTransaction';
 import { sanitiseTransfer } from './sanitiseTransfer';
 
-export const sanitiseMember = (obj: any, productMap: any, clubMap: any, transactions: any[], transfers: any[]) => ({
+export const sanitisePlayer = (obj: any, productMap: any, clubMap: any, transactions: any[], transfers: any[]) => ({
   footyWebNumber: sanitiseString(obj.footyWebNumber),
   activeRecord: obj.activeRecord === 'Yes',
   lastName: sanitiseString(obj.familyName),

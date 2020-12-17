@@ -9,17 +9,17 @@ import sortBy from 'lodash/sortBy';
 import split from 'lodash/split';
 import * as playerStatusEnum from '../../constants/playerStatusEnum';
 import type { IRawConfig } from '../../rawConfig';
-import type { IRawMember } from '../../rawMember';
+import type { IRawPlayer } from '../../rawPlayer';
 import type { ISanitisedMember } from '../../sanitisedMember';
 import { arrayToString } from '../arrayToString';
 import { toInitials } from '../toInitials';
-import { transformContact } from './transformContact';
 import { transformEmergencyContact } from './transformEmergencyContact';
 import { transformGuardian } from './transformGuardian';
+import { transformRegisteredContact } from './transformRegisteredContact';
 
 export interface Options {
   config: IRawConfig;
-  members: IRawMember[];
+  members: IRawPlayer[];
 }
 
 const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, registeredThisSeason: boolean, registeredRecently: boolean) => {
@@ -64,7 +64,7 @@ export const transformMembers = ({ config, members: membersRaw }: Options): ISan
       disabilityNotes: arrayToString([member.disabilityNote1, member.disabilityNote1]),
       guardians: map(member.guardians, (guardian) => transformGuardian(guardian)),
       emergencyContact: transformEmergencyContact(member.emergencyContact),
-      contact: transformContact(member.contact),
+      contact: transformRegisteredContact(member.contact),
       transactions: member.transactions,
       lastTransactionDate: last(map(member.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,
       firstTransactionDate: first(map(member.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,

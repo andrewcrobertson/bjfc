@@ -8,12 +8,12 @@ import includes from 'lodash/includes';
 import map from 'lodash/map';
 import mapKeys from 'lodash/mapKeys';
 import type { IRawConfig, IRawConfigCommittee, IRawConfigTeam } from '../rawConfig';
-import type { IRawMember } from '../rawMember';
+import type { IRawPlayer, IRawPlayerGenderEnum } from '../rawPlayer';
 import { sanitiseCommittee } from './config/sanitiseCommittee';
 import { sanitiseConfig } from './config/sanitiseConfig';
 import { sanitiseTeam } from './config/sanitiseTeam';
 import { getPlayerOldestBirthYear } from './getPlayerOldestBirthYear';
-import { sanitiseMember } from './member/sanitiseMember';
+import { sanitisePlayer } from './player/sanitisePlayer';
 
 export interface Options {
   configPath: string;
@@ -51,13 +51,13 @@ export const extract = async (options: Options) => {
   const allTransfersJsonFiltered = filter(allTransfersJsonAll, (obj: any) => transferFilter(obj));
   const allTransfersJson = groupBy(allTransfersJsonFiltered, 'footyWebNumber');
 
-  const getYear = (gender) => (gender === 'Male' ? yearMale : gender === 'Female' ? yearFemale : Math.max(yearMale, yearFemale));
+  const getYear = (gender: IRawPlayerGenderEnum) => (gender === 'Male' ? yearMale : gender === 'Female' ? yearFemale : Math.max(yearMale, yearFemale));
   const memberFilter = (obj: any) => parseInt(obj.dateOfBirth.slice(-4)) >= getYear(obj.gender) && !includes(noContact, obj.footyWebNumber);
-  const memberMap = (obj: any) => sanitiseMember(obj, productMap, clubMap, allTransactionsJson[obj.footyWebNumber], allTransfersJson[obj.footyWebNumber]);
+  const memberMap = (obj: any) => sanitisePlayer(obj, productMap, clubMap, allTransactionsJson[obj.footyWebNumber], allTransfersJson[obj.footyWebNumber]);
   const allMembersJsonRaw = await csv().fromFile(options.allMembersCsvPath);
   const allMembersJsonAll = map(allMembersJsonRaw, (obj: any) => mapKeys(obj, (_value, key) => camelCase(key)));
   const allMembersJsonFiltered = filter(allMembersJsonAll, (obj: any) => memberFilter(obj));
-  const allMembersJson = map(allMembersJsonFiltered, (obj: any) => memberMap(obj)) as IRawMember[];
+  const allMembersJson = map(allMembersJsonFiltered, (obj: any) => memberMap(obj)) as IRawPlayer[];
 
   return { config: { ...config, teams, committee }, members: allMembersJson };
 };
