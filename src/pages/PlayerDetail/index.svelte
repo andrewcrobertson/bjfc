@@ -9,7 +9,6 @@
 
   const player = players[code];
   const footyWebNumber = player.footyWebNumber;
-  const emergencyContacts = player.emergencyContact === null ? [] : [player.emergencyContact];
   const contacts = player.contacts;
   const colour = 'gray';
   pageTitle.set('Player');
@@ -31,7 +30,7 @@
       <PanelContact {contacts} />
     </TabPanel>
     <TabPanel>
-      <PanelOther contacts={emergencyContacts} />
+      <PanelOther transfers={player.transfers} transactions={player.transactions} />
     </TabPanel>
   </Tabs>
 </div>
