@@ -1,4 +1,4 @@
-import { compact, filter } from 'lodash';
+import { compact, filter, last } from 'lodash';
 import fromPairs from 'lodash/fromPairs';
 import keyBy from 'lodash/keyBy';
 import map from 'lodash/map';
@@ -105,10 +105,16 @@ const transformTransactions = (transactions: ISanitisedMemberTransaction[], seas
   );
 
 const transformTransfers = (transactions: ISanitisedMemberTransfer[], firstTransactionDate: string) => {
-  return [
-    ...map(transactions, ({ destinationClub, finalisedDate, applicationDate }) => ({ date: finalisedDate ?? applicationDate, club: destinationClub })),
-    { date: firstTransactionDate, club: 'Bayswater' },
-  ];
+  const transactionsA = map(transactions, ({ destinationClub, finalisedDate, applicationDate }) => ({
+    date: finalisedDate ?? applicationDate,
+    club: destinationClub,
+  }));
+  const transactionsB = orderBy(transactionsA, ['date'], ['desc']);
+  if (transactionsB.length === 0 || (transactionsB.length > 0 && last(transactionsB).club !== 'Bayswater')) {
+    transactionsB.push({ date: firstTransactionDate, club: 'Bayswater' });
+  }
+
+  return transactionsB;
 };
 
 export const playerDetail = ({ config, teams, members: membersRaw }: Options) => {
@@ -121,7 +127,7 @@ export const playerDetail = ({ config, teams, members: membersRaw }: Options) =>
       memberRaw.contact === null ? null : transformRegistered(memberRaw.contact),
     ]);
     member.transactions = orderBy(transformTransactions(memberRaw.transactions, config.seasonYear), ['transactionDate', 'transactionTime'], ['desc', 'desc']);
-    member.transfers = orderBy(transformTransfers(memberRaw.transfers, memberRaw.firstTransactionDate), ['date'], ['desc']);
+    member.transfers = transformTransfers(memberRaw.transfers, memberRaw.firstTransactionDate);
     member.team = teamMap[memberRaw.teamCode] ?? null;
     return member;
   });

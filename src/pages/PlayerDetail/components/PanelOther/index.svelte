@@ -22,7 +22,7 @@
         {lineItemTotal}
         {transactionStatus} />
     {:else}
-      <p class="p-4">There are no transaction records</p>
+      <p class="p-4">There are no recent transaction records</p>
     {/each}
   </div>
 </div>
