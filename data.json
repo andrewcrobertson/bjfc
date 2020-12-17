@@ -2923,7 +2923,7 @@
     },
     {
       "footyWebNumber": "02869775",
-      "status": "Recent",
+      "status": "Registered",
       "initials": "HB",
       "lastName": "Bithell",
       "firstName": "Hamish",
@@ -2989,9 +2989,16 @@
           "product": "2020 EFL Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-17",
+          "transactionTime": "07:56",
+          "product": "2021 EFL Registration Fee",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Unpaid"
         }
       ],
-      "lastTransactionDate": "2020-03-10",
+      "lastTransactionDate": "2020-12-17",
       "firstTransactionDate": "2018-03-24",
       "transfers": [],
       "lastTransferDate": null
@@ -17710,7 +17717,7 @@
     },
     {
       "footyWebNumber": "02568230",
-      "status": "Recent",
+      "status": "Insured",
       "initials": "LP",
       "lastName": "Page",
       "firstName": "Liam",
@@ -17779,9 +17786,16 @@
           "product": "2020 EFL Registration Fee",
           "lineItemTotal": "18.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-16",
+          "transactionTime": "21:05",
+          "product": "2021 EFL Registration Fee",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Paid"
         }
       ],
-      "lastTransactionDate": "2019-11-10",
+      "lastTransactionDate": "2020-12-16",
       "firstTransactionDate": "2017-11-12",
       "transfers": [],
       "lastTransferDate": null
@@ -22577,7 +22591,7 @@
     },
     {
       "footyWebNumber": "03014226",
-      "status": "Recent",
+      "status": "Registered",
       "initials": "MS",
       "lastName": "Smith",
       "firstName": "Mateo",
@@ -22660,9 +22674,16 @@
           "product": "2020 Club Fees",
           "lineItemTotal": "185.00",
           "transactionStatus": "Paid"
+        },
+        {
+          "transactionDate": "2020-12-17",
+          "transactionTime": "20:44",
+          "product": "2021 EFL Registration Fee",
+          "lineItemTotal": "18.00",
+          "transactionStatus": "Unpaid"
         }
       ],
-      "lastTransactionDate": "2020-02-10",
+      "lastTransactionDate": "2020-12-17",
       "firstTransactionDate": "2017-11-12",
       "transfers": [],
       "lastTransferDate": null

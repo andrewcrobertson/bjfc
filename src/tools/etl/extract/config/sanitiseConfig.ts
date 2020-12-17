@@ -1,7 +1,5 @@
 import map from 'lodash/map';
-import { sanitiseCommittee } from './sanitiseCommittee';
 import { sanitiseMap } from './sanitiseMap';
-import { sanitiseTeam } from './sanitiseTeam';
 
 export const sanitiseConfig = (obj: any) => ({
   seasonYear: obj.seasonYear,
@@ -11,6 +9,4 @@ export const sanitiseConfig = (obj: any) => ({
   productMap: map(obj.productMap, sanitiseMap),
   noContact: obj.noContact,
   playerTeamExceptions: obj.playerTeamExceptions,
-  committee: map(obj.committee, sanitiseCommittee),
-  teams: map(obj.teams, sanitiseTeam),
 });

@@ -10,9 +10,11 @@ const allMembersCsvPath = path.resolve(dataPath, 'all-members.csv');
 const allTransactionsCsvPath = path.resolve(dataPath, 'all-transactions.csv');
 const allTransfersCsvPath = path.resolve(dataPath, 'all-transfers.csv');
 const configPath = path.resolve(dataPath, 'config.json');
+const committeePath = path.resolve(dataPath, 'committee.json');
+const teamsPath = path.resolve(dataPath, 'teams.json');
 
 export const etl = async () => {
-  const options = { configPath, allMembersCsvPath, allTransactionsCsvPath, allTransfersCsvPath };
+  const options = { configPath, allMembersCsvPath, allTransactionsCsvPath, allTransfersCsvPath, committeePath, teamsPath };
   const raw = await extract(options);
   const data1 = transform1(raw);
   const data2 = transform2(data1);
