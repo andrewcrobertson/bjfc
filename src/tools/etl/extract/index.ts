@@ -31,7 +31,7 @@ export const extract = async (options: Options) => {
   const clubMap = fromPairs(map(config.clubMap, ({ from, to }) => [from, to]));
 
   const allTeamsJsonRaw = YAML.parse(fs.readFileSync(options.teamsPath, 'utf-8'));
-  const teams = map(allTeamsJsonRaw, (team) => sanitiseTeam(team)) as IRawConfigTeam[];
+  const teams = map(allTeamsJsonRaw.teams, (team) => sanitiseTeam(team)) as IRawConfigTeam[];
 
   const allCommitteeJsonRaw = YAML.parse(fs.readFileSync(options.committeePath, 'utf-8'));
   const committee = map(allCommitteeJsonRaw.committee, (member) => sanitiseCommittee(member)) as IRawConfigCommittee[];
