@@ -32,7 +32,7 @@ const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, reg
   } else if (registeredRecently) {
     return playerStatusEnum.recent;
   } else {
-    return playerStatusEnum.archived;
+    return playerStatusEnum.historical;
   }
 };
 

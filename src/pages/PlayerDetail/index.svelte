@@ -2,16 +2,15 @@
   import AvatarHeading from '@this/components/AvatarHeading';
   import { Tabs, TabList, TabPanel, Tab } from '@this/components/Tabs';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
-  import PanelGuardian from './components/PanelGuardian';
-  import PanelEmergency from './components/PanelEmergency';
   import PanelContact from './components/PanelContact';
+  import PanelOther from './components/PanelOther';
   import players from './data';
   export let code: string = null;
 
   const player = players[code];
   const footyWebNumber = player.footyWebNumber;
   const emergencyContacts = player.emergencyContact === null ? [] : [player.emergencyContact];
-  const contacts = player.contact === null ? [] : [player.contact];
+  const contacts = player.contacts;
   const colour = 'gray';
   pageTitle.set('Player');
 </script>
@@ -25,18 +24,14 @@
   </div>
   <Tabs class="container xl:pt-4">
     <TabList>
-      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Guardians</Tab>
-      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Emergency</Tab>
-      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Contact</Tab>
+      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Contacts</Tab>
+      <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Other</Tab>
     </TabList>
     <TabPanel>
-      <PanelGuardian guardians={player.guardians} />
-    </TabPanel>
-    <TabPanel>
-      <PanelEmergency contacts={emergencyContacts} />
-    </TabPanel>
-    <TabPanel>
       <PanelContact {contacts} />
+    </TabPanel>
+    <TabPanel>
+      <PanelOther contacts={emergencyContacts} />
     </TabPanel>
   </Tabs>
 </div>

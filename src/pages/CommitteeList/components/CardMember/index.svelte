@@ -23,7 +23,7 @@
     <div class="flex flex-col -mb-3">
       <PersonItem class="mb-2" {colour} text={role} />
       {#each member.contacts as { type, value }}
-        <ContactButton {type} {value} {colour} />
+        <ContactButton class="mb-2" {type} {value} {colour} />
       {/each}
     </div>
   </div>
