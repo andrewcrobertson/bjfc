@@ -5,6 +5,7 @@ export interface IRawMemberGuardian {
   phone2: string;
   mobile: string;
   email: string;
+  assistInRole: string;
 }
 
 export interface IRawMemberEmergencyContact {
@@ -20,6 +21,9 @@ export interface IRawMemberContact {
   phoneMobile: string;
   email1: string;
   email2: string;
+  assistanceRole1: string;
+  assistanceRole2: string;
+  assistanceRole3: string;
 }
 
 export interface IRawMemberTransaction {
@@ -50,4 +54,9 @@ export interface IRawMember {
   contact: IRawMemberContact;
   transactions: IRawMemberTransaction[];
   transfers: IRawMemberTransfer[];
+  disability: boolean;
+  disabilityType1: string;
+  disabilityType2: string;
+  disabilityNote1: string;
+  disabilityNote2: string;
 }
