@@ -80,7 +80,7 @@ const transformEmergency = (contact: any) => ({
 
 const transformRegistered = (contact: any) => ({
   type: 'Registered',
-  relationship: `SportsTG Registered`,
+  relationship: `SportsTG Registered Contact`,
   initials: 'SRC',
   name: 'SportsTG Registered Contact',
   assistInRole: contact.assistInRole,
