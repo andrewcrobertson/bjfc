@@ -1,12 +1,12 @@
 import map from 'lodash/map';
 import type { ISanitisedTeam } from '../../sanitisedTeam';
-import type { IRawConfig, IRawConfigTeam } from '../../types/rawConfig';
+import type { IRawConfig, IRawTeam } from '../../types/rawTeam';
 import { transformGender } from './transformGender';
 import { transformOfficial } from './transformOfficial';
 
 export interface Options {
   config: IRawConfig;
-  teams: IRawConfigTeam[];
+  teams: IRawTeam[];
 }
 
 export const transformTeams = (options: Options): ISanitisedTeam[] =>

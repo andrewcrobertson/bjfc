@@ -9,8 +9,8 @@ import map from 'lodash/map';
 import sortBy from 'lodash/sortBy';
 import split from 'lodash/split';
 import type { ISanitisedMember } from '../../sanitisedMember';
-import type { IRawConfig, IRawConfigTeam, IRawProducts } from '../../types/rawConfig';
 import type { IRawPlayer } from '../../types/rawPlayer';
+import type { IRawConfig, IRawProducts, IRawTeam } from '../../types/rawTeam';
 import { arrayToString } from '../arrayToString';
 import { toInitials } from '../toInitials';
 import { transformEmergencyContact } from './transformEmergencyContact';
@@ -21,7 +21,7 @@ export interface Options {
   config: IRawConfig;
   players: IRawPlayer[];
   products: IRawProducts;
-  teams: IRawConfigTeam[];
+  teams: IRawTeam[];
 }
 
 const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, registeredThisSeason: boolean, registeredRecently: boolean): PlayerStatusEnum => {

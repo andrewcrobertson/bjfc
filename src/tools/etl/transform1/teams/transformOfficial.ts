@@ -1,8 +1,8 @@
 import type { ISanitisedOfficial } from '../../sanitisedTeam';
-import type { IRawConfigOfficial } from '../../types/rawConfig';
+import type { IRawTeamOfficial } from '../../types/rawTeam';
 import { toInitials } from '../toInitials';
 
-export const transformOfficial = (official: IRawConfigOfficial): ISanitisedOfficial => {
+export const transformOfficial = (official: IRawTeamOfficial): ISanitisedOfficial => {
   if (official === null) {
     return null;
   }

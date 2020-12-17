@@ -1,13 +1,14 @@
-import type { IRawConfig, IRawConfigCommittee, IRawConfigTeam, IRawProducts } from '../types/rawConfig';
+import type { IRawCommittee } from '../types/rawCommittee';
 import type { IRawPlayer } from '../types/rawPlayer';
+import type { IRawConfig, IRawProducts, IRawTeam } from '../types/rawTeam';
 import { transformCommittee } from './commmittee/transformCommittee';
 import { transformMembers } from './members/transformMembers';
 import { transformTeams } from './teams/transformTeams';
 
 export interface Options {
   config: IRawConfig;
-  committee: IRawConfigCommittee[];
-  teams: IRawConfigTeam[];
+  committee: IRawCommittee[];
+  teams: IRawTeam[];
   players: IRawPlayer[];
   products: IRawProducts;
 }

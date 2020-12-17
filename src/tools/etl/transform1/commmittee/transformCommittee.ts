@@ -1,10 +1,10 @@
 import map from 'lodash/map';
 import type { ISanitisedCommittee } from '../../sanitisedCommittee';
-import type { IRawConfigCommittee } from '../../types/rawConfig';
+import type { IRawCommittee } from '../../types/rawCommittee';
 import { toInitials } from '../toInitials';
 
 export interface Options {
-  committee: IRawConfigCommittee[];
+  committee: IRawCommittee[];
 }
 
 export const transformCommittee = ({ committee }: Options): ISanitisedCommittee[] =>
