@@ -6,8 +6,11 @@
 </script>
 
 <script lang="ts">
+  import { onMount } from 'svelte';
   import PlayerDetailPage from '@this/pages/PlayerDetail';
   export let code: string = null;
+
+  onMount(() => window.scrollTo(0, 0));
 </script>
 
 <PlayerDetailPage {code} />

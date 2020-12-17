@@ -22,7 +22,7 @@
   <div class="border border-gray-300 p-4 lg:p-6">
     <div class="flex items-center mb-4">
       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{initials}</div>
-      <h2 class="text-lg font-medium title-font ml-2">{name}</h2>
+      <h2 class="text-lg font-medium title-font truncate ml-2">{name}</h2>
     </div>
     <div class="flex flex-col -mb-3">
       <div class="cursor-default inline-flex items-center text-sm border border-gray-300 border-dotted mb-2 px-3 py-3">

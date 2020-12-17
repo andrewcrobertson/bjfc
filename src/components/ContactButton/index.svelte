@@ -15,5 +15,5 @@
 {:else if type === 'Email'}
   <EmailButton class={rootClass} email={value} {colour} />
 {:else}
-  <EmptyButton class={rootClass} />
+  <EmptyButton class="{rootClass} hidden sm:block" />
 {/if}
