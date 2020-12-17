@@ -4,6 +4,9 @@ import { sanitiseObject } from '../utility/sanitiseObject';
 import { sanitiseSlashDate } from '../utility/sanitiseSlashDate';
 import { sanitiseString } from '../utility/sanitiseString';
 import { sanitiseContact } from './sanitiseContact';
+import { sanitiseDisability } from './sanitiseDisability';
+import { sanitiseDisabilityNote } from './sanitiseDisabilityNote';
+import { sanitiseDisabilityType } from './sanitiseDisabilityType';
 import { sanitiseEmergencyContact } from './sanitiseEmergencyContact';
 import { sanitiseGuardian1 } from './sanitiseGuardian1';
 import { sanitiseGuardian2 } from './sanitiseGuardian2';
@@ -22,4 +25,8 @@ export const sanitiseMember = (obj: any, productMap: any, clubMap: any, transact
   contact: sanitiseObject(sanitiseContact(obj)),
   transactions: compact(map(transactions, (transaction) => sanitiseTransaction(transaction, productMap))),
   transfers: compact(map(transfers, (transfer) => sanitiseTransfer(transfer, clubMap))),
+  disability: sanitiseDisability(obj.doesTheParticipantIdentifyAsLivingWithADisabilityDisabilities),
+  disabilityType1: sanitiseDisabilityType(obj.disability1),
+  disabilityNote1: sanitiseDisabilityNote(obj.pleaseSpecifyAnyDisabilitiesWeNeedToKnowAbout),
+  disabilityNote2: sanitiseDisabilityNote(obj.pleaseProvideAdditionalInformationAroundHowTheClubCanSupportTheParticipantsDisability),
 });

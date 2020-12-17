@@ -11,6 +11,7 @@ import * as playerStatusEnum from '../../constants/playerStatusEnum';
 import type { IRawConfig } from '../../rawConfig';
 import type { IRawMember } from '../../rawMember';
 import type { ISanitisedMember } from '../../sanitisedMember';
+import { arrayToString } from '../arrayToString';
 import { toInitials } from '../toInitials';
 import { transformContact } from './transformContact';
 import { transformEmergencyContact } from './transformEmergencyContact';
@@ -31,7 +32,7 @@ const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, reg
   } else if (registeredRecently) {
     return playerStatusEnum.recent;
   } else {
-    return playerStatusEnum.archived;
+    return playerStatusEnum.historical;
   }
 };
 
@@ -49,16 +50,24 @@ export const transformMembers = ({ config, members: membersRaw }: Options): ISan
     const insuredThisSeason = thisSeasonProduct !== undefined && thisSeasonProduct.transactionStatus === 'Paid';
 
     return {
-      ...member,
+      footyWebNumber: member.footyWebNumber,
       status: transformPlayerStatusEnum(club, insuredThisSeason, registeredThisSeason, registeredRecently),
-      emergencyContact: transformEmergencyContact(member.emergencyContact),
       initials: toInitials(member.firstName, member.lastName),
+      lastName: member.lastName,
+      firstName: member.firstName,
+      dateOfBirth: member.dateOfBirth,
       yearOfBirth,
+      gender: member.gender,
       club: member.transfers.length === 0 ? 'Bayswater' : last(member.transfers).destinationClub,
       teamCode: playerTeamExceptions[member.footyWebNumber] ?? first(teamCodes) ?? null,
-      contact: transformContact(member.contact),
+      disability: arrayToString([member.disabilityType1, member.disabilityType2]),
+      disabilityNotes: arrayToString([member.disabilityNote1, member.disabilityNote1]),
       guardians: map(member.guardians, (guardian) => transformGuardian(guardian)),
+      emergencyContact: transformEmergencyContact(member.emergencyContact),
+      contact: transformContact(member.contact),
+      transactions: member.transactions,
       lastTransactionDate: last(map(member.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,
+      transfers: member.transfers,
       lastTransferDate: last(map(member.transfers, ({ applicationDate, finalisedDate }) => finalisedDate ?? applicationDate).sort()) ?? null,
     };
   });
