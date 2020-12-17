@@ -53,6 +53,4 @@ export interface IRawConfig {
   clubMap: IRawMap[];
   noContact: IRawConfigNoContact[];
   playerTeamExceptions: IRawConfigPlayerTeamExceptions[];
-  teams: IRawConfigTeam[];
-  committee: IRawConfigCommittee[];
 }

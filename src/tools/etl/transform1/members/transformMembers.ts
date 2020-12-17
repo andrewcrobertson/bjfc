@@ -8,7 +8,7 @@ import map from 'lodash/map';
 import sortBy from 'lodash/sortBy';
 import split from 'lodash/split';
 import * as playerStatusEnum from '../../constants/playerStatusEnum';
-import type { IRawConfig, IRawProducts } from '../../rawConfig';
+import type { IRawConfig, IRawConfigTeam, IRawProducts } from '../../rawConfig';
 import type { IRawPlayer } from '../../rawPlayer';
 import type { ISanitisedMember } from '../../sanitisedMember';
 import { arrayToString } from '../arrayToString';
@@ -19,8 +19,9 @@ import { transformRegisteredContact } from './transformRegisteredContact';
 
 export interface Options {
   config: IRawConfig;
-  members: IRawPlayer[];
+  players: IRawPlayer[];
   products: IRawProducts;
+  teams: IRawConfigTeam[];
 }
 
 const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, registeredThisSeason: boolean, registeredRecently: boolean) => {
@@ -37,9 +38,9 @@ const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, reg
   }
 };
 
-export const transformMembers = ({ config, members: membersRaw, ...options }: Options): ISanitisedMember[] => {
+export const transformMembers = ({ config, players: membersRaw, ...options }: Options): ISanitisedMember[] => {
   const playerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));
-  const orderedTeams = sortBy(config.teams, ({ ages }) => Math.max(...ages));
+  const orderedTeams = sortBy(options.teams, ({ ages }) => Math.max(...ages));
   const members = map(membersRaw, (member) => {
     const yearOfBirth = parseInt(first(split(member.dateOfBirth, '-')));
     const thisSeasonProduct = find(member.transactions, ({ product }) => includes(options.products.registeredThisSeason, product));

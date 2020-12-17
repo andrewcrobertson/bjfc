@@ -1,7 +1,8 @@
 import map from 'lodash/map';
-import { sanitiseMap } from './sanitiseMap';
+import type { IRawConfig } from '../../rawConfig';
+import { sanitiseMap } from '../utility/sanitiseMap';
 
-export const sanitiseConfig = (obj: any) => ({
+export const sanitiseConfig = (obj: any): IRawConfig => ({
   seasonYear: obj.seasonYear,
   clubMap: map(obj.clubMap, sanitiseMap),
   noContact: obj.noContact,

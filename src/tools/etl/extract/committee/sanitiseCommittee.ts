@@ -1,8 +1,9 @@
+import type { IRawConfigCommittee } from '../../rawConfig';
 import { sanitiseEmail } from '../utility/sanitiseEmail';
 import { sanitisePhone } from '../utility/sanitisePhone';
 import { sanitiseString } from '../utility/sanitiseString';
 
-export const sanitiseCommittee = (obj: any) => ({
+export const sanitiseCommittee = (obj: any): IRawConfigCommittee => ({
   role: sanitiseString(obj.role),
   lastName: sanitiseString(obj.lastName),
   firstName: sanitiseString(obj.firstName),

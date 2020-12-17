@@ -1,3 +1,4 @@
+import type { PersonGenderEnum } from '@this/constants/enums';
 import csv from 'csvtojson';
 import fs from 'fs';
 import camelCase from 'lodash/camelCase';
@@ -8,13 +9,13 @@ import includes from 'lodash/includes';
 import map from 'lodash/map';
 import mapKeys from 'lodash/mapKeys';
 import YAML from 'yaml';
-import type { IRawConfig, IRawConfigCommittee, IRawConfigTeam, IRawProducts } from '../rawConfig';
-import type { IRawPlayer, IRawPlayerGenderEnum } from '../rawPlayer';
-import { sanitiseCommittee } from './config/sanitiseCommittee';
+import type { IRawPlayer } from '../rawPlayer';
+import { sanitiseCommittee } from './committee/sanitiseCommittee';
 import { sanitiseConfig } from './config/sanitiseConfig';
-import { sanitiseTeam } from './config/sanitiseTeam';
-import { getPlayerOldestBirthYear } from './getPlayerOldestBirthYear';
 import { sanitisePlayer } from './player/sanitisePlayer';
+import { sanitiseProducts } from './product/sanitiseProducts';
+import { sanitiseTeam } from './team/sanitiseTeam';
+import { getPlayerOldestBirthYear } from './utility/getPlayerOldestBirthYear';
 
 export interface Options {
   configPath: string;
@@ -27,15 +28,16 @@ export interface Options {
 }
 
 export const extract = async (options: Options) => {
-  const config = sanitiseConfig(YAML.parse(fs.readFileSync(options.configPath, 'utf-8'))) as IRawConfig;
+  const config = sanitiseConfig(YAML.parse(fs.readFileSync(options.configPath, 'utf-8')));
 
-  const allTeamsJsonRaw = YAML.parse(fs.readFileSync(options.teamsPath, 'utf-8'));
-  const teams = map(allTeamsJsonRaw.teams, (team) => sanitiseTeam(team)) as IRawConfigTeam[];
+  const teamsRaw = YAML.parse(fs.readFileSync(options.teamsPath, 'utf-8'));
+  const teams = map(teamsRaw.teams, (team) => sanitiseTeam(team));
 
-  const allCommitteeJsonRaw = YAML.parse(fs.readFileSync(options.committeePath, 'utf-8'));
-  const committee = map(allCommitteeJsonRaw.committee, (member) => sanitiseCommittee(member)) as IRawConfigCommittee[];
+  const committeeRaw = YAML.parse(fs.readFileSync(options.committeePath, 'utf-8'));
+  const committee = map(committeeRaw.committee, (member) => sanitiseCommittee(member));
 
-  const products = YAML.parse(fs.readFileSync(options.productsPath, 'utf-8')) as IRawProducts;
+  const productsRaw = YAML.parse(fs.readFileSync(options.productsPath, 'utf-8'));
+  const products = sanitiseProducts(productsRaw);
 
   const productMap = fromPairs(map(products.productMap, ({ from, to }) => [from, to]));
   const clubMap = fromPairs(map(config.clubMap, ({ from, to }) => [from, to]));
@@ -45,24 +47,24 @@ export const extract = async (options: Options) => {
   const noContact = map(config.noContact, ({ footyWebNumber }) => footyWebNumber);
 
   const transactionFilter = (obj: any) => obj.transactionDate !== '' && obj.product !== '' && obj.lineItemTotal !== '';
-  const allTransactionsJsonRaw = await csv().fromFile(options.allTransactionsCsvPath);
-  const allTransactionsJsonAll = map(allTransactionsJsonRaw, (obj: any) => mapKeys(obj, (_value, key) => camelCase(key)));
-  const allTransactionsJsonFiltered = filter(allTransactionsJsonAll, (obj: any) => transactionFilter(obj));
-  const allTransactionsJson = groupBy(allTransactionsJsonFiltered, 'footyWebNumber');
+  const allTransactionsRaw = await csv().fromFile(options.allTransactionsCsvPath);
+  const allTransactionsAll = map(allTransactionsRaw, (obj: any) => mapKeys(obj, (_value, key) => camelCase(key)));
+  const allTransactionsFiltered = filter(allTransactionsAll, (obj: any) => transactionFilter(obj));
+  const transactions = groupBy(allTransactionsFiltered, 'footyWebNumber');
 
   const transferFilter = (obj: any) => obj.overallTransferStatus === 'Approved';
-  const allTransfersJsonRaw = await csv().fromFile(options.allTransfersCsvPath);
-  const allTransfersJsonAll = map(allTransfersJsonRaw, (obj: any) => mapKeys(obj, (_value, key) => camelCase(key)));
-  const allTransfersJsonFiltered = filter(allTransfersJsonAll, (obj: any) => transferFilter(obj));
-  const allTransfersJson = groupBy(allTransfersJsonFiltered, 'footyWebNumber');
+  const allTransfersRaw = await csv().fromFile(options.allTransfersCsvPath);
+  const allTransfersAll = map(allTransfersRaw, (obj: any) => mapKeys(obj, (_value, key) => camelCase(key)));
+  const allTransfersFiltered = filter(allTransfersAll, (obj: any) => transferFilter(obj));
+  const transfers = groupBy(allTransfersFiltered, 'footyWebNumber');
 
-  const getYear = (gender: IRawPlayerGenderEnum) => (gender === 'Male' ? yearMale : gender === 'Female' ? yearFemale : Math.max(yearMale, yearFemale));
+  const getYear = (gender: PersonGenderEnum) => (gender === 'Male' ? yearMale : gender === 'Female' ? yearFemale : Math.max(yearMale, yearFemale));
   const memberFilter = (obj: any) => parseInt(obj.dateOfBirth.slice(-4)) >= getYear(obj.gender) && !includes(noContact, obj.footyWebNumber);
-  const memberMap = (obj: any) => sanitisePlayer(obj, productMap, clubMap, allTransactionsJson[obj.footyWebNumber], allTransfersJson[obj.footyWebNumber]);
-  const allMembersJsonRaw = await csv().fromFile(options.allMembersCsvPath);
-  const allMembersJsonAll = map(allMembersJsonRaw, (obj: any) => mapKeys(obj, (_value, key) => camelCase(key)));
-  const allMembersJsonFiltered = filter(allMembersJsonAll, (obj: any) => memberFilter(obj));
-  const allMembersJson = map(allMembersJsonFiltered, (obj: any) => memberMap(obj)) as IRawPlayer[];
+  const memberMap = (obj: any) => sanitisePlayer(obj, productMap, clubMap, transactions[obj.footyWebNumber], transfers[obj.footyWebNumber]);
+  const allPlayersRaw = await csv().fromFile(options.allMembersCsvPath);
+  const allPlayers = map(allPlayersRaw, (obj: any) => mapKeys(obj, (_value, key) => camelCase(key)));
+  const allPlayersFiltered = filter(allPlayers, (obj: any) => memberFilter(obj));
+  const players = map(allPlayersFiltered, (obj: any) => memberMap(obj)) as IRawPlayer[];
 
-  return { config, teams, committee, products, members: allMembersJson };
+  return { config, teams, committee, products, players };
 };

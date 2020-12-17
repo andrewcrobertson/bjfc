@@ -1,4 +1,4 @@
-import { sanitiseString } from '../utility/sanitiseString';
+import { sanitiseString } from './sanitiseString';
 
 export const sanitiseMap = (obj: any) => ({
   from: sanitiseString(obj.from),

@@ -8,7 +8,7 @@ export interface Options {
   config: IRawConfig;
   committee: IRawConfigCommittee[];
   teams: IRawConfigTeam[];
-  members: IRawPlayer[];
+  players: IRawPlayer[];
   products: IRawProducts;
 }
 

@@ -1,8 +1,9 @@
+import type { IRawConfigTeam } from '../../rawConfig';
 import { sanitiseObject } from '../utility/sanitiseObject';
 import { sanitiseString } from '../utility/sanitiseString';
 import { sanitiseOfficial } from './sanitiseOfficial';
 
-export const sanitiseTeam = (obj: any) => ({
+export const sanitiseTeam = (obj: any): IRawConfigTeam => ({
   code: sanitiseString(obj.code),
   name: sanitiseString(obj.name),
   ages: obj.ages,

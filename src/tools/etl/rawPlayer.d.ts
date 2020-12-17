@@ -1,4 +1,4 @@
-export type IRawPlayerGenderEnum = 'Male' | 'Female';
+import type { PersonGenderEnum } from '@this/constants/enums';
 
 export interface IRawPlayerGuardian {
   lastName: string;
@@ -50,7 +50,7 @@ export interface IRawPlayer {
   lastName: string;
   firstName: string;
   dateOfBirth: string;
-  gender: IRawPlayerGenderEnum;
+  gender: PersonGenderEnum;
   guardians: IRawPlayerGuardian[];
   emergencyContact: IRawPlayerEmergencyContact;
   contact: IRawPlayerRegisteredContact;

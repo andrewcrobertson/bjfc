@@ -1,6 +1,6 @@
 import map from 'lodash/map';
 import type { IRawProducts } from '../../rawConfig';
-import { sanitiseMap } from './sanitiseMap';
+import { sanitiseMap } from '../utility/sanitiseMap';
 
 export const sanitiseProducts = (obj: any): IRawProducts => ({
   registeredRecently: obj.registeredRecently,
