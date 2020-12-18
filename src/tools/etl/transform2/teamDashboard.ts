@@ -33,7 +33,7 @@ const mapTeam = (team: ISanitisedTeam, playersAll: ISanitisedPlayer[]) => {
   };
 };
 
-export const teamList = ({ teams, players }: Options) =>
+export const teamDashboard = ({ teams, players }: Options) =>
   orderBy(
     map(teams, (team) => mapTeam(team, players)),
     ['code'],

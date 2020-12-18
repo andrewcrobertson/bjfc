@@ -640,7 +640,7 @@
       "lastName": "Adams",
       "firstName": "Charli",
       "dateOfBirth": "2004-11-26",
-      "status": "Recent",
+      "status": "Registered",
       "gender": "Female",
       "guardians": [
         {
@@ -677,7 +677,7 @@
         }
       ],
       "lastTransferDate": "2016-04-20",
-      "lastTransactionDate": "2020-02-16",
+      "lastTransactionDate": "2020-12-17",
       "teamCode": "U18G",
       "disabilityType": null,
       "disabilityNotes": null
@@ -2153,7 +2153,7 @@
       "lastName": "Beveridge",
       "firstName": "Phoenix",
       "dateOfBirth": "2011-10-25",
-      "status": "Recent",
+      "status": "Registered",
       "gender": "Male",
       "guardians": [
         {
@@ -2194,7 +2194,7 @@
         }
       ],
       "lastTransferDate": "2018-11-11",
-      "lastTransactionDate": "2019-11-10",
+      "lastTransactionDate": "2020-12-18",
       "teamCode": "U10M",
       "disabilityType": null,
       "disabilityNotes": null
@@ -2205,7 +2205,7 @@
       "lastName": "Beveridge",
       "firstName": "Ryder",
       "dateOfBirth": "2009-06-28",
-      "status": "Recent",
+      "status": "Registered",
       "gender": "Male",
       "guardians": [
         {
@@ -2246,7 +2246,7 @@
         }
       ],
       "lastTransferDate": "2017-11-12",
-      "lastTransactionDate": "2019-11-10",
+      "lastTransactionDate": "2020-12-18",
       "teamCode": "U12B",
       "disabilityType": null,
       "disabilityNotes": null
@@ -14264,7 +14264,7 @@
       "lastName": "Roberts",
       "firstName": "Joshua",
       "dateOfBirth": "2009-03-18",
-      "status": "Recent",
+      "status": "Insured",
       "gender": "Male",
       "guardians": [
         {
@@ -14311,7 +14311,7 @@
         }
       ],
       "lastTransferDate": "2017-03-29",
-      "lastTransactionDate": "2020-03-05",
+      "lastTransactionDate": "2020-12-18",
       "teamCode": "U12B",
       "disabilityType": null,
       "disabilityNotes": null
@@ -19065,6 +19065,14 @@
       "transactionStatus": "Paid"
     },
     {
+      "footyWebNumber": "02921592",
+      "transactionDate": "2020-12-17",
+      "transactionTime": "21:38",
+      "product": "2021 Registration Fees",
+      "lineItemTotal": "18.00",
+      "transactionStatus": "Unpaid"
+    },
+    {
       "footyWebNumber": "00076968",
       "transactionDate": "2013-05-10",
       "transactionTime": "10:44",
@@ -20705,6 +20713,14 @@
       "transactionStatus": "Paid"
     },
     {
+      "footyWebNumber": "03018873",
+      "transactionDate": "2020-12-18",
+      "transactionTime": "12:30",
+      "product": "2021 Registration Fees",
+      "lineItemTotal": "18.00",
+      "transactionStatus": "Unpaid"
+    },
+    {
       "footyWebNumber": "03018872",
       "transactionDate": "2017-11-12",
       "transactionTime": "11:02",
@@ -20735,6 +20751,14 @@
       "product": "2020 Registration Fees",
       "lineItemTotal": "18.00",
       "transactionStatus": "Paid"
+    },
+    {
+      "footyWebNumber": "03018872",
+      "transactionDate": "2020-12-18",
+      "transactionTime": "12:31",
+      "product": "2021 Registration Fees",
+      "lineItemTotal": "18.00",
+      "transactionStatus": "Unpaid"
     },
     {
       "footyWebNumber": "00756557",
@@ -35781,6 +35805,14 @@
       "transactionDate": "2020-03-05",
       "transactionTime": "13:48",
       "product": "2020 Registration Fees",
+      "lineItemTotal": "18.00",
+      "transactionStatus": "Paid"
+    },
+    {
+      "footyWebNumber": "02874729",
+      "transactionDate": "2020-12-18",
+      "transactionTime": "14:37",
+      "product": "2021 Registration Fees",
       "lineItemTotal": "18.00",
       "transactionStatus": "Paid"
     },

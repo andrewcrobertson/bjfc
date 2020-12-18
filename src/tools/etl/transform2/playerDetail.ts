@@ -6,7 +6,7 @@ import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
 import pick from 'lodash/pick';
 import type { ISanitisedConfig } from '../types/sanitisedConfig';
-import type { ISanitisedPlayer, ISanitisedPlayerTransaction } from '../types/sanitisedPlayer';
+import type { ISanitisedPlayer } from '../types/sanitisedPlayer';
 import type { ISanitisedTeam } from '../types/sanitisedTeam';
 import type { ISanitisedTransaction } from '../types/sanitisedTransaction';
 
@@ -100,28 +100,18 @@ const transformRegistered = (contact: any) => ({
   ]),
 });
 
-const transformTransactions = (transactions: ISanitisedPlayerTransaction[], seasonYear: number) =>
-  filter(
-    map(transactions, (transaction) => ({
-      year: parseInt(transaction.product.substring(0, 4)),
-      transactionDate: transaction.transactionDate,
-      product: transaction.product,
-      lineItemTotal: transaction.lineItemTotal,
-      transactionStatus: transaction.transactionStatus,
-    })),
-    ({ year }) => year >= seasonYear - 1
-  );
-
 export const playerDetail = (options: Options) => {
+  const seasonYear = options.config.seasonYear;
   const teamMap = fromPairs(map(options.teams, (team) => [team.code, pick(team, teamFields)]));
+  const transactions = filter(options.transactions, ({ transactionDate }) => parseInt(transactionDate.substring(0, 4)) >= seasonYear - 1);
+
   const members = map(options.players, (sanitisedPlayer) => {
     const player = pick(sanitisedPlayer, ...fields) as any;
-    player.contacts = compact([
-      ...map(sanitisedPlayer.guardians, (guardian) => transformGuardian(guardian)),
-      sanitisedPlayer.emergencyContact === null ? null : transformEmergency(sanitisedPlayer.emergencyContact),
-      sanitisedPlayer.contact === null ? null : transformRegistered(sanitisedPlayer.contact),
-    ]);
-    player.transactions = filter(options.transactions, (t) => t.footyWebNumber === sanitisedPlayer.footyWebNumber);
+    const guardians = map(sanitisedPlayer.guardians, (guardian) => transformGuardian(guardian));
+    const emergencyContact = sanitisedPlayer.emergencyContact === null ? null : transformEmergency(sanitisedPlayer.emergencyContact);
+    const contact = sanitisedPlayer.contact === null ? null : transformRegistered(sanitisedPlayer.contact);
+    player.contacts = compact([...guardians, emergencyContact, contact]);
+    player.transactions = filter(transactions, ({ footyWebNumber }) => footyWebNumber === sanitisedPlayer.footyWebNumber);
     player.transactions = orderBy(player.transactions, ['transactionDate', 'transactionTime'], ['desc', 'desc']);
     player.transfers = orderBy(sanitisedPlayer.clubHistory, ['date'], ['desc']);
     player.team = teamMap[sanitisedPlayer.teamCode] ?? null;
