@@ -1,4 +1,5 @@
 import type { PlayerStatusEnum } from '@this/constants/enums';
+import { filter, includes } from 'lodash';
 import first from 'lodash/first';
 import fromPairs from 'lodash/fromPairs';
 import map from 'lodash/map';
@@ -22,8 +23,14 @@ export const transformPlayers = (config: IRawConfig, players: IRawPlayer[], team
   const groupedPlayerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));
 
   return map(players, (player) => {
-    const teamCodes = map(orderedTeams, ({ code }) => code);
-    const teamCode = groupedPlayerTeamExceptions[player.footyWebNumber] ?? first(teamCodes) ?? null;
+    const team =
+      first(
+        filter(
+          orderedTeams,
+          ({ birthYears, playerGenders }) => includes(playerGenders, player.gender) && includes(birthYears, parseInt(player.dateOfBirth.substring(0, 4)))
+        )
+      ) ?? ({} as any);
+    const teamCode = groupedPlayerTeamExceptions[player.footyWebNumber] ?? team.code ?? null;
 
     return transformPlayer(player, teamCode, groupedPlayerInfo);
   });

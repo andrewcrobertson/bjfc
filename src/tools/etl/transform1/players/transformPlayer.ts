@@ -10,8 +10,9 @@ import { transformPlayerStatus } from './transformPlayerStatus';
 import { transformSportsTGContact } from './transformSportsTGContact';
 
 export const transformPlayer = (player: IRawPlayer, teamCode: string, groupedPlayerInfo: any): ISanitisedPlayer => {
-  const { insured, registered, registeredRecently, clubHistory, lastTransactionDate } = groupedPlayerInfo[player.footyWebNumber] ?? {};
-  const club = last(clubHistory as any[]).club;
+  const { insured, registered, registeredRecently, ...playerInfo } = groupedPlayerInfo[player.footyWebNumber] ?? {};
+  const clubHistory = (playerInfo.clubHistory as any[]) ?? [];
+  const currentClubRecord = last(clubHistory);
 
   return {
     footyWebNumber: player.footyWebNumber,
@@ -19,14 +20,15 @@ export const transformPlayer = (player: IRawPlayer, teamCode: string, groupedPla
     lastName: player.lastName,
     firstName: player.firstName,
     dateOfBirth: player.dateOfBirth,
-    status: transformPlayerStatus(club, insured, registered, registeredRecently),
+    status: transformPlayerStatus(currentClubRecord.club, insured, registered, registeredRecently),
     gender: player.gender,
     guardians: map(player.guardians, (guardian) => transformGuardian(guardian)),
     emergencyContact: transformEmergencyContact(player.emergencyContact),
     contact: transformSportsTGContact(player.contact),
-    club,
+    club: currentClubRecord.club,
     clubHistory,
-    lastTransactionDate,
+    lastTransferDate: currentClubRecord === 'Bayswater' ? null : currentClubRecord.date,
+    lastTransactionDate: playerInfo.lastTransactionDate ?? null,
     teamCode,
     disabilityType: arrayToString(uniq([player.disabilityType1, player.disabilityType2])),
     disabilityNotes: arrayToString(uniq([player.disabilityNote1, player.disabilityNote1])),
