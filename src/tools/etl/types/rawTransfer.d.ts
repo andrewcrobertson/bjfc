@@ -1,4 +1,4 @@
-export interface IRawPlayerTransfer {
+export interface IRawTransfer {
   footyWebNumber: string;
   transferYear: string;
   applicationDate: string;

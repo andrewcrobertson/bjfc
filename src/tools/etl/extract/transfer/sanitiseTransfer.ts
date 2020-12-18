@@ -1,9 +1,9 @@
-import type { IRawPlayerTransfer } from '../../types/rawTransfer';
+import type { IRawTransfer } from '../../types/rawTransfer';
 import { sanitiseDashDateTime } from '../utility/sanitiseDashDateTime';
 import { sanitiseSlashDate } from '../utility/sanitiseSlashDate';
 import { sanitiseString } from '../utility/sanitiseString';
 
-export const sanitiseTransfer = (obj: any): IRawPlayerTransfer => ({
+export const sanitiseTransfer = (obj: any): IRawTransfer => ({
   footyWebNumber: sanitiseString(obj.footyWebNumber),
   transferYear: obj.transferYear,
   applicationDate: sanitiseSlashDate(obj.applicationDate),
