@@ -1,8 +1,8 @@
 import { compact, each, filter, flattenDeep, fromPairs, join, map, pick, uniq } from 'lodash';
-import type { ISanitisedMember } from '../sanitisedMember';
+import type { sanitisedPlayer } from '../sanitisedPlayer';
 
-export const recentlyRegisteredEmail = (members: ISanitisedMember[]) => {
-  const getRecs = (m: ISanitisedMember) => {
+export const recentlyRegisteredEmail = (members: sanitisedPlayer[]) => {
+  const getRecs = (m: sanitisedPlayer) => {
     let g1 = pick(m.guardians[0] ?? {}, 'firstName', 'lastName', 'email') as any;
     let g2 = pick(m.guardians[1] ?? {}, 'firstName', 'lastName', 'email') as any;
     let g3 = { email: m.contact?.email1 } as any;

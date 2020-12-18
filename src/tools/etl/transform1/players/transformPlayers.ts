@@ -1,4 +1,4 @@
-import type { ISanitisedMember } from '../../sanitisedMember';
+import type { sanitisedPlayer } from '../../sanitisedPlayer';
 import type { IRawCommittee } from '../../types/rawCommittee';
 import type { IRawConfig } from '../../types/rawConfig';
 import type { IRawPlayer } from '../../types/rawPlayer';
@@ -17,6 +17,6 @@ export interface Options {
   transfers: IRawTransfer[];
 }
 
-export const transformPlayers = (options: Options): ISanitisedMember[] => {
+export const transformPlayers = (options: Options): sanitisedPlayer[] => {
   return [];
 };

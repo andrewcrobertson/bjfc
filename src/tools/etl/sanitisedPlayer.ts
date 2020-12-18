@@ -5,7 +5,7 @@ export interface ISanitisedContactMethod {
   value: string;
 }
 
-export interface ISanitisedMemberGuardian {
+export interface sanitisedPlayerGuardian {
   lastName: string;
   firstName: string;
   initials: string;
@@ -16,22 +16,23 @@ export interface ISanitisedMemberGuardian {
   assistInRole: string;
 }
 
-export interface ISanitisedMemberEmergencyContact {
+export interface sanitisedPlayerEmergencyContact {
   relationship: string;
   name: string;
   phone1: string;
   phone2: string;
 }
 
-export interface ISanitisedMemberContact {
+export interface sanitisedPlayerContact {
   phone1: string;
   phone2: string;
+  phone3: string;
   email1: string;
   email2: string;
   assistInRole: string;
 }
 
-export interface ISanitisedMemberTransaction {
+export interface sanitisedPlayerTransaction {
   transactionDate: string;
   transactionTime: string;
   product: string;
@@ -39,7 +40,7 @@ export interface ISanitisedMemberTransaction {
   transactionStatus: string;
 }
 
-export interface ISanitisedMemberTransfer {
+export interface sanitisedPlayerTransfer {
   transferYear: string;
   applicationDate: string;
   finalisedDate: string;
@@ -47,7 +48,7 @@ export interface ISanitisedMemberTransfer {
   destinationClub: string;
 }
 
-export interface ISanitisedMember {
+export interface sanitisedPlayer {
   footyWebNumber: string;
   status: PlayerStatusEnum;
   initials: string;
@@ -56,13 +57,13 @@ export interface ISanitisedMember {
   dateOfBirth: string;
   yearOfBirth: number;
   gender: string;
-  guardians: ISanitisedMemberGuardian[];
-  emergencyContact: ISanitisedMemberEmergencyContact;
-  contact: ISanitisedMemberContact;
-  transactions: ISanitisedMemberTransaction[];
+  guardians: sanitisedPlayerGuardian[];
+  emergencyContact: sanitisedPlayerEmergencyContact;
+  contact: sanitisedPlayerContact;
+  transactions: sanitisedPlayerTransaction[];
   firstTransactionDate: string;
   lastTransactionDate: string;
-  transfers: ISanitisedMemberTransfer[];
+  transfers: sanitisedPlayerTransfer[];
   lastTransferDate: string;
   club: string;
   teamCode: string;

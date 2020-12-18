@@ -8,7 +8,7 @@ import last from 'lodash/last';
 import map from 'lodash/map';
 import sortBy from 'lodash/sortBy';
 import split from 'lodash/split';
-import type { ISanitisedMember } from '../../sanitisedMember';
+import type { sanitisedPlayer } from '../../sanitisedPlayer';
 import type { IRawCommittee } from '../../types/rawCommittee';
 import type { IRawConfig } from '../../types/rawConfig';
 import type { IRawPlayer } from '../../types/rawPlayer';
@@ -18,9 +18,9 @@ import type { IRawTransaction } from '../../types/rawTransaction';
 import type { IRawTransfer } from '../../types/rawTransfer';
 import { arrayToString } from '../utility/arrayToString';
 import { toInitials } from '../utility/toInitials';
+import { transformSportsTGContact } from '././transformSportsTGContact';
 import { transformEmergencyContact } from './transformEmergencyContact';
 import { transformGuardian } from './transformGuardian';
-import { transformRegisteredContact } from './transformRegisteredContact';
 
 export interface Options {
   config: IRawConfig;
@@ -40,7 +40,7 @@ const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, reg
   return 'Historical';
 };
 
-export const transformPlayers = ({ config, players: membersRaw, ...options }: Options): ISanitisedMember[] => {
+export const transformPlayers = ({ config, players: membersRaw, ...options }: Options): sanitisedPlayer[] => {
   const playerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));
   const orderedTeams = sortBy(options.teams, ({ ages }) => Math.max(...ages));
   const members = map(membersRaw, (member) => {
@@ -68,7 +68,7 @@ export const transformPlayers = ({ config, players: membersRaw, ...options }: Op
       disabilityNotes: arrayToString([member.disabilityNote1, member.disabilityNote1]),
       guardians: map(member.guardians, (guardian) => transformGuardian(guardian)),
       emergencyContact: transformEmergencyContact(member.emergencyContact),
-      contact: transformRegisteredContact(member.contact),
+      contact: transformSportsTGContact(member.contact),
       transactions: member.transactions,
       lastTransactionDate: last(map(member.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,
       firstTransactionDate: first(map(member.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,

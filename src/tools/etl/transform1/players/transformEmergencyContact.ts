@@ -7,8 +7,8 @@ import type { IRawPlayerEmergencyContact } from '../../types/rawPlayer';
 
 const getInitials = (name: string) => {
   const tokensRaw = split(replace(name, '-', ' '), ' ');
-  const tokensLetters = map(tokensRaw, (t) => first(t));
-  return join(tokensLetters, '').toUpperCase();
+  const tokensInitials = map(tokensRaw, (t) => first(t));
+  return join(tokensInitials, '').toUpperCase();
 };
 
 export const transformEmergencyContact = (emergencyContact: IRawPlayerEmergencyContact) =>

@@ -4,12 +4,12 @@ import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
 import pick from 'lodash/pick';
 import type { ISanitisedConfig } from '../sanitisedConfig';
-import type { ISanitisedMember } from '../sanitisedMember';
+import type { sanitisedPlayer } from '../sanitisedPlayer';
 import type { ISanitisedTeam } from '../sanitisedTeam';
 
 export interface Options {
   config: ISanitisedConfig;
-  members: ISanitisedMember[];
+  members: sanitisedPlayer[];
   teams: ISanitisedTeam[];
 }
 
