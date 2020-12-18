@@ -103,7 +103,7 @@ const transformRegistered = (contact: any) => ({
 export const playerDetail = (options: Options) => {
   const seasonYear = options.config.seasonYear;
   const teamMap = fromPairs(map(options.teams, (team) => [team.code, pick(team, teamFields)]));
-  const transactions = filter(options.transactions, ({ transactionDate }) => parseInt(transactionDate.substring(0, 4)) >= seasonYear - 1);
+  const transactions = filter(options.transactions, ({ date: transactionDate }) => parseInt(transactionDate.substring(0, 4)) >= seasonYear - 1);
 
   const members = map(options.players, (sanitisedPlayer) => {
     const player = pick(sanitisedPlayer, ...fields) as any;

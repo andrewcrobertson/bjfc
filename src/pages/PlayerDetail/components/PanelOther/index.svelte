@@ -17,13 +17,8 @@
 
   <div>
     <h1 class="mb-4">Recent Transactions</h1>
-    {#each transactions as { transactionDate, product, lineItemTotal, transactionStatus }, i}
-      <CardTransaction
-        class="w-full border-l border-r border-b border-gray-300 {i === 0 ? 'border-t' : ''}"
-        {transactionDate}
-        {product}
-        {lineItemTotal}
-        {transactionStatus} />
+    {#each transactions as transaction, i}
+      <CardTransaction class="w-full border-l border-r border-b border-gray-300 {i === 0 ? 'border-t' : ''}" {transaction} />
     {:else}
       <p>There are no recent transaction records</p>
     {/each}

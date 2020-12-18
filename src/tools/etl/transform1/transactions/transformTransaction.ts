@@ -5,9 +5,9 @@ type ProductMap = { [key: string]: string };
 
 export const transformTransaction = (obj: IRawTransaction, productMap: ProductMap): ISanitisedTransaction => ({
   footyWebNumber: obj.footyWebNumber,
-  transactionDate: obj.date,
-  transactionTime: obj.time,
+  date: obj.date,
+  time: obj.time,
   product: productMap[obj.product] ?? null,
-  lineItemTotal: obj.total,
-  transactionStatus: obj.status,
+  total: obj.total,
+  status: obj.status,
 });
