@@ -1,9 +1,9 @@
 import filter from 'lodash/filter';
 import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
-import type { ISanitisedConfig } from '../sanitisedConfig';
-import type { ISanitisedPlayer } from '../sanitisedPlayer';
-import type { ISanitisedTeam } from '../sanitisedTeam';
+import type { ISanitisedConfig } from '../types/sanitisedConfig';
+import type { ISanitisedPlayer } from '../types/sanitisedPlayer';
+import type { ISanitisedTeam } from '../types/sanitisedTeam';
 
 export interface Options {
   config: ISanitisedConfig;

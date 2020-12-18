@@ -1,5 +1,5 @@
 import map from 'lodash/map';
-import type { ISanitisedCommittee } from '../sanitisedCommittee';
+import type { ISanitisedCommittee } from '../types/sanitisedCommittee';
 
 export interface Options {
   committee: ISanitisedCommittee[];

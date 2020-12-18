@@ -1,6 +1,6 @@
 import map from 'lodash/map';
-import type { ISanitisedCommittee } from '../../sanitisedCommittee';
 import type { IRawCommittee } from '../../types/rawCommittee';
+import type { ISanitisedCommittee } from '../../types/sanitisedCommittee';
 import { transformMember } from './transformMember';
 
 export interface Options {

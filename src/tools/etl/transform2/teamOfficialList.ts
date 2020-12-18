@@ -1,8 +1,8 @@
 import fromPairs from 'lodash/fromPairs';
 import map from 'lodash/map';
-import type { ISanitisedConfig } from '../sanitisedConfig';
-import type { ISanitisedPlayer } from '../sanitisedPlayer';
-import type { ISanitisedOfficial, ISanitisedTeam } from '../sanitisedTeam';
+import type { ISanitisedConfig } from '../types/sanitisedConfig';
+import type { ISanitisedPlayer } from '../types/sanitisedPlayer';
+import type { ISanitisedOfficial, ISanitisedTeam } from '../types/sanitisedTeam';
 
 export interface Options {
   config: ISanitisedConfig;

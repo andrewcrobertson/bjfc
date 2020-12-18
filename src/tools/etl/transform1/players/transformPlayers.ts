@@ -1,5 +1,4 @@
 import map from 'lodash/map';
-import type { ISanitisedPlayer } from '../../sanitisedPlayer';
 import type { IRawCommittee } from '../../types/rawCommittee';
 import type { IRawConfig } from '../../types/rawConfig';
 import type { IRawPlayer } from '../../types/rawPlayer';
@@ -7,6 +6,7 @@ import type { IRawProduct } from '../../types/rawProduct';
 import type { IRawTeam } from '../../types/rawTeam';
 import type { IRawTransaction } from '../../types/rawTransaction';
 import type { IRawTransfer } from '../../types/rawTransfer';
+import type { ISanitisedPlayer } from '../../types/sanitisedPlayer';
 import { transformPlayer } from './transformPlayer';
 
 export interface Options {

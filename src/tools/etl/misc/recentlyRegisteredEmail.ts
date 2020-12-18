@@ -7,7 +7,7 @@ import join from 'lodash/join';
 import map from 'lodash/map';
 import pick from 'lodash/pick';
 import uniq from 'lodash/uniq';
-import type { ISanitisedPlayer } from '../sanitisedPlayer';
+import type { ISanitisedPlayer } from '../types/sanitisedPlayer';
 
 export const recentlyRegisteredEmail = (members: ISanitisedPlayer[]) => {
   const getRecs = (m: ISanitisedPlayer) => {

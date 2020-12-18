@@ -1,8 +1,8 @@
 import first from 'lodash/first';
 import map from 'lodash/map';
 import split from 'lodash/split';
-import type { ISanitisedPlayer } from '../../sanitisedPlayer';
 import type { IRawPlayer } from '../../types/rawPlayer';
+import type { ISanitisedPlayer } from '../../types/sanitisedPlayer';
 import { toInitials } from '../utility/toInitials';
 import { transformEmergencyContact } from './transformEmergencyContact';
 import { transformGuardian } from './transformGuardian';

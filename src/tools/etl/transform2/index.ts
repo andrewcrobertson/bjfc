@@ -1,7 +1,7 @@
-import type { ISanitisedCommittee } from '../sanitisedCommittee';
-import type { ISanitisedConfig } from '../sanitisedConfig';
-import type { ISanitisedPlayer } from '../sanitisedPlayer';
-import type { ISanitisedTeam } from '../sanitisedTeam';
+import type { ISanitisedCommittee } from '../types/sanitisedCommittee';
+import type { ISanitisedConfig } from '../types/sanitisedConfig';
+import type { ISanitisedPlayer } from '../types/sanitisedPlayer';
+import type { ISanitisedTeam } from '../types/sanitisedTeam';
 import { committeeList } from './committeeList';
 import { playerDetail } from './playerDetail';
 import { teamList } from './teamList';

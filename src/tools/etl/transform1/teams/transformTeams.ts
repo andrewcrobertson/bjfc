@@ -1,7 +1,7 @@
 import map from 'lodash/map';
-import type { ISanitisedTeam } from '../../sanitisedTeam';
 import type { IRawConfig } from '../../types/rawConfig';
 import type { IRawTeam } from '../../types/rawTeam';
+import type { ISanitisedTeam } from '../../types/sanitisedTeam';
 import { transformTeam } from './transformTeam';
 
 export interface Options {
