@@ -3,12 +3,24 @@ import map from 'lodash/map';
 import split from 'lodash/split';
 import type { IRawPlayer } from '../../types/rawPlayer';
 import type { ISanitisedPlayer } from '../../types/sanitisedPlayer';
+import type { ISanitisedTransaction } from '../../types/sanitisedTransaction';
+import type { ISanitisedTransfer } from '../../types/sanitisedTransfer';
 import { toInitials } from '../utility/toInitials';
 import { transformEmergencyContact } from './transformEmergencyContact';
 import { transformGuardian } from './transformGuardian';
 import { transformSportsTGContact } from './transformSportsTGContact';
 
-export const transformPlayer = (player: IRawPlayer): ISanitisedPlayer => {
+export const transformPlayer = (
+  player: IRawPlayer,
+  registrationProductsThisSeason: string[],
+  registrationProductsRecent: string[],
+  transactions: ISanitisedTransaction[],
+  transfers: ISanitisedTransfer[]
+): ISanitisedPlayer => {
+  const yearOfBirth = parseInt(first(split(player.dateOfBirth, '-')));
+
+  // const thisSeasonProduct = find(player.transactions, ({ product }) => includes(options.products.registeredThisSeason, product));
+
   return {
     footyWebNumber: player.footyWebNumber,
     status: null, // player.status,
@@ -16,7 +28,7 @@ export const transformPlayer = (player: IRawPlayer): ISanitisedPlayer => {
     lastName: player.lastName,
     firstName: player.firstName,
     dateOfBirth: player.dateOfBirth,
-    yearOfBirth: parseInt(first(split(player.dateOfBirth, '-'))),
+    yearOfBirth,
     gender: player.gender,
     guardians: map(player.guardians, (guardian) => transformGuardian(guardian)),
     emergencyContact: transformEmergencyContact(player.emergencyContact),

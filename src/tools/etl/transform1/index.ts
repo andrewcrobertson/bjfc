@@ -1,4 +1,4 @@
-import { fromPairs } from 'lodash';
+import { filter, fromPairs } from 'lodash';
 import map from 'lodash/map';
 import zip from 'lodash/zip';
 import type { IRawCommittee } from '../types/rawCommittee';
@@ -33,12 +33,22 @@ export const transform1 = (options: Options) => {
   const toProducts = map(products, ({ name }) => name);
   const productMap = fromPairs(zip(fromProducts, toProducts));
 
+  const registrationProducts = filter(products, ({ type, year }) => type === 'Registration');
+  const registrationProductsThisSeason = map(
+    filter(registrationProducts, ({ year }) => year === options.config.seasonYear),
+    ({ name }) => name
+  );
+  const registrationProductsRecent = map(
+    filter(registrationProducts, ({ year }) => year === options.config.seasonYear - 1 || year === options.config.seasonYear - 2),
+    ({ name }) => name
+  );
+
   const config = { seasonYear: options.config.seasonYear };
   const committee = transformCommittee(options.committee);
   const transactions = transformTransactions(options.transactions, productMap);
   const transfers = transformTransfers(options.transfers, clubMap);
   const teams = transformTeams(options.teams, config.seasonYear);
-  const players = transformPlayers(options.players);
+  const players = transformPlayers(options.players, registrationProductsThisSeason, registrationProductsRecent, transactions, transfers);
 
   return { config, committee, products, teams, players, transactions, transfers };
 };
