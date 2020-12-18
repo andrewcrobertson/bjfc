@@ -1,7 +1,6 @@
 import fs from 'fs';
 import map from 'lodash/map';
 import YAML from 'yaml';
-import type { IRawPlayer } from '../types/rawPlayer';
 import { sanitiseCommittee } from './committee/sanitiseCommittee';
 import { sanitiseConfig } from './config/sanitiseConfig';
 import { sanitisePlayer } from './player/sanitisePlayer';
@@ -21,19 +20,16 @@ export interface Options {
   allTransfersCsvPath: string;
 }
 
+const extractYaml = <T>(file: string, mapFn: (x: any) => T) => map(YAML.parse(fs.readFileSync(file, 'utf-8')), mapFn);
+const extractCsv = async <T>(file: string, mapFn: (x: any) => T) => map(await loadFromCsv(file), mapFn);
+
 export const extract = async (options: Options) => {
   const config = sanitiseConfig(YAML.parse(fs.readFileSync(options.configPath, 'utf-8')));
-  const teamsRaw = YAML.parse(fs.readFileSync(options.teamsPath, 'utf-8'));
-  const teams = map(teamsRaw, (team) => sanitiseTeam(team));
-  const committeeRaw = YAML.parse(fs.readFileSync(options.committeePath, 'utf-8'));
-  const committee = map(committeeRaw, (member) => sanitiseCommittee(member));
-  const productsRaw = YAML.parse(fs.readFileSync(options.productsPath, 'utf-8'));
-  const products = sanitiseProducts(productsRaw);
-  const playersRaw = await loadFromCsv(options.allMembersCsvPath);
-  const players = map(playersRaw, (obj: any) => sanitisePlayer(obj)) as IRawPlayer[];
-  const transactionsRaw = await loadFromCsv(options.allTransactionsCsvPath);
-  const transactions = map(transactionsRaw, (member) => sanitiseTransaction(member));
-  const transfersRaw = await loadFromCsv(options.allTransfersCsvPath);
-  const transfers = map(transfersRaw, (member) => sanitiseTransfer(member));
+  const teams = extractYaml(options.teamsPath, sanitiseTeam);
+  const committee = extractYaml(options.committeePath, sanitiseCommittee);
+  const products = extractYaml(options.productsPath, sanitiseProducts);
+  const players = await extractCsv(options.allMembersCsvPath, sanitisePlayer);
+  const transactions = await extractCsv(options.allTransactionsCsvPath, sanitiseTransaction);
+  const transfers = await extractCsv(options.allTransfersCsvPath, sanitiseTransfer);
   return { config, teams, committee, products, players, transactions, transfers };
 };

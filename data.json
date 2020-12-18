@@ -627,11 +627,170 @@
       "gender": "Female"
     }
   ],
-  "products": {
-    "name": null,
-    "type": "Unknown",
-    "notes": null
-  },
+  "products": [
+    {
+      "name": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees",
+      "type": "Registration",
+      "year": 2021,
+      "notes": null
+    },
+    {
+      "name": "Association - 2021 EFNL Registration fees - 2021 EFNL Junior Girls Registration fees",
+      "type": "Registration",
+      "year": 2021,
+      "notes": null
+    },
+    {
+      "name": "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Boys Registration Fee",
+      "type": "Registration",
+      "year": 2020,
+      "notes": null
+    },
+    {
+      "name": "Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Girls Registration Fee",
+      "type": "Registration",
+      "year": 2020,
+      "notes": null
+    },
+    {
+      "name": "Club - 2020 Junior Club Fees",
+      "type": "Club",
+      "year": 2020,
+      "notes": "2020 Club Fees"
+    },
+    {
+      "name": "Club - 2020 Junior Club Fees (Revised)",
+      "type": "Club",
+      "year": 2020,
+      "notes": "Revised"
+    },
+    {
+      "name": "Club - 2020 Junior Club Fees - deposit only",
+      "type": "Club",
+      "year": 2020,
+      "notes": "Deposit"
+    },
+    {
+      "name": "Club - 2020 Under 8 Club Fees",
+      "type": "Club",
+      "year": 2020,
+      "notes": "U8"
+    },
+    {
+      "name": "Club - 2020 Under 8 Club Fees (Revised)",
+      "type": "Club",
+      "year": 2020,
+      "notes": "Revised"
+    },
+    {
+      "name": "Association - 2019 EFL Registration Fee - 2019 EFL Junior Girls Registration fee",
+      "type": "Registration",
+      "year": 2019,
+      "notes": null
+    },
+    {
+      "name": "Association - 2019 EFL Registration Fee - 2019 EFL Junior registration fee",
+      "type": "Registration",
+      "year": 2019,
+      "notes": null
+    },
+    {
+      "name": "Club - 2019 Junior Club Fees",
+      "type": "Club",
+      "year": 2019,
+      "notes": null
+    },
+    {
+      "name": "Club - 2019 Junior Club Fees - deposit only",
+      "type": "Club",
+      "year": 2019,
+      "notes": "Deposit"
+    },
+    {
+      "name": "Club - 2019 Under 8 Club Fees",
+      "type": "Club",
+      "year": 2019,
+      "notes": "U8"
+    },
+    {
+      "name": "Association - EFL Registration Fee - 2018 EFL Junior Registration Fee",
+      "type": "Registration",
+      "year": 2018,
+      "notes": null
+    },
+    {
+      "name": "Association - EFL Registration Fee - 2018 EFL Senior Registration Fee",
+      "type": "Registration",
+      "year": 2018,
+      "notes": null
+    },
+    {
+      "name": "Club - 2018 Junior Club Fees",
+      "type": "Club",
+      "year": 2018,
+      "notes": null
+    },
+    {
+      "name": "Club - 2018 Junior Club Fees - Payment No 1",
+      "type": "Club",
+      "year": 2018,
+      "notes": "Payment 1"
+    },
+    {
+      "name": "Club - 2018 Junior Club Fees - Payment No 3",
+      "type": "Club",
+      "year": 2018,
+      "notes": "Payment 3"
+    },
+    {
+      "name": "Club - 2018 Junior Club Fees - balance of fees",
+      "type": "Club",
+      "year": 2018,
+      "notes": "Balance"
+    },
+    {
+      "name": "Club - 2018 Junior Club Fees - deposit only",
+      "type": "Club",
+      "year": 2018,
+      "notes": "Deposit"
+    },
+    {
+      "name": "Association - EFL Registration Fee - 2017 EFL Junior Registration Fee",
+      "type": "Registration",
+      "year": 2017,
+      "notes": null
+    },
+    {
+      "name": "Club - 2017 Junior Club Fees",
+      "type": "Club",
+      "year": 2017,
+      "notes": null
+    },
+    {
+      "name": "Association - EFL Registration Fee - 2017 EFL Senior Registration Fee",
+      "type": "Registration",
+      "year": 2017,
+      "notes": null
+    },
+    {
+      "name": "Association - 2016 EFL Junior Registration Fee (inc GST)",
+      "type": "Registration",
+      "year": 2016,
+      "notes": null
+    },
+    {
+      "name": "Association - 2015 EFL Junior Registration Fee (inc GST)",
+      "type": "Registration",
+      "year": 2015,
+      "notes": null
+    },
+    {
+      "name": "Association - EFL Junior Registration Fee (inc GST)",
+      "type": "Registration",
+      "year": 2014,
+      "notes": null
+    }
+  ],
   "players": [
     {
       "footyWebNumber": "00829719",
