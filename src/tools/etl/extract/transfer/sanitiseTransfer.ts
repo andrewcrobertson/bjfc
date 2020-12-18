@@ -10,7 +10,7 @@ export const sanitiseTransfer = (obj: any): IRawTransfer =>
         transferYear: obj.transferYear,
         applicationDate: sanitiseSlashDate(obj.applicationDate),
         finalisedDate: sanitiseDashDateTime(obj.finalisedDate).date,
-        sourceClub: sanitiseString(obj.sourceClub),
-        destinationClub: sanitiseString(obj.destinationClub),
+        fromClub: sanitiseString(obj.sourceClub),
+        toClub: sanitiseString(obj.destinationClub),
       }
     : null;

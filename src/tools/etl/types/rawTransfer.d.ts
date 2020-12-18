@@ -3,6 +3,6 @@ export interface IRawTransfer {
   transferYear: string;
   applicationDate: string;
   finalisedDate: string;
-  sourceClub: string;
-  destinationClub: string;
+  fromClub: string;
+  toClub: string;
 }

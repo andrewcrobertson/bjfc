@@ -7,10 +7,10 @@ export interface Options {
 }
 
 export const toGroupedClubHistory = (options: Options) => {
-  const mapTransfers = ({ footyWebNumber, applicationDate, finalisedDate, sourceClub, destinationClub }) => ({
+  const mapTransfers = ({ footyWebNumber, applicationDate, finalisedDate, fromClub, toClub }: IRawTransfer) => ({
     footyWebNumber,
-    from: sourceClub,
-    to: destinationClub,
+    from: fromClub,
+    to: toClub,
     date: finalisedDate ?? applicationDate,
   });
 

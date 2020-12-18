@@ -1,4 +1,4 @@
-import type { ContactMethodEnum, PlayerStatusEnum } from '@this/constants/enums';
+import type { ContactMethodEnum, PersonGenderEnum, PlayerStatusEnum } from '@this/constants/enums';
 
 export interface ISanitisedContactMethod {
   type: ContactMethodEnum;
@@ -32,14 +32,6 @@ export interface ISanitisedPlayerContact {
   assistInRole: string;
 }
 
-export interface ISanitisedPlayerTransaction {
-  transactionDate: string;
-  transactionTime: string;
-  product: string;
-  lineItemTotal: string;
-  transactionStatus: string;
-}
-
 export interface ISanitisedClubRecord {
   date: string;
   club: string;
@@ -57,7 +49,7 @@ export interface ISanitisedPlayer {
   firstName: string;
   dateOfBirth: string;
   status: PlayerStatusEnum;
-  gender: string;
+  gender: PersonGenderEnum;
   guardians: ISanitisedPlayerGuardian[];
   emergencyContact: ISanitisedPlayerEmergencyContact;
   contact: ISanitisedPlayerContact;

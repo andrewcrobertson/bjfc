@@ -28,13 +28,13 @@ export const toGroupedTransactionInfo = (options: Options) => {
   const groupedTransactions = groupBy(options.transactions, 'footyWebNumber');
   const transactionInfo = mapValues(groupedTransactions, (transactions: IRawTransaction[]) => {
     const sortedTransactions = sortBy(transactions, 'date');
-    const firstTransactionDate = first(sortedTransactions).transactionDate;
-    const lastTransactionDate = last(sortedTransactions).transactionDate;
+    const firstTransactionDate = first(sortedTransactions).date;
+    const lastTransactionDate = last(sortedTransactions).date;
     const thisSeasonProduct = find(sortedTransactions, ({ product }) => includes(registrationProductsThisSeason, product));
     const registeredRecentlyProduct = find(sortedTransactions, ({ product }) => includes(registrationProductsRecent, product));
     const registeredRecently = registeredRecentlyProduct !== undefined;
     const registered = thisSeasonProduct !== undefined;
-    const insured = thisSeasonProduct !== undefined && thisSeasonProduct.transactionStatus === 'Paid';
+    const insured = thisSeasonProduct !== undefined && thisSeasonProduct.status === 'Paid';
     return { registered, insured, registeredRecently, firstTransactionDate, lastTransactionDate };
   });
 

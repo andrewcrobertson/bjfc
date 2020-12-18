@@ -6,9 +6,9 @@ import { sanitiseTransactionStatus } from './sanitiseTransactionStatus';
 
 export const preSanitiseTransaction = (obj: any): IRawTransaction => ({
   footyWebNumber: sanitiseString(obj.footyWebNumber),
-  transactionDate: sanitiseSlashDateTime(obj.transactionDate).date,
-  transactionTime: sanitiseSlashDateTime(obj.transactionDate).time,
+  date: sanitiseSlashDateTime(obj.transactionDate).date,
+  time: sanitiseSlashDateTime(obj.transactionDate).time,
   product: sanitiseProduct(obj.product),
-  lineItemTotal: sanitiseString(obj.lineItemTotal),
-  transactionStatus: sanitiseTransactionStatus(obj.transactionStatus),
+  total: sanitiseString(obj.lineItemTotal),
+  status: sanitiseTransactionStatus(obj.transactionStatus),
 });

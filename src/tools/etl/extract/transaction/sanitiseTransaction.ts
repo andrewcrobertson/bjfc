@@ -3,7 +3,6 @@ import { preSanitiseTransaction } from './preSanitiseTransaction';
 
 export const sanitiseTransaction = (obj: any): IRawTransaction => {
   const transaction = preSanitiseTransaction(obj);
-  const invalidTransaction =
-    transaction.lineItemTotal === null || transaction.product === null || transaction.transactionStatus === null || transaction.transactionDate === null;
+  const invalidTransaction = transaction.total === null || transaction.product === null || transaction.status === null || transaction.date === null;
   return invalidTransaction ? null : transaction;
 };

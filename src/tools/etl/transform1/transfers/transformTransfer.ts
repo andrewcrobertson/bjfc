@@ -8,6 +8,6 @@ export const transformTransfer = (obj: IRawTransfer, clubMap: ClubMap): ISanitis
   transferYear: obj.transferYear,
   applicationDate: obj.applicationDate,
   finalisedDate: obj.finalisedDate,
-  sourceClub: clubMap[obj.sourceClub] ?? obj.sourceClub,
-  destinationClub: clubMap[obj.destinationClub] ?? obj.destinationClub,
+  sourceClub: clubMap[obj.fromClub] ?? obj.fromClub,
+  destinationClub: clubMap[obj.toClub] ?? obj.toClub,
 });
