@@ -3,6 +3,7 @@ import type { PersonGenderEnum } from '@this/constants/enums';
 export interface IRawPlayerGuardian {
   lastName: string;
   firstName: string;
+  gender: PersonGenderEnum;
   phone1: string;
   phone2: string;
   mobile: string;
@@ -13,19 +14,21 @@ export interface IRawPlayerGuardian {
 export interface IRawPlayerEmergencyContact {
   relationship: string;
   name: string;
+  gender: PersonGenderEnum;
   phone1: string;
   phone2: string;
 }
 
 export interface IRawPlayerRegisteredContact {
+  gender: PersonGenderEnum;
   phoneHome: string;
   phoneWork: string;
   phoneMobile: string;
   email1: string;
   email2: string;
-  assistanceRole1: string;
-  assistanceRole2: string;
-  assistanceRole3: string;
+  assistInRole1: string;
+  assistInRole2: string;
+  assistInRole3: string;
 }
 
 export interface IRawPlayerDisability {

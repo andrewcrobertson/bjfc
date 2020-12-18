@@ -7,6 +7,7 @@ import { sanitiseAssistInRole } from './sanitiseAssistInRole';
 export const sanitiseGuardian2 = (obj: any): IRawPlayerGuardian => ({
   lastName: sanitiseString(obj.parentGuardian2Surname),
   firstName: sanitiseString(obj.parentGuardian2Firstname),
+  gender: 'Unknown',
   phone1: sanitisePhone(obj.parentGuardian2TelephoneNumber),
   phone2: sanitisePhone(obj.parentGuardian2TelephoneNumber2),
   mobile: sanitisePhone(obj.parentGuardian2Mobile),

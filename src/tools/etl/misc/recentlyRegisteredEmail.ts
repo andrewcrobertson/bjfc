@@ -13,8 +13,8 @@ export const recentlyRegisteredEmail = (members: ISanitisedPlayer[]) => {
   const getRecs = (m: ISanitisedPlayer) => {
     let g1 = pick(m.guardians[0] ?? {}, 'firstName', 'lastName', 'email') as any;
     let g2 = pick(m.guardians[1] ?? {}, 'firstName', 'lastName', 'email') as any;
-    let g3 = { email: m.contact?.email1 } as any;
-    let g4 = { email: m.contact?.email2 } as any;
+    let g3 = { email: m.registeredContact?.email1 } as any;
+    let g4 = { email: m.registeredContact?.email2 } as any;
     const emailMap = fromPairs(map(compact(map([g1, g2, g3, g4], (g) => g.email)), (e) => [e, false]));
 
     const m1 = `${m.lastName} (${m.firstName})`;

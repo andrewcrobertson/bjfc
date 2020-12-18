@@ -1,8 +1,10 @@
+import type { IRawPlayerRegisteredContact } from '../../types/rawPlayer';
 import { sanitiseEmail } from '../utility/sanitiseEmail';
 import { sanitisePhone } from '../utility/sanitisePhone';
 import { sanitiseAssistInRole } from './sanitiseAssistInRole';
 
-export const sanitiseRegisteredContact = (obj: any) => ({
+export const sanitiseRegisteredContact = (obj: any): IRawPlayerRegisteredContact => ({
+  gender: 'Unknown',
   phoneHome: sanitisePhone(obj.telephoneNumberHome),
   phoneWork: sanitisePhone(obj.telephoneNumberWork),
   phoneMobile: sanitisePhone(obj.telephoneNumberMobile),

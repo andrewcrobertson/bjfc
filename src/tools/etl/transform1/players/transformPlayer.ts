@@ -7,7 +7,7 @@ import { transformDisability } from './transformDisability';
 import { transformEmergencyContact } from './transformEmergencyContact';
 import { transformGuardian } from './transformGuardian';
 import { transformPlayerStatus } from './transformPlayerStatus';
-import { transformSportsTGContact } from './transformSportsTGContact';
+import { transformRegisteredContact } from './transformRegisteredContact';
 
 export const transformPlayer = (player: IRawPlayer, teamCode: string, groupedPlayerInfo: any): ISanitisedPlayer => {
   const { insured, registered, registeredRecently, ...playerInfo } = groupedPlayerInfo[player.footyWebNumber] ?? {};
@@ -23,13 +23,13 @@ export const transformPlayer = (player: IRawPlayer, teamCode: string, groupedPla
     status: transformPlayerStatus(currentClubRecord.club, insured, registered, registeredRecently),
     gender: player.gender,
     guardians: map(player.guardians, (guardian) => transformGuardian(guardian)),
-    emergencyContact: transformEmergencyContact(player.emergencyContact),
-    contact: transformSportsTGContact(player.registeredContact),
+    emergencyContact: player.emergencyContact === null ? null : transformEmergencyContact(player.emergencyContact),
+    registeredContact: player.registeredContact === null ? null : transformRegisteredContact(player.registeredContact),
     club: currentClubRecord.club,
     clubHistory,
     lastTransferDate: currentClubRecord === 'Bayswater' ? null : currentClubRecord.date,
     lastTransactionDate: playerInfo.lastTransactionDate ?? null,
     teamCode,
-    disability: transformDisability(player.disability),
+    disability: player.disability === null ? null : transformDisability(player.disability),
   };
 };

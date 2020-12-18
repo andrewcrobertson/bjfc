@@ -109,7 +109,7 @@ export const playerDetail = (options: Options) => {
     const player = pick(sanitisedPlayer, ...fields) as any;
     const guardians = map(sanitisedPlayer.guardians, (guardian) => transformGuardian(guardian));
     const emergencyContact = sanitisedPlayer.emergencyContact === null ? null : transformEmergency(sanitisedPlayer.emergencyContact);
-    const contact = sanitisedPlayer.contact === null ? null : transformRegistered(sanitisedPlayer.contact);
+    const contact = sanitisedPlayer.registeredContact === null ? null : transformRegistered(sanitisedPlayer.registeredContact);
     player.contacts = compact([...guardians, emergencyContact, contact]);
     player.transactions = filter(transactions, ({ footyWebNumber }) => footyWebNumber === sanitisedPlayer.footyWebNumber);
     player.transactions = orderBy(player.transactions, ['transactionDate', 'transactionTime'], ['desc', 'desc']);

@@ -8,6 +8,7 @@ export interface ISanitisedContactMethod {
 export interface ISanitisedPlayerGuardian {
   lastName: string;
   firstName: string;
+  gender: PersonGenderEnum;
   initials: string;
   phone1: string;
   phone2: string;
@@ -19,11 +20,14 @@ export interface ISanitisedPlayerGuardian {
 export interface ISanitisedPlayerEmergencyContact {
   relationship: string;
   name: string;
+  initials: string;
+  gender: PersonGenderEnum;
   phone1: string;
   phone2: string;
 }
 
-export interface ISanitisedPlayerContact {
+export interface ISanitisedPlayerRegisteredContact {
+  gender: PersonGenderEnum;
   phone1: string;
   phone2: string;
   phone3: string;
@@ -52,7 +56,7 @@ export interface ISanitisedPlayer {
   gender: PersonGenderEnum;
   guardians: ISanitisedPlayerGuardian[];
   emergencyContact: ISanitisedPlayerEmergencyContact;
-  contact: ISanitisedPlayerContact;
+  registeredContact: ISanitisedPlayerRegisteredContact;
   club: string;
   clubHistory: ISanitisedClubRecord[];
   lastTransferDate: string;
