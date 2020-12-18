@@ -28,7 +28,7 @@ export const transformPlayer = (player: IRawPlayer, teamCode: string, groupedPla
     clubHistory,
     lastTransactionDate,
     teamCode,
-    disability: arrayToString([player.disabilityType1, player.disabilityType2]),
+    disabilityType: arrayToString([player.disabilityType1, player.disabilityType2]),
     disabilityNotes: arrayToString([player.disabilityNote1, player.disabilityNote1]),
   };
 };
