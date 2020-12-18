@@ -1,6 +1,7 @@
 import path from 'path';
 import { extract } from './extract';
 import { transform1 } from './transform1';
+import { transform2 } from './transform2';
 // import { load } from './load';
 // import { recentlyRegisteredEmail } from './misc/recentlyRegisteredEmail';
 // import { transform1 } from './transform1';
@@ -19,7 +20,7 @@ export const etl = async () => {
   const options = { configPath, allMembersCsvPath, allTransactionsCsvPath, allTransfersCsvPath, committeePath, teamsPath, productsPath };
   const raw = await extract(options);
   const data1 = transform1(raw);
-  // const data2 = transform2(data1);
+  const data2 = transform2(data1);
   // load(data2);
 
   // if (false) recentlyRegisteredEmail(data1.members);

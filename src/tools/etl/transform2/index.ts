@@ -2,6 +2,7 @@ import type { ISanitisedCommittee } from '../types/sanitisedCommittee';
 import type { ISanitisedConfig } from '../types/sanitisedConfig';
 import type { ISanitisedPlayer } from '../types/sanitisedPlayer';
 import type { ISanitisedTeam } from '../types/sanitisedTeam';
+import type { ISanitisedTransaction } from '../types/sanitisedTransaction';
 import { committeeList } from './committeeList';
 import { playerDetail } from './playerDetail';
 import { teamList } from './teamList';
@@ -11,8 +12,9 @@ import { teamPlayerListCurrent } from './teamPlayerListCurrent';
 
 export interface Options {
   config: ISanitisedConfig;
-  members: ISanitisedPlayer[];
+  players: ISanitisedPlayer[];
   teams: ISanitisedTeam[];
+  transactions: ISanitisedTransaction[];
   committee: ISanitisedCommittee[];
 }
 

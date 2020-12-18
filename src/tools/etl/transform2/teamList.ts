@@ -7,14 +7,14 @@ import type { ISanitisedTeam } from '../types/sanitisedTeam';
 
 export interface Options {
   config: ISanitisedConfig;
-  members: ISanitisedPlayer[];
+  players: ISanitisedPlayer[];
   teams: ISanitisedTeam[];
 }
 
-const mapTeam = (team: ISanitisedTeam, members: ISanitisedPlayer[]) => {
-  const teamMembers = filter(members, ({ teamCode }) => teamCode === team.code);
-  const insuredCount = filter(teamMembers, ({ status }) => status === 'Insured').length;
-  const registeredCount = filter(teamMembers, ({ status }) => status === 'Registered').length;
+const mapTeam = (team: ISanitisedTeam, playersAll: ISanitisedPlayer[]) => {
+  const players = filter(playersAll, ({ teamCode }) => teamCode === team.code);
+  const insuredCount = filter(players, ({ status }) => status === 'Insured').length;
+  const registeredCount = filter(players, ({ status }) => status === 'Registered').length;
 
   return {
     code: team.code,
@@ -33,9 +33,9 @@ const mapTeam = (team: ISanitisedTeam, members: ISanitisedPlayer[]) => {
   };
 };
 
-export const teamList = ({ teams, members }: Options) =>
+export const teamList = ({ teams, players }: Options) =>
   orderBy(
-    map(teams, (team) => mapTeam(team, members)),
+    map(teams, (team) => mapTeam(team, players)),
     ['code'],
     ['desc']
   );

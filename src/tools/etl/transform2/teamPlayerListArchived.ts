@@ -9,14 +9,14 @@ import type { ISanitisedTeam } from '../types/sanitisedTeam';
 
 export interface Options {
   config: ISanitisedConfig;
-  members: ISanitisedPlayer[];
+  players: ISanitisedPlayer[];
   teams: ISanitisedTeam[];
 }
 
 const pickTransferred = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'club', 'lastTransferDate'];
 const pickArchived = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'gender', 'lastTransactionDate'];
 
-export const teamPlayerListArchived = ({ teams, members: players }: Options) => {
+export const teamPlayerListArchived = ({ teams, players }: Options) => {
   const output: any = {};
 
   each(teams, ({ code, name, ageGroupCode, teamGender }) => {

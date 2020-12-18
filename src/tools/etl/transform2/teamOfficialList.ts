@@ -1,12 +1,8 @@
 import fromPairs from 'lodash/fromPairs';
 import map from 'lodash/map';
-import type { ISanitisedConfig } from '../types/sanitisedConfig';
-import type { ISanitisedPlayer } from '../types/sanitisedPlayer';
 import type { ISanitisedOfficial, ISanitisedTeam } from '../types/sanitisedTeam';
 
 export interface Options {
-  config: ISanitisedConfig;
-  members: ISanitisedPlayer[];
   teams: ISanitisedTeam[];
 }
 
@@ -43,4 +39,4 @@ const mapTeam = (team: ISanitisedTeam) => ({
   ),
 });
 
-export const teamOfficialList = ({ teams, members }: Options) => fromPairs(map(teams, (team) => [team.code, mapTeam(team)]));
+export const teamOfficialList = ({ teams }: Options) => fromPairs(map(teams, (team) => [team.code, mapTeam(team)]));

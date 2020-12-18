@@ -2,18 +2,19 @@ import compact from 'lodash/compact';
 import filter from 'lodash/filter';
 import fromPairs from 'lodash/fromPairs';
 import keyBy from 'lodash/keyBy';
-import last from 'lodash/last';
 import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
 import pick from 'lodash/pick';
 import type { ISanitisedConfig } from '../types/sanitisedConfig';
-import type { ISanitisedPlayer, ISanitisedPlayerTransaction, ISanitisedPlayerTransfer } from '../types/sanitisedPlayer';
+import type { ISanitisedPlayer, ISanitisedPlayerTransaction } from '../types/sanitisedPlayer';
 import type { ISanitisedTeam } from '../types/sanitisedTeam';
+import type { ISanitisedTransaction } from '../types/sanitisedTransaction';
 
 export interface Options {
   config: ISanitisedConfig;
-  members: ISanitisedPlayer[];
+  players: ISanitisedPlayer[];
   teams: ISanitisedTeam[];
+  transactions: ISanitisedTransaction[];
 }
 
 const fields = [
@@ -111,32 +112,20 @@ const transformTransactions = (transactions: ISanitisedPlayerTransaction[], seas
     ({ year }) => year >= seasonYear - 1
   );
 
-const transformTransfers = (transactions: ISanitisedPlayerTransfer[], firstTransactionDate: string) => {
-  const transactionsA = map(transactions, ({ destinationClub, finalisedDate, applicationDate }) => ({
-    date: finalisedDate ?? applicationDate,
-    club: destinationClub,
-  }));
-  const transactionsB = orderBy(transactionsA, ['date'], ['desc']);
-  if (transactionsB.length === 0 || (transactionsB.length > 0 && last(transactionsB).club !== 'Bayswater')) {
-    transactionsB.push({ date: firstTransactionDate, club: 'Bayswater' });
-  }
-
-  return transactionsB;
-};
-
-export const playerDetail = ({ config, teams, members: membersRaw }: Options) => {
-  const teamMap = fromPairs(map(teams, (team) => [team.code, pick(team, teamFields)]));
-  const members = map(membersRaw, (memberRaw) => {
-    const member = pick(memberRaw, ...fields) as any;
-    member.contacts = compact([
-      ...map(memberRaw.guardians, (guardian) => transformGuardian(guardian)),
-      memberRaw.emergencyContact === null ? null : transformEmergency(memberRaw.emergencyContact),
-      memberRaw.contact === null ? null : transformRegistered(memberRaw.contact),
+export const playerDetail = (options: Options) => {
+  const teamMap = fromPairs(map(options.teams, (team) => [team.code, pick(team, teamFields)]));
+  const members = map(options.players, (sanitisedPlayer) => {
+    const player = pick(sanitisedPlayer, ...fields) as any;
+    player.contacts = compact([
+      ...map(sanitisedPlayer.guardians, (guardian) => transformGuardian(guardian)),
+      sanitisedPlayer.emergencyContact === null ? null : transformEmergency(sanitisedPlayer.emergencyContact),
+      sanitisedPlayer.contact === null ? null : transformRegistered(sanitisedPlayer.contact),
     ]);
-    member.transactions = orderBy(transformTransactions(memberRaw.transactions, config.seasonYear), ['transactionDate', 'transactionTime'], ['desc', 'desc']);
-    member.transfers = transformTransfers(memberRaw.transfers, memberRaw.firstTransactionDate);
-    member.team = teamMap[memberRaw.teamCode] ?? null;
-    return member;
+    player.transactions = filter(options.transactions, (t) => t.footyWebNumber === sanitisedPlayer.footyWebNumber);
+    player.transactions = orderBy(player.transactions, ['transactionDate', 'transactionTime'], ['desc', 'desc']);
+    player.transfers = orderBy(sanitisedPlayer.clubHistory, ['date'], ['desc']);
+    player.team = teamMap[sanitisedPlayer.teamCode] ?? null;
+    return player;
   });
 
   return keyBy(members, 'footyWebNumber');
