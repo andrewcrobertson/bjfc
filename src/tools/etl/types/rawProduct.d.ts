@@ -1,7 +1,8 @@
-import { IRawMap } from './common';
+import type { TransactionTypeEnum } from '@this/constants/enums';
 
-export interface IRawProducts {
-  registeredRecently: string[];
-  registeredThisSeason: string[];
-  productMap: IRawMap[];
+export interface IRawProduct {
+  name: string;
+  type: TransactionTypeEnum;
+  year: number;
+  notes: string;
 }

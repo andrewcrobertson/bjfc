@@ -1,33 +1,123 @@
-registeredThisSeason: 
-  - 2021 EFL Registration Fee
-registeredRecently: 
-  - 2020 EFL Registration Fee
-  - 2019 EFL Registration Fee
-productMap:
-  - { from: Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees, to: 2021 EFL Registration Fee }
-  - { from: Association - 2021 EFNL Registration fees - 2021 EFNL Junior Girls Registration fees, to: 2021 EFL Registration Fee }
-  - { from: Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Boys Registration Fee, to: 2020 EFL Registration Fee }
-  - { from: Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Girls Registration Fee, to: 2020 EFL Registration Fee }
-  - { from: Association - 2019 EFL Registration Fee - 2019 EFL Junior Girls Registration fee, to: 2019 EFL Registration Fee }
-  - { from: Association - 2019 EFL Registration Fee - 2019 EFL Junior registration fee, to: 2019 EFL Registration Fee }
-  - { from: Association - EFL Registration Fee - 2018 EFL Junior Registration Fee, to: 2018 EFL Registration Fee }
-  - { from: Association - EFL Registration Fee - 2018 EFL Senior Registration Fee, to: 2018 EFL Registration Fee }
-  - { from: Association - EFL Registration Fee - 2017 EFL Junior Registration Fee, to: 2017 EFL Registration Fee }
-  - { from: Association - EFL Registration Fee - 2017 EFL Senior Registration Fee, to: 2017 EFL Registration Fee }
-  - { from: Association - 2016 EFL Junior Registration Fee (inc GST), to: 2016 EFL Registration Fee }
-  - { from: Association - 2015 EFL Junior Registration Fee (inc GST), to: 2015 EFL Registration Fee }
-  - { from: Association - EFL Junior Registration Fee (inc GST), to: 2014 EFL Registration Fee }
-  - { from: Club - 2020 Junior Club Fees, to: 2020 Club Fees }
-  - { from: Club - 2020 Junior Club Fees (Revised), to: 2020 Club Fees (Revised) }
-  - { from: Club - 2020 Junior Club Fees - deposit only, to: 2020 Club Fees (Deposit) }
-  - { from: Club - 2020 Under 8 Club Fees, to: 2020 Club Fees (U8) }
-  - { from: Club - 2020 Under 8 Club Fees (Revised), to: 2020 Club Fees (Revised) }
-  - { from: Club - 2019 Junior Club Fees, to: 2019 Club Fees }
-  - { from: Club - 2019 Junior Club Fees - deposit only, to: 2019 Club Fees (Deposit) }
-  - { from: Club - 2019 Under 8 Club Fees, to: 2019 Club Fees (U8) }
-  - { from: Club - 2018 Junior Club Fees, to: 2018 Club Fees }
-  - { from: Club - 2018 Junior Club Fees - Payment No 1, to: 2018 Club Fees (1) }
-  - { from: Club - 2018 Junior Club Fees - Payment No 3, to: 2018 Club Fees (3) }
-  - { from: Club - 2018 Junior Club Fees - balance of fees, to: 2018 Club Fees (Balance) }
-  - { from: Club - 2018 Junior Club Fees - deposit only, to: 2018 Club Fees (Deposit) }
-  - { from: Club - 2017 Junior Club Fees, to: 2017 Club Fees }
+# 2021
+- name: Association - 2021 EFNL Registration fees - 2021 EFNL Junior Boys Registration fees
+  type: Registration
+  year: 2021
+  notes:
+- name: Association - 2021 EFNL Registration fees - 2021 EFNL Junior Girls Registration fees
+  type: Registration
+  year: 2021
+  notes:
+
+# 2020
+- name: Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Boys Registration Fee
+  type: Registration
+  year: 2020
+  notes:
+- name: Association - 2020 EFNL Registration Fee - 2020 EFNL Junior Girls Registration Fee
+  type: Registration
+  year: 2020
+  notes:
+- name: Club - 2020 Junior Club Fees
+  type: Club
+  year: 2020
+  notes: 2020 Club Fees
+- name: Club - 2020 Junior Club Fees (Revised)
+  type: Club
+  year: 2020
+  notes: Revised
+- name: Club - 2020 Junior Club Fees - deposit only
+  type: Club
+  year: 2020
+  notes: Deposit
+- name: Club - 2020 Under 8 Club Fees
+  type: Club
+  year: 2020
+  notes: U8
+- name: Club - 2020 Under 8 Club Fees (Revised)
+  type: Club
+  year: 2020
+  notes: Revised
+
+# 2019
+- name: Association - 2019 EFL Registration Fee - 2019 EFL Junior Girls Registration fee
+  type: Registration
+  year: 2019
+  notes:
+- name: Association - 2019 EFL Registration Fee - 2019 EFL Junior registration fee
+  type: Registration
+  year: 2019
+  notes:
+- name: Club - 2019 Junior Club Fees
+  type: Club
+  year: 2019
+  notes:
+- name: Club - 2019 Junior Club Fees - deposit only
+  type: Club
+  year: 2019
+  notes: Deposit
+- name: Club - 2019 Under 8 Club Fees
+  type: Club
+  year: 2019
+  notes: U8
+
+# 2018
+- name: Association - EFL Registration Fee - 2018 EFL Junior Registration Fee
+  type: Registration
+  year: 2018
+  notes:
+- name: Association - EFL Registration Fee - 2018 EFL Senior Registration Fee
+  type: Registration
+  year: 2018
+  notes:
+- name: Club - 2018 Junior Club Fees
+  type: Club
+  year: 2018
+  notes:
+- name: Club - 2018 Junior Club Fees - Payment No 1
+  type: Club
+  year: 2018
+  notes: Payment 1
+- name: Club - 2018 Junior Club Fees - Payment No 3
+  type: Club
+  year: 2018
+  notes: Payment 3
+- name: Club - 2018 Junior Club Fees - balance of fees
+  type: Club
+  year: 2018
+  notes: Balance
+- name: Club - 2018 Junior Club Fees - deposit only
+  type: Club
+  year: 2018
+  notes: Deposit
+
+# 2017
+- name: Association - EFL Registration Fee - 2017 EFL Junior Registration Fee
+  type: Registration
+  year: 2017
+  notes:
+- name: Club - 2017 Junior Club Fees
+  type: Club
+  year: 2017
+  notes:
+- name: Association - EFL Registration Fee - 2017 EFL Senior Registration Fee
+  type: Registration
+  year: 2017
+  notes:
+
+# 2016
+- name: Association - 2016 EFL Junior Registration Fee (inc GST)
+  type: Registration
+  year: 2016
+  notes:
+
+# 2015
+- name: Association - 2015 EFL Junior Registration Fee (inc GST)
+  type: Registration
+  year: 2015
+  notes:
+
+# 2014
+- name: Association - EFL Junior Registration Fee (inc GST)
+  type: Registration
+  year: 2014
+  notes:

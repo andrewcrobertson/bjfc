@@ -1,9 +1,10 @@
-import map from 'lodash/map';
-import type { IRawProducts } from '../../types/rawProduct';
-import { sanitiseMap } from '../utility/sanitiseMap';
+import type { IRawProduct } from '../../types/rawProduct';
+import { sanitiseString } from '../utility/sanitiseString';
+import { sanitiseType } from './sanitiseType';
 
-export const sanitiseProducts = (obj: any): IRawProducts => ({
-  registeredRecently: obj.registeredRecently,
-  registeredThisSeason: obj.registeredThisSeason,
-  productMap: map(obj.productMap, sanitiseMap),
+export const sanitiseProducts = (obj: any): IRawProduct => ({
+  name: sanitiseString(obj.name),
+  type: sanitiseType(obj.type),
+  year: obj.year,
+  notes: sanitiseString(obj.notes),
 });
