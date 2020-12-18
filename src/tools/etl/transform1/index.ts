@@ -6,7 +6,7 @@ import type { IRawTeam } from '../types/rawTeam';
 import type { IRawTransaction } from '../types/rawTransaction';
 import type { IRawTransfer } from '../types/rawTransfer';
 import { transformCommittee } from './commmittee/transformCommittee';
-import { transformPlayers } from './members/transformPlayers';
+import { transformPlayers } from './players/transformPlayers';
 import { transformTeams } from './teams/transformTeams';
 
 export interface Options {
