@@ -26,6 +26,8 @@ export interface Options {
 }
 
 export const transform1 = (options: Options) => {
+  const seasonYear = options.config.seasonYear;
+
   const products = transformProducts(options.products);
 
   const clubMap = fromPairs(map(options.config.clubMap, ({ from, to }) => [from, to]));
@@ -34,19 +36,17 @@ export const transform1 = (options: Options) => {
   const productMap = fromPairs(zip(fromProducts, toProducts));
 
   const registrationProducts = filter(products, ({ type, year }) => type === 'Registration');
-  const registrationProductsThisSeasonRaw = filter(registrationProducts, ({ year }) => year === options.config.seasonYear);
+  const registrationProductsThisSeasonRaw = filter(registrationProducts, ({ year }) => year === seasonYear);
   const registrationProductsThisSeason = map(registrationProductsThisSeasonRaw, ({ name }) => name);
-  const registrationProductsRecentRaw = filter(
-    registrationProducts,
-    ({ year }) => year === options.config.seasonYear - 1 || year === options.config.seasonYear - 2
-  );
+  const registrationProductsRecentFilter = (year: number) => year === seasonYear - 1 || year === seasonYear - 2;
+  const registrationProductsRecentRaw = filter(registrationProducts, ({ year }) => registrationProductsRecentFilter(year));
   const registrationProductsRecent = map(registrationProductsRecentRaw, ({ name }) => name);
 
-  const config = { seasonYear: options.config.seasonYear };
+  const config = { seasonYear };
   const committee = transformCommittee(options.committee);
   const transactions = transformTransactions(options.transactions, productMap);
   const transfers = transformTransfers(options.transfers, clubMap);
-  const teams = transformTeams(options.teams, config.seasonYear);
+  const teams = transformTeams(options.teams, seasonYear);
   const players = transformPlayers(options.players, registrationProductsThisSeason, registrationProductsRecent, transactions, transfers);
 
   return { config, committee, products, teams, players, transactions, transfers };
