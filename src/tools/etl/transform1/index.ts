@@ -30,12 +30,9 @@ export const transform1 = (options: Options) => {
   const products = transformProducts(options);
 
   const clubMap = fromPairs(map(options.config.clubMap, ({ from, to }) => [from, to]));
-  const productMap = fromPairs(
-    zip(
-      map(options.products, ({ name }) => name),
-      map(products, ({ name }) => name)
-    )
-  );
+  const fromProducts = map(options.products, ({ name }) => name);
+  const toProducts = map(products, ({ name }) => name);
+  const productMap = fromPairs(zip(fromProducts, toProducts));
   const transactions = transformTransactions(options, productMap);
   const transfers = transformTransfers(options, clubMap);
 
