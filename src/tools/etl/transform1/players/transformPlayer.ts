@@ -1,4 +1,4 @@
-import { last } from 'lodash';
+import { last, uniq } from 'lodash';
 import map from 'lodash/map';
 import type { IRawPlayer } from '../../types/rawPlayer';
 import type { ISanitisedPlayer } from '../../types/sanitisedPlayer';
@@ -28,7 +28,7 @@ export const transformPlayer = (player: IRawPlayer, teamCode: string, groupedPla
     clubHistory,
     lastTransactionDate,
     teamCode,
-    disabilityType: arrayToString([player.disabilityType1, player.disabilityType2]),
-    disabilityNotes: arrayToString([player.disabilityNote1, player.disabilityNote1]),
+    disabilityType: arrayToString(uniq([player.disabilityType1, player.disabilityType2])),
+    disabilityNotes: arrayToString(uniq([player.disabilityNote1, player.disabilityNote1])),
   };
 };
