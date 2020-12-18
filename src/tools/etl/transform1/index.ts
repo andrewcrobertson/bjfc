@@ -7,6 +7,7 @@ import type { IRawTransaction } from '../types/rawTransaction';
 import type { IRawTransfer } from '../types/rawTransfer';
 import { transformCommittee } from './commmittee/transformCommittee';
 import { transformPlayers } from './players/transformPlayers';
+import { transformProducts } from './product/transformProducts';
 import { transformTeams } from './teams/transformTeams';
 
 export interface Options {
@@ -21,8 +22,9 @@ export interface Options {
 
 export const transform1 = (options: Options) => {
   const config = { seasonYear: options.config.seasonYear };
+  const products = transformProducts(options);
   const committee = transformCommittee(options);
   const teams = transformTeams(options);
   const players = transformPlayers(options);
-  return { config, committee, teams, players };
+  return { config, committee, products, teams, players };
 };

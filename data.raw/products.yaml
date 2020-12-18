@@ -20,7 +20,7 @@
 - name: Club - 2020 Junior Club Fees
   type: Club
   year: 2020
-  notes: 2020 Club Fees
+  notes:
 - name: Club - 2020 Junior Club Fees (Revised)
   type: Club
   year: 2020
