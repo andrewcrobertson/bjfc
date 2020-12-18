@@ -17,19 +17,7 @@ export interface Options {
   transactions: ISanitisedTransaction[];
 }
 
-const fields = [
-  'footyWebNumber',
-  'initials',
-  'lastName',
-  'firstName',
-  'dateOfBirth',
-  'club',
-  'gender',
-  'disability',
-  'disabilityNotes',
-  'transactions',
-  'transfers',
-];
+const fields = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'dateOfBirth', 'club', 'gender', 'disability', 'transactions', 'transfers'];
 
 const teamFields = ['code', 'ageGroupCode', 'name', 'teamGender'];
 
@@ -63,6 +51,7 @@ const transformGuardian = (contact: any) => ({
   relationship: 'Parent/Guardian',
   initials: contact.initials,
   name: `${contact.firstName} ${contact.lastName}`,
+  gender: contact.gender,
   assistInRole: contact.assistInRole,
   contactMethods: transformContactMethods([
     { type: 'Phone', value: contact.phone1 },
@@ -77,6 +66,7 @@ const transformEmergency = (contact: any) => ({
   relationship: `Emergency${contact.relationship === null ? '' : ': ' + contact.relationship}`,
   initials: contact.initials,
   name: contact.name,
+  gender: contact.gender,
   assistInRole: null,
   contactMethods: transformContactMethods([
     { type: 'Phone', value: contact.phone1 },
@@ -91,6 +81,7 @@ const transformRegistered = (contact: any) => ({
   relationship: `SportsTG Registered Contact`,
   initials: 'SRC',
   name: 'SportsTG Registered Contact',
+  gender: contact.gender,
   assistInRole: contact.assistInRole,
   contactMethods: transformContactMethods([
     { type: 'Phone', value: contact.phone1 },

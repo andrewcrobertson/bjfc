@@ -1,6 +1,8 @@
 <script lang="ts">
   import AvatarHeading from '@this/components/AvatarHeading';
   import { Tabs, TabList, TabPanel, Tab } from '@this/components/Tabs';
+  import * as personGenderEnum from '@this/constants/personGenderEnum';
+  import { personBackground } from '@this/constants/theme';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import PanelContact from './components/PanelContact';
   import PanelOther from './components/PanelOther';
@@ -8,9 +10,9 @@
   export let code: string = null;
 
   const player = players[code];
-  const footyWebNumber = player.footyWebNumber;
   const contacts = player.contacts;
-  const colour = 'gray';
+  const colour = personBackground[player.gender ?? personGenderEnum.unknown];
+
   pageTitle.set('Player');
 </script>
 
