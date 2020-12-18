@@ -3,8 +3,4 @@ import type { IRawProduct } from '../../types/rawProduct';
 import type { ISanitisedProduct } from '../../types/sanitisedProduct';
 import { transformProduct } from './transformProduct';
 
-export interface Options {
-  products: IRawProduct[];
-}
-
-export const transformProducts = (options: Options): ISanitisedProduct[] => map(options.products, transformProduct);
+export const transformProducts = (products: IRawProduct[]): ISanitisedProduct[] => map(products, transformProduct);

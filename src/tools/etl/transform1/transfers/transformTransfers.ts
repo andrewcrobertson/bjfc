@@ -5,8 +5,4 @@ import { transformTransfer } from './transformTransfer';
 
 type ClubMap = { [key: string]: string };
 
-export interface Options {
-  transfers: IRawTransfer[];
-}
-
-export const transformTransfers = (options: Options, clubMap: ClubMap): ISanitisedTransfer[] => map(options.transfers, (t) => transformTransfer(t, clubMap));
+export const transformTransfers = (transfers: IRawTransfer[], clubMap: ClubMap): ISanitisedTransfer[] => map(transfers, (t) => transformTransfer(t, clubMap));

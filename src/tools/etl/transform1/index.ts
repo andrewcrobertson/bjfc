@@ -26,18 +26,19 @@ export interface Options {
 }
 
 export const transform1 = (options: Options) => {
-  const config = { seasonYear: options.config.seasonYear };
-  const products = transformProducts(options);
+  const products = transformProducts(options.products);
 
   const clubMap = fromPairs(map(options.config.clubMap, ({ from, to }) => [from, to]));
   const fromProducts = map(options.products, ({ name }) => name);
   const toProducts = map(products, ({ name }) => name);
   const productMap = fromPairs(zip(fromProducts, toProducts));
-  const transactions = transformTransactions(options, productMap);
-  const transfers = transformTransfers(options, clubMap);
 
-  const committee = transformCommittee(options);
-  const teams = transformTeams(options);
-  const players = transformPlayers(options);
+  const config = { seasonYear: options.config.seasonYear };
+  const committee = transformCommittee(options.committee);
+  const transactions = transformTransactions(options.transactions, productMap);
+  const transfers = transformTransfers(options.transfers, clubMap);
+  const teams = transformTeams(options.teams, config.seasonYear);
+  const players = transformPlayers(options.players);
+
   return { config, committee, products, teams, players, transactions, transfers };
 };

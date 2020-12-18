@@ -5,9 +5,5 @@ import { transformTransaction } from './transformTransaction';
 
 type ProductMap = { [key: string]: string };
 
-export interface Options {
-  transactions: IRawTransaction[];
-}
-
-export const transformTransactions = (options: Options, productMap: ProductMap): ISanitisedTransaction[] =>
-  map(options.transactions, (t) => transformTransaction(t, productMap));
+export const transformTransactions = (transactions: IRawTransaction[], productMap: ProductMap): ISanitisedTransaction[] =>
+  map(transactions, (t) => transformTransaction(t, productMap));
