@@ -1,5 +1,4 @@
 import type { IRawTeam } from '../../types/rawTeam';
-import { sanitiseObject } from '../utility/sanitiseObject';
 import { sanitiseString } from '../utility/sanitiseString';
 import { sanitiseOfficial } from './sanitiseOfficial';
 
@@ -8,8 +7,8 @@ export const sanitiseTeam = (obj: any): IRawTeam => ({
   name: sanitiseString(obj.name),
   ages: obj.ages,
   genders: obj.genders,
-  headCoach: sanitiseObject(sanitiseOfficial(obj.headCoach)),
-  assistantCoach: sanitiseObject(sanitiseOfficial(obj.assistantCoach)),
-  trainer: sanitiseObject(sanitiseOfficial(obj.trainer)),
-  teamManager: sanitiseObject(sanitiseOfficial(obj.teamManager)),
+  headCoach: sanitiseOfficial(obj.headCoach),
+  assistantCoach: sanitiseOfficial(obj.assistantCoach),
+  trainer: sanitiseOfficial(obj.trainer),
+  teamManager: sanitiseOfficial(obj.teamManager),
 });

@@ -1,4 +1,12 @@
-import { compact, each, filter, flattenDeep, fromPairs, join, map, pick, uniq } from 'lodash';
+import compact from 'lodash/compact';
+import each from 'lodash/each';
+import filter from 'lodash/filter';
+import flattenDeep from 'lodash/flattenDeep';
+import fromPairs from 'lodash/fromPairs';
+import join from 'lodash/join';
+import map from 'lodash/map';
+import pick from 'lodash/pick';
+import uniq from 'lodash/uniq';
 import type { ISanitisedPlayer } from '../sanitisedPlayer';
 
 export const recentlyRegisteredEmail = (members: ISanitisedPlayer[]) => {

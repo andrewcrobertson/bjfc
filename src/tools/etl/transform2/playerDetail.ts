@@ -1,6 +1,8 @@
-import { compact, filter, last } from 'lodash';
+import compact from 'lodash/compact';
+import filter from 'lodash/filter';
 import fromPairs from 'lodash/fromPairs';
 import keyBy from 'lodash/keyBy';
+import last from 'lodash/last';
 import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
 import pick from 'lodash/pick';

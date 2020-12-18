@@ -1,4 +1,5 @@
-import { fromPairs, map } from 'lodash';
+import fromPairs from 'lodash/fromPairs';
+import map from 'lodash/map';
 import type { ISanitisedConfig } from '../sanitisedConfig';
 import type { ISanitisedPlayer } from '../sanitisedPlayer';
 import type { ISanitisedOfficial, ISanitisedTeam } from '../sanitisedTeam';

@@ -1,4 +1,4 @@
-import { filter } from 'lodash';
+import filter from 'lodash/filter';
 import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
 import type { ISanitisedConfig } from '../sanitisedConfig';

@@ -1,4 +1,4 @@
-import { map } from 'lodash';
+import map from 'lodash/map';
 import type { ISanitisedPlayer } from '../../sanitisedPlayer';
 import type { IRawCommittee } from '../../types/rawCommittee';
 import type { IRawConfig } from '../../types/rawConfig';

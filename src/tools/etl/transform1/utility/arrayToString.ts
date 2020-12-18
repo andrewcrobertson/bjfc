@@ -1,4 +1,4 @@
-import { compact } from 'lodash';
+import compact from 'lodash/compact';
 import join from 'lodash/join';
 
 export const arrayToString = (roles: string[], separator = '/') => {

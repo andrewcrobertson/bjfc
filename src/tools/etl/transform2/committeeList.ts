@@ -1,4 +1,4 @@
-import { map } from 'lodash';
+import map from 'lodash/map';
 import type { ISanitisedCommittee } from '../sanitisedCommittee';
 
 export interface Options {

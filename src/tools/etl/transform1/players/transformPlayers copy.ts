@@ -43,37 +43,37 @@ const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, reg
 export const transformPlayers = ({ config, players: membersRaw, ...options }: Options): ISanitisedPlayer[] => {
   const playerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));
   const orderedTeams = sortBy(options.teams, ({ ages }) => Math.max(...ages));
-  const members = map(membersRaw, (member) => {
-    const yearOfBirth = parseInt(first(split(member.dateOfBirth, '-')));
-    const thisSeasonProduct = find(member.transactions, ({ product }) => includes(options.products.registeredThisSeason, product));
+  const members = map(membersRaw, (player) => {
+    const yearOfBirth = parseInt(first(split(player.dateOfBirth, '-')));
+    const thisSeasonProduct = find(player.transactions, ({ product }) => includes(options.products.registeredThisSeason, product));
     const registeredThisSeason = thisSeasonProduct !== undefined;
-    const teams = filter(orderedTeams, ({ ages, genders }) => includes(ages, config.seasonYear - yearOfBirth) && includes(genders, member.gender));
+    const teams = filter(orderedTeams, ({ ages, genders }) => includes(ages, config.seasonYear - yearOfBirth) && includes(genders, player.gender));
     const teamCodes = map(teams, ({ code }) => code);
-    const club = member.transfers.length === 0 ? 'Bayswater' : last(member.transfers).destinationClub;
-    const registeredRecently = find(member.transactions, ({ product }) => includes(options.products.registeredRecently, product)) !== undefined;
+    const club = player.transfers.length === 0 ? 'Bayswater' : last(player.transfers).destinationClub;
+    const registeredRecently = find(player.transactions, ({ product }) => includes(options.products.registeredRecently, product)) !== undefined;
     const insuredThisSeason = thisSeasonProduct !== undefined && thisSeasonProduct.transactionStatus === 'Paid';
 
     return {
-      footyWebNumber: member.footyWebNumber,
+      footyWebNumber: player.footyWebNumber,
       status: transformPlayerStatusEnum(club, insuredThisSeason, registeredThisSeason, registeredRecently),
-      initials: toInitials(member.firstName, member.lastName),
-      lastName: member.lastName,
-      firstName: member.firstName,
-      dateOfBirth: member.dateOfBirth,
+      initials: toInitials(player.firstName, player.lastName),
+      lastName: player.lastName,
+      firstName: player.firstName,
+      dateOfBirth: player.dateOfBirth,
       yearOfBirth,
-      gender: member.gender,
-      club: member.transfers.length === 0 ? 'Bayswater' : last(member.transfers).destinationClub,
-      teamCode: playerTeamExceptions[member.footyWebNumber] ?? first(teamCodes) ?? null,
-      disability: arrayToString([member.disabilityType1, member.disabilityType2]),
-      disabilityNotes: arrayToString([member.disabilityNote1, member.disabilityNote1]),
-      guardians: map(member.guardians, (guardian) => transformGuardian(guardian)),
-      emergencyContact: transformEmergencyContact(member.emergencyContact),
-      contact: transformSportsTGContact(member.contact),
-      transactions: member.transactions,
-      lastTransactionDate: last(map(member.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,
-      firstTransactionDate: first(map(member.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,
-      transfers: member.transfers,
-      lastTransferDate: last(map(member.transfers, ({ applicationDate, finalisedDate }) => finalisedDate ?? applicationDate).sort()) ?? null,
+      gender: player.gender,
+      club: player.transfers.length === 0 ? 'Bayswater' : last(player.transfers).destinationClub,
+      teamCode: playerTeamExceptions[player.footyWebNumber] ?? first(teamCodes) ?? null,
+      disability: arrayToString([player.disabilityType1, player.disabilityType2]),
+      disabilityNotes: arrayToString([player.disabilityNote1, player.disabilityNote1]),
+      guardians: map(player.guardians, (guardian) => transformGuardian(guardian)),
+      emergencyContact: transformEmergencyContact(player.emergencyContact),
+      contact: transformSportsTGContact(player.contact),
+      transactions: player.transactions,
+      lastTransactionDate: last(map(player.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,
+      firstTransactionDate: first(map(player.transactions, ({ transactionDate }) => transactionDate).sort()) ?? null,
+      transfers: player.transfers,
+      lastTransferDate: last(map(player.transfers, ({ applicationDate, finalisedDate }) => finalisedDate ?? applicationDate).sort()) ?? null,
     };
   });
 
