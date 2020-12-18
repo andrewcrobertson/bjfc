@@ -1,11 +1,11 @@
 import { fromPairs, map } from 'lodash';
 import type { ISanitisedConfig } from '../sanitisedConfig';
-import type { sanitisedPlayer } from '../sanitisedPlayer';
+import type { ISanitisedPlayer } from '../sanitisedPlayer';
 import type { ISanitisedOfficial, ISanitisedTeam } from '../sanitisedTeam';
 
 export interface Options {
   config: ISanitisedConfig;
-  members: sanitisedPlayer[];
+  members: ISanitisedPlayer[];
   teams: ISanitisedTeam[];
 }
 

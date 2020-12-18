@@ -8,7 +8,7 @@ import last from 'lodash/last';
 import map from 'lodash/map';
 import sortBy from 'lodash/sortBy';
 import split from 'lodash/split';
-import type { sanitisedPlayer } from '../../sanitisedPlayer';
+import type { ISanitisedPlayer } from '../../sanitisedPlayer';
 import type { IRawCommittee } from '../../types/rawCommittee';
 import type { IRawConfig } from '../../types/rawConfig';
 import type { IRawPlayer } from '../../types/rawPlayer';
@@ -40,7 +40,7 @@ const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, reg
   return 'Historical';
 };
 
-export const transformPlayers = ({ config, players: membersRaw, ...options }: Options): sanitisedPlayer[] => {
+export const transformPlayers = ({ config, players: membersRaw, ...options }: Options): ISanitisedPlayer[] => {
   const playerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));
   const orderedTeams = sortBy(options.teams, ({ ages }) => Math.max(...ages));
   const members = map(membersRaw, (member) => {

@@ -1,6 +1,6 @@
 import type { ISanitisedCommittee } from '../sanitisedCommittee';
 import type { ISanitisedConfig } from '../sanitisedConfig';
-import type { sanitisedPlayer } from '../sanitisedPlayer';
+import type { ISanitisedPlayer } from '../sanitisedPlayer';
 import type { ISanitisedTeam } from '../sanitisedTeam';
 import { committeeList } from './committeeList';
 import { playerDetail } from './playerDetail';
@@ -11,7 +11,7 @@ import { teamPlayerListCurrent } from './teamPlayerListCurrent';
 
 export interface Options {
   config: ISanitisedConfig;
-  members: sanitisedPlayer[];
+  members: ISanitisedPlayer[];
   teams: ISanitisedTeam[];
   committee: ISanitisedCommittee[];
 }

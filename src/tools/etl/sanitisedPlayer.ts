@@ -1,11 +1,11 @@
-import { PlayerStatusEnum } from '@this/constants/enums';
+import type { ContactMethodEnum, PlayerStatusEnum } from '@this/constants/enums';
 
 export interface ISanitisedContactMethod {
-  type: string;
+  type: ContactMethodEnum;
   value: string;
 }
 
-export interface sanitisedPlayerGuardian {
+export interface ISanitisedPlayerGuardian {
   lastName: string;
   firstName: string;
   initials: string;
@@ -16,14 +16,14 @@ export interface sanitisedPlayerGuardian {
   assistInRole: string;
 }
 
-export interface sanitisedPlayerEmergencyContact {
+export interface ISanitisedPlayerEmergencyContact {
   relationship: string;
   name: string;
   phone1: string;
   phone2: string;
 }
 
-export interface sanitisedPlayerContact {
+export interface ISanitisedPlayerContact {
   phone1: string;
   phone2: string;
   phone3: string;
@@ -32,7 +32,7 @@ export interface sanitisedPlayerContact {
   assistInRole: string;
 }
 
-export interface sanitisedPlayerTransaction {
+export interface ISanitisedPlayerTransaction {
   transactionDate: string;
   transactionTime: string;
   product: string;
@@ -40,7 +40,7 @@ export interface sanitisedPlayerTransaction {
   transactionStatus: string;
 }
 
-export interface sanitisedPlayerTransfer {
+export interface ISanitisedPlayerTransfer {
   transferYear: string;
   applicationDate: string;
   finalisedDate: string;
@@ -48,7 +48,7 @@ export interface sanitisedPlayerTransfer {
   destinationClub: string;
 }
 
-export interface sanitisedPlayer {
+export interface ISanitisedPlayer {
   footyWebNumber: string;
   status: PlayerStatusEnum;
   initials: string;
@@ -57,13 +57,13 @@ export interface sanitisedPlayer {
   dateOfBirth: string;
   yearOfBirth: number;
   gender: string;
-  guardians: sanitisedPlayerGuardian[];
-  emergencyContact: sanitisedPlayerEmergencyContact;
-  contact: sanitisedPlayerContact;
-  transactions: sanitisedPlayerTransaction[];
+  guardians: ISanitisedPlayerGuardian[];
+  emergencyContact: ISanitisedPlayerEmergencyContact;
+  contact: ISanitisedPlayerContact;
+  transactions: ISanitisedPlayerTransaction[];
   firstTransactionDate: string;
   lastTransactionDate: string;
-  transfers: sanitisedPlayerTransfer[];
+  transfers: ISanitisedPlayerTransfer[];
   lastTransferDate: string;
   club: string;
   teamCode: string;

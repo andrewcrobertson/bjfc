@@ -5,12 +5,12 @@ import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
 import pick from 'lodash/pick';
 import type { ISanitisedConfig } from '../sanitisedConfig';
-import type { sanitisedPlayer, sanitisedPlayerTransaction, sanitisedPlayerTransfer } from '../sanitisedPlayer';
+import type { ISanitisedPlayer, ISanitisedPlayerTransaction, ISanitisedPlayerTransfer } from '../sanitisedPlayer';
 import type { ISanitisedTeam } from '../sanitisedTeam';
 
 export interface Options {
   config: ISanitisedConfig;
-  members: sanitisedPlayer[];
+  members: ISanitisedPlayer[];
   teams: ISanitisedTeam[];
 }
 
@@ -97,7 +97,7 @@ const transformRegistered = (contact: any) => ({
   ]),
 });
 
-const transformTransactions = (transactions: sanitisedPlayerTransaction[], seasonYear: number) =>
+const transformTransactions = (transactions: ISanitisedPlayerTransaction[], seasonYear: number) =>
   filter(
     map(transactions, (transaction) => ({
       year: parseInt(transaction.product.substring(0, 4)),
@@ -109,7 +109,7 @@ const transformTransactions = (transactions: sanitisedPlayerTransaction[], seaso
     ({ year }) => year >= seasonYear - 1
   );
 
-const transformTransfers = (transactions: sanitisedPlayerTransfer[], firstTransactionDate: string) => {
+const transformTransfers = (transactions: ISanitisedPlayerTransfer[], firstTransactionDate: string) => {
   const transactionsA = map(transactions, ({ destinationClub, finalisedDate, applicationDate }) => ({
     date: finalisedDate ?? applicationDate,
     club: destinationClub,

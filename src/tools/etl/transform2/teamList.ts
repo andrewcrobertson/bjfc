@@ -2,16 +2,16 @@ import { filter } from 'lodash';
 import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
 import type { ISanitisedConfig } from '../sanitisedConfig';
-import type { sanitisedPlayer } from '../sanitisedPlayer';
+import type { ISanitisedPlayer } from '../sanitisedPlayer';
 import type { ISanitisedTeam } from '../sanitisedTeam';
 
 export interface Options {
   config: ISanitisedConfig;
-  members: sanitisedPlayer[];
+  members: ISanitisedPlayer[];
   teams: ISanitisedTeam[];
 }
 
-const mapTeam = (team: ISanitisedTeam, members: sanitisedPlayer[]) => {
+const mapTeam = (team: ISanitisedTeam, members: ISanitisedPlayer[]) => {
   const teamMembers = filter(members, ({ teamCode }) => teamCode === team.code);
   const insuredCount = filter(teamMembers, ({ status }) => status === 'Insured').length;
   const registeredCount = filter(teamMembers, ({ status }) => status === 'Registered').length;
