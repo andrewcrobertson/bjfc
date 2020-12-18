@@ -1,4 +1,4 @@
-import { filter, fromPairs } from 'lodash';
+import { fromPairs } from 'lodash';
 import map from 'lodash/map';
 import zip from 'lodash/zip';
 import type { IRawCommittee } from '../types/rawCommittee';
@@ -9,7 +9,9 @@ import type { IRawTeam } from '../types/rawTeam';
 import type { IRawTransaction } from '../types/rawTransaction';
 import type { IRawTransfer } from '../types/rawTransfer';
 import { transformCommittee } from './commmittee/transformCommittee';
+import { toGroupedPlayerInfo } from './playerInfo/toGroupedPlayerInfo';
 import { transformPlayers } from './players/transformPlayers';
+import { transformProductName } from './product/transformProductName';
 import { transformProducts } from './product/transformProducts';
 import { transformTeams } from './teams/transformTeams';
 import { transformTransactions } from './transactions/transformTransactions';
@@ -27,27 +29,19 @@ export interface Options {
 
 export const transform1 = (options: Options) => {
   const seasonYear = options.config.seasonYear;
-
-  const products = transformProducts(options.products);
-
   const clubMap = fromPairs(map(options.config.clubMap, ({ from, to }) => [from, to]));
   const fromProducts = map(options.products, ({ name }) => name);
-  const toProducts = map(products, ({ name }) => name);
+  const toProducts = map(options.products, transformProductName);
   const productMap = fromPairs(zip(fromProducts, toProducts));
-
-  const registrationProducts = filter(products, ({ type, year }) => type === 'Registration');
-  const registrationProductsThisSeasonRaw = filter(registrationProducts, ({ year }) => year === seasonYear);
-  const registrationProductsThisSeason = map(registrationProductsThisSeasonRaw, ({ name }) => name);
-  const registrationProductsRecentFilter = (year: number) => year === seasonYear - 1 || year === seasonYear - 2;
-  const registrationProductsRecentRaw = filter(registrationProducts, ({ year }) => registrationProductsRecentFilter(year));
-  const registrationProductsRecent = map(registrationProductsRecentRaw, ({ name }) => name);
+  const groupedPlayerInfo = toGroupedPlayerInfo(options);
 
   const config = { seasonYear };
   const committee = transformCommittee(options.committee);
+  const products = transformProducts(options.products);
+  const teams = transformTeams(options.teams, seasonYear);
+  const players = transformPlayers(options.config, options.players, teams, groupedPlayerInfo);
   const transactions = transformTransactions(options.transactions, productMap);
   const transfers = transformTransfers(options.transfers, clubMap);
-  const teams = transformTeams(options.teams, seasonYear);
-  const players = transformPlayers(options.players, registrationProductsThisSeason, registrationProductsRecent, transactions, transfers);
 
   return { config, committee, products, teams, players, transactions, transfers };
 };

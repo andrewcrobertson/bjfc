@@ -1,9 +1,9 @@
-import trim from 'lodash/trim';
 import type { IRawProduct } from '../../types/rawProduct';
 import type { ISanitisedProduct } from '../../types/sanitisedProduct';
+import { transformProductName } from './transformProductName';
 
 export const transformProduct = (obj: IRawProduct): ISanitisedProduct => ({
-  name: trim(`${obj.year} ${obj.type} Fees ${obj.notes === null ? '' : '(' + obj.notes + ')'}`),
+  name: transformProductName(obj),
   type: obj.type,
   year: obj.year,
 });

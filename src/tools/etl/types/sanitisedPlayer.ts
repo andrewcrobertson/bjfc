@@ -40,32 +40,24 @@ export interface ISanitisedPlayerTransaction {
   transactionStatus: string;
 }
 
-export interface ISanitisedPlayerTransfer {
-  transferYear: string;
-  applicationDate: string;
-  finalisedDate: string;
-  sourceClub: string;
-  destinationClub: string;
+export interface ISanitisedClubRecord {
+  date: string;
+  club: string;
 }
 
 export interface ISanitisedPlayer {
   footyWebNumber: string;
-  status: PlayerStatusEnum;
   initials: string;
   lastName: string;
   firstName: string;
   dateOfBirth: string;
-  yearOfBirth: number;
+  status: PlayerStatusEnum;
   gender: string;
   guardians: ISanitisedPlayerGuardian[];
   emergencyContact: ISanitisedPlayerEmergencyContact;
   contact: ISanitisedPlayerContact;
-  transactions: ISanitisedPlayerTransaction[];
-  firstTransactionDate: string;
-  lastTransactionDate: string;
-  transfers: ISanitisedPlayerTransfer[];
-  lastTransferDate: string;
   club: string;
+  clubHistory: ISanitisedClubRecord[];
   teamCode: string;
   disability: string;
   disabilityNotes: string;

@@ -1,46 +1,48 @@
-import first from 'lodash/first';
+import type { PlayerStatusEnum } from '@this/constants/enums';
+import { last } from 'lodash';
 import map from 'lodash/map';
-import split from 'lodash/split';
 import type { IRawPlayer } from '../../types/rawPlayer';
 import type { ISanitisedPlayer } from '../../types/sanitisedPlayer';
-import type { ISanitisedTransaction } from '../../types/sanitisedTransaction';
-import type { ISanitisedTransfer } from '../../types/sanitisedTransfer';
+import { arrayToString } from '../utility/arrayToString';
 import { toInitials } from '../utility/toInitials';
 import { transformEmergencyContact } from './transformEmergencyContact';
 import { transformGuardian } from './transformGuardian';
 import { transformSportsTGContact } from './transformSportsTGContact';
 
-export const transformPlayer = (
-  player: IRawPlayer,
-  registrationProductsThisSeason: string[],
-  registrationProductsRecent: string[],
-  transactions: ISanitisedTransaction[],
-  transfers: ISanitisedTransfer[]
-): ISanitisedPlayer => {
-  const yearOfBirth = parseInt(first(split(player.dateOfBirth, '-')));
+const transformPlayerStatus = (club: string, insuredThisSeason: boolean, registeredThisSeason: boolean, registeredRecently: boolean): PlayerStatusEnum => {
+  if (club !== 'Bayswater') return 'Transferred';
+  if (insuredThisSeason) return 'Insured';
+  if (registeredThisSeason) return 'Registered';
+  if (registeredRecently) return 'Recent';
+  return 'Historical';
+};
 
-  // const thisSeasonProduct = find(player.transactions, ({ product }) => includes(options.products.registeredThisSeason, product));
+export const transformPlayer = (player: IRawPlayer, teamCode: string, groupedPlayerInfo: any): ISanitisedPlayer => {
+  const playerInfo = groupedPlayerInfo[player.footyWebNumber];
+  const clubHistory = (playerInfo.clubHistory as any[]) ?? [];
+  const registered = playerInfo.registered;
+  const insured = playerInfo.insured;
+  const registeredRecently = playerInfo.registeredRecently;
+  // const firstTransactionDate = playerInfo.firstTransactionDate
+  // const lastTransactionDate = playerInfo.lastTransactionDate
+  const club = last(clubHistory).club;
+  const status = transformPlayerStatus(club, insured, registered, registeredRecently);
 
   return {
     footyWebNumber: player.footyWebNumber,
-    status: null, // player.status,
     initials: toInitials(player.firstName, player.lastName),
     lastName: player.lastName,
     firstName: player.firstName,
     dateOfBirth: player.dateOfBirth,
-    yearOfBirth,
+    status,
     gender: player.gender,
     guardians: map(player.guardians, (guardian) => transformGuardian(guardian)),
     emergencyContact: transformEmergencyContact(player.emergencyContact),
     contact: transformSportsTGContact(player.contact),
-    transactions: null, // player.transactions,
-    firstTransactionDate: null, // player.firstTransactionDate,
-    lastTransactionDate: null, // player.lastTransactionDate,
-    transfers: null, // player.transfers,
-    lastTransferDate: null, // player.lastTransferDate,
-    club: null, // player.club,
-    teamCode: null, // player.teamCode,
-    disability: null, // player.disability,
-    disabilityNotes: null, // player.disabilityNotes,
+    club,
+    clubHistory,
+    teamCode,
+    disability: arrayToString([player.disabilityType1, player.disabilityType2]),
+    disabilityNotes: arrayToString([player.disabilityNote1, player.disabilityNote1]),
   };
 };
