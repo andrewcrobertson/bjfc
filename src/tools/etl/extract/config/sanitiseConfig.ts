@@ -1,6 +1,6 @@
 import map from 'lodash/map';
 import type { IRawConfig } from '../../types/rawConfig';
-import { sanitiseMap } from '../utility/sanitiseMap';
+import { sanitiseMap } from './sanitiseMap';
 import { sanitiseNoContact } from './sanitiseNoContact';
 import { sanitisePlayerTeamExceptions } from './sanitisePlayerTeamExceptions';
 

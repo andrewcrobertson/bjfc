@@ -1,4 +1,7 @@
-import { IRawMap } from './common';
+export interface IRawConfigClubMap {
+  from: string;
+  to: string;
+}
 
 export interface IRawConfigNoContact {
   footyWebNumber: string;
@@ -11,7 +14,7 @@ export interface IRawConfigPlayerTeamExceptions {
 
 export interface IRawConfig {
   seasonYear: number;
-  clubMap: IRawMap[];
+  clubMap: IRawConfigClubMap[];
   noContact: IRawConfigNoContact[];
   playerTeamExceptions: IRawConfigPlayerTeamExceptions[];
 }
