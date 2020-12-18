@@ -34,14 +34,13 @@ export const transform1 = (options: Options) => {
   const productMap = fromPairs(zip(fromProducts, toProducts));
 
   const registrationProducts = filter(products, ({ type, year }) => type === 'Registration');
-  const registrationProductsThisSeason = map(
-    filter(registrationProducts, ({ year }) => year === options.config.seasonYear),
-    ({ name }) => name
+  const registrationProductsThisSeasonRaw = filter(registrationProducts, ({ year }) => year === options.config.seasonYear);
+  const registrationProductsThisSeason = map(registrationProductsThisSeasonRaw, ({ name }) => name);
+  const registrationProductsRecentRaw = filter(
+    registrationProducts,
+    ({ year }) => year === options.config.seasonYear - 1 || year === options.config.seasonYear - 2
   );
-  const registrationProductsRecent = map(
-    filter(registrationProducts, ({ year }) => year === options.config.seasonYear - 1 || year === options.config.seasonYear - 2),
-    ({ name }) => name
-  );
+  const registrationProductsRecent = map(registrationProductsRecentRaw, ({ name }) => name);
 
   const config = { seasonYear: options.config.seasonYear };
   const committee = transformCommittee(options.committee);
