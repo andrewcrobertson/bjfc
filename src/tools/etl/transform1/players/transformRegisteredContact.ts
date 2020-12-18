@@ -1,5 +1,5 @@
 import type { IRawPlayerRegisteredContact } from '../../types/rawPlayer';
-import { arrayToString } from '../arrayToString';
+import { arrayToString } from '../utility/arrayToString';
 
 export const transformRegisteredContact = ({
   email1,

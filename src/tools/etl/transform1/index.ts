@@ -20,10 +20,9 @@ export interface Options {
 }
 
 export const transform1 = (options: Options) => {
-  return {
-    config: { seasonYear: options.config.seasonYear },
-    committee: transformCommittee(options),
-    teams: transformTeams(options),
-    players: transformPlayers(options),
-  };
+  const config = { seasonYear: options.config.seasonYear };
+  const committee = transformCommittee(options);
+  const teams = transformTeams(options);
+  const players = transformPlayers(options);
+  return { config, committee, teams, players };
 };
