@@ -7,7 +7,7 @@ export const sanitisePersonGender = (value: string): PersonGenderEnum => {
     case 'Female':
       return 'Female';
     case 'Male':
-      return 'Female';
+      return 'Male';
     default:
       return 'Unknown';
   }
