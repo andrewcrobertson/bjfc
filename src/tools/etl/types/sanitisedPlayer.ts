@@ -58,6 +58,7 @@ export interface ISanitisedPlayer {
   contact: ISanitisedPlayerContact;
   club: string;
   clubHistory: ISanitisedClubRecord[];
+  lastTransactionDate: string;
   teamCode: string;
   disability: string;
   disabilityNotes: string;
