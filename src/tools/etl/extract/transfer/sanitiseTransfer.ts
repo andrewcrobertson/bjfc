@@ -3,11 +3,11 @@ import { sanitiseDashDateTime } from '../utility/sanitiseDashDateTime';
 import { sanitiseSlashDate } from '../utility/sanitiseSlashDate';
 import { sanitiseString } from '../utility/sanitiseString';
 
-export const sanitiseTransfer = (transfer: any): IRawPlayerTransfer => ({
-  footyWebNumber: sanitiseString(transfer.footyWebNumber),
-  transferYear: transfer.transferYear,
-  applicationDate: sanitiseSlashDate(transfer.applicationDate),
-  finalisedDate: sanitiseDashDateTime(transfer.finalisedDate).date,
-  sourceClub: sanitiseString(transfer.sourceClub),
-  destinationClub: sanitiseString(transfer.destinationClub),
+export const sanitiseTransfer = (obj: any): IRawPlayerTransfer => ({
+  footyWebNumber: sanitiseString(obj.footyWebNumber),
+  transferYear: obj.transferYear,
+  applicationDate: sanitiseSlashDate(obj.applicationDate),
+  finalisedDate: sanitiseDashDateTime(obj.finalisedDate).date,
+  sourceClub: sanitiseString(obj.sourceClub),
+  destinationClub: sanitiseString(obj.destinationClub),
 });

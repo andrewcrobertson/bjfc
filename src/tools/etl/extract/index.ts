@@ -10,6 +10,9 @@ import { sanitiseTransaction } from './transaction/sanitiseTransaction';
 import { sanitiseTransfer } from './transfer/sanitiseTransfer';
 import { loadFromCsv } from './utility/loadFromCsv';
 
+const extractYaml = <T>(file: string, mapFn: (x: any) => T) => map(YAML.parse(fs.readFileSync(file, 'utf-8')), mapFn);
+const extractCsv = async <T>(file: string, mapFn: (x: any) => T) => map(await loadFromCsv(file), mapFn);
+
 export interface Options {
   configPath: string;
   committeePath: string;
@@ -19,9 +22,6 @@ export interface Options {
   allTransactionsCsvPath: string;
   allTransfersCsvPath: string;
 }
-
-const extractYaml = <T>(file: string, mapFn: (x: any) => T) => map(YAML.parse(fs.readFileSync(file, 'utf-8')), mapFn);
-const extractCsv = async <T>(file: string, mapFn: (x: any) => T) => map(await loadFromCsv(file), mapFn);
 
 export const extract = async (options: Options) => {
   const config = sanitiseConfig(YAML.parse(fs.readFileSync(options.configPath, 'utf-8')));
