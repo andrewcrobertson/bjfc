@@ -4,13 +4,11 @@ import { sanitiseObject } from '../utility/sanitiseObject';
 import { sanitisePersonGender } from '../utility/sanitisePersonGender';
 import { sanitiseSlashDate } from '../utility/sanitiseSlashDate';
 import { sanitiseString } from '../utility/sanitiseString';
-import { sanitiseContact } from './sanitiseContact';
 import { sanitiseDisability } from './sanitiseDisability';
-import { sanitiseDisabilityNote } from './sanitiseDisabilityNote';
-import { sanitiseDisabilityType } from './sanitiseDisabilityType';
 import { sanitiseEmergencyContact } from './sanitiseEmergencyContact';
 import { sanitiseGuardian1 } from './sanitiseGuardian1';
 import { sanitiseGuardian2 } from './sanitiseGuardian2';
+import { sanitiseRegisteredContact } from './sanitiseRegisteredContact';
 
 export const sanitisePlayer = (obj: any): IRawPlayer => ({
   footyWebNumber: sanitiseString(obj.footyWebNumber),
@@ -21,10 +19,6 @@ export const sanitisePlayer = (obj: any): IRawPlayer => ({
   gender: sanitisePersonGender(obj.gender),
   guardians: compact([sanitiseObject(sanitiseGuardian1(obj)), sanitiseObject(sanitiseGuardian2(obj))]),
   emergencyContact: sanitiseObject(sanitiseEmergencyContact(obj)),
-  contact: sanitiseObject(sanitiseContact(obj)),
-  disability: sanitiseDisability(obj.doesTheParticipantIdentifyAsLivingWithADisabilityDisabilities),
-  disabilityType1: sanitiseDisabilityType(obj.disability1),
-  disabilityType2: sanitiseDisabilityType(obj.disability2),
-  disabilityNote1: sanitiseDisabilityNote(obj.pleaseSpecifyAnyDisabilitiesWeNeedToKnowAbout),
-  disabilityNote2: sanitiseDisabilityNote(obj.pleaseProvideAdditionalInformationAroundHowTheClubCanSupportTheParticipantsDisability),
+  registeredContact: sanitiseObject(sanitiseRegisteredContact(obj)),
+  disability: sanitiseDisability(obj),
 });

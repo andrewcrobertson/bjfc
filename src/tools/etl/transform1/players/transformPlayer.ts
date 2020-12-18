@@ -1,9 +1,9 @@
-import { last, uniq } from 'lodash';
+import { last } from 'lodash';
 import map from 'lodash/map';
 import type { IRawPlayer } from '../../types/rawPlayer';
 import type { ISanitisedPlayer } from '../../types/sanitisedPlayer';
-import { arrayToString } from '../utility/arrayToString';
 import { toInitials } from '../utility/toInitials';
+import { transformDisability } from './transformDisability';
 import { transformEmergencyContact } from './transformEmergencyContact';
 import { transformGuardian } from './transformGuardian';
 import { transformPlayerStatus } from './transformPlayerStatus';
@@ -24,13 +24,12 @@ export const transformPlayer = (player: IRawPlayer, teamCode: string, groupedPla
     gender: player.gender,
     guardians: map(player.guardians, (guardian) => transformGuardian(guardian)),
     emergencyContact: transformEmergencyContact(player.emergencyContact),
-    contact: transformSportsTGContact(player.contact),
+    contact: transformSportsTGContact(player.registeredContact),
     club: currentClubRecord.club,
     clubHistory,
     lastTransferDate: currentClubRecord === 'Bayswater' ? null : currentClubRecord.date,
     lastTransactionDate: playerInfo.lastTransactionDate ?? null,
     teamCode,
-    disabilityType: arrayToString(uniq([player.disabilityType1, player.disabilityType2])),
-    disabilityNotes: arrayToString(uniq([player.disabilityNote1, player.disabilityNote1])),
+    disability: transformDisability(player.disability),
   };
 };

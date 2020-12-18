@@ -28,6 +28,13 @@ export interface IRawPlayerRegisteredContact {
   assistanceRole3: string;
 }
 
+export interface IRawPlayerDisability {
+  type1: string;
+  type2: string;
+  note1: string;
+  note2: string;
+}
+
 export interface IRawPlayer {
   footyWebNumber: string;
   activeRecord: boolean;
@@ -37,10 +44,6 @@ export interface IRawPlayer {
   gender: PersonGenderEnum;
   guardians: IRawPlayerGuardian[];
   emergencyContact: IRawPlayerEmergencyContact;
-  contact: IRawPlayerRegisteredContact;
-  disability: boolean;
-  disabilityType1: string;
-  disabilityType2: string;
-  disabilityNote1: string;
-  disabilityNote2: string;
+  registeredContact: IRawPlayerRegisteredContact;
+  disability: IRawPlayerDisability;
 }

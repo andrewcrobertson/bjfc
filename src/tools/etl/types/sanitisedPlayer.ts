@@ -45,6 +45,11 @@ export interface ISanitisedClubRecord {
   club: string;
 }
 
+export interface ISanitisedPlayerDisability {
+  type: string;
+  notes: string;
+}
+
 export interface ISanitisedPlayer {
   footyWebNumber: string;
   initials: string;
@@ -61,6 +66,5 @@ export interface ISanitisedPlayer {
   lastTransferDate: string;
   lastTransactionDate: string;
   teamCode: string;
-  disabilityType: string;
-  disabilityNotes: string;
+  disability: ISanitisedPlayerDisability;
 }

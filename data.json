@@ -679,8 +679,7 @@
       "lastTransferDate": "2016-04-20",
       "lastTransactionDate": "2020-12-17",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03737182",
@@ -731,8 +730,7 @@
       "lastTransferDate": "2019-05-17",
       "lastTransactionDate": "2019-05-17",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03680520",
@@ -773,8 +771,7 @@
       "lastTransferDate": "2019-04-28",
       "lastTransactionDate": "2019-04-28",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02263883",
@@ -831,8 +828,7 @@
       "lastTransferDate": "2013-04-06",
       "lastTransactionDate": "2019-06-29",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02503773",
@@ -893,8 +889,7 @@
       "lastTransferDate": "2016-04-08",
       "lastTransactionDate": "2015-04-09",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02346009",
@@ -941,8 +936,7 @@
       "lastTransferDate": "2014-04-03",
       "lastTransactionDate": "2020-02-13",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03258258",
@@ -983,8 +977,7 @@
       "lastTransferDate": "2018-11-11",
       "lastTransactionDate": "2020-07-01",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02474446",
@@ -1045,8 +1038,7 @@
       "lastTransferDate": "2020-06-29",
       "lastTransactionDate": "2020-12-14",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03226921",
@@ -1087,8 +1079,7 @@
       "lastTransferDate": "2018-02-16",
       "lastTransactionDate": "2019-04-05",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02453895",
@@ -1118,8 +1109,7 @@
       "lastTransferDate": null,
       "lastTransactionDate": null,
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03558237",
@@ -1170,8 +1160,7 @@
       "lastTransferDate": "2020-06-01",
       "lastTransactionDate": "2020-11-13",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03343780",
@@ -1222,8 +1211,7 @@
       "lastTransferDate": "2020-06-19",
       "lastTransactionDate": "2020-06-19",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03534656",
@@ -1274,8 +1262,7 @@
       "lastTransferDate": "2019-03-10",
       "lastTransactionDate": "2020-06-20",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02445097",
@@ -1332,8 +1319,7 @@
       "lastTransferDate": "2014-02-24",
       "lastTransactionDate": "2019-11-14",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03070934",
@@ -1394,8 +1380,7 @@
       "lastTransferDate": "2020-06-27",
       "lastTransactionDate": "2019-02-09",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03070939",
@@ -1452,8 +1437,7 @@
       "lastTransferDate": "2017-03-22",
       "lastTransactionDate": "2020-01-06",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01561882",
@@ -1514,8 +1498,7 @@
       "lastTransferDate": "2015-03-05",
       "lastTransactionDate": "2015-12-30",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02048274",
@@ -1572,8 +1555,7 @@
       "lastTransferDate": "2015-03-31",
       "lastTransactionDate": "2020-03-10",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03064071",
@@ -1614,8 +1596,7 @@
       "lastTransferDate": "2020-06-19",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U09M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02845428",
@@ -1656,8 +1637,7 @@
       "lastTransferDate": "2018-02-18",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02921605",
@@ -1704,8 +1684,7 @@
       "lastTransferDate": "2016-04-20",
       "lastTransactionDate": "2019-03-28",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03223491",
@@ -1756,8 +1735,7 @@
       "lastTransferDate": "2019-05-04",
       "lastTransactionDate": "2020-02-15",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03337454",
@@ -1808,8 +1786,7 @@
       "lastTransferDate": "2018-05-16",
       "lastTransactionDate": "2018-05-15",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03310424",
@@ -1860,8 +1837,7 @@
       "lastTransferDate": "2020-06-19",
       "lastTransactionDate": "2020-06-19",
       "teamCode": "U09M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02912249",
@@ -1908,8 +1884,7 @@
       "lastTransferDate": "2016-04-14",
       "lastTransactionDate": "2018-02-07",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03505718",
@@ -1960,8 +1935,7 @@
       "lastTransferDate": "2019-02-11",
       "lastTransactionDate": "2019-02-17",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02326407",
@@ -2002,8 +1976,7 @@
       "lastTransferDate": "2015-04-29",
       "lastTransactionDate": "2015-04-29",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03115980",
@@ -2060,8 +2033,7 @@
       "lastTransferDate": "2017-04-22",
       "lastTransactionDate": "2017-04-22",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02058774",
@@ -2102,8 +2074,7 @@
       "lastTransferDate": "2013-02-22",
       "lastTransactionDate": "2014-03-18",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02119149",
@@ -2144,8 +2115,7 @@
       "lastTransferDate": "2020-02-18",
       "lastTransactionDate": "2020-02-18",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03018873",
@@ -2196,8 +2166,7 @@
       "lastTransferDate": "2018-11-11",
       "lastTransactionDate": "2020-12-18",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03018872",
@@ -2248,8 +2217,7 @@
       "lastTransferDate": "2017-11-12",
       "lastTransactionDate": "2020-12-18",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02451070",
@@ -2310,8 +2278,7 @@
       "lastTransferDate": "2019-11-17",
       "lastTransactionDate": "2020-11-15",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02869775",
@@ -2352,8 +2319,7 @@
       "lastTransferDate": "2018-03-24",
       "lastTransactionDate": "2020-12-17",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03548512",
@@ -2404,8 +2370,7 @@
       "lastTransferDate": "2019-03-21",
       "lastTransactionDate": "2020-02-16",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02091636",
@@ -2466,8 +2431,7 @@
       "lastTransferDate": "2020-06-24",
       "lastTransactionDate": "2020-06-24",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03081904",
@@ -2524,8 +2488,7 @@
       "lastTransferDate": "2017-03-29",
       "lastTransactionDate": "2018-11-11",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02632063",
@@ -2590,8 +2553,7 @@
       "lastTransferDate": "2018-11-25",
       "lastTransactionDate": "2017-11-10",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01879008",
@@ -2648,8 +2610,7 @@
       "lastTransferDate": "2016-04-03",
       "lastTransactionDate": "2017-11-10",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03541757",
@@ -2706,8 +2667,7 @@
       "lastTransferDate": "2019-03-16",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03241282",
@@ -2764,8 +2724,7 @@
       "lastTransferDate": "2019-11-04",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U09M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "04033359",
@@ -2816,8 +2775,7 @@
       "lastTransferDate": "2020-07-01",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01635651",
@@ -2874,8 +2832,7 @@
       "lastTransferDate": "2013-03-15",
       "lastTransactionDate": "2019-11-21",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01569577",
@@ -2926,8 +2883,7 @@
       "lastTransferDate": "2019-11-17",
       "lastTransactionDate": "2013-03-10",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02915191",
@@ -2957,8 +2913,7 @@
       "lastTransferDate": "2016-04-15",
       "lastTransactionDate": "2016-04-15",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03329538",
@@ -3009,8 +2964,7 @@
       "lastTransferDate": "2018-05-06",
       "lastTransactionDate": "2019-11-10",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03062355",
@@ -3061,8 +3015,7 @@
       "lastTransferDate": "2019-02-21",
       "lastTransactionDate": "2020-02-13",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03062353",
@@ -3113,8 +3066,7 @@
       "lastTransferDate": "2018-04-20",
       "lastTransactionDate": "2020-02-13",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03062354",
@@ -3165,8 +3117,7 @@
       "lastTransferDate": "2019-02-21",
       "lastTransactionDate": "2020-02-13",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02011566",
@@ -3227,8 +3178,7 @@
       "lastTransferDate": "2020-11-17",
       "lastTransactionDate": "2019-12-08",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03127859",
@@ -3275,8 +3225,7 @@
       "lastTransferDate": "2017-04-30",
       "lastTransactionDate": "2017-04-30",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02090741",
@@ -3345,8 +3294,7 @@
       "lastTransferDate": "2019-03-23",
       "lastTransactionDate": "2018-03-15",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02683610",
@@ -3403,8 +3351,7 @@
       "lastTransferDate": "2017-03-30",
       "lastTransactionDate": "2017-03-30",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01627488",
@@ -3451,8 +3398,7 @@
       "lastTransferDate": "2016-03-06",
       "lastTransactionDate": "2018-11-11",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02733467",
@@ -3499,8 +3445,7 @@
       "lastTransferDate": "2015-04-30",
       "lastTransactionDate": "2020-02-16",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03325019",
@@ -3551,8 +3496,7 @@
       "lastTransferDate": "2018-05-03",
       "lastTransactionDate": "2020-07-02",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02939863",
@@ -3599,8 +3543,7 @@
       "lastTransferDate": "2016-05-04",
       "lastTransactionDate": "2019-03-28",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01852149",
@@ -3657,8 +3600,7 @@
       "lastTransferDate": "2013-04-12",
       "lastTransactionDate": "2019-05-29",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03520214",
@@ -3709,8 +3651,7 @@
       "lastTransferDate": "2019-02-25",
       "lastTransactionDate": "2020-12-14",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03561703",
@@ -3761,8 +3702,7 @@
       "lastTransferDate": "2020-02-15",
       "lastTransactionDate": "2020-02-15",
       "teamCode": "U09M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02439956",
@@ -3823,8 +3763,7 @@
       "lastTransferDate": "2018-05-30",
       "lastTransactionDate": "2017-05-05",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03055429",
@@ -3875,8 +3814,7 @@
       "lastTransferDate": "2020-02-16",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U09M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02280414",
@@ -3927,8 +3865,7 @@
       "lastTransferDate": "2018-05-02",
       "lastTransactionDate": "2019-01-14",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02870196",
@@ -3969,8 +3906,7 @@
       "lastTransferDate": "2018-04-11",
       "lastTransactionDate": "2020-06-18",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03649305",
@@ -4021,8 +3957,7 @@
       "lastTransferDate": "2019-04-17",
       "lastTransactionDate": "2019-04-17",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03283702",
@@ -4067,8 +4002,7 @@
       "lastTransferDate": "2020-03-10",
       "lastTransactionDate": null,
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02254838",
@@ -4129,8 +4063,7 @@
       "lastTransferDate": "2018-04-04",
       "lastTransactionDate": "2016-11-25",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03007678",
@@ -4187,8 +4120,7 @@
       "lastTransferDate": "2016-11-25",
       "lastTransactionDate": "2019-11-14",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02058704",
@@ -4245,8 +4177,7 @@
       "lastTransferDate": "2016-03-23",
       "lastTransactionDate": "2019-11-14",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03342147",
@@ -4287,8 +4218,7 @@
       "lastTransferDate": "2020-03-15",
       "lastTransactionDate": "2020-03-15",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03561798",
@@ -4329,8 +4259,7 @@
       "lastTransferDate": "2019-03-26",
       "lastTransactionDate": "2019-03-26",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03116190",
@@ -4391,8 +4320,7 @@
       "lastTransferDate": "2017-11-27",
       "lastTransactionDate": "2017-04-22",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02925917",
@@ -4449,8 +4377,7 @@
       "lastTransferDate": "2016-04-23",
       "lastTransactionDate": "2018-04-12",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01609456",
@@ -4511,8 +4438,7 @@
       "lastTransferDate": "2019-03-30",
       "lastTransactionDate": "2019-11-01",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01293769",
@@ -4569,8 +4495,7 @@
       "lastTransferDate": "2014-02-23",
       "lastTransactionDate": "2020-11-08",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01838065",
@@ -4627,8 +4552,7 @@
       "lastTransferDate": "2015-03-05",
       "lastTransactionDate": "2020-11-08",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02819220",
@@ -4685,8 +4609,7 @@
       "lastTransferDate": "2016-03-23",
       "lastTransactionDate": "2017-11-12",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02463886",
@@ -4743,8 +4666,7 @@
       "lastTransferDate": "2015-04-07",
       "lastTransactionDate": "2018-02-18",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03298293",
@@ -4795,8 +4717,7 @@
       "lastTransferDate": "2018-04-14",
       "lastTransactionDate": "2018-04-14",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03079763",
@@ -4853,8 +4774,7 @@
       "lastTransferDate": "2017-03-28",
       "lastTransactionDate": "2017-11-12",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02896196",
@@ -4895,8 +4815,7 @@
       "lastTransferDate": "2017-11-12",
       "lastTransactionDate": "2020-02-06",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03355238",
@@ -4947,8 +4866,7 @@
       "lastTransferDate": "2018-06-27",
       "lastTransactionDate": "2018-11-12",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02453886",
@@ -4978,8 +4896,7 @@
       "lastTransferDate": null,
       "lastTransactionDate": null,
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01596672",
@@ -5024,8 +4941,7 @@
       "lastTransferDate": "2019-04-22",
       "lastTransactionDate": "2018-02-16",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03100805",
@@ -5082,8 +4998,7 @@
       "lastTransferDate": "2017-06-15",
       "lastTransactionDate": "2020-11-08",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01810882",
@@ -5134,8 +5049,7 @@
       "lastTransferDate": "2020-06-30",
       "lastTransactionDate": "2019-03-15",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03278431",
@@ -5186,8 +5100,7 @@
       "lastTransferDate": "2020-11-15",
       "lastTransactionDate": "2020-11-15",
       "teamCode": "U08M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03143522",
@@ -5244,8 +5157,7 @@
       "lastTransferDate": "2017-05-11",
       "lastTransactionDate": "2017-05-11",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03298371",
@@ -5286,8 +5198,7 @@
       "lastTransferDate": "2018-04-14",
       "lastTransactionDate": "2019-04-04",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03319479",
@@ -5328,8 +5239,7 @@
       "lastTransferDate": "2018-04-28",
       "lastTransactionDate": "2018-04-28",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01885240",
@@ -5390,8 +5300,7 @@
       "lastTransferDate": "2017-03-30",
       "lastTransactionDate": "2016-04-09",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03584559",
@@ -5442,8 +5351,7 @@
       "lastTransferDate": "2019-04-02",
       "lastTransactionDate": "2019-04-06",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02289876",
@@ -5494,8 +5402,7 @@
       "lastTransferDate": "2019-04-04",
       "lastTransactionDate": "2019-04-04",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02001335",
@@ -5550,8 +5457,7 @@
       "lastTransferDate": "2020-06-16",
       "lastTransactionDate": "2020-02-07",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02463394",
@@ -5602,8 +5508,7 @@
       "lastTransferDate": "2017-05-27",
       "lastTransactionDate": "2017-03-24",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02639289",
@@ -5650,8 +5555,10 @@
       "lastTransferDate": "2015-04-09",
       "lastTransactionDate": "2019-02-17",
       "teamCode": "U17B-GREEN",
-      "disabilityType": "Blind and Low Vision",
-      "disabilityNotes": null
+      "disability": {
+        "type": "Blind and Low Vision",
+        "notes": null
+      }
     },
     {
       "footyWebNumber": "01838920",
@@ -5712,8 +5619,7 @@
       "lastTransferDate": "2018-11-05",
       "lastTransactionDate": "2017-11-01",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02073542",
@@ -5770,8 +5676,7 @@
       "lastTransferDate": "2015-04-09",
       "lastTransactionDate": "2019-11-10",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03227856",
@@ -5832,8 +5737,7 @@
       "lastTransferDate": "2019-02-01",
       "lastTransactionDate": "2018-02-18",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01852131",
@@ -5884,8 +5788,7 @@
       "lastTransferDate": "2019-03-06",
       "lastTransactionDate": "2020-03-01",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02832014",
@@ -5936,8 +5839,7 @@
       "lastTransferDate": "2018-04-20",
       "lastTransactionDate": "2019-11-10",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02869796",
@@ -5988,8 +5890,7 @@
       "lastTransferDate": "2017-11-12",
       "lastTransactionDate": "2020-02-12",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03315884",
@@ -6040,8 +5941,7 @@
       "lastTransferDate": "2018-04-26",
       "lastTransactionDate": "2020-02-16",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03247587",
@@ -6092,8 +5992,7 @@
       "lastTransferDate": "2020-07-02",
       "lastTransactionDate": "2020-12-14",
       "teamCode": "U09M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03114280",
@@ -6150,8 +6049,7 @@
       "lastTransferDate": "2017-04-21",
       "lastTransactionDate": "2017-04-21",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03081833",
@@ -6208,8 +6106,7 @@
       "lastTransferDate": "2017-03-29",
       "lastTransactionDate": "2020-12-14",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02625774",
@@ -6260,8 +6157,7 @@
       "lastTransferDate": "2017-03-29",
       "lastTransactionDate": "2019-11-02",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02898108",
@@ -6316,8 +6212,7 @@
       "lastTransferDate": "2020-02-26",
       "lastTransactionDate": "2020-02-26",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02278176",
@@ -6368,8 +6263,7 @@
       "lastTransferDate": "2015-04-08",
       "lastTransactionDate": "2018-11-11",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02519779",
@@ -6399,8 +6293,7 @@
       "lastTransferDate": "2014-04-23",
       "lastTransactionDate": "2015-05-07",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03251681",
@@ -6451,8 +6344,7 @@
       "lastTransferDate": "2018-03-12",
       "lastTransactionDate": "2018-03-12",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02902082",
@@ -6482,8 +6374,7 @@
       "lastTransferDate": "2016-04-14",
       "lastTransactionDate": "2016-04-14",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03058232",
@@ -6534,8 +6425,7 @@
       "lastTransferDate": "2020-02-17",
       "lastTransactionDate": "2020-02-17",
       "teamCode": "U09M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "04028466",
@@ -6586,8 +6476,7 @@
       "lastTransferDate": "2020-06-20",
       "lastTransactionDate": "2020-06-20",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03114649",
@@ -6634,8 +6523,7 @@
       "lastTransferDate": "2017-04-21",
       "lastTransactionDate": "2018-02-18",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01601102",
@@ -6692,8 +6580,7 @@
       "lastTransferDate": "2016-03-29",
       "lastTransactionDate": "2018-11-11",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01601097",
@@ -6754,8 +6641,7 @@
       "lastTransferDate": "2018-05-18",
       "lastTransactionDate": "2018-11-11",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01246019",
@@ -6816,8 +6702,7 @@
       "lastTransferDate": "2013-04-12",
       "lastTransactionDate": "2013-04-11",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02949384",
@@ -6878,8 +6763,7 @@
       "lastTransferDate": "2017-04-28",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02070149",
@@ -6934,8 +6818,7 @@
       "lastTransferDate": "2017-11-30",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03086371",
@@ -6992,8 +6875,7 @@
       "lastTransferDate": "2017-03-31",
       "lastTransactionDate": "2017-03-31",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02464774",
@@ -7050,8 +6932,7 @@
       "lastTransferDate": "2018-02-18",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03091295",
@@ -7102,8 +6983,7 @@
       "lastTransferDate": "2020-02-14",
       "lastTransactionDate": "2020-11-01",
       "teamCode": "U09M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01644349",
@@ -7164,8 +7044,7 @@
       "lastTransferDate": "2018-03-01",
       "lastTransactionDate": "2015-05-07",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02480488",
@@ -7226,8 +7105,7 @@
       "lastTransferDate": "2017-03-27",
       "lastTransactionDate": "2017-02-19",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03399767",
@@ -7278,8 +7156,7 @@
       "lastTransferDate": "2018-11-11",
       "lastTransactionDate": "2018-11-11",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02694004",
@@ -7340,8 +7217,7 @@
       "lastTransferDate": "2020-06-13",
       "lastTransactionDate": "2019-04-04",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02921597",
@@ -7398,8 +7274,7 @@
       "lastTransferDate": "2016-04-20",
       "lastTransactionDate": "2019-12-02",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03567530",
@@ -7450,8 +7325,7 @@
       "lastTransferDate": "2019-03-28",
       "lastTransactionDate": "2019-12-02",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03068383",
@@ -7502,8 +7376,7 @@
       "lastTransferDate": "2019-02-28",
       "lastTransactionDate": "2019-12-02",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01865142",
@@ -7564,8 +7437,7 @@
       "lastTransferDate": "2019-05-17",
       "lastTransactionDate": "2019-11-22",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03298275",
@@ -7606,8 +7478,7 @@
       "lastTransferDate": "2018-04-14",
       "lastTransactionDate": "2018-04-14",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02884609",
@@ -7648,8 +7519,7 @@
       "lastTransferDate": "2018-05-25",
       "lastTransactionDate": "2020-07-01",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02753434",
@@ -7700,8 +7570,7 @@
       "lastTransferDate": "2018-05-25",
       "lastTransactionDate": "2020-07-01",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03041607",
@@ -7752,8 +7621,7 @@
       "lastTransferDate": "2017-04-22",
       "lastTransactionDate": "2019-04-06",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03100492",
@@ -7804,8 +7672,7 @@
       "lastTransferDate": "2019-02-01",
       "lastTransactionDate": "2020-02-22",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03072504",
@@ -7852,8 +7719,7 @@
       "lastTransferDate": "2017-03-23",
       "lastTransactionDate": "2017-03-23",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02966475",
@@ -7883,8 +7749,7 @@
       "lastTransferDate": "2016-06-23",
       "lastTransactionDate": "2016-06-23",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02761783",
@@ -7945,8 +7810,7 @@
       "lastTransferDate": "2018-05-05",
       "lastTransactionDate": "2016-11-25",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01693628",
@@ -8007,8 +7871,7 @@
       "lastTransferDate": "2017-02-19",
       "lastTransactionDate": "2016-05-13",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03310052",
@@ -8063,8 +7926,7 @@
       "lastTransferDate": "2020-02-17",
       "lastTransactionDate": "2020-02-17",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03321278",
@@ -8119,8 +7981,7 @@
       "lastTransferDate": "2019-04-04",
       "lastTransactionDate": "2020-11-15",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03065674",
@@ -8161,8 +8022,7 @@
       "lastTransferDate": "2019-11-10",
       "lastTransactionDate": "2020-12-14",
       "teamCode": "U09M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03491580",
@@ -8213,8 +8073,7 @@
       "lastTransferDate": "2020-02-23",
       "lastTransactionDate": "2020-11-06",
       "teamCode": "U08M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02221841",
@@ -8261,8 +8120,7 @@
       "lastTransferDate": "2015-04-10",
       "lastTransactionDate": "2018-04-21",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03081082",
@@ -8319,8 +8177,7 @@
       "lastTransferDate": "2017-03-29",
       "lastTransactionDate": "2020-07-02",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01610634",
@@ -8367,8 +8224,7 @@
       "lastTransferDate": "2013-04-12",
       "lastTransactionDate": "2020-07-02",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03546905",
@@ -8398,8 +8254,7 @@
       "lastTransferDate": "2019-03-20",
       "lastTransactionDate": "2020-02-13",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03399776",
@@ -8440,8 +8295,7 @@
       "lastTransferDate": "2018-11-11",
       "lastTransactionDate": "2018-11-11",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03237698",
@@ -8482,8 +8336,7 @@
       "lastTransferDate": "2018-02-26",
       "lastTransactionDate": "2020-11-03",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03399779",
@@ -8534,8 +8387,7 @@
       "lastTransferDate": "2018-11-11",
       "lastTransactionDate": "2020-11-29",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03055886",
@@ -8586,8 +8438,7 @@
       "lastTransferDate": "2020-02-16",
       "lastTransactionDate": "2020-02-16",
       "teamCode": "U09M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02282039",
@@ -8634,8 +8485,7 @@
       "lastTransferDate": "2017-04-01",
       "lastTransactionDate": "2019-04-01",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02841920",
@@ -8665,8 +8515,7 @@
       "lastTransferDate": "2016-04-09",
       "lastTransactionDate": "2016-04-09",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03241096",
@@ -8713,8 +8562,7 @@
       "lastTransferDate": "2020-06-19",
       "lastTransactionDate": "2020-06-19",
       "teamCode": "U08M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02743856",
@@ -8771,8 +8619,7 @@
       "lastTransferDate": "2017-04-01",
       "lastTransactionDate": "2020-03-02",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03058040",
@@ -8827,8 +8674,7 @@
       "lastTransferDate": "2020-11-17",
       "lastTransactionDate": "2020-06-18",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02497896",
@@ -8858,8 +8704,7 @@
       "lastTransferDate": "2014-04-02",
       "lastTransactionDate": "2015-04-10",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02242702",
@@ -8900,8 +8745,7 @@
       "lastTransferDate": "2015-05-09",
       "lastTransactionDate": "2015-05-09",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02231662",
@@ -8962,8 +8806,7 @@
       "lastTransferDate": "2018-05-04",
       "lastTransactionDate": "2014-04-03",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02258097",
@@ -9024,8 +8867,7 @@
       "lastTransferDate": "2018-05-25",
       "lastTransactionDate": "2019-12-05",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02915374",
@@ -9076,8 +8918,7 @@
       "lastTransferDate": "2016-04-15",
       "lastTransactionDate": "2020-02-16",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03305352",
@@ -9138,8 +8979,10 @@
       "lastTransferDate": "2020-03-08",
       "lastTransactionDate": "2020-03-08",
       "teamCode": "U16G",
-      "disabilityType": "Autism Spectrum Disorder/Attention Deficit Hyperactivity Disorder (ADHD)",
-      "disabilityNotes": "Asd 1 spd"
+      "disability": {
+        "type": "Autism Spectrum Disorder/Attention Deficit Hyperactivity Disorder (ADHD)",
+        "notes": "Asd 1 spd"
+      }
     },
     {
       "footyWebNumber": "02035234",
@@ -9190,8 +9033,7 @@
       "lastTransferDate": "2020-06-29",
       "lastTransactionDate": "2020-06-29",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02051851",
@@ -9248,8 +9090,7 @@
       "lastTransferDate": null,
       "lastTransactionDate": null,
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02456464",
@@ -9306,8 +9147,7 @@
       "lastTransferDate": "2016-04-09",
       "lastTransactionDate": "2017-03-28",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02900877",
@@ -9337,8 +9177,7 @@
       "lastTransferDate": "2016-04-08",
       "lastTransactionDate": "2016-04-08",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02216545",
@@ -9393,8 +9232,7 @@
       "lastTransferDate": "2019-02-24",
       "lastTransactionDate": "2015-03-26",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03869795",
@@ -9435,8 +9273,7 @@
       "lastTransferDate": "2019-11-09",
       "lastTransactionDate": "2019-11-09",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03034522",
@@ -9493,8 +9330,7 @@
       "lastTransferDate": "2017-02-19",
       "lastTransactionDate": "2020-02-29",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02241904",
@@ -9555,8 +9391,7 @@
       "lastTransferDate": "2020-02-23",
       "lastTransactionDate": "2016-04-05",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02302183",
@@ -9617,8 +9452,7 @@
       "lastTransferDate": "2017-03-30",
       "lastTransactionDate": "2017-02-17",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03560928",
@@ -9669,8 +9503,7 @@
       "lastTransferDate": "2019-03-25",
       "lastTransactionDate": "2020-06-21",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01925787",
@@ -9727,8 +9560,7 @@
       "lastTransferDate": "2015-05-29",
       "lastTransactionDate": "2016-04-09",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02274028",
@@ -9789,8 +9621,7 @@
       "lastTransferDate": "2018-11-24",
       "lastTransactionDate": "2017-11-12",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02052372",
@@ -9855,8 +9686,7 @@
       "lastTransferDate": "2019-04-04",
       "lastTransactionDate": "2020-02-16",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02511863",
@@ -9886,8 +9716,7 @@
       "lastTransferDate": "2014-04-11",
       "lastTransactionDate": "2015-04-13",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03233700",
@@ -9938,8 +9767,7 @@
       "lastTransferDate": "2018-02-23",
       "lastTransactionDate": "2020-02-18",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03564476",
@@ -9990,8 +9818,7 @@
       "lastTransferDate": "2019-03-27",
       "lastTransactionDate": "2020-06-19",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03083339",
@@ -10048,8 +9875,7 @@
       "lastTransferDate": "2017-03-30",
       "lastTransactionDate": "2020-06-19",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03323944",
@@ -10100,8 +9926,7 @@
       "lastTransferDate": "2018-05-02",
       "lastTransactionDate": "2020-03-09",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03323972",
@@ -10152,8 +9977,7 @@
       "lastTransferDate": "2018-05-02",
       "lastTransactionDate": "2020-03-09",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02469761",
@@ -10210,8 +10034,7 @@
       "lastTransferDate": "2016-03-29",
       "lastTransactionDate": "2020-02-01",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02469746",
@@ -10268,8 +10091,7 @@
       "lastTransferDate": "2017-03-28",
       "lastTransactionDate": "2020-02-01",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "00978618",
@@ -10326,8 +10148,7 @@
       "lastTransferDate": "2013-05-17",
       "lastTransactionDate": "2020-02-28",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01837285",
@@ -10384,8 +10205,7 @@
       "lastTransferDate": "2013-04-12",
       "lastTransactionDate": "2019-03-18",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01602981",
@@ -10446,8 +10266,7 @@
       "lastTransferDate": "2014-02-19",
       "lastTransactionDate": "2020-03-13",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01635982",
@@ -10494,8 +10313,7 @@
       "lastTransferDate": "2013-04-10",
       "lastTransactionDate": "2017-03-31",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "04027015",
@@ -10546,8 +10364,7 @@
       "lastTransferDate": "2020-06-15",
       "lastTransactionDate": "2020-06-15",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02639396",
@@ -10598,8 +10415,7 @@
       "lastTransferDate": "2018-02-20",
       "lastTransactionDate": "2018-02-20",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02282130",
@@ -10660,8 +10476,7 @@
       "lastTransferDate": "2015-04-23",
       "lastTransactionDate": "2018-02-20",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03069571",
@@ -10718,8 +10533,7 @@
       "lastTransferDate": "2017-03-21",
       "lastTransactionDate": "2019-11-11",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02256250",
@@ -10776,8 +10590,7 @@
       "lastTransferDate": "2015-03-31",
       "lastTransactionDate": "2020-06-20",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03003389",
@@ -10834,8 +10647,7 @@
       "lastTransferDate": "2016-11-03",
       "lastTransactionDate": "2018-02-22",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01843424",
@@ -10892,8 +10704,7 @@
       "lastTransferDate": "2014-03-19",
       "lastTransactionDate": "2020-11-15",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "04034442",
@@ -10944,8 +10755,7 @@
       "lastTransferDate": "2020-07-03",
       "lastTransactionDate": "2020-11-15",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01843979",
@@ -10986,8 +10796,7 @@
       "lastTransferDate": "2014-05-30",
       "lastTransactionDate": "2015-05-29",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03067710",
@@ -11044,8 +10853,7 @@
       "lastTransferDate": "2017-03-20",
       "lastTransactionDate": "2017-03-20",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03319307",
@@ -11086,8 +10894,7 @@
       "lastTransferDate": "2018-04-28",
       "lastTransactionDate": "2019-02-25",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03201604",
@@ -11138,8 +10945,7 @@
       "lastTransferDate": "2017-11-12",
       "lastTransactionDate": "2020-12-11",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03350677",
@@ -11190,8 +10996,7 @@
       "lastTransferDate": "2019-05-11",
       "lastTransactionDate": "2019-11-09",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02928071",
@@ -11242,8 +11047,7 @@
       "lastTransferDate": "2018-04-18",
       "lastTransactionDate": "2018-04-23",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03115582",
@@ -11294,8 +11098,7 @@
       "lastTransferDate": "2018-04-07",
       "lastTransactionDate": "2017-04-22",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02853496",
@@ -11336,8 +11139,7 @@
       "lastTransferDate": "2018-02-14",
       "lastTransactionDate": "2020-12-15",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03511285",
@@ -11388,8 +11190,7 @@
       "lastTransferDate": "2019-02-17",
       "lastTransactionDate": "2019-02-17",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01610264",
@@ -11436,8 +11237,7 @@
       "lastTransferDate": "2013-04-20",
       "lastTransactionDate": "2013-04-20",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02675740",
@@ -11498,8 +11298,7 @@
       "lastTransferDate": "2015-05-05",
       "lastTransactionDate": "2018-04-05",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03874725",
@@ -11550,8 +11349,7 @@
       "lastTransferDate": "2019-11-22",
       "lastTransactionDate": "2019-11-22",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03318271",
@@ -11602,8 +11400,7 @@
       "lastTransferDate": "2018-04-27",
       "lastTransactionDate": "2018-05-02",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03064832",
@@ -11654,8 +11451,7 @@
       "lastTransferDate": "2019-04-14",
       "lastTransactionDate": "2020-06-19",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03560394",
@@ -11685,8 +11481,7 @@
       "lastTransferDate": "2019-03-25",
       "lastTransactionDate": "2020-02-27",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03720647",
@@ -11727,8 +11522,7 @@
       "lastTransferDate": "2019-05-10",
       "lastTransactionDate": "2019-05-10",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02234531",
@@ -11785,8 +11579,7 @@
       "lastTransferDate": "2016-04-12",
       "lastTransactionDate": "2016-04-12",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01599880",
@@ -11847,8 +11640,7 @@
       "lastTransferDate": "2017-06-17",
       "lastTransactionDate": "2016-03-30",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02051529",
@@ -11909,8 +11701,7 @@
       "lastTransferDate": "2017-11-16",
       "lastTransactionDate": "2016-11-25",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03249514",
@@ -11951,8 +11742,7 @@
       "lastTransferDate": "2019-05-31",
       "lastTransactionDate": "2020-01-21",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03399833",
@@ -11993,8 +11783,7 @@
       "lastTransferDate": "2018-11-11",
       "lastTransactionDate": "2018-11-11",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01852931",
@@ -12055,8 +11844,7 @@
       "lastTransferDate": "2019-11-18",
       "lastTransactionDate": "2020-11-01",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02503907",
@@ -12113,8 +11901,7 @@
       "lastTransferDate": "2014-04-05",
       "lastTransactionDate": "2017-03-23",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02934639",
@@ -12171,8 +11958,7 @@
       "lastTransferDate": "2016-04-30",
       "lastTransactionDate": "2018-04-28",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02362656",
@@ -12223,8 +12009,7 @@
       "lastTransferDate": "2018-06-30",
       "lastTransactionDate": "2020-03-10",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03081384",
@@ -12281,8 +12066,7 @@
       "lastTransferDate": "2017-03-29",
       "lastTransactionDate": "2017-03-29",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02693547",
@@ -12343,8 +12127,7 @@
       "lastTransferDate": "2018-02-20",
       "lastTransactionDate": "2017-03-29",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02568230",
@@ -12395,8 +12178,7 @@
       "lastTransferDate": "2017-11-12",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03086852",
@@ -12453,8 +12235,7 @@
       "lastTransferDate": "2017-03-31",
       "lastTransactionDate": "2017-03-31",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02755238",
@@ -12511,8 +12292,7 @@
       "lastTransferDate": "2017-06-16",
       "lastTransactionDate": "2020-03-03",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02849448",
@@ -12553,8 +12333,7 @@
       "lastTransferDate": "2018-06-21",
       "lastTransactionDate": "2020-03-11",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03511199",
@@ -12615,8 +12394,7 @@
       "lastTransferDate": "2019-11-18",
       "lastTransactionDate": "2019-11-18",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02706999",
@@ -12667,8 +12445,7 @@
       "lastTransferDate": "2018-02-18",
       "lastTransactionDate": "2020-02-05",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02250406",
@@ -12725,8 +12502,7 @@
       "lastTransferDate": "2017-05-05",
       "lastTransactionDate": "2017-05-05",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02233038",
@@ -12777,8 +12553,7 @@
       "lastTransferDate": "2018-05-21",
       "lastTransactionDate": "2018-12-23",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02286476",
@@ -12839,8 +12614,7 @@
       "lastTransferDate": "2017-03-30",
       "lastTransactionDate": "2017-03-30",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02923006",
@@ -12870,8 +12644,7 @@
       "lastTransferDate": "2016-04-21",
       "lastTransactionDate": "2016-04-21",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03049482",
@@ -12922,8 +12695,7 @@
       "lastTransferDate": "2017-11-12",
       "lastTransactionDate": "2017-11-12",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02341330",
@@ -12980,8 +12752,7 @@
       "lastTransferDate": "2016-04-09",
       "lastTransactionDate": "2020-06-25",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03972330",
@@ -13038,8 +12809,7 @@
       "lastTransferDate": "2014-04-01",
       "lastTransactionDate": "2020-11-07",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02694971",
@@ -13080,8 +12850,7 @@
       "lastTransferDate": "2017-12-27",
       "lastTransactionDate": "2020-06-19",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02696729",
@@ -13138,8 +12907,7 @@
       "lastTransferDate": "2015-05-07",
       "lastTransactionDate": "2019-02-16",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02728111",
@@ -13212,8 +12980,7 @@
       "lastTransferDate": "2018-03-08",
       "lastTransactionDate": null,
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02728107",
@@ -13258,8 +13025,7 @@
       "lastTransferDate": "2015-05-08",
       "lastTransactionDate": "2016-04-08",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01306270",
@@ -13316,8 +13082,7 @@
       "lastTransferDate": "2014-03-16",
       "lastTransactionDate": "2020-11-15",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02665581",
@@ -13358,8 +13123,7 @@
       "lastTransferDate": "2017-11-13",
       "lastTransactionDate": "2019-02-24",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02915226",
@@ -13428,8 +13192,7 @@
       "lastTransferDate": "2019-11-20",
       "lastTransactionDate": "2018-02-18",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01283445",
@@ -13480,8 +13243,7 @@
       "lastTransferDate": "2019-04-06",
       "lastTransactionDate": "2019-04-06",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02851182",
@@ -13528,8 +13290,7 @@
       "lastTransferDate": null,
       "lastTransactionDate": null,
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01532964",
@@ -13586,8 +13347,7 @@
       "lastTransferDate": "2014-03-10",
       "lastTransactionDate": "2019-11-12",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02841746",
@@ -13652,8 +13412,7 @@
       "lastTransferDate": "2018-03-15",
       "lastTransactionDate": "2019-03-26",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02016728",
@@ -13710,8 +13469,7 @@
       "lastTransferDate": "2016-03-23",
       "lastTransactionDate": "2020-06-18",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01040203",
@@ -13741,8 +13499,7 @@
       "lastTransferDate": null,
       "lastTransactionDate": null,
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02954335",
@@ -13789,8 +13546,7 @@
       "lastTransferDate": "2016-05-21",
       "lastTransactionDate": "2017-03-27",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03087991",
@@ -13847,8 +13603,7 @@
       "lastTransferDate": "2017-04-01",
       "lastTransactionDate": "2017-04-01",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03087332",
@@ -13889,8 +13644,7 @@
       "lastTransferDate": "2019-11-10",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U09M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02871178",
@@ -13931,8 +13685,7 @@
       "lastTransferDate": "2017-11-12",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02841749",
@@ -13983,8 +13736,7 @@
       "lastTransferDate": "2018-03-08",
       "lastTransactionDate": "2016-12-29",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02256741",
@@ -14035,8 +13787,7 @@
       "lastTransferDate": "2019-04-18",
       "lastTransactionDate": "2020-06-18",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02311432",
@@ -14087,8 +13838,7 @@
       "lastTransferDate": "2017-11-25",
       "lastTransactionDate": "2020-12-14",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03268326",
@@ -14139,8 +13889,7 @@
       "lastTransferDate": "2019-11-10",
       "lastTransactionDate": "2019-11-10",
       "teamCode": "U08M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03082639",
@@ -14197,8 +13946,7 @@
       "lastTransferDate": "2017-05-25",
       "lastTransactionDate": "2019-11-10",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01561129",
@@ -14255,8 +14003,7 @@
       "lastTransferDate": "2016-04-12",
       "lastTransactionDate": "2016-04-12",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02874729",
@@ -14313,8 +14060,7 @@
       "lastTransferDate": "2017-03-29",
       "lastTransactionDate": "2020-12-18",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02698729",
@@ -14371,8 +14117,7 @@
       "lastTransferDate": "2015-04-09",
       "lastTransactionDate": "2020-11-15",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02640219",
@@ -14429,8 +14174,7 @@
       "lastTransferDate": "2015-04-08",
       "lastTransactionDate": "2020-11-15",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03255492",
@@ -14481,8 +14225,7 @@
       "lastTransferDate": "2018-03-15",
       "lastTransactionDate": "2020-12-15",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02780859",
@@ -14539,8 +14282,10 @@
       "lastTransferDate": "2015-07-24",
       "lastTransactionDate": "2020-12-15",
       "teamCode": "U18G",
-      "disabilityType": "Deaf and Hard of Hearing",
-      "disabilityNotes": null
+      "disability": {
+        "type": "Deaf and Hard of Hearing",
+        "notes": null
+      }
     },
     {
       "footyWebNumber": "03136096",
@@ -14591,8 +14336,7 @@
       "lastTransferDate": "2020-03-09",
       "lastTransactionDate": "2020-12-15",
       "teamCode": "U09M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02505196",
@@ -14649,8 +14393,7 @@
       "lastTransferDate": "2015-04-22",
       "lastTransactionDate": "2019-05-06",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01825672",
@@ -14707,8 +14450,7 @@
       "lastTransferDate": "2017-03-31",
       "lastTransactionDate": "2017-03-31",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01266869",
@@ -14769,8 +14511,7 @@
       "lastTransferDate": "2017-06-17",
       "lastTransactionDate": "2015-04-09",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03056282",
@@ -14827,8 +14568,7 @@
       "lastTransferDate": "2017-03-10",
       "lastTransactionDate": "2020-06-19",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02256193",
@@ -14875,8 +14615,7 @@
       "lastTransferDate": "2016-03-29",
       "lastTransactionDate": "2016-03-29",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02960615",
@@ -14931,8 +14670,7 @@
       "lastTransferDate": "2017-04-18",
       "lastTransactionDate": "2016-06-03",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03510781",
@@ -14983,8 +14721,7 @@
       "lastTransferDate": "2019-02-17",
       "lastTransactionDate": "2020-02-16",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03256636",
@@ -15025,8 +14762,7 @@
       "lastTransferDate": "2018-03-16",
       "lastTransactionDate": "2018-03-16",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02470918",
@@ -15083,8 +14819,7 @@
       "lastTransferDate": "2017-03-27",
       "lastTransactionDate": "2020-12-01",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02022886",
@@ -15141,8 +14876,7 @@
       "lastTransferDate": "2015-03-04",
       "lastTransactionDate": "2019-02-22",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01292196",
@@ -15199,8 +14933,7 @@
       "lastTransferDate": "2013-02-20",
       "lastTransactionDate": "2020-12-01",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02256004",
@@ -15257,8 +14990,7 @@
       "lastTransferDate": "2015-03-04",
       "lastTransactionDate": "2020-06-01",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01311988",
@@ -15319,8 +15051,7 @@
       "lastTransferDate": "2020-07-04",
       "lastTransactionDate": "2013-04-09",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03085445",
@@ -15367,8 +15098,7 @@
       "lastTransferDate": "2017-03-31",
       "lastTransactionDate": "2018-04-21",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01931091",
@@ -15425,8 +15155,7 @@
       "lastTransferDate": "2017-02-04",
       "lastTransactionDate": "2017-02-04",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02230377",
@@ -15483,8 +15212,7 @@
       "lastTransferDate": "2013-02-20",
       "lastTransactionDate": "2020-03-10",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03917772",
@@ -15525,8 +15253,7 @@
       "lastTransferDate": "2020-02-16",
       "lastTransactionDate": "2020-02-16",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01801039",
@@ -15577,8 +15304,7 @@
       "lastTransferDate": "2020-03-05",
       "lastTransactionDate": "2020-03-05",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03014226",
@@ -15629,8 +15355,7 @@
       "lastTransferDate": "2017-11-12",
       "lastTransactionDate": "2020-12-17",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02345502",
@@ -15660,8 +15385,7 @@
       "lastTransferDate": "2013-05-24",
       "lastTransactionDate": "2015-05-07",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03319490",
@@ -15702,8 +15426,7 @@
       "lastTransferDate": "2018-04-28",
       "lastTransactionDate": "2020-12-14",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03217083",
@@ -15744,8 +15467,7 @@
       "lastTransferDate": "2018-02-07",
       "lastTransactionDate": "2020-12-14",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02666938",
@@ -15802,8 +15524,7 @@
       "lastTransferDate": "2017-11-01",
       "lastTransactionDate": "2020-12-14",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02051875",
@@ -15850,8 +15571,7 @@
       "lastTransferDate": "2016-04-01",
       "lastTransactionDate": "2016-04-01",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01562044",
@@ -15908,8 +15628,7 @@
       "lastTransferDate": "2013-04-03",
       "lastTransactionDate": "2020-03-12",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03205317",
@@ -15970,8 +15689,7 @@
       "lastTransferDate": "2018-04-10",
       "lastTransactionDate": "2020-12-14",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02640227",
@@ -16026,8 +15744,7 @@
       "lastTransferDate": "2015-04-08",
       "lastTransactionDate": null,
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01753854",
@@ -16088,8 +15805,7 @@
       "lastTransferDate": "2019-11-19",
       "lastTransactionDate": "2019-11-19",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03512092",
@@ -16140,8 +15856,7 @@
       "lastTransferDate": "2019-02-18",
       "lastTransactionDate": "2020-07-03",
       "teamCode": "U14G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03787511",
@@ -16182,8 +15897,7 @@
       "lastTransferDate": "2019-06-24",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03359394",
@@ -16234,8 +15948,7 @@
       "lastTransferDate": "2018-07-19",
       "lastTransactionDate": "2018-07-19",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02900852",
@@ -16282,8 +15995,7 @@
       "lastTransferDate": "2016-04-08",
       "lastTransactionDate": "2020-07-01",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02915130",
@@ -16330,8 +16042,7 @@
       "lastTransferDate": "2016-04-15",
       "lastTransactionDate": "2017-04-01",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02331416",
@@ -16388,8 +16099,7 @@
       "lastTransferDate": "2015-04-08",
       "lastTransactionDate": "2019-11-10",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02457999",
@@ -16440,8 +16150,7 @@
       "lastTransferDate": "2019-11-10",
       "lastTransactionDate": "2020-11-16",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03033557",
@@ -16492,8 +16201,7 @@
       "lastTransferDate": "2019-03-06",
       "lastTransactionDate": "2020-06-20",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "04074731",
@@ -16534,8 +16242,7 @@
       "lastTransferDate": "2020-12-06",
       "lastTransactionDate": "2020-12-06",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02498546",
@@ -16582,8 +16289,7 @@
       "lastTransferDate": "2016-04-08",
       "lastTransactionDate": "2016-04-08",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03322683",
@@ -16634,8 +16340,7 @@
       "lastTransferDate": "2018-05-01",
       "lastTransactionDate": "2018-11-11",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02012813",
@@ -16682,8 +16387,7 @@
       "lastTransferDate": null,
       "lastTransactionDate": null,
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03103495",
@@ -16744,8 +16448,7 @@
       "lastTransferDate": "2017-07-01",
       "lastTransactionDate": "2017-04-14",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03340038",
@@ -16779,8 +16482,7 @@
       "lastTransferDate": "2018-11-22",
       "lastTransactionDate": "2020-02-15",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02211926",
@@ -16831,8 +16533,10 @@
       "lastTransferDate": "2019-03-29",
       "lastTransactionDate": "2019-03-29",
       "teamCode": "U14G",
-      "disabilityType": "Deaf and Hard of Hearing",
-      "disabilityNotes": "Hearing impaired. Umpire awareness, visual coaching, line of site"
+      "disability": {
+        "type": "Deaf and Hard of Hearing",
+        "notes": "Hearing impaired. Umpire awareness, visual coaching, line of site"
+      }
     },
     {
       "footyWebNumber": "03400860",
@@ -16872,8 +16576,7 @@
       "lastTransferDate": "2020-02-16",
       "lastTransactionDate": "2020-02-16",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02672155",
@@ -16920,8 +16623,7 @@
       "lastTransferDate": "2017-11-13",
       "lastTransactionDate": "2020-02-16",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02141010",
@@ -16962,8 +16664,7 @@
       "lastTransferDate": "2018-04-08",
       "lastTransactionDate": "2019-03-27",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03108917",
@@ -17020,8 +16721,7 @@
       "lastTransferDate": "2017-04-19",
       "lastTransactionDate": "2017-04-19",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03255861",
@@ -17072,8 +16772,7 @@
       "lastTransferDate": "2018-03-15",
       "lastTransactionDate": "2018-03-15",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03867608",
@@ -17103,8 +16802,7 @@
       "lastTransferDate": "2019-11-02",
       "lastTransactionDate": "2019-11-02",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03867328",
@@ -17155,8 +16853,7 @@
       "lastTransferDate": "2019-11-02",
       "lastTransactionDate": "2019-11-02",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03247163",
@@ -17207,8 +16904,7 @@
       "lastTransferDate": "2018-03-07",
       "lastTransactionDate": "2018-03-07",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03247167",
@@ -17259,8 +16955,7 @@
       "lastTransferDate": "2018-03-07",
       "lastTransactionDate": "2018-03-07",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02699556",
@@ -17311,8 +17006,7 @@
       "lastTransferDate": "2018-04-04",
       "lastTransactionDate": "2018-04-04",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02023786",
@@ -17369,8 +17063,10 @@
       "lastTransferDate": "2013-04-09",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U17B-GOLD",
-      "disabilityType": "Other",
-      "disabilityNotes": null
+      "disability": {
+        "type": "Other",
+        "notes": null
+      }
     },
     {
       "footyWebNumber": "01646973",
@@ -17429,8 +17125,7 @@
       "lastTransferDate": "2017-05-27",
       "lastTransactionDate": "2017-03-17",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01857410",
@@ -17491,8 +17186,7 @@
       "lastTransferDate": "2019-11-18",
       "lastTransactionDate": "2020-12-14",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02275648",
@@ -17549,8 +17243,7 @@
       "lastTransferDate": "2014-04-03",
       "lastTransactionDate": "2020-07-04",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03150878",
@@ -17611,8 +17304,7 @@
       "lastTransferDate": "2020-06-22",
       "lastTransactionDate": "2020-06-22",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02892610",
@@ -17669,8 +17361,7 @@
       "lastTransferDate": "2017-03-27",
       "lastTransactionDate": "2020-11-01",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02859250",
@@ -17721,8 +17412,7 @@
       "lastTransferDate": "2017-11-11",
       "lastTransactionDate": "2020-12-14",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02986477",
@@ -17763,8 +17453,10 @@
       "lastTransferDate": "2020-01-14",
       "lastTransactionDate": "2020-02-15",
       "teamCode": "U16G",
-      "disabilityType": "Deaf and Hard of Hearing",
-      "disabilityNotes": "Auslan interpreters"
+      "disability": {
+        "type": "Deaf and Hard of Hearing",
+        "notes": "Auslan interpreters"
+      }
     },
     {
       "footyWebNumber": "01391957",
@@ -17825,8 +17517,7 @@
       "lastTransferDate": "2018-04-17",
       "lastTransactionDate": "2019-03-25",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03749910",
@@ -17877,8 +17568,7 @@
       "lastTransferDate": null,
       "lastTransactionDate": null,
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01863250",
@@ -17939,8 +17629,7 @@
       "lastTransferDate": "2019-04-01",
       "lastTransactionDate": "2019-04-01",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03885213",
@@ -17991,8 +17680,7 @@
       "lastTransferDate": null,
       "lastTransactionDate": null,
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03917071",
@@ -18022,8 +17710,7 @@
       "lastTransferDate": "2020-02-16",
       "lastTransactionDate": "2020-02-16",
       "teamCode": "U09M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02230365",
@@ -18084,8 +17771,7 @@
       "lastTransferDate": "2013-05-03",
       "lastTransactionDate": "2013-04-12",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01534993",
@@ -18146,8 +17832,7 @@
       "lastTransferDate": "2019-04-04",
       "lastTransactionDate": "2015-04-09",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03143144",
@@ -18198,8 +17883,7 @@
       "lastTransferDate": "2019-05-02",
       "lastTransactionDate": "2017-05-11",
       "teamCode": "U18G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03869871",
@@ -18250,8 +17934,7 @@
       "lastTransferDate": "2019-11-10",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03869872",
@@ -18281,8 +17964,7 @@
       "lastTransferDate": "2019-11-10",
       "lastTransactionDate": "2020-12-16",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "01603036",
@@ -18339,8 +18021,7 @@
       "lastTransferDate": "2013-04-12",
       "lastTransactionDate": "2019-11-10",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02062851",
@@ -18387,8 +18068,7 @@
       "lastTransferDate": "2016-03-28",
       "lastTransactionDate": "2017-12-06",
       "teamCode": "U17B-GREEN",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02568249",
@@ -18435,8 +18115,7 @@
       "lastTransferDate": "2017-11-29",
       "lastTransactionDate": "2020-06-18",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03605606",
@@ -18487,8 +18166,7 @@
       "lastTransferDate": "2019-04-06",
       "lastTransactionDate": "2020-06-27",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02286120",
@@ -18545,8 +18223,7 @@
       "lastTransferDate": "2013-04-11",
       "lastTransactionDate": "2018-04-02",
       "teamCode": "U17B-GOLD",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03980514",
@@ -18597,8 +18274,7 @@
       "lastTransferDate": "2020-03-11",
       "lastTransactionDate": "2020-03-11",
       "teamCode": "U12G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02043435",
@@ -18655,8 +18331,7 @@
       "lastTransferDate": "2018-05-02",
       "lastTransactionDate": "2020-02-16",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02762350",
@@ -18697,8 +18372,7 @@
       "lastTransferDate": "2018-04-21",
       "lastTransactionDate": "2020-02-15",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03287395",
@@ -18753,8 +18427,7 @@
       "lastTransferDate": "2019-03-30",
       "lastTransactionDate": null,
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03588457",
@@ -18795,8 +18468,7 @@
       "lastTransferDate": "2019-04-03",
       "lastTransactionDate": "2020-06-19",
       "teamCode": "U10M",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02436867",
@@ -18857,8 +18529,7 @@
       "lastTransferDate": "2020-02-20",
       "lastTransactionDate": "2020-02-20",
       "teamCode": "U12B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02678558",
@@ -18909,8 +18580,7 @@
       "lastTransferDate": "2018-02-17",
       "lastTransactionDate": "2020-02-17",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "02762847",
@@ -18967,8 +18637,7 @@
       "lastTransferDate": "2017-04-01",
       "lastTransactionDate": "2020-02-16",
       "teamCode": "U14B",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     },
     {
       "footyWebNumber": "03226863",
@@ -19019,8 +18688,7 @@
       "lastTransferDate": "2018-02-16",
       "lastTransactionDate": "2020-01-20",
       "teamCode": "U16G",
-      "disabilityType": null,
-      "disabilityNotes": null
+      "disability": null
     }
   ],
   "transactions": [

@@ -2,7 +2,7 @@ import { sanitiseEmail } from '../utility/sanitiseEmail';
 import { sanitisePhone } from '../utility/sanitisePhone';
 import { sanitiseAssistInRole } from './sanitiseAssistInRole';
 
-export const sanitiseContact = (obj: any) => ({
+export const sanitiseRegisteredContact = (obj: any) => ({
   phoneHome: sanitisePhone(obj.telephoneNumberHome),
   phoneWork: sanitisePhone(obj.telephoneNumberWork),
   phoneMobile: sanitisePhone(obj.telephoneNumberMobile),
