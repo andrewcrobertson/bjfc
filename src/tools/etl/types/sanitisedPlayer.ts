@@ -1,14 +1,12 @@
 import type { PersonGenderEnum, PlayerStatusEnum } from '@this/constants/enums';
+import type { ISanitisedContactMethod } from './sanitisedCommon';
 
 export interface ISanitisedPlayerGuardian {
   lastName: string;
   firstName: string;
   gender: PersonGenderEnum;
   initials: string;
-  phone1: string;
-  phone2: string;
-  mobile: string;
-  email: string;
+  contactMethods: ISanitisedContactMethod[];
   assistInRole: string;
 }
 
@@ -17,17 +15,12 @@ export interface ISanitisedPlayerEmergencyContact {
   name: string;
   initials: string;
   gender: PersonGenderEnum;
-  phone1: string;
-  phone2: string;
+  contactMethods: ISanitisedContactMethod[];
 }
 
 export interface ISanitisedPlayerRegisteredContact {
   gender: PersonGenderEnum;
-  phone1: string;
-  phone2: string;
-  phone3: string;
-  email1: string;
-  email2: string;
+  contactMethods: ISanitisedContactMethod[];
   assistInRole: string;
 }
 

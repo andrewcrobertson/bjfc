@@ -22,7 +22,7 @@
     <AvatarHeading class="mb-4" {colour} {initials} text="{firstName} {lastName}" />
     <div class="flex flex-col -mb-3">
       <PersonItem class="mb-2" {colour} text={role} />
-      {#each official.contacts as { type, value }}
+      {#each official.contactMethods as { type, value }}
         <ContactButton class="mb-2" {type} {value} {colour} />
       {/each}
     </div>

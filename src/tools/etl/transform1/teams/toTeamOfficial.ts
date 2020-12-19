@@ -1,5 +1,6 @@
 import type { IRawTeamOfficial } from '../../types/rawTeam';
 import type { ISanitisedOfficial } from '../../types/sanitisedTeam';
+import { toContactMethods } from '../utility/toContactMethods';
 import { toInitials } from '../utility/toInitials';
 
 export const toTeamOfficial = (official: IRawTeamOfficial): ISanitisedOfficial => ({
@@ -7,6 +8,8 @@ export const toTeamOfficial = (official: IRawTeamOfficial): ISanitisedOfficial =
   firstName: official.firstName,
   lastName: official.lastName,
   gender: official.gender,
-  phone: official.phone,
-  email: official.email,
+  contactMethods: toContactMethods([
+    { type: 'Phone', value: official.phone },
+    { type: 'Email', value: official.email },
+  ]),
 });

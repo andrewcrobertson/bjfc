@@ -53,12 +53,7 @@ const toGuardian = (contact: any) => ({
   name: `${contact.firstName} ${contact.lastName}`,
   gender: contact.gender,
   assistInRole: contact.assistInRole,
-  contactMethods: transformContactMethods([
-    { type: 'Phone', value: contact.phone1 },
-    { type: 'Phone', value: contact.phone2 },
-    { type: 'Phone', value: contact.mobile },
-    { type: 'Email', value: contact.email },
-  ]),
+  contactMethods: contact.contactMethods,
 });
 
 const transformEmergency = (contact: any) => ({
@@ -68,12 +63,7 @@ const transformEmergency = (contact: any) => ({
   name: contact.name,
   gender: contact.gender,
   assistInRole: null,
-  contactMethods: transformContactMethods([
-    { type: 'Phone', value: contact.phone1 },
-    { type: 'Phone', value: contact.phone2 },
-    { type: null, value: null },
-    { type: null, value: null },
-  ]),
+  contactMethods: contact.contactMethods,
 });
 
 const transformRegistered = (contact: any) => ({
@@ -83,12 +73,7 @@ const transformRegistered = (contact: any) => ({
   name: 'SportsTG Registered Contact',
   gender: contact.gender,
   assistInRole: contact.assistInRole,
-  contactMethods: transformContactMethods([
-    { type: 'Phone', value: contact.phone1 },
-    { type: 'Phone', value: contact.phone2 },
-    { type: 'Email', value: contact.email1 },
-    { type: 'Email', value: contact.email2 },
-  ]),
+  contactMethods: contact.contactMethods,
 });
 
 export const playerDetail = (options: Options) => {
