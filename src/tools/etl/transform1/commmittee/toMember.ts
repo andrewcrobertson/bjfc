@@ -8,6 +8,8 @@ export const toMember = (member: IRawCommittee): ISanitisedCommittee => ({
   firstName: member.firstName,
   lastName: member.lastName,
   gender: member.gender,
-  phone: member.phone,
-  email: member.email,
+  contactMethods: [
+    { type: 'Phone', value: member.phone },
+    { type: 'Email', value: member.email },
+  ],
 });

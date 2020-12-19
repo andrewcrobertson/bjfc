@@ -12,8 +12,5 @@ export const committeeList = ({ committee }: Options) =>
     firstName: member.firstName,
     lastName: member.lastName,
     gender: member.gender,
-    contacts: [
-      { type: 'Phone', value: member.phone },
-      { type: 'Email', value: member.email },
-    ],
+    contactMethods: member.contactMethods,
   }));

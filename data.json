@@ -9,8 +9,16 @@
       "firstName": "Beccy",
       "lastName": "Dawber",
       "gender": "Female",
-      "phone": "0401 306 209",
-      "email": "president@bayswaterjfc.com.au"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": "0401 306 209"
+        },
+        {
+          "type": "Email",
+          "value": "president@bayswaterjfc.com.au"
+        }
+      ]
     },
     {
       "role": "Vice President",
@@ -18,8 +26,16 @@
       "firstName": "Steve",
       "lastName": "Roberts",
       "gender": "Male",
-      "phone": "0474 221 909",
-      "email": "vicepresident@bayswaterjfc.com.au"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": "0474 221 909"
+        },
+        {
+          "type": "Email",
+          "value": "vicepresident@bayswaterjfc.com.au"
+        }
+      ]
     },
     {
       "role": "Secretary",
@@ -27,8 +43,16 @@
       "firstName": "Mark",
       "lastName": "Hindson",
       "gender": "Male",
-      "phone": "0419 149 500",
-      "email": "secretary@bayswaterjfc.com.au"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": "0419 149 500"
+        },
+        {
+          "type": "Email",
+          "value": "secretary@bayswaterjfc.com.au"
+        }
+      ]
     },
     {
       "role": "Treasurer",
@@ -36,8 +60,16 @@
       "firstName": "Gael",
       "lastName": "Peters",
       "gender": "Female",
-      "phone": "0409 809 611",
-      "email": "treasurer@bayswaterjfc.com.au"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": "0409 809 611"
+        },
+        {
+          "type": "Email",
+          "value": "treasurer@bayswaterjfc.com.au"
+        }
+      ]
     },
     {
       "role": "Registrar",
@@ -45,8 +77,16 @@
       "firstName": "Andrew",
       "lastName": "Robertson",
       "gender": "Male",
-      "phone": "0425 807 059",
-      "email": "registrar@bayswaterjfc.com.au"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": "0425 807 059"
+        },
+        {
+          "type": "Email",
+          "value": "registrar@bayswaterjfc.com.au"
+        }
+      ]
     },
     {
       "role": "Auskick Coordinator",
@@ -54,8 +94,16 @@
       "firstName": "Chris",
       "lastName": "Bartling",
       "gender": "Male",
-      "phone": null,
-      "email": "chrisbartling@hotmail.com"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "chrisbartling@hotmail.com"
+        }
+      ]
     },
     {
       "role": "Head Trainer",
@@ -63,8 +111,16 @@
       "firstName": "Kim",
       "lastName": "Phillips",
       "gender": "Female",
-      "phone": null,
-      "email": "littlekim.phillips@gmail.com"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "littlekim.phillips@gmail.com"
+        }
+      ]
     },
     {
       "role": "Merchandise & Grants Coordinator",
@@ -72,8 +128,16 @@
       "firstName": "Wendy",
       "lastName": "Gielen",
       "gender": "Female",
-      "phone": null,
-      "email": "wendygielen11@gmail.com"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "wendygielen11@gmail.com"
+        }
+      ]
     },
     {
       "role": "Website Administrator",
@@ -81,8 +145,16 @@
       "firstName": "Danny",
       "lastName": "Phillips",
       "gender": "Male",
-      "phone": null,
-      "email": "danny.phillips@thermon.com"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "danny.phillips@thermon.com"
+        }
+      ]
     },
     {
       "role": "Website Administrator",
@@ -90,8 +162,16 @@
       "firstName": "Peter",
       "lastName": "Buchstaller",
       "gender": "Male",
-      "phone": null,
-      "email": "peterbuch1974@gmail.com"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "peterbuch1974@gmail.com"
+        }
+      ]
     },
     {
       "role": "Child Safety Officer",
@@ -99,8 +179,16 @@
       "firstName": "Tracey",
       "lastName": "Bird",
       "gender": "Female",
-      "phone": null,
-      "email": "childsafetyofficer@bayswaterjfc.com.au"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "childsafetyofficer@bayswaterjfc.com.au"
+        }
+      ]
     },
     {
       "role": "School Liaison Officer",
@@ -108,8 +196,16 @@
       "firstName": "Mick",
       "lastName": "Walker",
       "gender": "Male",
-      "phone": null,
-      "email": "schoolcontact@bayswaterjfc.com.au"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "schoolcontact@bayswaterjfc.com.au"
+        }
+      ]
     },
     {
       "role": "Facility Management",
@@ -117,8 +213,16 @@
       "firstName": "Colin",
       "lastName": "Page",
       "gender": "Male",
-      "phone": null,
-      "email": "colinp71@hotmail.com"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "colinp71@hotmail.com"
+        }
+      ]
     },
     {
       "role": "Awards Coordinator",
@@ -126,8 +230,16 @@
       "firstName": "Nicky",
       "lastName": "Maxwell",
       "gender": "Female",
-      "phone": null,
-      "email": "maxwell.n@optusnet.com.au"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "maxwell.n@optusnet.com.au"
+        }
+      ]
     },
     {
       "role": "General Committee",
@@ -135,8 +247,16 @@
       "firstName": "Shaun",
       "lastName": "Jones",
       "gender": "Male",
-      "phone": null,
-      "email": "sboy_99@hotmail.com"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "sboy_99@hotmail.com"
+        }
+      ]
     },
     {
       "role": "General Committee",
@@ -144,8 +264,16 @@
       "firstName": "Brad",
       "lastName": "Knight",
       "gender": "Male",
-      "phone": null,
-      "email": "bak1978@hotmail.com"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "bak1978@hotmail.com"
+        }
+      ]
     },
     {
       "role": "General Committee",
@@ -153,8 +281,16 @@
       "firstName": "Mandy",
       "lastName": "Maggs",
       "gender": "Female",
-      "phone": null,
-      "email": "mandymaggs9@gmail.com"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "mandymaggs9@gmail.com"
+        }
+      ]
     },
     {
       "role": "General Committee",
@@ -162,8 +298,16 @@
       "firstName": "Adrian",
       "lastName": "Nye",
       "gender": "Male",
-      "phone": null,
-      "email": "teamnye3@gmail.com"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "teamnye3@gmail.com"
+        }
+      ]
     },
     {
       "role": "General Committee",
@@ -171,8 +315,16 @@
       "firstName": "Danea",
       "lastName": "Roberts",
       "gender": "Female",
-      "phone": null,
-      "email": "danea74@gmail.com"
+      "contactMethods": [
+        {
+          "type": "Phone",
+          "value": null
+        },
+        {
+          "type": "Email",
+          "value": "danea74@gmail.com"
+        }
+      ]
     }
   ],
   "products": [
