@@ -2,7 +2,7 @@ import type { IRawPlayerRegisteredContact } from '../../types/rawPlayer';
 import type { ISanitisedPlayerRegisteredContact } from '../../types/sanitisedPlayer';
 import { arrayToString } from '../utility/arrayToString';
 
-export const transformRegisteredContact = (obj: IRawPlayerRegisteredContact): ISanitisedPlayerRegisteredContact => ({
+export const toRegisteredContact = (obj: IRawPlayerRegisteredContact): ISanitisedPlayerRegisteredContact => ({
   gender: obj.gender,
   phone1: obj.phoneMobile,
   phone2: obj.phoneHome,

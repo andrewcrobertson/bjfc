@@ -8,9 +8,9 @@ import type { IRawConfig } from '../../types/rawConfig';
 import type { IRawPlayer } from '../../types/rawPlayer';
 import type { ISanitisedPlayer } from '../../types/sanitisedPlayer';
 import type { ISanitisedTeam } from '../../types/sanitisedTeam';
-import { transformPlayer } from './transformPlayer';
+import { toPlayer } from './toPlayer';
 
-const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, registeredThisSeason: boolean, registeredRecently: boolean): PlayerStatusEnum => {
+const toPlayerStatusEnum = (club: string, insuredThisSeason: boolean, registeredThisSeason: boolean, registeredRecently: boolean): PlayerStatusEnum => {
   if (club !== 'Bayswater') return 'Transferred';
   if (insuredThisSeason) return 'Insured';
   if (registeredThisSeason) return 'Registered';
@@ -18,7 +18,7 @@ const transformPlayerStatusEnum = (club: string, insuredThisSeason: boolean, reg
   return 'Historical';
 };
 
-export const transformPlayers = (config: IRawConfig, players: IRawPlayer[], teams: ISanitisedTeam[], groupedPlayerInfo: any): ISanitisedPlayer[] => {
+export const toPlayers = (config: IRawConfig, players: IRawPlayer[], teams: ISanitisedTeam[], groupedPlayerInfo: any): ISanitisedPlayer[] => {
   const orderedTeams = sortBy(teams, ({ birthYears }) => Math.min(...birthYears));
   const groupedPlayerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));
 
@@ -32,6 +32,6 @@ export const transformPlayers = (config: IRawConfig, players: IRawPlayer[], team
       ) ?? ({} as any);
     const teamCode = groupedPlayerTeamExceptions[player.footyWebNumber] ?? team.code ?? null;
 
-    return transformPlayer(player, teamCode, groupedPlayerInfo);
+    return toPlayer(player, teamCode, groupedPlayerInfo);
   });
 };

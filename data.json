@@ -5,174 +5,174 @@
   "committee": [
     {
       "role": "President",
-      "lastName": "Dawber",
+      "initials": "BD",
       "firstName": "Beccy",
-      "phone": "0401 306 209",
-      "email": "president@bayswaterjfc.com.au",
+      "lastName": "Dawber",
       "gender": "Female",
-      "initials": "BD"
+      "phone": "0401 306 209",
+      "email": "president@bayswaterjfc.com.au"
     },
     {
       "role": "Vice President",
-      "lastName": "Roberts",
+      "initials": "SR",
       "firstName": "Steve",
-      "phone": "0474 221 909",
-      "email": "vicepresident@bayswaterjfc.com.au",
+      "lastName": "Roberts",
       "gender": "Male",
-      "initials": "SR"
+      "phone": "0474 221 909",
+      "email": "vicepresident@bayswaterjfc.com.au"
     },
     {
       "role": "Secretary",
-      "lastName": "Hindson",
+      "initials": "MH",
       "firstName": "Mark",
-      "phone": "0419 149 500",
-      "email": "secretary@bayswaterjfc.com.au",
+      "lastName": "Hindson",
       "gender": "Male",
-      "initials": "MH"
+      "phone": "0419 149 500",
+      "email": "secretary@bayswaterjfc.com.au"
     },
     {
       "role": "Treasurer",
-      "lastName": "Peters",
+      "initials": "GP",
       "firstName": "Gael",
-      "phone": "0409 809 611",
-      "email": "treasurer@bayswaterjfc.com.au",
+      "lastName": "Peters",
       "gender": "Female",
-      "initials": "GP"
+      "phone": "0409 809 611",
+      "email": "treasurer@bayswaterjfc.com.au"
     },
     {
       "role": "Registrar",
-      "lastName": "Robertson",
+      "initials": "AR",
       "firstName": "Andrew",
-      "phone": "0425 807 059",
-      "email": "registrar@bayswaterjfc.com.au",
+      "lastName": "Robertson",
       "gender": "Male",
-      "initials": "AR"
+      "phone": "0425 807 059",
+      "email": "registrar@bayswaterjfc.com.au"
     },
     {
       "role": "Auskick Coordinator",
-      "lastName": "Bartling",
+      "initials": "CB",
       "firstName": "Chris",
-      "phone": null,
-      "email": "chrisbartling@hotmail.com",
+      "lastName": "Bartling",
       "gender": "Male",
-      "initials": "CB"
+      "phone": null,
+      "email": "chrisbartling@hotmail.com"
     },
     {
       "role": "Head Trainer",
-      "lastName": "Phillips",
+      "initials": "KP",
       "firstName": "Kim",
-      "phone": null,
-      "email": "littlekim.phillips@gmail.com",
+      "lastName": "Phillips",
       "gender": "Female",
-      "initials": "KP"
+      "phone": null,
+      "email": "littlekim.phillips@gmail.com"
     },
     {
       "role": "Merchandise & Grants Coordinator",
-      "lastName": "Gielen",
+      "initials": "WG",
       "firstName": "Wendy",
-      "phone": null,
-      "email": "wendygielen11@gmail.com",
+      "lastName": "Gielen",
       "gender": "Female",
-      "initials": "WG"
+      "phone": null,
+      "email": "wendygielen11@gmail.com"
     },
     {
       "role": "Website Administrator",
-      "lastName": "Phillips",
+      "initials": "DP",
       "firstName": "Danny",
-      "phone": null,
-      "email": "danny.phillips@thermon.com",
+      "lastName": "Phillips",
       "gender": "Male",
-      "initials": "DP"
+      "phone": null,
+      "email": "danny.phillips@thermon.com"
     },
     {
       "role": "Website Administrator",
-      "lastName": "Buchstaller",
+      "initials": "PB",
       "firstName": "Peter",
-      "phone": null,
-      "email": "peterbuch1974@gmail.com",
+      "lastName": "Buchstaller",
       "gender": "Male",
-      "initials": "PB"
+      "phone": null,
+      "email": "peterbuch1974@gmail.com"
     },
     {
       "role": "Child Safety Officer",
-      "lastName": "Bird",
+      "initials": "TB",
       "firstName": "Tracey",
-      "phone": null,
-      "email": "childsafetyofficer@bayswaterjfc.com.au",
+      "lastName": "Bird",
       "gender": "Female",
-      "initials": "TB"
+      "phone": null,
+      "email": "childsafetyofficer@bayswaterjfc.com.au"
     },
     {
       "role": "School Liaison Officer",
-      "lastName": "Walker",
+      "initials": "MW",
       "firstName": "Mick",
-      "phone": null,
-      "email": "schoolcontact@bayswaterjfc.com.au",
+      "lastName": "Walker",
       "gender": "Male",
-      "initials": "MW"
+      "phone": null,
+      "email": "schoolcontact@bayswaterjfc.com.au"
     },
     {
       "role": "Facility Management",
-      "lastName": "Page",
+      "initials": "CP",
       "firstName": "Colin",
-      "phone": null,
-      "email": "colinp71@hotmail.com",
+      "lastName": "Page",
       "gender": "Male",
-      "initials": "CP"
+      "phone": null,
+      "email": "colinp71@hotmail.com"
     },
     {
       "role": "Awards Coordinator",
-      "lastName": "Maxwell",
+      "initials": "NM",
       "firstName": "Nicky",
-      "phone": null,
-      "email": "maxwell.n@optusnet.com.au",
+      "lastName": "Maxwell",
       "gender": "Female",
-      "initials": "NM"
+      "phone": null,
+      "email": "maxwell.n@optusnet.com.au"
     },
     {
       "role": "General Committee",
-      "lastName": "Jones",
+      "initials": "SJ",
       "firstName": "Shaun",
-      "phone": null,
-      "email": "sboy_99@hotmail.com",
+      "lastName": "Jones",
       "gender": "Male",
-      "initials": "SJ"
+      "phone": null,
+      "email": "sboy_99@hotmail.com"
     },
     {
       "role": "General Committee",
-      "lastName": "Knight",
+      "initials": "BK",
       "firstName": "Brad",
-      "phone": null,
-      "email": "bak1978@hotmail.com",
+      "lastName": "Knight",
       "gender": "Male",
-      "initials": "BK"
+      "phone": null,
+      "email": "bak1978@hotmail.com"
     },
     {
       "role": "General Committee",
-      "lastName": "Maggs",
+      "initials": "MM",
       "firstName": "Mandy",
-      "phone": null,
-      "email": "mandymaggs9@gmail.com",
+      "lastName": "Maggs",
       "gender": "Female",
-      "initials": "MM"
+      "phone": null,
+      "email": "mandymaggs9@gmail.com"
     },
     {
       "role": "General Committee",
-      "lastName": "Nye",
+      "initials": "AN",
       "firstName": "Adrian",
-      "phone": null,
-      "email": "teamnye3@gmail.com",
+      "lastName": "Nye",
       "gender": "Male",
-      "initials": "AN"
+      "phone": null,
+      "email": "teamnye3@gmail.com"
     },
     {
       "role": "General Committee",
-      "lastName": "Roberts",
+      "initials": "DR",
       "firstName": "Danea",
-      "phone": null,
-      "email": "danea74@gmail.com",
+      "lastName": "Roberts",
       "gender": "Female",
-      "initials": "DR"
+      "phone": null,
+      "email": "danea74@gmail.com"
     }
   ],
   "products": [
@@ -333,36 +333,36 @@
       "playerGenders": ["Male"],
       "teamGender": "Male",
       "headCoach": {
-        "lastName": "Amey",
+        "initials": "JA",
         "firstName": "Jarrod",
-        "phone": "0439 039 578",
-        "email": "jazznchaz01@gmail.com",
+        "lastName": "Amey",
         "gender": "Male",
-        "initials": "JA"
+        "phone": "0439 039 578",
+        "email": "jazznchaz01@gmail.com"
       },
       "assistantCoach": {
-        "lastName": "Phillips",
+        "initials": "DP",
         "firstName": "Danny",
-        "phone": "0417 339 397",
-        "email": "danny.phillips@thermon.com",
+        "lastName": "Phillips",
         "gender": "Male",
-        "initials": "DP"
+        "phone": "0417 339 397",
+        "email": "danny.phillips@thermon.com"
       },
       "trainer": {
-        "lastName": "Phillips",
+        "initials": "KP",
         "firstName": "Kim",
-        "phone": "0418 337 535",
-        "email": "littlekim.phillips@gmail.com",
+        "lastName": "Phillips",
         "gender": "Female",
-        "initials": "KP"
+        "phone": "0418 337 535",
+        "email": "littlekim.phillips@gmail.com"
       },
       "teamManager": {
-        "lastName": "Derham",
+        "initials": "DD",
         "firstName": "Deanna",
-        "phone": "0414 952 117",
-        "email": "dderham@ldb.com.au",
+        "lastName": "Derham",
         "gender": "Female",
-        "initials": "DD"
+        "phone": "0414 952 117",
+        "email": "dderham@ldb.com.au"
       }
     },
     {
@@ -373,36 +373,36 @@
       "playerGenders": ["Male"],
       "teamGender": "Male",
       "headCoach": {
-        "lastName": "McGuire",
+        "initials": "LM",
         "firstName": "Lachie",
-        "phone": "0488 149 080",
-        "email": "lachlan.mcguire2@bigpond.com",
+        "lastName": "McGuire",
         "gender": "Male",
-        "initials": "LM"
+        "phone": "0488 149 080",
+        "email": "lachlan.mcguire2@bigpond.com"
       },
       "assistantCoach": {
-        "lastName": "Maxwell",
+        "initials": "NM",
         "firstName": "Nic",
-        "phone": null,
-        "email": "nicmaxwell44@optusnet.com.au",
+        "lastName": "Maxwell",
         "gender": "Male",
-        "initials": "NM"
+        "phone": null,
+        "email": "nicmaxwell44@optusnet.com.au"
       },
       "trainer": {
-        "lastName": "Scripps",
+        "initials": "RS",
         "firstName": "Rob",
-        "phone": null,
-        "email": "rkscripps@gmail.com",
+        "lastName": "Scripps",
         "gender": "Male",
-        "initials": "RS"
+        "phone": null,
+        "email": "rkscripps@gmail.com"
       },
       "teamManager": {
-        "lastName": "McGuire",
+        "initials": "KM",
         "firstName": "Kelly",
-        "phone": null,
-        "email": "lachlan.mcguire2@bigpond.com",
+        "lastName": "McGuire",
         "gender": "Female",
-        "initials": "KM"
+        "phone": null,
+        "email": "lachlan.mcguire2@bigpond.com"
       }
     },
     {
@@ -413,22 +413,22 @@
       "playerGenders": ["Female"],
       "teamGender": "Female",
       "headCoach": {
-        "lastName": "Hughson",
+        "initials": "MH",
         "firstName": "Michael",
-        "phone": "0401 995 003",
-        "email": "michael.hughson@trendwindows.com.au",
+        "lastName": "Hughson",
         "gender": "Male",
-        "initials": "MH"
+        "phone": "0401 995 003",
+        "email": "michael.hughson@trendwindows.com.au"
       },
       "assistantCoach": null,
       "trainer": null,
       "teamManager": {
-        "lastName": "Cameron",
+        "initials": "KC",
         "firstName": "Kylie",
-        "phone": "0409 017 724",
-        "email": "camscove@icloud.com",
+        "lastName": "Cameron",
         "gender": "Female",
-        "initials": "KC"
+        "phone": "0409 017 724",
+        "email": "camscove@icloud.com"
       }
     },
     {
@@ -439,29 +439,29 @@
       "playerGenders": ["Male"],
       "teamGender": "Male",
       "headCoach": {
-        "lastName": "Peters",
+        "initials": "AP",
         "firstName": "Andrew",
-        "phone": "0409 794 180",
-        "email": "apeters@swin.edu.au",
+        "lastName": "Peters",
         "gender": "Male",
-        "initials": "AP"
+        "phone": "0409 794 180",
+        "email": "apeters@swin.edu.au"
       },
       "assistantCoach": {
-        "lastName": "Roberts",
+        "initials": "SR",
         "firstName": "Steve",
-        "phone": "0474 221 909",
-        "email": "cbrsteve.roberts@gmail.com",
+        "lastName": "Roberts",
         "gender": "Male",
-        "initials": "SR"
+        "phone": "0474 221 909",
+        "email": "cbrsteve.roberts@gmail.com"
       },
       "trainer": null,
       "teamManager": {
-        "lastName": "Derham",
+        "initials": "DD",
         "firstName": "Deanna",
-        "phone": "0414 952 117",
-        "email": "dderham@ldb.com.au",
+        "lastName": "Derham",
         "gender": "Female",
-        "initials": "DD"
+        "phone": "0414 952 117",
+        "email": "dderham@ldb.com.au"
       }
     },
     {
@@ -472,21 +472,21 @@
       "playerGenders": ["Female"],
       "teamGender": "Female",
       "headCoach": {
-        "lastName": "Rennison",
+        "initials": "MR",
         "firstName": "Matt",
-        "phone": null,
-        "email": "golfman05@live.com",
+        "lastName": "Rennison",
         "gender": "Male",
-        "initials": "MR"
+        "phone": null,
+        "email": "golfman05@live.com"
       },
       "assistantCoach": null,
       "trainer": {
-        "lastName": "Hindson",
+        "initials": "DH",
         "firstName": "Dragana",
-        "phone": null,
-        "email": "dragana@icircle.net",
+        "lastName": "Hindson",
         "gender": "Female",
-        "initials": "DH"
+        "phone": null,
+        "email": "dragana@icircle.net"
       },
       "teamManager": null
     },
@@ -498,12 +498,12 @@
       "playerGenders": ["Female"],
       "teamGender": "Female",
       "headCoach": {
-        "lastName": "Maniscalchi",
+        "initials": "KM",
         "firstName": "Kevin",
-        "phone": "0421 785 622",
-        "email": "kmaniscalchi@outlook.com",
+        "lastName": "Maniscalchi",
         "gender": "Male",
-        "initials": "KM"
+        "phone": "0421 785 622",
+        "email": "kmaniscalchi@outlook.com"
       },
       "assistantCoach": null,
       "trainer": null,
@@ -517,29 +517,29 @@
       "playerGenders": ["Male"],
       "teamGender": "Male",
       "headCoach": {
-        "lastName": "Rippon",
+        "initials": "AR",
         "firstName": "Andrew",
-        "phone": "0412 244 056",
-        "email": "chipsbricklaying@hotmail.com",
+        "lastName": "Rippon",
         "gender": "Male",
-        "initials": "AR"
+        "phone": "0412 244 056",
+        "email": "chipsbricklaying@hotmail.com"
       },
       "assistantCoach": {
-        "lastName": "Parker",
+        "initials": "AP",
         "firstName": "Andrew",
-        "phone": null,
-        "email": null,
+        "lastName": "Parker",
         "gender": "Male",
-        "initials": "AP"
+        "phone": null,
+        "email": null
       },
       "trainer": null,
       "teamManager": {
-        "lastName": "Dawber",
+        "initials": "BD",
         "firstName": "Beccy",
-        "phone": "0401 306 209",
-        "email": "beccydawber@bigpond.com",
+        "lastName": "Dawber",
         "gender": "Female",
-        "initials": "BD"
+        "phone": "0401 306 209",
+        "email": "beccydawber@bigpond.com"
       }
     },
     {
@@ -550,22 +550,22 @@
       "playerGenders": ["Female", "Male"],
       "teamGender": "Mixed",
       "headCoach": {
-        "lastName": "Gunn",
+        "initials": "AG",
         "firstName": "Alex",
-        "phone": "0403 977 524",
-        "email": "algunn71@hotmail.com",
+        "lastName": "Gunn",
         "gender": "Male",
-        "initials": "AG"
+        "phone": "0403 977 524",
+        "email": "algunn71@hotmail.com"
       },
       "assistantCoach": null,
       "trainer": null,
       "teamManager": {
-        "lastName": "Pearson",
+        "initials": "DP",
         "firstName": "Deb",
-        "phone": null,
-        "email": "debbie_rob@optusnet.com.au",
+        "lastName": "Pearson",
         "gender": "Female",
-        "initials": "DP"
+        "phone": null,
+        "email": "debbie_rob@optusnet.com.au"
       }
     },
     {
@@ -576,20 +576,20 @@
       "playerGenders": ["Female", "Male"],
       "teamGender": "Mixed",
       "headCoach": {
-        "lastName": "Beveridge",
+        "initials": "BB",
         "firstName": "Ben",
-        "phone": "0411 105 440",
-        "email": "benbev35@gmail.com",
+        "lastName": "Beveridge",
         "gender": "Male",
-        "initials": "BB"
+        "phone": "0411 105 440",
+        "email": "benbev35@gmail.com"
       },
       "assistantCoach": {
-        "lastName": "Chamberlain",
+        "initials": "EC",
         "firstName": "Erin",
-        "phone": null,
-        "email": null,
+        "lastName": "Chamberlain",
         "gender": "Female",
-        "initials": "EC"
+        "phone": null,
+        "email": null
       },
       "trainer": null,
       "teamManager": null
@@ -602,20 +602,20 @@
       "playerGenders": ["Female", "Male"],
       "teamGender": "Mixed",
       "headCoach": {
-        "lastName": "Hindson",
+        "initials": "MH",
         "firstName": "Mark",
-        "phone": "0419 149 500",
-        "email": "mark@icircle.net",
+        "lastName": "Hindson",
         "gender": "Male",
-        "initials": "MH"
+        "phone": "0419 149 500",
+        "email": "mark@icircle.net"
       },
       "assistantCoach": {
-        "lastName": "Kinstler",
+        "initials": "RK",
         "firstName": "Rob",
-        "phone": null,
-        "email": "robertgk.66@gmail.com",
+        "lastName": "Kinstler",
         "gender": "Male",
-        "initials": "RK"
+        "phone": null,
+        "email": "robertgk.66@gmail.com"
       },
       "trainer": null,
       "teamManager": null

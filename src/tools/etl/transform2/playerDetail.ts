@@ -46,7 +46,7 @@ const transformContactMethods = (contactMethods: any[]) => {
   return [...phone, ...email, ...other];
 };
 
-const transformGuardian = (contact: any) => ({
+const toGuardian = (contact: any) => ({
   type: 'Guardian',
   relationship: 'Parent/Guardian',
   initials: contact.initials,
@@ -98,7 +98,7 @@ export const playerDetail = (options: Options) => {
 
   const members = map(options.players, (sanitisedPlayer) => {
     const player = pick(sanitisedPlayer, ...fields) as any;
-    const guardians = map(sanitisedPlayer.guardians, (guardian) => transformGuardian(guardian));
+    const guardians = map(sanitisedPlayer.guardians, (guardian) => toGuardian(guardian));
     const emergencyContact = sanitisedPlayer.emergencyContact === null ? null : transformEmergency(sanitisedPlayer.emergencyContact);
     const contact = sanitisedPlayer.registeredContact === null ? null : transformRegistered(sanitisedPlayer.registeredContact);
     player.contacts = compact([...guardians, emergencyContact, contact]);

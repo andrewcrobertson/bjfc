@@ -3,7 +3,7 @@ import type { ISanitisedTransaction } from '../../types/sanitisedTransaction';
 
 type ProductMap = { [key: string]: string };
 
-export const transformTransaction = (obj: IRawTransaction, productMap: ProductMap): ISanitisedTransaction => ({
+export const toTransaction = (obj: IRawTransaction, productMap: ProductMap): ISanitisedTransaction => ({
   footyWebNumber: obj.footyWebNumber,
   date: obj.date,
   time: obj.time,

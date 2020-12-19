@@ -12,7 +12,7 @@ const getInitials = (name: string) => {
   return join(tokensInitials, '').toUpperCase();
 };
 
-export const transformEmergencyContact = (obj: IRawPlayerEmergencyContact): ISanitisedPlayerEmergencyContact => ({
+export const toEmergencyContact = (obj: IRawPlayerEmergencyContact): ISanitisedPlayerEmergencyContact => ({
   relationship: obj.relationship,
   name: obj.name,
   initials: getInitials(obj.name),

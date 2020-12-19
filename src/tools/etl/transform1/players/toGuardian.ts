@@ -2,7 +2,7 @@ import type { IRawPlayerGuardian } from '../../types/rawPlayer';
 import type { ISanitisedPlayerGuardian } from '../../types/sanitisedPlayer';
 import { toInitials } from '../utility/toInitials';
 
-export const transformGuardian = (guardian: IRawPlayerGuardian): ISanitisedPlayerGuardian => ({
+export const toGuardian = (guardian: IRawPlayerGuardian): ISanitisedPlayerGuardian => ({
   lastName: guardian.lastName,
   firstName: guardian.firstName,
   gender: guardian.gender,
