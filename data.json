@@ -20100,7 +20100,7 @@
       "lastName": "Moore",
       "firstName": "Dustyn",
       "dateOfBirth": "2011-01-21",
-      "status": "Registered",
+      "status": "Insured",
       "gender": "Male",
       "contacts": [
         {
@@ -26035,102 +26035,6 @@
       "lastTransferDate": "2020-03-09",
       "lastTransactionDate": "2020-12-15",
       "teamCode": "U09M",
-      "disability": null
-    },
-    {
-      "footyWebNumber": "02505196",
-      "initials": "MR",
-      "lastName": "Robertson",
-      "firstName": "Matilda",
-      "dateOfBirth": "2006-08-01",
-      "status": "Recent",
-      "gender": "Female",
-      "contacts": [
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": "Robertson",
-            "first": "Lara"
-          },
-          "gender": "Unknown",
-          "initials": "LR",
-          "contactMethods": [
-            {
-              "type": "Phone",
-              "value": "0425 807 060"
-            },
-            {
-              "type": "Email",
-              "value": "laraejrobertson@gmail.com"
-            }
-          ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": "Robertson",
-            "first": "Andrew"
-          },
-          "gender": "Unknown",
-          "initials": "AR",
-          "contactMethods": [
-            {
-              "type": "Phone",
-              "value": "0425 807 059"
-            },
-            {
-              "type": "Email",
-              "value": "andrewcrobertson@gmail.com"
-            }
-          ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": "Mother",
-          "name": "Lara Robertson",
-          "gender": "Unknown",
-          "initials": "LR",
-          "contactMethods": [
-            {
-              "type": "Phone",
-              "value": "0425 807 060"
-            }
-          ],
-          "assistInRole": null
-        },
-        {
-          "type": "Registered",
-          "relationship": null,
-          "name": "Registered Contact",
-          "initials": "RC",
-          "gender": "Unknown",
-          "contactMethods": [
-            {
-              "type": "Phone",
-              "value": "0425 807 060"
-            },
-            {
-              "type": "Email",
-              "value": "laraejrobertson@gmail.com"
-            }
-          ],
-          "assistInRole": null
-        }
-      ],
-      "club": "Bayswater",
-      "clubHistory": [
-        {
-          "club": "Bayswater",
-          "date": "2015-04-22"
-        }
-      ],
-      "lastTransferDate": "2015-04-22",
-      "lastTransactionDate": "2019-05-06",
-      "teamCode": "U16G",
       "disability": null
     },
     {
@@ -47607,7 +47511,7 @@
       "time": "23:11",
       "product": "2021 Registration Fees",
       "total": "18.00",
-      "status": "Unpaid"
+      "status": "Paid"
     },
     {
       "footyWebNumber": "00759482",

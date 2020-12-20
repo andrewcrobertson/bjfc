@@ -21,17 +21,17 @@ const toPlayerStatusEnum = (club: string, insuredThisSeason: boolean, registered
 export const toPlayers = (config: IRawConfig, players: IRawPlayer[], teams: ISanitisedTeam[], groupedPlayerInfo: any): ISanitisedPlayer[] => {
   const orderedTeams = sortBy(teams, ({ birthYears }) => Math.min(...birthYears));
   const groupedPlayerTeamExceptions = fromPairs(map(config.playerTeamExceptions, ({ code, footyWebNumber }) => [footyWebNumber, code]));
+  const filterOut = map(config.noContact, ({ footyWebNumber }) => footyWebNumber);
+  const filteredPlayers = filter(players, ({ footyWebNumber }) => !includes(filterOut, footyWebNumber));
+  const filterTeams = (player: IRawPlayer) =>
+    filter(
+      orderedTeams,
+      ({ birthYears, playerGenders }) => includes(playerGenders, player.gender) && includes(birthYears, parseInt(player.dateOfBirth.substring(0, 4)))
+    );
 
-  return map(players, (player) => {
-    const team =
-      first(
-        filter(
-          orderedTeams,
-          ({ birthYears, playerGenders }) => includes(playerGenders, player.gender) && includes(birthYears, parseInt(player.dateOfBirth.substring(0, 4)))
-        )
-      ) ?? ({} as any);
+  return map(filteredPlayers, (player) => {
+    const team = first(filterTeams(player)) ?? ({} as any);
     const teamCode = groupedPlayerTeamExceptions[player.footyWebNumber] ?? team.code ?? null;
-
     return toPlayer(player, teamCode, groupedPlayerInfo);
   });
 };

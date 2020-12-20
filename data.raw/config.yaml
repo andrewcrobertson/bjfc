@@ -13,6 +13,8 @@ clubMap:
   - { from: Rowville Knights Community Football Club, to: Rowville Knights }
   - { from: Woori Yallock Junior Football Club, to: Woori Yallock }
 noContact:
-  - { footyWebNumber: sample }
+  # Matilda Robertson: No longer wants to play
+  - { footyWebNumber: '02505196' }
 playerTeamExceptions: 
-  - { code: U12B, footyWebNumber: 02892610 }
+  # Thomas Walker: Playing up
+  - { code: U12B, footyWebNumber: '02892610' }

@@ -55,7 +55,7 @@ export const playerDetail = (options: Options) => {
   const teamMap = fromPairs(map(options.teams, (team) => [team.code, pick(team, teamFields)]));
   const transactions = filter(options.transactions, ({ date: transactionDate }) => parseInt(transactionDate.substring(0, 4)) >= seasonYear - 1);
 
-  const members = map(options.players, (sanitisedPlayer) => {
+  const players = map(options.players, (sanitisedPlayer) => {
     const player = pick(sanitisedPlayer, ...fields) as any;
     player.contacts = sanitisedPlayer.contacts;
     player.transactions = filter(transactions, ({ footyWebNumber }) => footyWebNumber === sanitisedPlayer.footyWebNumber);
@@ -65,5 +65,5 @@ export const playerDetail = (options: Options) => {
     return player;
   });
 
-  return keyBy(members, 'footyWebNumber');
+  return keyBy(players, 'footyWebNumber');
 };
