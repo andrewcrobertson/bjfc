@@ -1,4 +1,3 @@
-import compact from 'lodash/compact';
 import filter from 'lodash/filter';
 import fromPairs from 'lodash/fromPairs';
 import keyBy from 'lodash/keyBy';
@@ -20,31 +19,6 @@ export interface Options {
 const fields = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'dateOfBirth', 'club', 'gender', 'disability', 'transactions', 'transfers'];
 
 const teamFields = ['code', 'ageGroupCode', 'name', 'teamGender'];
-
-const transformContactMethods = (contactMethods: any[]) => {
-  const phone = [];
-  const email = [];
-  const other = [];
-  const used = {};
-  for (let i = 0; i < contactMethods.length; i++) {
-    const contactMethod = contactMethods[i];
-    if (used[contactMethod.value]) {
-      other.push({ type: null, value: null });
-    } else if (contactMethod.type === null || contactMethod.value === null) {
-      other.push({ type: null, value: null });
-    } else if (contactMethod.type === 'Phone') {
-      phone.push(contactMethod);
-    } else if (contactMethod.type === 'Email') {
-      email.push(contactMethod);
-    } else {
-      other.push({ type: null, value: null });
-    }
-
-    used[contactMethod.value] = true;
-  }
-
-  return [...phone, ...email, ...other];
-};
 
 const toGuardian = (contact: any) => ({
   type: 'Guardian',
@@ -83,13 +57,10 @@ export const playerDetail = (options: Options) => {
 
   const members = map(options.players, (sanitisedPlayer) => {
     const player = pick(sanitisedPlayer, ...fields) as any;
-    const guardians = map(sanitisedPlayer.guardians, (guardian) => toGuardian(guardian));
-    const emergencyContact = sanitisedPlayer.emergencyContact === null ? null : transformEmergency(sanitisedPlayer.emergencyContact);
-    const contact = sanitisedPlayer.registeredContact === null ? null : transformRegistered(sanitisedPlayer.registeredContact);
-    player.contacts = compact([...guardians, emergencyContact, contact]);
+    player.contacts = sanitisedPlayer.contacts;
     player.transactions = filter(transactions, ({ footyWebNumber }) => footyWebNumber === sanitisedPlayer.footyWebNumber);
     player.transactions = orderBy(player.transactions, ['transactionDate', 'transactionTime'], ['desc', 'desc']);
-    player.transfers = orderBy(sanitisedPlayer.clubHistory, ['date'], ['desc']);
+    player.clubHistory = orderBy(sanitisedPlayer.clubHistory, ['date'], ['desc']);
     player.team = teamMap[sanitisedPlayer.teamCode] ?? null;
     return player;
   });

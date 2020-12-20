@@ -1,13 +1,10 @@
 import { last } from 'lodash';
-import map from 'lodash/map';
 import type { IRawPlayer } from '../../types/rawPlayer';
 import type { ISanitisedPlayer } from '../../types/sanitisedPlayer';
 import { toInitials } from '../utility/toInitials';
+import { toContacts } from './toContacts';
 import { toDisability } from './toDisability';
-import { toEmergencyContact } from './toEmergencyContact';
-import { toGuardian } from './toGuardian';
 import { toPlayerStatus } from './toPlayerStatus';
-import { toRegisteredContact } from './toRegisteredContact';
 
 export const toPlayer = (player: IRawPlayer, teamCode: string, groupedPlayerInfo: any): ISanitisedPlayer => {
   const { insured, registered, registeredRecently, ...playerInfo } = groupedPlayerInfo[player.footyWebNumber] ?? {};
@@ -22,9 +19,7 @@ export const toPlayer = (player: IRawPlayer, teamCode: string, groupedPlayerInfo
     dateOfBirth: player.dateOfBirth,
     status: toPlayerStatus(currentClubRecord.club, insured, registered, registeredRecently),
     gender: player.gender,
-    guardians: map(player.guardians, (guardian) => toGuardian(guardian)),
-    emergencyContact: player.emergencyContact === null ? null : toEmergencyContact(player.emergencyContact),
-    registeredContact: player.registeredContact === null ? null : toRegisteredContact(player.registeredContact),
+    contacts: toContacts(player),
     club: currentClubRecord.club,
     clubHistory,
     lastTransferDate: currentClubRecord === 'Bayswater' ? null : currentClubRecord.date,

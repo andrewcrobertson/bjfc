@@ -1,9 +1,13 @@
 import type { IRawPlayerRegisteredContact } from '../../types/rawPlayer';
-import type { ISanitisedPlayerRegisteredContact } from '../../types/sanitisedPlayer';
+import type { ISanitisedPlayerContact } from '../../types/sanitisedPlayer';
 import { arrayToString } from '../utility/arrayToString';
 import { toContactMethods } from '../utility/toContactMethods';
 
-export const toRegisteredContact = (obj: IRawPlayerRegisteredContact): ISanitisedPlayerRegisteredContact => ({
+export const toContactRegistered = (obj: IRawPlayerRegisteredContact): ISanitisedPlayerContact => ({
+  type: 'Registered',
+  relationship: null,
+  name: 'Registered Contact',
+  initials: 'RC',
   gender: obj.gender,
   contactMethods: toContactMethods([
     { type: 'Phone', value: obj.phoneMobile },

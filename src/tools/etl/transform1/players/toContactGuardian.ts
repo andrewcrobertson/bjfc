@@ -1,11 +1,15 @@
 import type { IRawPlayerGuardian } from '../../types/rawPlayer';
-import type { ISanitisedPlayerGuardian } from '../../types/sanitisedPlayer';
+import type { ISanitisedPlayerContact } from '../../types/sanitisedPlayer';
 import { toContactMethods } from '../utility/toContactMethods';
 import { toInitials } from '../utility/toInitials';
 
-export const toGuardian = (guardian: IRawPlayerGuardian): ISanitisedPlayerGuardian => ({
-  lastName: guardian.lastName,
-  firstName: guardian.firstName,
+export const toContactGuardian = (guardian: IRawPlayerGuardian): ISanitisedPlayerContact => ({
+  type: 'Guardian',
+  relationship: null,
+  name: {
+    last: guardian.lastName,
+    first: guardian.firstName,
+  },
   gender: guardian.gender,
   initials: toInitials(guardian.firstName, guardian.lastName),
   contactMethods: toContactMethods([

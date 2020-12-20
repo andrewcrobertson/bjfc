@@ -4,7 +4,7 @@ import map from 'lodash/map';
 import replace from 'lodash/replace';
 import split from 'lodash/split';
 import type { IRawPlayerEmergencyContact } from '../../types/rawPlayer';
-import type { ISanitisedPlayerEmergencyContact } from '../../types/sanitisedPlayer';
+import type { ISanitisedPlayerContact } from '../../types/sanitisedPlayer';
 import { toContactMethods } from '../utility/toContactMethods';
 
 const getInitials = (name: string) => {
@@ -13,13 +13,15 @@ const getInitials = (name: string) => {
   return join(tokensInitials, '').toUpperCase();
 };
 
-export const toEmergencyContact = (obj: IRawPlayerEmergencyContact): ISanitisedPlayerEmergencyContact => ({
+export const toContactEmergency = (obj: IRawPlayerEmergencyContact): ISanitisedPlayerContact => ({
+  type: 'Emergency',
   relationship: obj.relationship,
   name: obj.name,
+  gender: 'Unknown',
   initials: getInitials(obj.name),
-  gender: obj.gender,
   contactMethods: toContactMethods([
     { type: 'Phone', value: obj.phone1 },
     { type: 'Phone', value: obj.phone2 },
   ]),
+  assistInRole: null,
 });

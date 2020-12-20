@@ -1,25 +1,17 @@
-import type { PersonGenderEnum, PlayerStatusEnum } from '@this/constants/enums';
+import type { PersonGenderEnum, PlayerContactTypeEnum, PlayerStatusEnum } from '@this/constants/enums';
 import type { ISanitisedContactMethod } from './sanitisedCommon';
 
-export interface ISanitisedPlayerGuardian {
-  lastName: string;
-  firstName: string;
-  gender: PersonGenderEnum;
-  initials: string;
-  contactMethods: ISanitisedContactMethod[];
-  assistInRole: string;
+export interface IPersonName {
+  last: string;
+  first: string;
 }
 
-export interface ISanitisedPlayerEmergencyContact {
+export interface ISanitisedPlayerContact {
+  type: PlayerContactTypeEnum;
   relationship: string;
-  name: string;
+  name: string | IPersonName;
+  gender: PersonGenderEnum;
   initials: string;
-  gender: PersonGenderEnum;
-  contactMethods: ISanitisedContactMethod[];
-}
-
-export interface ISanitisedPlayerRegisteredContact {
-  gender: PersonGenderEnum;
   contactMethods: ISanitisedContactMethod[];
   assistInRole: string;
 }
@@ -42,9 +34,7 @@ export interface ISanitisedPlayer {
   dateOfBirth: string;
   status: PlayerStatusEnum;
   gender: PersonGenderEnum;
-  guardians: ISanitisedPlayerGuardian[];
-  emergencyContact: ISanitisedPlayerEmergencyContact;
-  registeredContact: ISanitisedPlayerRegisteredContact;
+  contacts: ISanitisedPlayerContact[];
   club: string;
   clubHistory: ISanitisedClubRecord[];
   lastTransferDate: string;
