@@ -20,36 +20,6 @@ const fields = ['footyWebNumber', 'initials', 'lastName', 'firstName', 'dateOfBi
 
 const teamFields = ['code', 'ageGroupCode', 'name', 'teamGender'];
 
-const toGuardian = (contact: any) => ({
-  type: 'Guardian',
-  relationship: 'Parent/Guardian',
-  initials: contact.initials,
-  name: `${contact.firstName} ${contact.lastName}`,
-  gender: contact.gender,
-  assistInRole: contact.assistInRole,
-  contactMethods: contact.contactMethods,
-});
-
-const transformEmergency = (contact: any) => ({
-  type: 'Emergency',
-  relationship: `Emergency${contact.relationship === null ? '' : ': ' + contact.relationship}`,
-  initials: contact.initials,
-  name: contact.name,
-  gender: contact.gender,
-  assistInRole: null,
-  contactMethods: contact.contactMethods,
-});
-
-const transformRegistered = (contact: any) => ({
-  type: 'Registered',
-  relationship: `SportsTG Registered Contact`,
-  initials: 'SRC',
-  name: 'SportsTG Registered Contact',
-  gender: contact.gender,
-  assistInRole: contact.assistInRole,
-  contactMethods: contact.contactMethods,
-});
-
 export const playerDetail = (options: Options) => {
   const seasonYear = options.config.seasonYear;
   const teamMap = fromPairs(map(options.teams, (team) => [team.code, pick(team, teamFields)]));

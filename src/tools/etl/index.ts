@@ -21,7 +21,7 @@ export const etl = async () => {
   const data2 = transform2(data1);
   load(data2);
 
-  if (false) recentlyRegisteredEmail(data1.players);
+  if (true) recentlyRegisteredEmail(data1.players);
   // const tempData = uniq(flattenDeep(map(data1.members, (m) => map(m.transfers, (t) => [t.sourceClub, t.destinationClub])))).sort();
   const tempData = data1;
   require('fs').writeFileSync('data.json', JSON.stringify(tempData, null, 2));
