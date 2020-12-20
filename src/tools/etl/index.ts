@@ -1,3 +1,4 @@
+import fs from 'fs';
 import path from 'path';
 import { extract } from './extract';
 import { load } from './load';
@@ -14,12 +15,20 @@ const committeePath = path.resolve(dataPath, 'committee.yaml');
 const teamsPath = path.resolve(dataPath, 'teams.yaml');
 const productsPath = path.resolve(dataPath, 'products.yaml');
 
+export const write = (data: any) => {
+  const file = 'data.ts';
+  const srcPath = path.resolve(__dirname, '..', '..', 'data');
+  fs.writeFileSync(path.resolve(srcPath, file), 'export default ' + JSON.stringify(data, null, 2));
+  fs.writeFileSync(path.resolve(srcPath, '.gitignore'), file);
+};
+
 export const etl = async () => {
   const options = { configPath, allMembersCsvPath, allTransactionsCsvPath, allTransfersCsvPath, committeePath, teamsPath, productsPath };
   const raw = await extract(options);
   const data1 = transform1(raw);
   const data2 = transform2(data1);
   load(data2);
+  write(data1);
 
   if (true) recentlyRegisteredEmail(data1.players);
   // const tempData = uniq(flattenDeep(map(data1.members, (m) => map(m.transfers, (t) => [t.sourceClub, t.destinationClub])))).sort();
