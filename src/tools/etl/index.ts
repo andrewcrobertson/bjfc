@@ -16,7 +16,7 @@ const teamsPath = path.resolve(dataPath, 'teams.yaml');
 const productsPath = path.resolve(dataPath, 'products.yaml');
 
 export const write = (data: any) => {
-  const file = 'data.ts';
+  const file = 'allData.ts';
   const srcPath = path.resolve(__dirname, '..', '..', 'data');
   fs.writeFileSync(path.resolve(srcPath, file), 'export default ' + JSON.stringify(data, null, 2));
   fs.writeFileSync(path.resolve(srcPath, '.gitignore'), file);
