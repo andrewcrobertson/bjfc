@@ -14,8 +14,8 @@ export interface Options {
 
 export const load = (options: Options) => {
   writeLayout('StandardLayout', options.standardLayout);
-  writePage('AnchorList', options.anchorList);
-  writePage('CommitteeList', options.committeeList);
+  // writePage('AnchorList', options.anchorList);
+  // writePage('CommitteeList', options.committeeList);
   writePage('PlayerDetail', options.playerDetail);
   writePage('TeamDashboard', options.teamDashboard);
   writePage('TeamPlayerListArchived', options.teamPlayerListArchived);

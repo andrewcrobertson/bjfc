@@ -1,5 +1,7 @@
 <script lang="ts">
-  import links from './data';
+  import type { IState } from './state';
+  export let state: IState = null;
+  const links = state.links;
 </script>
 
 <ul>
