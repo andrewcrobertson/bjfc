@@ -1,6 +1,6 @@
 import map from 'lodash/map';
+import type { ISanitisedTransfer } from '../../../../types/sanitisedTransfer';
 import type { IRawTransfer } from '../../types/rawTransfer';
-import type { ISanitisedTransfer } from '../../types/sanitisedTransfer';
 import { toTransfer } from './toTransfer';
 
 type ClubMap = { [key: string]: string };

@@ -1,5 +1,5 @@
+import type { ISanitisedTransaction } from '../../../../types/sanitisedTransaction';
 import type { IRawTransaction } from '../../types/rawTransaction';
-import type { ISanitisedTransaction } from '../../types/sanitisedTransaction';
 
 type ProductMap = { [key: string]: string };
 

@@ -3,10 +3,10 @@ import first from 'lodash/first';
 import fromPairs from 'lodash/fromPairs';
 import map from 'lodash/map';
 import sortBy from 'lodash/sortBy';
+import type { ISanitisedPlayer } from '../../../../types/sanitisedPlayer';
+import type { ISanitisedTeam } from '../../../../types/sanitisedTeam';
 import type { IRawConfig } from '../../types/rawConfig';
 import type { IRawPlayer } from '../../types/rawPlayer';
-import type { ISanitisedPlayer } from '../../types/sanitisedPlayer';
-import type { ISanitisedTeam } from '../../types/sanitisedTeam';
 import { toPlayer } from './toPlayer';
 
 export const toPlayers = (config: IRawConfig, players: IRawPlayer[], teams: ISanitisedTeam[], groupedPlayerInfo: any): ISanitisedPlayer[] => {

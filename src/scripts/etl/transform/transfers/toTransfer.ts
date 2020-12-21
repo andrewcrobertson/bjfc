@@ -1,5 +1,5 @@
+import type { ISanitisedTransfer } from '../../../../types/sanitisedTransfer';
 import type { IRawTransfer } from '../../types/rawTransfer';
-import type { ISanitisedTransfer } from '../../types/sanitisedTransfer';
 
 type ClubMap = { [key: string]: string };
 

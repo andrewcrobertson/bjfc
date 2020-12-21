@@ -1,8 +1,8 @@
-import type { ISanitisedCommittee } from '../types/sanitisedCommittee';
-import type { ISanitisedConfig } from '../types/sanitisedConfig';
-import type { ISanitisedPlayer } from '../types/sanitisedPlayer';
-import type { ISanitisedTeam } from '../types/sanitisedTeam';
-import type { ISanitisedTransaction } from '../types/sanitisedTransaction';
+import type { ISanitisedCommittee } from '../../../types/sanitisedCommittee';
+import type { ISanitisedConfig } from '../../../types/sanitisedConfig';
+import type { ISanitisedPlayer } from '../../../types/sanitisedPlayer';
+import type { ISanitisedTeam } from '../../../types/sanitisedTeam';
+import type { ISanitisedTransaction } from '../../../types/sanitisedTransaction';
 import { write } from './write';
 
 export interface Options2 {

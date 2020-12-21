@@ -1,6 +1,6 @@
 import { uniq } from 'lodash';
+import type { ISanitisedPlayerDisability } from '../../../../types/sanitisedPlayer';
 import type { IRawPlayerDisability } from '../../types/rawPlayer';
-import type { ISanitisedPlayerDisability } from '../../types/sanitisedPlayer';
 import { arrayToString } from '../utility/arrayToString';
 
 export const toDisability = (disability: IRawPlayerDisability): ISanitisedPlayerDisability => ({

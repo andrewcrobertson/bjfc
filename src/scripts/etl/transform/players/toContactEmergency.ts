@@ -3,8 +3,8 @@ import join from 'lodash/join';
 import map from 'lodash/map';
 import replace from 'lodash/replace';
 import split from 'lodash/split';
+import type { ISanitisedPlayerContact } from '../../../../types/sanitisedPlayer';
 import type { IRawPlayerEmergencyContact } from '../../types/rawPlayer';
-import type { ISanitisedPlayerContact } from '../../types/sanitisedPlayer';
 import { toContactMethods } from '../utility/toContactMethods';
 
 const getInitials = (name: string) => {

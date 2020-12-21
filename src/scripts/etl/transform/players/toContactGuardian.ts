@@ -1,5 +1,5 @@
+import type { ISanitisedPlayerContact } from '../../../../types/sanitisedPlayer';
 import type { IRawPlayerGuardian } from '../../types/rawPlayer';
-import type { ISanitisedPlayerContact } from '../../types/sanitisedPlayer';
 import { toContactMethods } from '../utility/toContactMethods';
 import { toInitials } from '../utility/toInitials';
 

@@ -1,5 +1,5 @@
+import type { ISanitisedProduct } from '../../../../types/sanitisedProduct';
 import type { IRawProduct } from '../../types/rawProduct';
-import type { ISanitisedProduct } from '../../types/sanitisedProduct';
 import { toProductName } from './toProductName';
 
 export const toProduct = (obj: IRawProduct): ISanitisedProduct => ({

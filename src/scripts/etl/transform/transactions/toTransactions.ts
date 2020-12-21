@@ -1,6 +1,6 @@
 import map from 'lodash/map';
+import type { ISanitisedTransaction } from '../../../../types/sanitisedTransaction';
 import type { IRawTransaction } from '../../types/rawTransaction';
-import type { ISanitisedTransaction } from '../../types/sanitisedTransaction';
 import { toTransaction } from './toTransaction';
 
 type ProductMap = { [key: string]: string };

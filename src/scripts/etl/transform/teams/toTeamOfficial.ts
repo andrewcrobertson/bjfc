@@ -1,5 +1,5 @@
+import type { ISanitisedOfficial } from '../../../../types/sanitisedTeam';
 import type { IRawTeamOfficial } from '../../types/rawTeam';
-import type { ISanitisedOfficial } from '../../types/sanitisedTeam';
 import { toContactMethods } from '../utility/toContactMethods';
 import { toInitials } from '../utility/toInitials';
 

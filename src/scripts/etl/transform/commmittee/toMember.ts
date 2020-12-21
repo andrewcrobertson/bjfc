@@ -1,5 +1,5 @@
+import type { ISanitisedCommittee } from '../../../../types/sanitisedCommittee';
 import type { IRawCommittee } from '../../types/rawCommittee';
-import type { ISanitisedCommittee } from '../../types/sanitisedCommittee';
 import { toContactMethods } from '../utility/toContactMethods';
 import { toInitials } from '../utility/toInitials';
 

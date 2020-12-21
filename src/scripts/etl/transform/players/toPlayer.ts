@@ -1,6 +1,6 @@
 import { last } from 'lodash';
+import type { ISanitisedPlayer } from '../../../../types/sanitisedPlayer';
 import type { IRawPlayer } from '../../types/rawPlayer';
-import type { ISanitisedPlayer } from '../../types/sanitisedPlayer';
 import { toInitials } from '../utility/toInitials';
 import { toContacts } from './toContacts';
 import { toDisability } from './toDisability';
