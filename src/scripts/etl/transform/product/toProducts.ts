@@ -1,5 +1,5 @@
+import type { ISanitisedProduct } from '@this/types/sanitisedProduct';
 import map from 'lodash/map';
-import type { ISanitisedProduct } from '../../../../types/sanitisedProduct';
 import type { IRawProduct } from '../../types/rawProduct';
 import { toProduct } from './toProduct';
 

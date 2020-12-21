@@ -1,4 +1,4 @@
-import type { ISanitisedCommittee } from '../../../../types/sanitisedCommittee';
+import type { ISanitisedCommittee } from '@this/types/sanitisedCommittee';
 import type { IRawCommittee } from '../../types/rawCommittee';
 import { toContactMethods } from '../utility/toContactMethods';
 import { toInitials } from '../utility/toInitials';

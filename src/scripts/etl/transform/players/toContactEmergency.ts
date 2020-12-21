@@ -1,9 +1,9 @@
+import type { ISanitisedPlayerContact } from '@this/types/sanitisedPlayer';
 import first from 'lodash/first';
 import join from 'lodash/join';
 import map from 'lodash/map';
 import replace from 'lodash/replace';
 import split from 'lodash/split';
-import type { ISanitisedPlayerContact } from '../../../../types/sanitisedPlayer';
 import type { IRawPlayerEmergencyContact } from '../../types/rawPlayer';
 import { toContactMethods } from '../utility/toContactMethods';
 

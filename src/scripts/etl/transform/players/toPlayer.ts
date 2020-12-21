@@ -1,5 +1,5 @@
+import type { ISanitisedPlayer } from '@this/types/sanitisedPlayer';
 import { last } from 'lodash';
-import type { ISanitisedPlayer } from '../../../../types/sanitisedPlayer';
 import type { IRawPlayer } from '../../types/rawPlayer';
 import { toInitials } from '../utility/toInitials';
 import { toContacts } from './toContacts';

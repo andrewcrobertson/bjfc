@@ -1,5 +1,5 @@
+import type { ISanitisedPlayerDisability } from '@this/types/sanitisedPlayer';
 import { uniq } from 'lodash';
-import type { ISanitisedPlayerDisability } from '../../../../types/sanitisedPlayer';
 import type { IRawPlayerDisability } from '../../types/rawPlayer';
 import { arrayToString } from '../utility/arrayToString';
 

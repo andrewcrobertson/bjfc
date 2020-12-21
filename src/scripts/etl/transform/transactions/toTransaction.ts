@@ -1,4 +1,4 @@
-import type { ISanitisedTransaction } from '../../../../types/sanitisedTransaction';
+import type { ISanitisedTransaction } from '@this/types/sanitisedTransaction';
 import type { IRawTransaction } from '../../types/rawTransaction';
 
 type ProductMap = { [key: string]: string };

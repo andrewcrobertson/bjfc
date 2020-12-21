@@ -1,5 +1,5 @@
+import type { ISanitisedTransaction } from '@this/types/sanitisedTransaction';
 import map from 'lodash/map';
-import type { ISanitisedTransaction } from '../../../../types/sanitisedTransaction';
 import type { IRawTransaction } from '../../types/rawTransaction';
 import { toTransaction } from './toTransaction';
 

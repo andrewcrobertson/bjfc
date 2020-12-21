@@ -1,5 +1,5 @@
+import type { ISanitisedTransfer } from '@this/types/sanitisedTransfer';
 import map from 'lodash/map';
-import type { ISanitisedTransfer } from '../../../../types/sanitisedTransfer';
 import type { IRawTransfer } from '../../types/rawTransfer';
 import { toTransfer } from './toTransfer';
 

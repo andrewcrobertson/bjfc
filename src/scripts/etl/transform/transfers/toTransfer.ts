@@ -1,4 +1,4 @@
-import type { ISanitisedTransfer } from '../../../../types/sanitisedTransfer';
+import type { ISanitisedTransfer } from '@this/types/sanitisedTransfer';
 import type { IRawTransfer } from '../../types/rawTransfer';
 
 type ClubMap = { [key: string]: string };

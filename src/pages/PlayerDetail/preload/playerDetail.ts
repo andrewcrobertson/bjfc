@@ -4,10 +4,10 @@
 // import map from 'lodash/map';
 // import orderBy from 'lodash/orderBy';
 // import pick from 'lodash/pick';
-// import type { ISanitisedConfig } from '../types/sanitisedConfig';
-// import type { ISanitisedPlayer } from '../types/sanitisedPlayer';
-// import type { ISanitisedTeam } from '../types/sanitisedTeam';
-// import type { ISanitisedTransaction } from '../types/sanitisedTransaction';
+// import type { ISanitisedConfig } from '@this/types/sanitisedConfig';
+// import type { ISanitisedPlayer } from '@this/types/sanitisedPlayer';
+// import type { ISanitisedTeam } from '@this/types/sanitisedTeam';
+// import type { ISanitisedTransaction } from '@this/types/sanitisedTransaction';
 
 // export interface Options {
 //   config: ISanitisedConfig;

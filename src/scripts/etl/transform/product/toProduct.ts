@@ -1,4 +1,4 @@
-import type { ISanitisedProduct } from '../../../../types/sanitisedProduct';
+import type { ISanitisedProduct } from '@this/types/sanitisedProduct';
 import type { IRawProduct } from '../../types/rawProduct';
 import { toProductName } from './toProductName';
 

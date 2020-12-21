@@ -1,5 +1,5 @@
+import type { ISanitisedTeam } from '@this/types/sanitisedTeam';
 import map from 'lodash/map';
-import type { ISanitisedTeam } from '../../../../types/sanitisedTeam';
 import type { IRawTeam } from '../../types/rawTeam';
 import { toTeam } from './toTeam';
 

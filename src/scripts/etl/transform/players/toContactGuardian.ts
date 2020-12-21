@@ -1,4 +1,4 @@
-import type { ISanitisedPlayerContact } from '../../../../types/sanitisedPlayer';
+import type { ISanitisedPlayerContact } from '@this/types/sanitisedPlayer';
 import type { IRawPlayerGuardian } from '../../types/rawPlayer';
 import { toContactMethods } from '../utility/toContactMethods';
 import { toInitials } from '../utility/toInitials';

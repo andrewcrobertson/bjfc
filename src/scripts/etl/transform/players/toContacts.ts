@@ -1,6 +1,6 @@
+import type { ISanitisedPlayerContact } from '@this/types/sanitisedPlayer';
 import { compact } from 'lodash';
 import map from 'lodash/map';
-import type { ISanitisedPlayerContact } from '../../../../types/sanitisedPlayer';
 import type { IRawPlayer } from '../../types/rawPlayer';
 import { toContactEmergency } from './toContactEmergency';
 import { toContactGuardian } from './toContactGuardian';

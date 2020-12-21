@@ -1,3 +1,4 @@
+import type { IPersonName, ISanitisedPlayer, ISanitisedPlayerContact } from '@this/types/sanitisedPlayer';
 import compact from 'lodash/compact';
 import each from 'lodash/each';
 import filter from 'lodash/filter';
@@ -7,7 +8,6 @@ import isString from 'lodash/isString';
 import join from 'lodash/join';
 import map from 'lodash/map';
 import uniq from 'lodash/uniq';
-import type { IPersonName, ISanitisedPlayer, ISanitisedPlayerContact } from '../../../types/sanitisedPlayer';
 
 export const recentlyRegisteredEmail = (members: ISanitisedPlayer[]) => {
   const getName = (name: string | IPersonName) => {

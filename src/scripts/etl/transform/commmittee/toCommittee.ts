@@ -1,5 +1,5 @@
+import type { ISanitisedCommittee } from '@this/types/sanitisedCommittee';
 import map from 'lodash/map';
-import type { ISanitisedCommittee } from '../../../../types/sanitisedCommittee';
 import type { IRawCommittee } from '../../types/rawCommittee';
 import { toMember } from './toMember';
 
