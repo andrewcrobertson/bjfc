@@ -11576,7 +11576,7 @@ const data: IPlayer[] = [
     lastName: 'Hughson',
     firstName: 'Cassie',
     dateOfBirth: '2006-07-31',
-    status: 'Recent',
+    status: 'Insured',
     gender: 'Female',
     contacts: [
       {
@@ -11666,7 +11666,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2016-04-20',
-    lastTransactionDate: '2019-12-02',
+    lastTransactionDate: '2020-12-21',
     teamCode: 'U16G',
     disability: null,
   },
@@ -11676,7 +11676,7 @@ const data: IPlayer[] = [
     lastName: 'Hughson',
     firstName: 'Gemma',
     dateOfBirth: '2008-11-16',
-    status: 'Recent',
+    status: 'Insured',
     gender: 'Female',
     contacts: [
       {
@@ -11757,7 +11757,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2019-03-28',
-    lastTransactionDate: '2019-12-02',
+    lastTransactionDate: '2020-12-21',
     teamCode: 'U14G',
     disability: null,
   },
@@ -11767,7 +11767,7 @@ const data: IPlayer[] = [
     lastName: 'Hughson',
     firstName: 'Max',
     dateOfBirth: '2011-07-08',
-    status: 'Recent',
+    status: 'Insured',
     gender: 'Male',
     contacts: [
       {
@@ -11852,7 +11852,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2019-02-28',
-    lastTransactionDate: '2019-12-02',
+    lastTransactionDate: '2020-12-21',
     teamCode: 'U10M',
     disability: null,
   },
@@ -18076,7 +18076,7 @@ const data: IPlayer[] = [
     lastName: 'Mead',
     firstName: 'Jackson',
     dateOfBirth: '2011-09-02',
-    status: 'Recent',
+    status: 'Insured',
     gender: 'Male',
     contacts: [
       {
@@ -18157,7 +18157,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2019-05-11',
-    lastTransactionDate: '2019-11-09',
+    lastTransactionDate: '2020-12-21',
     teamCode: 'U10M',
     disability: null,
   },
@@ -30448,7 +30448,7 @@ const data: IPlayer[] = [
     lastName: 'Willoughby',
     firstName: 'Tyler',
     dateOfBirth: '2009-08-06',
-    status: 'Recent',
+    status: 'Registered',
     gender: 'Male',
     contacts: [
       {
@@ -30521,7 +30521,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2017-11-29',
-    lastTransactionDate: '2020-06-18',
+    lastTransactionDate: '2020-12-21',
     teamCode: 'U12B',
     disability: null,
   },
@@ -31347,7 +31347,7 @@ const data: IPlayer[] = [
     lastName: 'Young',
     firstName: 'Campbell',
     dateOfBirth: '2008-10-29',
-    status: 'Recent',
+    status: 'Registered',
     gender: 'Male',
     contacts: [
       {
@@ -31441,7 +31441,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2017-04-01',
-    lastTransactionDate: '2020-02-16',
+    lastTransactionDate: '2020-12-21',
     teamCode: 'U14B',
     disability: null,
   },
