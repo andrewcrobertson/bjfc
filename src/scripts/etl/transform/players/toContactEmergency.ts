@@ -1,4 +1,4 @@
-import type { ISanitisedPlayerContact } from '@this/types/sanitisedPlayer';
+import type { IPlayerContact } from '@this/types/player';
 import first from 'lodash/first';
 import join from 'lodash/join';
 import map from 'lodash/map';
@@ -13,7 +13,7 @@ const getInitials = (name: string) => {
   return join(tokensInitials, '').toUpperCase();
 };
 
-export const toContactEmergency = (obj: IRawPlayerEmergencyContact): ISanitisedPlayerContact => ({
+export const toContactEmergency = (obj: IRawPlayerEmergencyContact): IPlayerContact => ({
   type: 'Emergency',
   relationship: obj.relationship,
   name: obj.name,

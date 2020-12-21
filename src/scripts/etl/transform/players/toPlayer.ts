@@ -1,4 +1,4 @@
-import type { ISanitisedPlayer } from '@this/types/sanitisedPlayer';
+import type { IPlayer } from '@this/types/player';
 import { last } from 'lodash';
 import type { IRawPlayer } from '../../types/rawPlayer';
 import { toInitials } from '../utility/toInitials';
@@ -6,7 +6,7 @@ import { toContacts } from './toContacts';
 import { toDisability } from './toDisability';
 import { toPlayerStatus } from './toPlayerStatus';
 
-export const toPlayer = (player: IRawPlayer, teamCode: string, groupedPlayerInfo: any): ISanitisedPlayer => {
+export const toPlayer = (player: IRawPlayer, teamCode: string, groupedPlayerInfo: any): IPlayer => {
   const { insured, registered, registeredRecently, ...playerInfo } = groupedPlayerInfo[player.footyWebNumber] ?? {};
   const clubHistory = (playerInfo.clubHistory as any[]) ?? [];
   const currentClubRecord = last(clubHistory);

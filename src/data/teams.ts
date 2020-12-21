@@ -1,4 +1,6 @@
-export default [
+import type { ITeam } from '@this/types/team';
+
+const data: ITeam[] = [
   {
     code: 'U18G',
     ageGroupCode: 'U18',
@@ -473,3 +475,5 @@ export default [
     teamManager: null,
   },
 ];
+
+export default data;

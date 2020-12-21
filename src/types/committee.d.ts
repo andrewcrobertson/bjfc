@@ -1,7 +1,7 @@
 import type { PersonGenderEnum } from '@this/constants/enums';
-import type { ISanitisedContactMethod } from './sanitisedCommon';
+import type { ISanitisedContactMethod } from './common';
 
-export interface ISanitisedCommittee {
+export interface ICommitteeMember {
   role: string;
   initials: string;
   firstName: string;

@@ -1,7 +1,7 @@
 import type { PersonGenderEnum, TeamGenderEnum } from '@this/constants/enums';
-import type { ISanitisedContactMethod } from './sanitisedCommon';
+import type { ISanitisedContactMethod } from './common';
 
-export interface ISanitisedOfficial {
+export interface ITeamOfficial {
   initials: string;
   firstName: string;
   lastName: string;
@@ -9,15 +9,15 @@ export interface ISanitisedOfficial {
   gender: string;
 }
 
-export interface ISanitisedTeam {
+export interface ITeam {
   code: string;
   ageGroupCode: string;
   name: string;
   birthYears: number[];
   playerGenders: PersonGenderEnum[];
   teamGender: TeamGenderEnum;
-  headCoach: ISanitisedOfficial;
-  assistantCoach: ISanitisedOfficial;
-  trainer: ISanitisedOfficial;
-  teamManager: ISanitisedOfficial;
+  headCoach: ITeamOfficial;
+  assistantCoach: ITeamOfficial;
+  trainer: ITeamOfficial;
+  teamManager: ITeamOfficial;
 }

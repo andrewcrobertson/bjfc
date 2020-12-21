@@ -1,6 +1,6 @@
 import type { TransactionStatusEnum } from '@this/constants/enums';
 
-export interface ISanitisedTransaction {
+export interface ITransaction {
   footyWebNumber: string;
   date: string;
   time: string;

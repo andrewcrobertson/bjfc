@@ -1,12 +1,7 @@
 import type { PersonGenderEnum, PlayerContactTypeEnum, PlayerStatusEnum } from '@this/constants/enums';
-import type { ISanitisedContactMethod } from './sanitisedCommon';
+import type { IPersonName, ISanitisedContactMethod } from './common';
 
-export interface IPersonName {
-  last: string;
-  first: string;
-}
-
-export interface ISanitisedPlayerContact {
+export interface IPlayerContact {
   type: PlayerContactTypeEnum;
   relationship: string;
   name: string | IPersonName;
@@ -16,17 +11,17 @@ export interface ISanitisedPlayerContact {
   assistInRole: string;
 }
 
-export interface ISanitisedClubRecord {
+export interface IPlayerClubRecord {
   date: string;
   club: string;
 }
 
-export interface ISanitisedPlayerDisability {
+export interface IPlayerDisability {
   type: string;
   notes: string;
 }
 
-export interface ISanitisedPlayer {
+export interface IPlayer {
   footyWebNumber: string;
   initials: string;
   lastName: string;
@@ -34,11 +29,11 @@ export interface ISanitisedPlayer {
   dateOfBirth: string;
   status: PlayerStatusEnum;
   gender: PersonGenderEnum;
-  contacts: ISanitisedPlayerContact[];
+  contacts: IPlayerContact[];
   club: string;
-  clubHistory: ISanitisedClubRecord[];
+  clubHistory: IPlayerClubRecord[];
   lastTransferDate: string;
   lastTransactionDate: string;
   teamCode: string;
-  disability: ISanitisedPlayerDisability;
+  disability: IPlayerDisability;
 }

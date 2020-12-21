@@ -1,4 +1,5 @@
-import type { IPersonName, ISanitisedPlayer, ISanitisedPlayerContact } from '@this/types/sanitisedPlayer';
+import type { IPersonName } from '@this/types/common';
+import type { IPlayer, IPlayerContact } from '@this/types/player';
 import compact from 'lodash/compact';
 import each from 'lodash/each';
 import filter from 'lodash/filter';
@@ -9,7 +10,7 @@ import join from 'lodash/join';
 import map from 'lodash/map';
 import uniq from 'lodash/uniq';
 
-export const recentlyRegisteredEmail = (members: ISanitisedPlayer[]) => {
+export const recentlyRegisteredEmail = (members: IPlayer[]) => {
   const getName = (name: string | IPersonName) => {
     if (name === null) {
       return null;
@@ -22,7 +23,7 @@ export const recentlyRegisteredEmail = (members: ISanitisedPlayer[]) => {
     return join(compact([(name as IPersonName).last, (name as IPersonName).first]), ' ');
   };
 
-  const getEmailContacts = (c: ISanitisedPlayerContact[]) =>
+  const getEmailContacts = (c: IPlayerContact[]) =>
     map(c, (c) => ({
       name: getName(c.name),
       email: map(
@@ -31,7 +32,7 @@ export const recentlyRegisteredEmail = (members: ISanitisedPlayer[]) => {
       ),
     }));
 
-  const getRecs = (m: ISanitisedPlayer) => {
+  const getRecs = (m: IPlayer) => {
     const emailContacts = getEmailContacts(m.contacts);
     const emailMap = fromPairs(map(flattenDeep(map(emailContacts, ({ email }) => email)), (email) => [email, false]));
 

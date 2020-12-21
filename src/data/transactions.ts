@@ -1,4 +1,6 @@
-export default [
+import type { ITransaction } from '@this/types/transaction';
+
+const data: ITransaction[] = [
   {
     footyWebNumber: '02921592',
     date: '2016-04-20',
@@ -22264,3 +22266,5 @@ export default [
     status: 'Paid',
   },
 ];
+
+export default data;

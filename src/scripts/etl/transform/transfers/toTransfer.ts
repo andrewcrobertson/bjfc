@@ -1,9 +1,9 @@
-import type { ISanitisedTransfer } from '@this/types/sanitisedTransfer';
+import type { ITransfer } from '@this/types/transfer';
 import type { IRawTransfer } from '../../types/rawTransfer';
 
 type ClubMap = { [key: string]: string };
 
-export const toTransfer = (obj: IRawTransfer, clubMap: ClubMap): ISanitisedTransfer => ({
+export const toTransfer = (obj: IRawTransfer, clubMap: ClubMap): ITransfer => ({
   footyWebNumber: obj.footyWebNumber,
   transferYear: obj.transferYear,
   applicationDate: obj.applicationDate,

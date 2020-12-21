@@ -1,6 +1,6 @@
 import type { TransactionTypeEnum } from '@this/constants/enums';
 
-export interface ISanitisedProduct {
+export interface IProduct {
   name: string;
   type: TransactionTypeEnum;
   year: number;

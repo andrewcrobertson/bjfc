@@ -1,4 +1,4 @@
-export interface ISanitisedTransfer {
+export interface ITransfer {
   footyWebNumber: string;
   transferYear: string;
   applicationDate: string;

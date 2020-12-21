@@ -1,9 +1,9 @@
-import type { ISanitisedPlayerContact } from '@this/types/sanitisedPlayer';
+import type { IPlayerContact } from '@this/types/player';
 import type { IRawPlayerRegisteredContact } from '../../types/rawPlayer';
 import { arrayToString } from '../utility/arrayToString';
 import { toContactMethods } from '../utility/toContactMethods';
 
-export const toContactRegistered = (obj: IRawPlayerRegisteredContact): ISanitisedPlayerContact => ({
+export const toContactRegistered = (obj: IRawPlayerRegisteredContact): IPlayerContact => ({
   type: 'Registered',
   relationship: null,
   name: 'Registered Contact',

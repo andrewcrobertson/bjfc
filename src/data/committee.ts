@@ -1,4 +1,6 @@
-export default [
+import type { ICommitteeMember } from '@this/types/committee';
+
+const data: ICommitteeMember[] = [
   {
     role: 'President',
     initials: 'BD',
@@ -267,3 +269,5 @@ export default [
     ],
   },
 ];
+
+export default data;

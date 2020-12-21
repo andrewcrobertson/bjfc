@@ -1,7 +1,7 @@
-import type { ISanitisedPlayer } from '@this/types/sanitisedPlayer';
+import type { IPlayer } from '@this/types/player';
 import type { ITeamPlayerTransferred } from '../state';
 
-export const mapPlayerTransferred = (player: ISanitisedPlayer): ITeamPlayerTransferred => ({
+export const mapPlayerTransferred = (player: IPlayer): ITeamPlayerTransferred => ({
   footyWebNumber: player.footyWebNumber,
   initials: player.initials,
   lastName: player.lastName,

@@ -1,9 +1,9 @@
-import type { ISanitisedCommittee } from '@this/types/sanitisedCommittee';
+import type { ICommitteeMember } from '@this/types/committee';
 import type { IRawCommittee } from '../../types/rawCommittee';
 import { toContactMethods } from '../utility/toContactMethods';
 import { toInitials } from '../utility/toInitials';
 
-export const toMember = (member: IRawCommittee): ISanitisedCommittee => ({
+export const toMember = (member: IRawCommittee): ICommitteeMember => ({
   role: member.role,
   initials: toInitials(member.firstName, member.lastName),
   firstName: member.firstName,

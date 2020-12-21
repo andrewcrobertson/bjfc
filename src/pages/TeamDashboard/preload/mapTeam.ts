@@ -1,8 +1,8 @@
-import type { ISanitisedPlayer } from '@this/types/sanitisedPlayer';
-import type { ISanitisedTeam } from '@this/types/sanitisedTeam';
+import type { IPlayer } from '@this/types/player';
+import type { ITeam } from '@this/types/team';
 import filter from 'lodash/filter';
 
-export const mapTeam = (team: ISanitisedTeam, players: ISanitisedPlayer[]) => {
+export const mapTeam = (team: ITeam, players: IPlayer[]) => {
   const insuredCount = filter(players, ({ status }) => status === 'Insured').length;
   const registeredCount = filter(players, ({ status }) => status === 'Registered').length;
 

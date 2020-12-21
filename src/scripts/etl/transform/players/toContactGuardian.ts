@@ -1,9 +1,9 @@
-import type { ISanitisedPlayerContact } from '@this/types/sanitisedPlayer';
+import type { IPlayerContact } from '@this/types/player';
 import type { IRawPlayerGuardian } from '../../types/rawPlayer';
 import { toContactMethods } from '../utility/toContactMethods';
 import { toInitials } from '../utility/toInitials';
 
-export const toContactGuardian = (guardian: IRawPlayerGuardian): ISanitisedPlayerContact => ({
+export const toContactGuardian = (guardian: IRawPlayerGuardian): IPlayerContact => ({
   type: 'Guardian',
   relationship: null,
   name: {

@@ -1,4 +1,6 @@
-export default [
+import type { IPlayer } from '@this/types/player';
+
+const data: IPlayer[] = [
   {
     footyWebNumber: '02921592',
     initials: 'CA',
@@ -33075,3 +33077,5 @@ export default [
     disability: null,
   },
 ];
+
+export default data;
