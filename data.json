@@ -919,18 +919,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Friend",
           "name": "Beccy Dawber",
@@ -1094,18 +1082,6 @@
               "value": "mwalker12@bigpond.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -1387,18 +1363,6 @@
           "assistInRole": "Coaching"
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "mother",
           "name": "Chantal",
@@ -1478,18 +1442,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -1551,10 +1503,6 @@
             {
               "type": "Phone",
               "value": "0432 277 724"
-            },
-            {
-              "type": "Phone",
-              "value": "03 9509 5980"
             },
             {
               "type": "Email",
@@ -1660,18 +1608,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -1724,30 +1660,6 @@
       "status": "Historical",
       "gender": "Female",
       "contacts": [
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Emergency",
           "relationship": null,
@@ -2616,18 +2528,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -2695,18 +2595,6 @@
               "value": "carlywallace69@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -2781,18 +2669,6 @@
               "value": "benny190271@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -3152,18 +3028,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Father",
           "name": "Ben elliott",
@@ -3335,18 +3199,6 @@
               "value": "samstimson@optusnet.com.au"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -3524,18 +3376,6 @@
           "assistInRole": "General helper"
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -3612,18 +3452,6 @@
             }
           ],
           "assistInRole": "General helper"
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Emergency",
@@ -3980,18 +3808,6 @@
             }
           ],
           "assistInRole": "General helper"
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Emergency",
@@ -4970,18 +4786,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": "Lisa brown",
@@ -5043,30 +4847,6 @@
       "status": "Historical",
       "gender": "Female",
       "contacts": [
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Emergency",
           "relationship": null,
@@ -5618,18 +5398,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Grandmother",
           "name": "Margaret Francis",
@@ -5913,18 +5681,6 @@
           "assistInRole": "General helper"
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "mother",
           "name": "Lisa Paice",
@@ -6005,18 +5761,6 @@
               "value": "camscove@icloud.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -6187,18 +5931,6 @@
               "value": "shaneturnerstud@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -6853,18 +6585,6 @@
           "assistInRole": "General helper"
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -7019,18 +6739,6 @@
               "value": "0401 751 118"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -7428,18 +7136,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -7507,18 +7203,6 @@
               "value": "angela@valleywindows.com.au"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -8511,18 +8195,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -8667,30 +8339,6 @@
       "gender": "Female",
       "contacts": [
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -8767,18 +8415,6 @@
             }
           ],
           "assistInRole": "General helper"
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Emergency",
@@ -8952,18 +8588,6 @@
               "value": "craig@gwrlive.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -9237,18 +8861,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -9320,18 +8932,6 @@
               "value": "jaderodgers1981@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -9604,18 +9204,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "mother",
           "name": "mum",
@@ -9790,18 +9378,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Nanna",
           "name": "Michele Vanlooy",
@@ -9882,18 +9458,6 @@
               "value": "bvanlooy1982@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -11159,18 +10723,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "grandmother",
           "name": "lynne ramadge",
@@ -11228,30 +10780,6 @@
       "status": "Historical",
       "gender": "Female",
       "contacts": [
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Emergency",
           "relationship": null,
@@ -11383,30 +10911,6 @@
       "status": "Historical",
       "gender": "Female",
       "contacts": [
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Emergency",
           "relationship": null,
@@ -11661,18 +11165,6 @@
               "value": "wilta28@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -13386,18 +12878,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -13466,18 +12946,6 @@
             }
           ],
           "assistInRole": "Coaching"
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Emergency",
@@ -13650,18 +13118,6 @@
               "value": "kylieirshad@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -13839,18 +13295,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "stepdad",
           "name": "Damian Sadler",
@@ -13904,30 +13348,6 @@
       "status": "Historical",
       "gender": "Female",
       "contacts": [
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Emergency",
           "relationship": null,
@@ -14397,18 +13817,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -14572,18 +13980,6 @@
             }
           ],
           "assistInRole": "Coaching"
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Emergency",
@@ -14757,18 +14153,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": "Warwick Kane",
@@ -14822,30 +14206,6 @@
       "status": "Recent",
       "gender": "Female",
       "contacts": [
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Emergency",
           "relationship": null,
@@ -14917,18 +14277,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -14996,18 +14344,6 @@
               "value": "ray.k0709@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -15266,18 +14602,6 @@
           "assistInRole": "General helper"
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Father",
           "name": "Brendan kleverkamp",
@@ -15331,30 +14655,6 @@
       "status": "Historical",
       "gender": "Male",
       "contacts": [
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Emergency",
           "relationship": null,
@@ -15427,18 +14727,6 @@
               "value": "kylierocks@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -15699,30 +14987,6 @@
       "gender": "Male",
       "contacts": [
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -15791,18 +15055,6 @@
             }
           ],
           "assistInRole": "Administration"
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Emergency",
@@ -16281,18 +15533,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": "Fiona",
@@ -16551,30 +15791,6 @@
       "gender": "Male",
       "contacts": [
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -16741,18 +15957,6 @@
               "value": "emilybalsdon1992@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -17526,30 +16730,6 @@
       "status": "Historical",
       "gender": "Male",
       "contacts": [
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Emergency",
           "relationship": null,
@@ -18589,18 +17769,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Father",
           "name": "Todd Masterson",
@@ -19477,18 +18645,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -19660,18 +18816,6 @@
               "value": "salliw79@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -20030,18 +19174,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Familyfriends",
           "name": "Wilta hastas",
@@ -20123,18 +19255,6 @@
             }
           ],
           "assistInRole": "General helper"
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Emergency",
@@ -20300,18 +19420,6 @@
             }
           ],
           "assistInRole": "General helper"
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Emergency",
@@ -20761,30 +19869,6 @@
       "gender": "Male",
       "contacts": [
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -20856,18 +19940,6 @@
               "value": "pnackovski@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -21257,18 +20329,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -21336,18 +20396,6 @@
               "value": "m.ald37@outlook.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -22315,18 +21363,6 @@
           "assistInRole": "General helper"
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -22890,30 +21926,6 @@
       "gender": "Male",
       "contacts": [
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -23303,18 +22315,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -23605,18 +22605,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -23788,18 +22776,6 @@
               "value": "mariebetti81@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -23977,18 +22953,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Mother",
           "name": "Rebecca Pottenger",
@@ -24069,18 +23033,6 @@
               "value": "majenta_3@live.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -24446,30 +23398,6 @@
       "gender": "Male",
       "contacts": [
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -24541,18 +23469,6 @@
               "value": "jackieraine@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -24743,18 +23659,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -24825,18 +23729,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -24904,18 +23796,6 @@
               "value": "hayley-555@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -26376,18 +25256,6 @@
           "assistInRole": "General helper"
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Father",
           "name": "Barry Rogers",
@@ -26642,18 +25510,6 @@
               "value": "melissawilkins56@gmail"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -27263,18 +26119,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Mother",
           "name": "Meaghan scott",
@@ -27558,18 +26402,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -27800,30 +26632,6 @@
       "gender": "Female",
       "contacts": [
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -27898,18 +26706,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -27981,18 +26777,6 @@
               "value": "mandymaggs9@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -28167,18 +26951,6 @@
               "value": "staffman1973@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -28755,18 +27527,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -28931,18 +27691,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Mother",
           "name": "Ildiko",
@@ -29015,18 +27763,6 @@
               "value": "avayebaran_m2006@yahoo.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -29399,18 +28135,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -29479,18 +28203,6 @@
             }
           ],
           "assistInRole": "Coaching"
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Emergency",
@@ -29663,18 +28375,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": "Clay Elliott",
@@ -29837,30 +28537,6 @@
       "gender": "Male",
       "contacts": [
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -30008,30 +28684,6 @@
       "gender": "Male",
       "contacts": [
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": "Shaun Torney",
@@ -30119,18 +28771,6 @@
           "assistInRole": "General helper"
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": "Holly Dunbar",
@@ -30208,18 +28848,6 @@
             }
           ],
           "assistInRole": "General helper"
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Emergency",
@@ -30465,30 +29093,6 @@
       "status": "Recent",
       "gender": "Male",
       "contacts": [
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Emergency",
           "relationship": null,
@@ -31012,18 +29616,6 @@
           "assistInRole": "General helper"
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Mother",
           "name": "Fiona Vandenbroek",
@@ -31106,10 +29698,6 @@
             {
               "type": "Phone",
               "value": "0431 444 178"
-            },
-            {
-              "type": "Phone",
-              "value": "9761 3801"
             },
             {
               "type": "Email",
@@ -31634,18 +30222,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -31908,10 +30484,6 @@
             },
             {
               "type": "Phone",
-              "value": "9761 0073"
-            },
-            {
-              "type": "Phone",
               "value": "0419 200 687"
             },
             {
@@ -32091,30 +30663,6 @@
       "status": "Recent",
       "gender": "Male",
       "contacts": [
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Emergency",
           "relationship": null,
@@ -32410,18 +30958,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Aunty",
           "name": "Kelly spencer",
@@ -32574,30 +31110,6 @@
       "status": "Registered",
       "gender": "Female",
       "contacts": [
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Emergency",
           "relationship": null,
@@ -32769,18 +31281,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": "Mother",
           "name": "Lauren",
@@ -32858,18 +31358,6 @@
             }
           ],
           "assistInRole": "General helper"
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Emergency",
@@ -33341,18 +31829,6 @@
           "assistInRole": null
         },
         {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Emergency",
           "relationship": null,
           "name": null,
@@ -33511,18 +31987,6 @@
               "value": "sarah.wootten@outlook.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Guardian",
-          "relationship": null,
-          "name": {
-            "last": null,
-            "first": null
-          },
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {

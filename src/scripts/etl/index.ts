@@ -16,13 +16,13 @@ const productsPath = path.resolve(dataPath, 'products.yaml');
 export const etl = async () => {
   const options = { configPath, allMembersCsvPath, allTransactionsCsvPath, allTransfersCsvPath, committeePath, teamsPath, productsPath };
   const raw = await extract(options);
-  const data1 = transform(raw);
-  load(data1);
+  const data = transform(raw);
+  load(data);
 
-  if (true) recentlyRegisteredEmail(data1.players);
+  if (false) recentlyRegisteredEmail(data.players);
   // const tempData = uniq(flattenDeep(map(data1.members, (m) => map(m.transfers, (t) => [t.sourceClub, t.destinationClub])))).sort();
-  const tempData = data1;
-  require('fs').writeFileSync('data.json', JSON.stringify(tempData, null, 2));
+  require('fs').writeFileSync('raw.json', JSON.stringify(raw, null, 2));
+  require('fs').writeFileSync('data.json', JSON.stringify(data, null, 2));
 };
 
 etl();

@@ -1,6 +1,5 @@
 import compact from 'lodash/compact';
 import type { IRawPlayer } from '../../types/rawPlayer';
-import { sanitiseObject } from '../utility/sanitiseObject';
 import { sanitisePersonGender } from '../utility/sanitisePersonGender';
 import { sanitiseSlashDate } from '../utility/sanitiseSlashDate';
 import { sanitiseString } from '../utility/sanitiseString';
@@ -17,8 +16,8 @@ export const sanitisePlayer = (obj: any): IRawPlayer => ({
   firstName: sanitiseString(obj.firstName),
   dateOfBirth: sanitiseSlashDate(sanitiseString(obj.dateOfBirth)),
   gender: sanitisePersonGender(obj.gender),
-  guardians: compact([sanitiseObject(sanitiseGuardian1(obj)), sanitiseObject(sanitiseGuardian2(obj))]),
-  emergencyContact: sanitiseObject(sanitiseEmergencyContact(obj)),
-  registeredContact: sanitiseObject(sanitiseRegisteredContact(obj)),
+  guardians: compact([sanitiseGuardian1(obj), sanitiseGuardian2(obj)]),
+  emergencyContact: sanitiseEmergencyContact(obj),
+  registeredContact: sanitiseRegisteredContact(obj),
   disability: sanitiseDisability(obj),
 });

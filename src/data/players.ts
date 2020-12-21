@@ -36,18 +36,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Friend',
         name: 'Beccy Dawber',
@@ -211,18 +199,6 @@ const data: IPlayer[] = [
             value: 'mwalker12@bigpond.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -504,18 +480,6 @@ const data: IPlayer[] = [
         assistInRole: 'Coaching',
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'mother',
         name: 'Chantal',
@@ -595,18 +559,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -668,10 +620,6 @@ const data: IPlayer[] = [
           {
             type: 'Phone',
             value: '0432 277 724',
-          },
-          {
-            type: 'Phone',
-            value: '03 9509 5980',
           },
           {
             type: 'Email',
@@ -777,18 +725,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -841,30 +777,6 @@ const data: IPlayer[] = [
     status: 'Historical',
     gender: 'Female',
     contacts: [
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
       {
         type: 'Emergency',
         relationship: null,
@@ -1733,18 +1645,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -1812,18 +1712,6 @@ const data: IPlayer[] = [
             value: 'carlywallace69@hotmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -1898,18 +1786,6 @@ const data: IPlayer[] = [
             value: 'benny190271@gmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -2269,18 +2145,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Father',
         name: 'Ben elliott',
@@ -2452,18 +2316,6 @@ const data: IPlayer[] = [
             value: 'samstimson@optusnet.com.au',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -2641,18 +2493,6 @@ const data: IPlayer[] = [
         assistInRole: 'General helper',
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -2729,18 +2569,6 @@ const data: IPlayer[] = [
           },
         ],
         assistInRole: 'General helper',
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
       },
       {
         type: 'Emergency',
@@ -3097,18 +2925,6 @@ const data: IPlayer[] = [
           },
         ],
         assistInRole: 'General helper',
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
       },
       {
         type: 'Emergency',
@@ -4087,18 +3903,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: 'Lisa brown',
@@ -4160,30 +3964,6 @@ const data: IPlayer[] = [
     status: 'Historical',
     gender: 'Female',
     contacts: [
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
       {
         type: 'Emergency',
         relationship: null,
@@ -4735,18 +4515,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Grandmother',
         name: 'Margaret Francis',
@@ -5030,18 +4798,6 @@ const data: IPlayer[] = [
         assistInRole: 'General helper',
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'mother',
         name: 'Lisa Paice',
@@ -5122,18 +4878,6 @@ const data: IPlayer[] = [
             value: 'camscove@icloud.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -5304,18 +5048,6 @@ const data: IPlayer[] = [
             value: 'shaneturnerstud@gmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -5970,18 +5702,6 @@ const data: IPlayer[] = [
         assistInRole: 'General helper',
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -6136,18 +5856,6 @@ const data: IPlayer[] = [
             value: '0401 751 118',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -6545,18 +6253,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -6624,18 +6320,6 @@ const data: IPlayer[] = [
             value: 'angela@valleywindows.com.au',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -7628,18 +7312,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -7784,30 +7456,6 @@ const data: IPlayer[] = [
     gender: 'Female',
     contacts: [
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -7884,18 +7532,6 @@ const data: IPlayer[] = [
           },
         ],
         assistInRole: 'General helper',
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
       },
       {
         type: 'Emergency',
@@ -8069,18 +7705,6 @@ const data: IPlayer[] = [
             value: 'craig@gwrlive.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -8354,18 +7978,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -8437,18 +8049,6 @@ const data: IPlayer[] = [
             value: 'jaderodgers1981@gmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -8721,18 +8321,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'mother',
         name: 'mum',
@@ -8907,18 +8495,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Nanna',
         name: 'Michele Vanlooy',
@@ -8999,18 +8575,6 @@ const data: IPlayer[] = [
             value: 'bvanlooy1982@hotmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -10276,18 +9840,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'grandmother',
         name: 'lynne ramadge',
@@ -10345,30 +9897,6 @@ const data: IPlayer[] = [
     status: 'Historical',
     gender: 'Female',
     contacts: [
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
       {
         type: 'Emergency',
         relationship: null,
@@ -10500,30 +10028,6 @@ const data: IPlayer[] = [
     status: 'Historical',
     gender: 'Female',
     contacts: [
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
       {
         type: 'Emergency',
         relationship: null,
@@ -10778,18 +10282,6 @@ const data: IPlayer[] = [
             value: 'wilta28@gmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -12503,18 +11995,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -12583,18 +12063,6 @@ const data: IPlayer[] = [
           },
         ],
         assistInRole: 'Coaching',
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
       },
       {
         type: 'Emergency',
@@ -12767,18 +12235,6 @@ const data: IPlayer[] = [
             value: 'kylieirshad@hotmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -12956,18 +12412,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'stepdad',
         name: 'Damian Sadler',
@@ -13021,30 +12465,6 @@ const data: IPlayer[] = [
     status: 'Historical',
     gender: 'Female',
     contacts: [
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
       {
         type: 'Emergency',
         relationship: null,
@@ -13514,18 +12934,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -13689,18 +13097,6 @@ const data: IPlayer[] = [
           },
         ],
         assistInRole: 'Coaching',
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
       },
       {
         type: 'Emergency',
@@ -13874,18 +13270,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: 'Warwick Kane',
@@ -13939,30 +13323,6 @@ const data: IPlayer[] = [
     status: 'Recent',
     gender: 'Female',
     contacts: [
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
       {
         type: 'Emergency',
         relationship: null,
@@ -14034,18 +13394,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -14113,18 +13461,6 @@ const data: IPlayer[] = [
             value: 'ray.k0709@gmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -14383,18 +13719,6 @@ const data: IPlayer[] = [
         assistInRole: 'General helper',
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Father',
         name: 'Brendan kleverkamp',
@@ -14448,30 +13772,6 @@ const data: IPlayer[] = [
     status: 'Historical',
     gender: 'Male',
     contacts: [
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
       {
         type: 'Emergency',
         relationship: null,
@@ -14544,18 +13844,6 @@ const data: IPlayer[] = [
             value: 'kylierocks@gmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -14816,30 +14104,6 @@ const data: IPlayer[] = [
     gender: 'Male',
     contacts: [
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -14908,18 +14172,6 @@ const data: IPlayer[] = [
           },
         ],
         assistInRole: 'Administration',
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
       },
       {
         type: 'Emergency',
@@ -15398,18 +14650,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: 'Fiona',
@@ -15668,30 +14908,6 @@ const data: IPlayer[] = [
     gender: 'Male',
     contacts: [
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -15858,18 +15074,6 @@ const data: IPlayer[] = [
             value: 'emilybalsdon1992@hotmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -16643,30 +15847,6 @@ const data: IPlayer[] = [
     status: 'Historical',
     gender: 'Male',
     contacts: [
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
       {
         type: 'Emergency',
         relationship: null,
@@ -17706,18 +16886,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Father',
         name: 'Todd Masterson',
@@ -18594,18 +17762,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -18777,18 +17933,6 @@ const data: IPlayer[] = [
             value: 'salliw79@gmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -19147,18 +18291,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Familyfriends',
         name: 'Wilta hastas',
@@ -19240,18 +18372,6 @@ const data: IPlayer[] = [
           },
         ],
         assistInRole: 'General helper',
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
       },
       {
         type: 'Emergency',
@@ -19417,18 +18537,6 @@ const data: IPlayer[] = [
           },
         ],
         assistInRole: 'General helper',
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
       },
       {
         type: 'Emergency',
@@ -19878,30 +18986,6 @@ const data: IPlayer[] = [
     gender: 'Male',
     contacts: [
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -19973,18 +19057,6 @@ const data: IPlayer[] = [
             value: 'pnackovski@hotmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -20374,18 +19446,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -20453,18 +19513,6 @@ const data: IPlayer[] = [
             value: 'm.ald37@outlook.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -21432,18 +20480,6 @@ const data: IPlayer[] = [
         assistInRole: 'General helper',
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -22007,30 +21043,6 @@ const data: IPlayer[] = [
     gender: 'Male',
     contacts: [
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -22420,18 +21432,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -22722,18 +21722,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -22905,18 +21893,6 @@ const data: IPlayer[] = [
             value: 'mariebetti81@hotmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -23094,18 +22070,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Mother',
         name: 'Rebecca Pottenger',
@@ -23186,18 +22150,6 @@ const data: IPlayer[] = [
             value: 'majenta_3@live.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -23563,30 +22515,6 @@ const data: IPlayer[] = [
     gender: 'Male',
     contacts: [
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -23658,18 +22586,6 @@ const data: IPlayer[] = [
             value: 'jackieraine@gmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -23860,18 +22776,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -23942,18 +22846,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -24021,18 +22913,6 @@ const data: IPlayer[] = [
             value: 'hayley-555@hotmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -25493,18 +24373,6 @@ const data: IPlayer[] = [
         assistInRole: 'General helper',
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Father',
         name: 'Barry Rogers',
@@ -25759,18 +24627,6 @@ const data: IPlayer[] = [
             value: 'melissawilkins56@gmail',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -26380,18 +25236,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Mother',
         name: 'Meaghan scott',
@@ -26675,18 +25519,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -26917,30 +25749,6 @@ const data: IPlayer[] = [
     gender: 'Female',
     contacts: [
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -27015,18 +25823,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -27098,18 +25894,6 @@ const data: IPlayer[] = [
             value: 'mandymaggs9@gmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -27284,18 +26068,6 @@ const data: IPlayer[] = [
             value: 'staffman1973@gmail.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -27872,18 +26644,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -28048,18 +26808,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Mother',
         name: 'Ildiko',
@@ -28132,18 +26880,6 @@ const data: IPlayer[] = [
             value: 'avayebaran_m2006@yahoo.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
@@ -28516,18 +27252,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -28596,18 +27320,6 @@ const data: IPlayer[] = [
           },
         ],
         assistInRole: 'Coaching',
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
       },
       {
         type: 'Emergency',
@@ -28780,18 +27492,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: 'Clay Elliott',
@@ -28954,30 +27654,6 @@ const data: IPlayer[] = [
     gender: 'Male',
     contacts: [
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -29125,30 +27801,6 @@ const data: IPlayer[] = [
     gender: 'Male',
     contacts: [
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: 'Shaun Torney',
@@ -29236,18 +27888,6 @@ const data: IPlayer[] = [
         assistInRole: 'General helper',
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: 'Holly Dunbar',
@@ -29325,18 +27965,6 @@ const data: IPlayer[] = [
           },
         ],
         assistInRole: 'General helper',
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
       },
       {
         type: 'Emergency',
@@ -29582,30 +28210,6 @@ const data: IPlayer[] = [
     status: 'Recent',
     gender: 'Male',
     contacts: [
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
       {
         type: 'Emergency',
         relationship: null,
@@ -30129,18 +28733,6 @@ const data: IPlayer[] = [
         assistInRole: 'General helper',
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Mother',
         name: 'Fiona Vandenbroek',
@@ -30223,10 +28815,6 @@ const data: IPlayer[] = [
           {
             type: 'Phone',
             value: '0431 444 178',
-          },
-          {
-            type: 'Phone',
-            value: '9761 3801',
           },
           {
             type: 'Email',
@@ -30751,18 +29339,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -31025,10 +29601,6 @@ const data: IPlayer[] = [
           },
           {
             type: 'Phone',
-            value: '9761 0073',
-          },
-          {
-            type: 'Phone',
             value: '0419 200 687',
           },
           {
@@ -31208,30 +29780,6 @@ const data: IPlayer[] = [
     status: 'Recent',
     gender: 'Male',
     contacts: [
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
       {
         type: 'Emergency',
         relationship: null,
@@ -31527,18 +30075,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Aunty',
         name: 'Kelly spencer',
@@ -31691,30 +30227,6 @@ const data: IPlayer[] = [
     status: 'Registered',
     gender: 'Female',
     contacts: [
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
       {
         type: 'Emergency',
         relationship: null,
@@ -31886,18 +30398,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: 'Mother',
         name: 'Lauren',
@@ -31975,18 +30475,6 @@ const data: IPlayer[] = [
           },
         ],
         assistInRole: 'General helper',
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
       },
       {
         type: 'Emergency',
@@ -32458,18 +30946,6 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
       {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
-        assistInRole: null,
-      },
-      {
         type: 'Emergency',
         relationship: null,
         name: null,
@@ -32628,18 +31104,6 @@ const data: IPlayer[] = [
             value: 'sarah.wootten@outlook.com',
           },
         ],
-        assistInRole: null,
-      },
-      {
-        type: 'Guardian',
-        relationship: null,
-        name: {
-          last: null,
-          first: null,
-        },
-        gender: 'Unknown',
-        initials: '',
-        contactMethods: [],
         assistInRole: null,
       },
       {
