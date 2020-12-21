@@ -5,7 +5,7 @@ export interface IPersonName {
   first: string;
 }
 
-export interface ISanitisedContactMethod {
+export interface IContactMethod {
   type: ContactMethodEnum;
   value: string;
 }

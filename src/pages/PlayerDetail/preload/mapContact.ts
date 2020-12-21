@@ -1,13 +1,14 @@
 import type { IPlayerContact } from '@this/types/player';
 import { getName } from '@this/utility/getName';
+import { mapContactMethods } from './mapContactMethods';
 import { mapRelationship } from './mapRelationship';
 
-export const mapContact = (contact: IPlayerContact) => ({
-  code: contact.type,
+export const mapContact = (contact: IPlayerContact, maxContactMethods: number) => ({
+  type: contact.type,
   relationship: mapRelationship(contact),
   name: getName(contact.name),
   gender: contact.gender,
   initials: contact.initials,
-  contactMethods: contact.contactMethods,
+  contactMethods: mapContactMethods(contact.contactMethods, maxContactMethods),
   assistInRole: contact.assistInRole,
 });

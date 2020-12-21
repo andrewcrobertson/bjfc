@@ -1,5 +1,5 @@
 import type { PersonGenderEnum, PlayerContactTypeEnum, PlayerStatusEnum } from '@this/constants/enums';
-import type { IPersonName, ISanitisedContactMethod } from './common';
+import type { IContactMethod, IPersonName } from './common';
 
 export interface IPlayerContact {
   type: PlayerContactTypeEnum;
@@ -7,7 +7,7 @@ export interface IPlayerContact {
   name: string | IPersonName;
   gender: PersonGenderEnum;
   initials: string;
-  contactMethods: ISanitisedContactMethod[];
+  contactMethods: IContactMethod[];
   assistInRole: string;
 }
 

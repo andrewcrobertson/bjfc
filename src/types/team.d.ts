@@ -1,11 +1,11 @@
 import type { PersonGenderEnum, TeamGenderEnum } from '@this/constants/enums';
-import type { ISanitisedContactMethod } from './common';
+import type { IContactMethod } from './common';
 
 export interface ITeamOfficial {
   initials: string;
   firstName: string;
   lastName: string;
-  contactMethods: ISanitisedContactMethod[];
+  contactMethods: IContactMethod[];
   gender: PersonGenderEnum;
 }
 
