@@ -1015,15 +1015,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -1082,15 +1073,6 @@
               "value": "mwalker12@bigpond.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -1442,15 +1424,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -1608,15 +1581,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -1660,15 +1624,6 @@
       "status": "Historical",
       "gender": "Female",
       "contacts": [
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Registered",
           "relationship": null,
@@ -1753,15 +1708,6 @@
               "value": "chris-stacey@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -1851,15 +1797,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -1939,15 +1876,6 @@
               "value": "nicole.atcheson20@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -2528,15 +2456,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -2595,15 +2514,6 @@
               "value": "carlywallace69@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -2772,15 +2682,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -2860,15 +2761,6 @@
               "value": "duanebarton1972@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -2955,15 +2847,6 @@
               "value": "brettbaseden@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -3124,15 +3007,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -3199,15 +3073,6 @@
               "value": "samstimson@optusnet.com.au"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -3376,15 +3241,6 @@
           "assistInRole": "General helper"
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -3452,15 +3308,6 @@
             }
           ],
           "assistInRole": "General helper"
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Registered",
@@ -3545,15 +3392,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -3633,15 +3471,6 @@
               "value": "benbev35@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -3810,15 +3639,6 @@
           "assistInRole": "General helper"
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -3902,15 +3722,6 @@
               "value": "bradleighblake@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -4600,15 +4411,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -4848,15 +4650,6 @@
       "gender": "Female",
       "contacts": [
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -4940,15 +4733,6 @@
               "value": "debrabuch74@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -5038,15 +4822,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -5129,15 +4904,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -5217,15 +4983,6 @@
               "value": "simbullman@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -5864,15 +5621,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -6138,15 +5886,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -6226,15 +5965,6 @@
               "value": "chantal.hoppe@monash.edu.au"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -6424,15 +6154,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -6515,15 +6236,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -6583,15 +6295,6 @@
             }
           ],
           "assistInRole": "General helper"
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Registered",
@@ -6676,15 +6379,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -6739,15 +6433,6 @@
               "value": "0401 751 118"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -7136,15 +6821,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -7203,15 +6879,6 @@
               "value": "angela@valleywindows.com.au"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -8025,15 +7692,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -8195,15 +7853,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -8290,15 +7939,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -8338,15 +7978,6 @@
       "status": "Historical",
       "gender": "Female",
       "contacts": [
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Registered",
           "relationship": null,
@@ -8415,15 +8046,6 @@
             }
           ],
           "assistInRole": "General helper"
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Registered",
@@ -8691,15 +8313,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -8861,15 +8474,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -8932,15 +8536,6 @@
               "value": "jaderodgers1981@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -9134,15 +8729,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -9297,15 +8883,6 @@
               "value": "0417 360 121"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -9868,15 +9445,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -9917,7 +9485,7 @@
       "lastName": "Groenewegen",
       "firstName": "Jasper",
       "dateOfBirth": "2009-12-13",
-      "status": "Recent",
+      "status": "Insured",
       "gender": "Male",
       "contacts": [
         {
@@ -9967,15 +9535,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -10006,7 +9565,7 @@
         }
       ],
       "lastTransferDate": "2018-04-20",
-      "lastTransactionDate": "2019-11-10",
+      "lastTransactionDate": "2020-12-21",
       "teamCode": "U12B",
       "disability": null
     },
@@ -10059,15 +9618,6 @@
               "value": "lorigunn75@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -10140,15 +9690,6 @@
           },
           "gender": "Unknown",
           "initials": "DG",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
           "contactMethods": [],
           "assistInRole": null
         },
@@ -10232,15 +9773,6 @@
               "value": "gtrrocky15@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -10542,15 +10074,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -10638,15 +10161,6 @@
               "value": "rs_hapu@yahoo.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -10781,15 +10295,6 @@
       "gender": "Female",
       "contacts": [
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -10863,15 +10368,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -10911,15 +10407,6 @@
       "status": "Historical",
       "gender": "Female",
       "contacts": [
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Registered",
           "relationship": null,
@@ -11007,15 +10494,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -11095,15 +10573,6 @@
               "value": "liam.carlin1997@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -11704,15 +11173,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -12011,15 +11471,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -12303,15 +11754,6 @@
               "value": "danielhodgkinson81@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -12605,15 +12047,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -12693,15 +12126,6 @@
               "value": "gillhughson5@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -12878,15 +12302,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -12946,15 +12361,6 @@
             }
           ],
           "assistInRole": "Coaching"
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Registered",
@@ -13044,15 +12450,6 @@
               "value": "g-one_leadlighting@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -13225,15 +12622,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -13348,15 +12736,6 @@
       "status": "Historical",
       "gender": "Female",
       "contacts": [
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Registered",
           "relationship": null,
@@ -13648,15 +13027,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -13743,15 +13113,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -13814,15 +13175,6 @@
               "value": "renae.1980@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -13905,15 +13257,6 @@
               "value": "lyndlu2010@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -14207,15 +13550,6 @@
       "gender": "Female",
       "contacts": [
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -14277,15 +13611,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -14344,15 +13669,6 @@
               "value": "ray.k0709@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -14429,15 +13745,6 @@
           },
           "gender": "Unknown",
           "initials": "SK",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
           "contactMethods": [],
           "assistInRole": null
         },
@@ -14529,15 +13836,6 @@
               "value": "robertgk.66@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -14656,15 +13954,6 @@
       "gender": "Male",
       "contacts": [
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -14705,7 +13994,7 @@
       "lastName": "Knight",
       "firstName": "Heath",
       "dateOfBirth": "2013-04-24",
-      "status": "Recent",
+      "status": "Registered",
       "gender": "Male",
       "contacts": [
         {
@@ -14770,7 +14059,7 @@
         }
       ],
       "lastTransferDate": "2020-06-19",
-      "lastTransactionDate": "2020-06-19",
+      "lastTransactionDate": "2020-12-21",
       "teamCode": "U08M",
       "disability": null
     },
@@ -14780,7 +14069,7 @@
       "lastName": "knight",
       "firstName": "mitchell",
       "dateOfBirth": "2009-12-01",
-      "status": "Recent",
+      "status": "Registered",
       "gender": "Male",
       "contacts": [
         {
@@ -14874,7 +14163,7 @@
         }
       ],
       "lastTransferDate": "2017-04-01",
-      "lastTransactionDate": "2020-03-02",
+      "lastTransactionDate": "2020-12-21",
       "teamCode": "U12B",
       "disability": null
     },
@@ -14930,15 +14219,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -14986,15 +14266,6 @@
       "status": "Historical",
       "gender": "Male",
       "contacts": [
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Registered",
           "relationship": null,
@@ -15055,15 +14326,6 @@
             }
           ],
           "assistInRole": "Administration"
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
         },
         {
           "type": "Registered",
@@ -15345,15 +14607,6 @@
               "value": "n.leb@icloud.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -15791,15 +15044,6 @@
       "gender": "Male",
       "contacts": [
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -15882,15 +15126,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -15957,15 +15192,6 @@
               "value": "emilybalsdon1992@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -16366,15 +15592,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -16731,15 +15948,6 @@
       "gender": "Male",
       "contacts": [
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -16822,15 +16030,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -16910,15 +16109,6 @@
               "value": "craig.maloney@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -17096,15 +16286,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -17184,15 +16365,6 @@
               "value": "0421 785 622"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -17869,15 +17041,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -17965,15 +17128,6 @@
               "value": "marty_the_second@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -18571,15 +17725,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -18642,15 +17787,6 @@
               "value": "lachlan.mcguire2@bigpond.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -18819,15 +17955,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -18907,15 +18034,6 @@
               "value": "gregory.nolan@bigpond.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -19005,15 +18123,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -19097,15 +18206,6 @@
               "value": "miller_13@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -19257,15 +18357,6 @@
           "assistInRole": "General helper"
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -19349,15 +18440,6 @@
               "value": "amee.personal@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -19622,15 +18704,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -19714,15 +18787,6 @@
               "value": "brodie@xenelec.com.au"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -19816,15 +18880,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -19868,15 +18923,6 @@
       "status": "Recent",
       "gender": "Male",
       "contacts": [
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Registered",
           "relationship": null,
@@ -19940,15 +18986,6 @@
               "value": "pnackovski@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -20329,15 +19366,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -20396,15 +19424,6 @@
               "value": "m.ald37@outlook.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -20802,15 +19821,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -21093,15 +20103,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -21363,15 +20364,6 @@
           "assistInRole": "General helper"
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -21570,15 +20562,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -21769,15 +20752,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -21926,15 +20900,6 @@
       "gender": "Male",
       "contacts": [
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -22018,15 +20983,6 @@
               "value": "craig.danielle@optusnet.com.au"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -22315,15 +21271,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -22605,15 +21552,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -22776,15 +21714,6 @@
               "value": "mariebetti81@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -23398,15 +22327,6 @@
       "gender": "Male",
       "contacts": [
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -23659,15 +22579,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -23726,15 +22637,6 @@
               "value": "bink_s80@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -23907,15 +22809,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -23998,15 +22891,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -24086,15 +22970,6 @@
               "value": "venetta.spencer@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -24684,15 +23559,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -24875,15 +23741,6 @@
               "value": "andrewcrobertson@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -25348,15 +24205,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -25443,15 +24291,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -25510,15 +24349,6 @@
               "value": "melissawilkins56@gmail"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -26402,15 +25232,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -26497,15 +25318,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -26583,15 +25395,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -26631,15 +25434,6 @@
       "status": "Historical",
       "gender": "Female",
       "contacts": [
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Registered",
           "relationship": null,
@@ -26706,15 +25500,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -26777,15 +25562,6 @@
               "value": "mandymaggs9@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -27250,15 +26026,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -27457,15 +26224,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -27524,15 +26282,6 @@
               "value": "rcattunar22@gmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -27609,15 +26358,6 @@
           },
           "gender": "Unknown",
           "initials": "AS",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
           "contactMethods": [],
           "assistInRole": null
         },
@@ -27962,15 +26702,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -28061,15 +26792,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -28132,15 +26854,6 @@
               "value": "alice_mitchell@live.com.au"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -28294,15 +27007,6 @@
               "value": "0434 422 884"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -28537,15 +27241,6 @@
       "gender": "Male",
       "contacts": [
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -28625,15 +27320,6 @@
               "value": "0438 655 668"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -28850,15 +27536,6 @@
           "assistInRole": "General helper"
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -29041,15 +27718,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -29093,15 +27761,6 @@
       "status": "Recent",
       "gender": "Male",
       "contacts": [
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Registered",
           "relationship": null,
@@ -29176,15 +27835,6 @@
           },
           "gender": "Unknown",
           "initials": "DT",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
           "contactMethods": [],
           "assistInRole": null
         },
@@ -29266,15 +27916,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -29344,15 +27985,6 @@
           },
           "gender": "Unknown",
           "initials": "N",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
           "contactMethods": [],
           "assistInRole": null
         },
@@ -29436,15 +28068,6 @@
               "value": "urban111@live.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -30152,15 +28775,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -30219,15 +28833,6 @@
               "value": "june.stathis@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -30420,15 +29025,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -30615,15 +29211,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -30663,15 +29250,6 @@
       "status": "Recent",
       "gender": "Male",
       "contacts": [
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Registered",
           "relationship": null,
@@ -31062,15 +29640,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -31110,15 +29679,6 @@
       "status": "Registered",
       "gender": "Female",
       "contacts": [
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
         {
           "type": "Registered",
           "relationship": null,
@@ -31460,15 +30020,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -31659,15 +30210,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -31829,15 +30371,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -31916,15 +30449,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -31987,15 +30511,6 @@
               "value": "sarah.wootten@outlook.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -32185,15 +30700,6 @@
           "assistInRole": null
         },
         {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
-          "assistInRole": null
-        },
-        {
           "type": "Registered",
           "relationship": null,
           "name": "Registered Contact",
@@ -32377,15 +30883,6 @@
               "value": "anthony_williams84@hotmail.com"
             }
           ],
-          "assistInRole": null
-        },
-        {
-          "type": "Emergency",
-          "relationship": null,
-          "name": null,
-          "gender": "Unknown",
-          "initials": "",
-          "contactMethods": [],
           "assistInRole": null
         },
         {
@@ -39594,6 +38091,14 @@
       "status": "Paid"
     },
     {
+      "footyWebNumber": "02832014",
+      "date": "2020-12-21",
+      "time": "17:22",
+      "product": "2021 Registration Fees",
+      "total": "18.00",
+      "status": "Paid"
+    },
+    {
       "footyWebNumber": "00761448",
       "date": "2014-04-02",
       "time": "21:23",
@@ -42570,6 +41075,14 @@
       "status": "Paid"
     },
     {
+      "footyWebNumber": "03241096",
+      "date": "2020-12-21",
+      "time": "17:27",
+      "product": "2021 Registration Fees",
+      "total": "18.00",
+      "status": "Unpaid"
+    },
+    {
       "footyWebNumber": "02743856",
       "date": "2017-04-01",
       "time": "16:36",
@@ -42632,6 +41145,14 @@
       "product": "2020 Registration Fees",
       "total": "18.00",
       "status": "Paid"
+    },
+    {
+      "footyWebNumber": "02743856",
+      "date": "2020-12-21",
+      "time": "17:28",
+      "product": "2021 Registration Fees",
+      "total": "18.00",
+      "status": "Unpaid"
     },
     {
       "footyWebNumber": "01577552",

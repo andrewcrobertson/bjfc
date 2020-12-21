@@ -1,6 +1,6 @@
 import type { IRawPlayerGuardian } from '../../types/rawPlayer';
+import { isObjectEmpty } from '../utility/isObjectEmpty';
 import { sanitiseEmail } from '../utility/sanitiseEmail';
-import { sanitiseObject } from '../utility/sanitiseObject';
 import { sanitisePhone } from '../utility/sanitisePhone';
 import { sanitiseString } from '../utility/sanitiseString';
 import { sanitiseAssistInRole } from './sanitiseAssistInRole';
@@ -16,5 +16,5 @@ export const sanitiseContactGuardian1 = (obj: any): IRawPlayerGuardian => {
     assistInRole: sanitiseAssistInRole(obj.parentGuardian1AssistanceArea),
   };
 
-  return sanitiseObject(raw) === null ? null : { ...raw, gender: 'Unknown' };
+  return isObjectEmpty(raw) ? null : { ...raw, gender: 'Unknown' };
 };

@@ -1,17 +1,15 @@
 import type { IRawPlayerEmergencyContact } from '../../types/rawPlayer';
-import { sanitiseObject } from '../utility/sanitiseObject';
+import { isObjectEmpty } from '../utility/isObjectEmpty';
 import { sanitisePhone } from '../utility/sanitisePhone';
 import { sanitiseString } from '../utility/sanitiseString';
 
 export const sanitiseContactEmergency = (obj: any): IRawPlayerEmergencyContact => {
-  const sanitisedObject = sanitiseObject(obj);
-  return sanitisedObject === null
-    ? null
-    : {
-        relationship: sanitiseString(obj.emergencyContactRelationship),
-        name: sanitiseString(obj.emergencyContactName),
-        gender: 'Unknown',
-        phone1: sanitisePhone(obj.emergencyContactTelephoneNumber),
-        phone2: sanitisePhone(obj.emergencyContactTelephoneNumber2),
-      };
+  const raw = {
+    relationship: sanitiseString(obj.emergencyContactRelationship),
+    name: sanitiseString(obj.emergencyContactName),
+    phone1: sanitisePhone(obj.emergencyContactTelephoneNumber),
+    phone2: sanitisePhone(obj.emergencyContactTelephoneNumber2),
+  };
+
+  return isObjectEmpty(raw) ? null : { ...raw, gender: 'Unknown' };
 };
