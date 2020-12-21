@@ -1,10 +1,10 @@
 import type { Preload, PreloadContext } from '@sapper/common';
 import allData from '@this/data/allData';
-import { filter } from 'lodash';
+import find from 'lodash/find';
 import type { IPreloadResponse } from '../state';
 
 export const preload = (_context: PreloadContext.PreloadContext) => (page: Preload.Page, _session: any): IPreloadResponse => {
-  const team = filter(allData.teams, ({ code }) => code === page.params.code) ?? ({} as any);
+  const team = find(allData.teams, ({ code }) => code === page.params.code);
   const state = {
     code: team.code ?? '',
     ageGroupCode: team.ageGroupCode ?? '',
@@ -16,7 +16,7 @@ export const preload = (_context: PreloadContext.PreloadContext) => (page: Prelo
       { role: 'Team Manager', official: team.teamManager ?? null },
       { role: 'Trainer', official: team.trainer ?? null },
     ],
-  };
+  } as any;
 
   return { state };
 };
