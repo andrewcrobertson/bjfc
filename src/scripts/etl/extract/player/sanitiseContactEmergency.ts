@@ -3,7 +3,7 @@ import { sanitiseObject } from '../utility/sanitiseObject';
 import { sanitisePhone } from '../utility/sanitisePhone';
 import { sanitiseString } from '../utility/sanitiseString';
 
-export const sanitiseEmergencyContact = (obj: any): IRawPlayerEmergencyContact => {
+export const sanitiseContactEmergency = (obj: any): IRawPlayerEmergencyContact => {
   const sanitisedObject = sanitiseObject(obj);
   return sanitisedObject === null
     ? null

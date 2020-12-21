@@ -3,7 +3,7 @@ import { sanitiseEmail } from '../utility/sanitiseEmail';
 import { sanitisePhone } from '../utility/sanitisePhone';
 import { sanitiseAssistInRole } from './sanitiseAssistInRole';
 
-export const sanitiseRegisteredContact = (obj: any): IRawPlayerRegisteredContact => ({
+export const sanitiseContactRegistered = (obj: any): IRawPlayerRegisteredContact => ({
   gender: 'Unknown',
   phoneHome: sanitisePhone(obj.telephoneNumberHome),
   phoneWork: sanitisePhone(obj.telephoneNumberWork),

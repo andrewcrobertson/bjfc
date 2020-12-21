@@ -5,7 +5,7 @@ import { sanitisePhone } from '../utility/sanitisePhone';
 import { sanitiseString } from '../utility/sanitiseString';
 import { sanitiseAssistInRole } from './sanitiseAssistInRole';
 
-export const sanitiseGuardian1 = (obj: any): IRawPlayerGuardian => {
+export const sanitiseContactGuardian1 = (obj: any): IRawPlayerGuardian => {
   const raw = {
     lastName: sanitiseString(obj.parentGuardian1Surname),
     firstName: sanitiseString(obj.parentGuardian1Firstname),
