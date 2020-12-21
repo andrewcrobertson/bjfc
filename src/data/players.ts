@@ -7566,7 +7566,7 @@ const data: IPlayer[] = [
     lastName: 'Foster-Davies',
     firstName: 'Jaslyn',
     dateOfBirth: '2003-01-22',
-    status: 'Recent',
+    status: 'Insured',
     gender: 'Female',
     contacts: [
       {
@@ -7621,7 +7621,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2018-04-14',
-    lastTransactionDate: '2019-04-04',
+    lastTransactionDate: '2020-12-22',
     teamCode: 'U18G',
     disability: null,
   },
@@ -21876,7 +21876,7 @@ const data: IPlayer[] = [
     lastName: 'Rennison',
     firstName: 'Sydney',
     dateOfBirth: '2007-01-20',
-    status: 'Recent',
+    status: 'Registered',
     gender: 'Female',
     contacts: [
       {
@@ -21952,7 +21952,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2019-04-18',
-    lastTransactionDate: '2020-06-18',
+    lastTransactionDate: '2020-12-22',
     teamCode: 'U14G',
     disability: null,
   },
@@ -23661,7 +23661,7 @@ const data: IPlayer[] = [
           },
           {
             type: 'Email',
-            value: 'stuartsales777@gmail.com',
+            value: 'petrasales777@gmail.com',
           },
         ],
         assistInRole: null,
@@ -27634,7 +27634,7 @@ const data: IPlayer[] = [
     lastName: 'Vodopier',
     firstName: 'Gemma',
     dateOfBirth: '2005-05-12',
-    status: 'Recent',
+    status: 'Registered',
     gender: 'Female',
     contacts: [
       {
@@ -27725,7 +27725,7 @@ const data: IPlayer[] = [
             value: 'pvods74@gmail.com',
           },
         ],
-        assistInRole: null,
+        assistInRole: 'Bar',
       },
     ],
     club: 'Bayswater',
@@ -27740,7 +27740,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2020-06-22',
-    lastTransactionDate: '2020-06-22',
+    lastTransactionDate: '2020-12-22',
     teamCode: 'U16G',
     disability: null,
   },

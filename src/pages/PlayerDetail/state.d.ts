@@ -1,4 +1,4 @@
-import type { ContactMethodEnum } from '@this/constants/enums';
+import type { ContactMethodEnum, PlayerStatusEnum } from '@this/constants/enums';
 
 export interface IContactMethod {
   type: ContactMethodEnum;
@@ -50,6 +50,7 @@ export interface IState {
   lastName: string;
   firstName: string;
   dateOfBirth: string;
+  status: PlayerStatusEnum;
   club: string;
   gender: string;
   disability: IDisability;

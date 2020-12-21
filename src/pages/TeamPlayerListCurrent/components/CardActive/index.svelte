@@ -21,8 +21,6 @@
       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{initials}</div>
       <h2 class="text-lg font-medium title-font">{lastName}, {firstName}</h2>
     </div>
-    <span class="flex justify-end items-center text-sm mr-2 py-1">
-      <PlayerStatus class="text-{colour}-500" {status} />
-    </span>
+    <PlayerStatus class="mr-2" iconClass="text-{colour}-500" {status} />
   </div>
 </a>

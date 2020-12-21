@@ -25,6 +25,7 @@ export const preload = (_context: PreloadContext.PreloadContext) => (page: Prelo
     firstName: player.firstName,
     dateOfBirth: player.dateOfBirth,
     club: player.club,
+    status: player.status,
     gender: player.gender,
     disability: player.disability,
     contacts: map(player.contacts, (c) => mapContact(c, maxContactMethods)),
