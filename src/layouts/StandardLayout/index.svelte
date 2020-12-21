@@ -2,7 +2,7 @@
   import Navbar from '@this/components/Navbar';
   import Sidebar from '@this/components/Sidebar';
   import { pageTitleStore as pageTitle } from './data/pageTitleStore';
-  import config from './data';
+  import config from '@this/data/config';
 
   let open = false;
 </script>

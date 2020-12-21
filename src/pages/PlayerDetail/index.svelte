@@ -6,10 +6,10 @@
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import PanelContact from './components/PanelContact';
   import PanelOther from './components/PanelOther';
-  import players from './data';
-  export let code: string = null;
+  import type { IState } from './state';
+  export let state: IState = null;
 
-  const player = players[code];
+  const player = state;
   const contacts = player.contacts;
   const colour = personBackground[player.gender ?? personGenderEnum.unknown];
 
@@ -27,7 +27,7 @@
       <PanelContact {contacts} />
     </TabPanel>
     <TabPanel>
-      <PanelOther transfers={player.transfers} transactions={player.transactions} />
+      <PanelOther transfers={player.clubHistory} transactions={player.transactions} />
     </TabPanel>
   </Tabs>
 </div>

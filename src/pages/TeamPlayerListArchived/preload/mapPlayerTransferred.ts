@@ -1,4 +1,4 @@
-import type { ISanitisedPlayer } from '@this/tools/etl/types/sanitisedPlayer';
+import type { ISanitisedPlayer } from '@this/types/sanitisedPlayer';
 import type { ITeamPlayerTransferred } from '../state';
 
 export const mapPlayerTransferred = (player: ISanitisedPlayer): ITeamPlayerTransferred => ({

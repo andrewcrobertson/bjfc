@@ -27,7 +27,7 @@ export interface Options {
   transfers: IRawTransfer[];
 }
 
-export const transform1 = (options: Options) => {
+export const transform = (options: Options) => {
   const seasonYear = options.config.seasonYear;
   const clubMap = fromPairs(map(options.config.clubMap, ({ from, to }) => [from, to]));
   const fromProductNames = map(options.products, ({ name }) => name);

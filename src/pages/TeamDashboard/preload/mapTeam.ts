@@ -1,5 +1,5 @@
-import type { ISanitisedPlayer } from '@this/tools/etl/types/sanitisedPlayer';
-import type { ISanitisedTeam } from '@this/tools/etl/types/sanitisedTeam';
+import type { ISanitisedPlayer } from '@this/types/sanitisedPlayer';
+import type { ISanitisedTeam } from '@this/types/sanitisedTeam';
 import filter from 'lodash/filter';
 
 export const mapTeam = (team: ISanitisedTeam, players: ISanitisedPlayer[]) => {

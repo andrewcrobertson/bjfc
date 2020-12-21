@@ -1,10 +1,10 @@
 import type { Preload, PreloadContext } from '@sapper/common';
-import allData from '@this/data/allData';
+import teamsRaw from '@this/data/teams';
 import find from 'lodash/find';
 import type { IPreloadResponse } from '../state';
 
 export const preload = (_context: PreloadContext.PreloadContext) => (page: Preload.Page, _session: any): IPreloadResponse => {
-  const team = find(allData.teams, ({ code }) => code === page.params.code);
+  const team = find(teamsRaw, ({ code }) => code === page.params.code);
   const state = {
     code: team.code ?? '',
     ageGroupCode: team.ageGroupCode ?? '',
