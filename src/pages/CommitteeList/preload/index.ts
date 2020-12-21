@@ -2,6 +2,7 @@ import type { Preload, PreloadContext } from '@sapper/common';
 import committeeRaw from '@this/data/committee';
 import map from 'lodash/map';
 import type { IPreloadResponse } from '../state';
+import { mapContactTypeMethods } from './mapContactTypeMethods';
 
 export const preload = (_context: PreloadContext.PreloadContext) => (_page: Preload.Page, _session: any): IPreloadResponse => {
   const committeeList = map(committeeRaw, (member) => ({
@@ -10,7 +11,7 @@ export const preload = (_context: PreloadContext.PreloadContext) => (_page: Prel
     firstName: member.firstName,
     lastName: member.lastName,
     gender: member.gender,
-    contactMethods: member.contactMethods,
+    contactMethods: mapContactTypeMethods(member.contactMethods),
   }));
 
   return { state: { committeeList } };
