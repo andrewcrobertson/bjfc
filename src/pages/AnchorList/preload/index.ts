@@ -10,7 +10,7 @@ export const preload = (_context: PreloadContext.PreloadContext) => (_page: Prel
   links.push('/committee/');
   links.push(...map(playersRaw, ({ footyWebNumber }) => `/players/${footyWebNumber}/`));
   links.push(...map(teamsRaw, ({ code }) => `/teams/${code}/officials/`));
-  links.push(...map(teamsRaw, ({ code }) => `/teams/${code}/players/archived/`));
+  links.push(...map(teamsRaw, ({ code }) => `/teams/${code}/players/`));
   links.push(...map(teamsRaw, ({ code }) => `/teams/${code}/players/archived/`));
   links.sort();
   return { state: { links } };

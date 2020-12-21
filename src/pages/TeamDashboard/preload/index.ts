@@ -7,7 +7,7 @@ import { mapTeam } from './mapTeam';
 
 export const preload = (_context: PreloadContext.PreloadContext) => (_page: Preload.Page, _session: any): IPreloadResponse => {
   const players = groupBy(playersRaw, 'teamCode');
-  const teamsMapped = map(teamsRaw, (team) => mapTeam(team as any, players[team.code] as any[]));
+  const teamsMapped = map(teamsRaw, (team) => mapTeam(team as any, players[team.code]));
   const teams = orderBy(teamsMapped, ['code'], ['desc']);
   return { state: { teams } };
 };

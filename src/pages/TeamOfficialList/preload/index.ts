@@ -9,14 +9,14 @@ export const preload = (_context: PreloadContext.PreloadContext) => (page: Prelo
     code: team.code ?? '',
     ageGroupCode: team.ageGroupCode ?? '',
     name: team.name ?? '',
-    teamGender: team.teamGender ?? '',
+    teamGender: team.teamGender ?? 'Mixed',
     officials: [
       { role: 'Head Coach', official: team.headCoach ?? null },
       { role: 'Assistant Coach', official: team.assistantCoach ?? null },
       { role: 'Team Manager', official: team.teamManager ?? null },
       { role: 'Trainer', official: team.trainer ?? null },
     ],
-  } as any;
+  };
 
   return { state };
 };

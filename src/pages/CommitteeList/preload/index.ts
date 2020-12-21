@@ -10,7 +10,7 @@ export const preload = (_context: PreloadContext.PreloadContext) => (_page: Prel
     firstName: member.firstName,
     lastName: member.lastName,
     gender: member.gender,
-    contactMethods: member.contactMethods as any[],
+    contactMethods: member.contactMethods,
   }));
 
   return { state: { committeeList } };

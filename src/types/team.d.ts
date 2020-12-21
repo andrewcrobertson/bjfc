@@ -6,7 +6,7 @@ export interface ITeamOfficial {
   firstName: string;
   lastName: string;
   contactMethods: ISanitisedContactMethod[];
-  gender: string;
+  gender: PersonGenderEnum;
 }
 
 export interface ITeam {
