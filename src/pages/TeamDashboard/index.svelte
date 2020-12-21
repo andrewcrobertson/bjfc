@@ -1,7 +1,10 @@
 <script lang="ts">
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import TeamCard from './components/TeamCard';
-  import teams from './data';
+  import type { IState } from './state';
+  export let state: IState = null;
+
+  const teams = state.teams;
 
   pageTitle.set('Team List');
 </script>
