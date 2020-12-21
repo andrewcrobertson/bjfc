@@ -19,6 +19,6 @@ export const load = (options: Options) => {
   writePage('PlayerDetail', options.playerDetail);
   // writePage('TeamDashboard', options.teamDashboard);
   writePage('TeamPlayerListArchived', options.teamPlayerListArchived);
-  writePage('TeamPlayerListCurrent', options.teamPlayerListCurrent);
+  // writePage('TeamPlayerListCurrent', options.teamPlayerListCurrent);
   // writePage('TeamOfficialList', options.teamOfficialList);
 };
