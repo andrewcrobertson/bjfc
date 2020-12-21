@@ -5,18 +5,22 @@
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import PanelTransferred from './components/PanelTransferred';
   import PanelHistorical from './components/PanelHistorical';
-  import teams from './data';
-  export let code: string = null;
+  import type { IState } from './state';
+  export let state: IState = null;
 
-  const team = teams[code];
-  const colour = background[team.teamGender];
+  const code = state.code;
+  const ageGroupCode = state.ageGroupCode;
+  const name = state.name;
+  const playersTransferred = state.playersTransferred;
+  const playersArchived = state.playersArchived;
+  const colour = background[state.teamGender];
 
   pageTitle.set('Team (Archived)');
 </script>
 
 <div class="container mx-auto xl:py-10">
   <div class="flex flex-col sm:flex-row sm:justify-between pb-5">
-    <AvatarHeading class="flex items-center space-x-2" {colour} initials={team.ageGroupCode} text={team.name} />
+    <AvatarHeading class="flex items-center space-x-2" {colour} initials={ageGroupCode} text={name} />
     <div class="flex justify-end items-center text-sm py-1">
       <a class="text-sm border border-gray-300 px-3 py-1 mr-2" href="/teams/{code}/players">Current</a>
       <a class="text-sm border border-gray-300 px-3 py-1" href="/teams/{code}/officials">Officials</a>
@@ -28,10 +32,10 @@
       <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Historical</Tab>
     </TabList>
     <TabPanel>
-      <PanelTransferred class="mt-2" players={team.playersTransferred} />
+      <PanelTransferred class="mt-2" players={playersTransferred} />
     </TabPanel>
     <TabPanel>
-      <PanelHistorical class="mt-2" players={team.playersArchived} />
+      <PanelHistorical class="mt-2" players={playersArchived} />
     </TabPanel>
   </Tabs>
 </div>
