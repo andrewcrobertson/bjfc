@@ -8,7 +8,7 @@
 </script>
 
 <div class="flex flex-col h-screen">
-  <Sidebar bind:open />
+  <Sidebar class="pt-10" bind:open />
   <Navbar bind:sidebar={open} label={$pageTitle} />
   <div class="flex-1 overflow-y-auto p-5">
     <slot />
