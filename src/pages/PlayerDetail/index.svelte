@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Birthday from '@this/components/iconTextPair/Birthday';
+  import BirthdayLabelledIcon from '@this/components/labelledIcon/BirthdayLabelledIcon';
   import Disability from '@this/components/common/Disability';
-  import PlayerStatus from '@this/components/iconTextPair/PlayerStatus';
+  import PlayerStatusLabelledIcon from '@this/components/labelledIcon/PlayerStatusLabelledIcon';
   import AvatarHeading from '@this/components/common/AvatarHeading';
   import { Tabs, TabList, TabPanel, Tab } from '@this/components/common/Tabs';
   import * as personGenderEnum from '@this/constants/personGenderEnum';
@@ -27,8 +27,8 @@
   <div class="flex flex-col sm:flex-row sm:justify-between items-center">
     <AvatarHeading class="space-x-2" {colour} initials={player.initials} text="{player.firstName} {player.lastName}" />
     <!-- <div class="flex justify-between sm:space-x-4">
-      <PlayerStatus iconClass="text-{colour}-500" status={status} {club} />
-      <Birthday iconClass="text-{colour}-500" {dateOfBirth} />
+      <PlayerStatusLabelledIcon iconClass="text-sm text-{colour}-500" status={status} {club} />
+      <BirthdayLabelledIcon iconClass="text-sm text-{colour}-500" {dateOfBirth} />
     </div> -->
   </div>
   <!-- {#if disability !== null}

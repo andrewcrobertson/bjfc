@@ -7,7 +7,7 @@
   export let dateOfBirth: string = null;
 </script>
 
-<span class="{rootClass} flex items-center text-sm">
+<span class="{rootClass} flex items-center">
   <CakeIcon class="{iconClass} w-5 h-5 mr-1" />
   {dateOfBirth}
 </span>

@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { PlayerStatusEnum } from '@this/constants/enums';
   import { background } from '@this/constants/theme';
-  import PlayerStatus from '@this/components/iconTextPair/PlayerStatus';
+  import PlayerStatusLabelledIcon from '@this/components/labelledIcon/PlayerStatusLabelledIcon';
 
   let rootClass = '';
   export { rootClass as class };
@@ -21,6 +21,6 @@
       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{initials}</div>
       <h2 class="text-lg font-medium title-font">{lastName}, {firstName}</h2>
     </div>
-    <PlayerStatus class="mr-2" iconClass="text-{colour}-500" {status} />
+    <PlayerStatusLabelledIcon class="text-sm mr-2" iconClass="text-{colour}-500" {status} />
   </div>
 </a>
