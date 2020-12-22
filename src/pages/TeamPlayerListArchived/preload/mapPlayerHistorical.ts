@@ -1,7 +1,7 @@
 import type { IPlayer } from '@this/types/player';
 import type { ITeamPlayersHistorical } from '../state';
 
-export const mapPlayerArchived = (player: IPlayer): ITeamPlayersHistorical => ({
+export const mapPlayerHistorical = (player: IPlayer): ITeamPlayersHistorical => ({
   footyWebNumber: player.footyWebNumber,
   initials: player.initials,
   lastName: player.lastName,
