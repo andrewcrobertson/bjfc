@@ -14,7 +14,6 @@
 
   const player = state;
   const contacts = player.contacts;
-  const dateOfBirth = player.dateOfBirth;
   const status = player.status;
   const club = player.club;
   const disability = player.disability;
@@ -24,16 +23,16 @@
 </script>
 
 <div class="container mx-auto xl:py-10">
-  <div class="flex flex-col sm:flex-row sm:justify-between items-center">
-    <AvatarHeading class="space-x-2" {colour} initials={player.initials} text="{player.firstName} {player.lastName}" />
-    <!-- <div class="flex justify-between sm:space-x-4">
-      <PlayerStatusLabelledIcon iconClass="text-sm text-{colour}-500" status={status} {club} />
-      <BirthdayLabelledIcon iconClass="text-sm text-{colour}-500" {dateOfBirth} />
-    </div> -->
+  <div class="flex flex-col sm:flex-row sm:justify-between pb-5">
+    <AvatarHeading {colour} initials={player.initials} text="{player.firstName} {player.lastName}" />
+    <div class="flex justify-end space-x-2 text-sm">
+      <PlayerStatusLabelledIcon iconClass="text-{colour}-500" {status} {club} />
+      <BirthdayLabelledIcon iconClass="text-{colour}-500" date={player.dateOfBirth} />
+    </div>
   </div>
-  <!-- {#if disability !== null}
-    <Disability iconClass="text-{colour}-500" type={disability.type} notes={disability.notes} />
-  {/if} -->
+  {#if disability !== null}
+    <Disability class="xl:pt-6" iconClass="text-{colour}-500" type={disability.type} notes={disability.notes} />
+  {/if}
   <Tabs class="container xl:pt-4">
     <TabList>
       <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Contacts</Tab>

@@ -10,5 +10,4 @@ export const mapContact = (contact: IPlayerContact, maxContactMethods: number) =
   gender: contact.gender,
   initials: contact.initials,
   contactMethods: mapContactMethods(contact.contactMethods, maxContactMethods),
-  assistInRole: contact.assistInRole,
 });

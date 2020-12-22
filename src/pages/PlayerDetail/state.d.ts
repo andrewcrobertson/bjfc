@@ -5,11 +5,6 @@ export interface IContactMethod {
   value: string;
 }
 
-export interface IPersonName {
-  last: string;
-  first: string;
-}
-
 export interface IDisability {
   type: string;
   notes: string;
@@ -18,11 +13,10 @@ export interface IDisability {
 export interface IContact {
   type: string;
   relationship: string;
-  name: string | IPersonName;
+  name: string;
   gender: string;
   initials: string;
   contactMethods: IContactMethod[];
-  assistInRole: string;
 }
 
 export interface ITransaction {

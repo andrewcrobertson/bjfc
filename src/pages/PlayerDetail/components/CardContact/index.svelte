@@ -1,34 +1,30 @@
 <script lang="ts">
+  import LabelledIcon from '@this/components/labelledIcon/LabelledIcon';
   import AvatarHeading from '@this/components/common/AvatarHeading';
   import ContactButton from '@this/components/button/ContactButton';
   import FingerPrintIcon from '@this/components/icon/FingerPrintIcon';
   import * as personGenderEnum from '@this/constants/personGenderEnum';
   import { personBackground } from '@this/constants/theme';
+  import type { IContact } from '../../state';
 
   let rootClass = '';
   export { rootClass as class };
-  export let contact: any = {};
+  export let contact: IContact;
 
-  // const type = contact.type
-  const relationship = contact.relationship;
   const initials = contact.initials;
-  const name = contact.name;
-  // const assistInRole   = contact.assistInRole
-  const contactMethods = contact.contactMethods;
-  const gender = contact.gender;
-  const colour = personBackground[gender ?? personGenderEnum.unknown];
+  const text = contact.name;
+  const colour = personBackground[contact.gender ?? personGenderEnum.unknown];
 </script>
 
 <div class={rootClass}>
-  <div class="border border-gray-300 p-4 lg:p-6">
-    <AvatarHeading class="mb-4" {colour} {initials} text={name} />
-    <div class="flex flex-col -mb-3">
-      <div class="cursor-default inline-flex items-center text-sm border border-gray-300 border-dotted mb-2 px-3 py-3">
-        <FingerPrintIcon class="inline w-5 h-5 mr-2 text-{colour}-500" />
-        {relationship}
-      </div>
-      {#each contactMethods as { type, value }}
-        <ContactButton class="mb-2" {type} {value} {colour} />
+  <div class="border border-gray-300 p-4 lg:p-6 text-sm">
+    <AvatarHeading {colour} {initials} {text} />
+    <div class="flex flex-col">
+      <LabelledIcon class="border border-gray-300 border-dotted mt-2 px-3 py-3" iconClass="text-{colour}-500" icon={FingerPrintIcon}>
+        {contact.relationship}
+      </LabelledIcon>
+      {#each contact.contactMethods as { type, value }}
+        <ContactButton class="mt-2" {type} {value} {colour} />
       {/each}
     </div>
   </div>

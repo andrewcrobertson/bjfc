@@ -20,7 +20,7 @@
 
 <div class="{rootClass} border border-gray-300 p-4 lg:p-6">
   <AvatarHeading {colour} {initials} {text} />
-  <div class="flex flex-col">
+  <div class="flex flex-col text-sm">
     <PersonItem class="mt-2" {colour} text={role} />
     {#each contactMethods as { type, value }}
       <ContactButton class="mt-2" {type} {value} {colour} />

@@ -9,6 +9,6 @@
   export let colour = personBackground[personGenderEnum.unknown];
 </script>
 
-<div class="{rootClass} inline-flex items-center text-sm border border-gray-300 border-dotted px-3 py-3">
+<div class="{rootClass} inline-flex items-center border border-gray-300 border-dotted px-3 py-3">
   <PersonLabelledIcon iconClass="text-{colour}-500" {text} />
 </div>

@@ -21,8 +21,8 @@
   <div class="flex flex-col sm:flex-row sm:justify-between pb-5">
     <AvatarHeading {colour} {initials} {text} />
     <div class="flex justify-end items-center text-sm">
-      <a class="text-sm border border-gray-300 px-3 py-1 mr-2" href={currentHref}>Current</a>
-      <a class="text-sm border border-gray-300 px-3 py-1" href={officialsHref}>Officials</a>
+      <a class="border border-gray-300 px-3 py-1 mr-2" href={currentHref}>Current</a>
+      <a class="border border-gray-300 px-3 py-1" href={officialsHref}>Officials</a>
     </div>
   </div>
   <Tabs class="w-full">
@@ -34,7 +34,7 @@
       <PanelTransferred class="mt-2" players={state.playersTransferred} />
     </TabPanel>
     <TabPanel>
-      <PanelHistorical class="mt-2" players={state.playersArchived} />
+      <PanelHistorical class="mt-2" players={state.playersHistorical} />
     </TabPanel>
   </Tabs>
 </div>

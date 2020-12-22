@@ -4,26 +4,24 @@
   import PersonItem from '@this/components/common/PersonItem';
   import * as personGenderEnum from '@this/constants/personGenderEnum';
   import { personBackground } from '@this/constants/theme';
+  import type { IMember } from '../../state';
 
   let rootClass = '';
   export { rootClass as class };
-  export let member: any = {};
+  export let member: IMember;
 
   const initials = member.initials;
-  const firstName = member.firstName;
-  const lastName = member.lastName;
-  const gender = member.gender;
-  const role = member.role;
-  const colour = personBackground[gender ?? personGenderEnum.unknown];
+  const text = `${member.firstName} ${member.lastName}`;
+  const colour = personBackground[member.gender ?? personGenderEnum.unknown];
 </script>
 
 <div class="{rootClass} p-2 sm:p-4">
   <div class="border border-gray-300 p-4 lg:p-6">
-    <AvatarHeading class="mb-4" {colour} {initials} text="{firstName} {lastName}" />
-    <div class="flex flex-col -mb-3">
-      <PersonItem class="mb-2" {colour} text={role} />
+    <AvatarHeading {colour} {initials} {text} />
+    <div class="flex flex-col text-sm">
+      <PersonItem class="mt-2" {colour} text={member.role} />
       {#each member.contactMethods as { type, value }}
-        <ContactButton class="mb-2" {type} {value} {colour} />
+        <ContactButton class="mt-2" {type} {value} {colour} />
       {/each}
     </div>
   </div>

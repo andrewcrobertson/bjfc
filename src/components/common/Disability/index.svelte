@@ -10,7 +10,7 @@
   const text = notes === null ? type : `${type}: ${notes}`;
 </script>
 
-<span class="{rootClass} flex items-center text-sm">
+<span class="{rootClass} flex items-center">
   <InformationCircleIcon class="{iconClass} w-5 h-5 mr-1" />
   {text}
 </span>

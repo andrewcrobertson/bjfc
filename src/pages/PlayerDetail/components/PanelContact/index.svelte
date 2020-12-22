@@ -1,6 +1,8 @@
 <script lang="ts">
   import CardContact from '../CardContact';
-  export let contacts: any[] = [];
+  import type { IContact } from '../../state';
+
+  export let contacts: IContact[];
 </script>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">

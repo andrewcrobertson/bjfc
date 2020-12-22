@@ -17,7 +17,7 @@
 <div class="container mx-auto xl:py-10">
   <div class="flex flex-col sm:flex-row sm:justify-between pb-5">
     <AvatarHeading {colour} {initials} {text} />
-    <div class="flex justify-end items-center text-sm py-1"><a class="text-sm border border-gray-300 px-3 py-1" {href}>Players</a></div>
+    <div class="flex justify-end text-sm"><a class="border border-gray-300 px-3 py-1" {href}>Players</a></div>
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
     {#each state.officials as { role, official }}

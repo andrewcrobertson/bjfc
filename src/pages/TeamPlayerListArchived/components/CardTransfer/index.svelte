@@ -20,9 +20,9 @@
 <a class="{rootClass} p-2" {href}>
   <div class="flex flex-col sm:flex-row sm:justify-between">
     <AvatarHeading {colour} {initials} {text} />
-    <span class="flex justify-end">
-      <PlayerTransferredLabelledIcon class="text-sm mr-2" iconClass="text-{colour}-500" {club} />
-      <DateLabelledIcon class="text-sm" iconClass="text-{colour}-500" {date} />
+    <span class="flex justify-end text-sm">
+      <PlayerTransferredLabelledIcon class="mr-2" iconClass="text-{colour}-500" {club} />
+      <DateLabelledIcon iconClass="text-{colour}-500" {date} />
     </span>
   </div>
 </a>

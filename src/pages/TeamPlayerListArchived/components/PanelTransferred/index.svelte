@@ -8,7 +8,7 @@
 
 <div class="{rootClass} flex flex-wrap">
   {#each players as player, i}
-    <CardTransfer class="w-full border-l border-r border-b border-gray-300 {i === 0 ? 'border-t' : ''}" {player} />
+    <CardTransfer class="w-full {i === 0 ? 'border-t' : ''} border-r border-b border-l border-gray-300" {player} />
   {:else}
     <p class="p-4">There are no transferred players</p>
   {/each}

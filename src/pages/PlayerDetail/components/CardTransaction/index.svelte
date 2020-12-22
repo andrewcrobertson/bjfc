@@ -1,7 +1,7 @@
 <script lang="ts">
   import AvatarHeading from '@this/components/common/AvatarHeading';
-  import CalendarIcon from '@this/components/icon/CalendarIcon';
-  import CurrencyDollarIcon from '@this/components/icon/CurrencyDollarIcon';
+  import DollarLabelledIcon from '@this/components/labelledIcon/DollarLabelledIcon';
+  import DateLabelledIcon from '@this/components/labelledIcon/DateLabelledIcon';
 
   let rootClass = '';
   export { rootClass as class };
@@ -18,16 +18,9 @@
 <div class="{rootClass} p-2">
   <div class="flex flex-col sm:flex-row sm:justify-between">
     <AvatarHeading {colour} initials={year} text={product} />
-    <div class="flex justify-between sm:space-x-4">
-      <span class="inline-flex items-center text-sm py-1 ml-2">
-        <CurrencyDollarIcon class="text-{colour}-500 w-5 h-5 mr-1" />
-        {total}
-        {status}
-      </span>
-      <span class="inline-flex items-center text-sm py-1 mr-2">
-        <CalendarIcon class="text-{colour}-500 w-5 h-5 mr-1" />
-        {date}
-      </span>
+    <div class="flex justify-between sm:space-x-4 text-sm">
+      <DollarLabelledIcon iconClass="text-{colour}-500" text="{total} {status}" />
+      <DateLabelledIcon iconClass="text-{colour}-500" {date} />
     </div>
   </div>
 </div>

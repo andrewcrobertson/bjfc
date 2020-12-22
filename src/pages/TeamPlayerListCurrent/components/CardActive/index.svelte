@@ -18,8 +18,8 @@
 <a class="{rootClass} p-2" {href}>
   <div class="flex flex-col sm:flex-row sm:justify-between">
     <AvatarHeading {colour} {initials} {text} />
-    <span class="flex justify-end">
-      <PlayerStatusLabelledIcon class="text-sm" iconClass="text-{colour}-500" {status} />
+    <span class="flex justify-end text-sm">
+      <PlayerStatusLabelledIcon iconClass="text-{colour}-500" {status} />
     </span>
   </div>
 </a>

@@ -18,8 +18,8 @@
 <a class="{rootClass} p-2" {href}>
   <div class="flex flex-col sm:flex-row sm:justify-between">
     <AvatarHeading {colour} {initials} {text} />
-    <span class="flex justify-end">
-      <DateLabelledIcon class="text-sm" iconClass="text-{colour}-500" {date} />
+    <span class="flex justify-end text-sm">
+      <DateLabelledIcon iconClass="text-{colour}-500" {date} />
     </span>
   </div>
 </a>
