@@ -15443,7 +15443,7 @@ const data: IPlayer[] = [
     lastName: 'Maniscalchi',
     firstName: 'Grace',
     dateOfBirth: '2009-04-02',
-    status: 'Recent',
+    status: 'Insured',
     gender: 'Female',
     contacts: [
       {
@@ -15515,7 +15515,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2018-05-02',
-    lastTransactionDate: '2020-03-09',
+    lastTransactionDate: '2020-12-22',
     teamCode: 'U12G',
     disability: null,
   },

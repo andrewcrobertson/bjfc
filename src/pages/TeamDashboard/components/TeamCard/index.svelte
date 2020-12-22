@@ -4,6 +4,7 @@
   import PlayerRegisteredLabelledIcon from '@this/components/labelledIcon/PlayerRegisteredLabelledIcon';
   import PersonLabelledIcon from '@this/components/labelledIcon/PersonLabelledIcon';
   import * as teamGenderEnum from '@this/constants/teamGenderEnum';
+  import { getUrlTeamOfficialList, getUrlTeamPlayerListCurrent } from '@this/utility/getUrl';
   import { background } from '@this/constants/theme';
   import OfficialStatus from '../OfficialStatus';
   import type { ITeamInfo } from '../../state';
@@ -14,8 +15,8 @@
 
   const initials = teamInfo.ageGroupCode;
   const text = teamInfo.name;
-  const playersHref = `/teams/${teamInfo.code}/players`;
-  const officialsHref = `/teams/${teamInfo.code}/officials`;
+  const playersHref = getUrlTeamPlayerListCurrent(teamInfo.code);
+  const officialsHref = getUrlTeamOfficialList(teamInfo.code);
   const colour = background[teamInfo.teamGender ?? teamGenderEnum.mixed];
 </script>
 

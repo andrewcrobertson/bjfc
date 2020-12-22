@@ -3,6 +3,7 @@
   import CalendarLabelledIcon from '@this/components/labelledIcon/CalendarLabelledIcon';
   import PlayerTransferredLabelledIcon from '@this/components/labelledIcon/PlayerTransferredLabelledIcon';
   import { background } from '@this/constants/theme';
+  import { getUrlPlayer } from '@this/utility/getUrl';
   import type { ITeamPlayerTransferred } from '../../state';
 
   let rootClass = '';
@@ -11,7 +12,7 @@
 
   const initials = player.initials;
   const text = `${player.lastName}, ${player.firstName}`;
-  const href = `/players/${player.footyWebNumber}`;
+  const href = getUrlPlayer(player.footyWebNumber);
   const club = player.club;
   const label = player.lastTransferDate ?? 'Unknown';
   const colour = background[player.gender] ?? 'gray';

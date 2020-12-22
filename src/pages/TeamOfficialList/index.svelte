@@ -2,13 +2,14 @@
   import AvatarHeading from '@this/components/common/AvatarHeading';
   import { background } from '@this/constants/theme';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
+  import { getUrlTeamPlayerListCurrent } from '@this/utility/getUrl';
   import CardOfficial from './components/CardOfficial';
   import type { IState } from './state';
   export let state: IState = null;
 
   const initials = state.ageGroupCode;
   const text = state.name;
-  const href = `/teams/${state.code}/players`;
+  const href = getUrlTeamPlayerListCurrent(state.code);
   const colour = background[state.teamGender ?? 'Mixed'];
 
   pageTitle.set('Officials');

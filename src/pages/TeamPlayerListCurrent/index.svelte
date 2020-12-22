@@ -3,6 +3,7 @@
   import { Tabs, TabList, TabPanel, Tab } from '@this/components/common/Tabs';
   import { background } from '@this/constants/theme';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
+  import { getUrlTeamOfficialList, getUrlTeamPlayerListArchived } from '@this/utility/getUrl';
   import PanelActive from './components/PanelActive';
   import PanelRecent from './components/PanelRecent';
   import type { IState } from './state';
@@ -11,8 +12,8 @@
   const initials = state.ageGroupCode;
   const text = state.name;
   const colour = background[state.teamGender];
-  const archivedHref = `/teams/${state.code}/players/archived`;
-  const officialsHref = `/teams/${state.code}/officials`;
+  const archivedHref = getUrlTeamPlayerListArchived(state.code);
+  const officialsHref = getUrlTeamOfficialList(state.code);
 
   pageTitle.set('Team');
 </script>

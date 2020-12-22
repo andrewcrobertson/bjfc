@@ -5,14 +5,15 @@
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import PanelTransferred from './components/PanelTransferred';
   import PanelHistorical from './components/PanelHistorical';
+  import { getUrlTeamOfficialList, getUrlTeamPlayerListCurrent } from '@this/utility/getUrl';
   import type { IState } from './state';
   export let state: IState = null;
 
   const initials = state.ageGroupCode;
   const text = state.name;
   const colour = background[state.teamGender];
-  const currentHref = `/teams/${state.code}/players`;
-  const officialsHref = `/teams/${state.code}/officials`;
+  const currentHref = getUrlTeamPlayerListCurrent(state.code);
+  const officialsHref = getUrlTeamOfficialList(state.code);
 
   pageTitle.set('Team (Archived)');
 </script>

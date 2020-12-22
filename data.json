@@ -16326,7 +16326,7 @@
       "lastName": "Maniscalchi",
       "firstName": "Grace",
       "dateOfBirth": "2009-04-02",
-      "status": "Recent",
+      "status": "Insured",
       "gender": "Female",
       "contacts": [
         {
@@ -16398,7 +16398,7 @@
         }
       ],
       "lastTransferDate": "2018-05-02",
-      "lastTransactionDate": "2020-03-09",
+      "lastTransactionDate": "2020-12-22",
       "teamCode": "U12G",
       "disability": null
     },
@@ -42879,6 +42879,14 @@
       "date": "2020-03-09",
       "time": "20:37",
       "product": "2020 Registration Fees",
+      "total": "18.00",
+      "status": "Paid"
+    },
+    {
+      "footyWebNumber": "03323972",
+      "date": "2020-12-22",
+      "time": "22:37",
+      "product": "2021 Registration Fees",
       "total": "18.00",
       "status": "Paid"
     },
