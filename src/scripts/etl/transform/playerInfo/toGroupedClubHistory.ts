@@ -1,16 +1,20 @@
-import { first, map, mapValues, sortBy } from 'lodash';
+import { first, fromPairs, map, mapValues, sortBy } from 'lodash';
 import groupBy from 'lodash/groupBy';
+import type { IRawConfig } from '../../types/rawConfig';
 import type { IRawTransfer } from '../../types/rawTransfer';
 
 export interface Options {
+  config: IRawConfig;
   transfers: IRawTransfer[];
 }
 
 export const toGroupedClubHistory = (options: Options) => {
+  const clubMap = fromPairs(map(options.config.clubMap, ({ from, to }) => [from, to]));
+
   const mapTransfers = ({ footyWebNumber, applicationDate, finalisedDate, fromClub, toClub }: IRawTransfer) => ({
     footyWebNumber,
-    from: fromClub,
-    to: toClub,
+    from: clubMap[fromClub] ?? fromClub,
+    to: clubMap[toClub] ?? toClub,
     date: finalisedDate ?? applicationDate,
   });
 

@@ -282,7 +282,7 @@ const data: ITeam[] = [
     code: 'U12G',
     ageGroupCode: 'U12',
     name: 'Under 12 Girls',
-    birthYears: [2009, 2010, 2011, 2012],
+    birthYears: [2009, 2010],
     playerGenders: ['Female'],
     teamGender: 'Female',
     headCoach: {
@@ -309,7 +309,7 @@ const data: ITeam[] = [
     code: 'U12B',
     ageGroupCode: 'U12',
     name: 'Under 12 Boys',
-    birthYears: [2009, 2010],
+    birthYears: [2009],
     playerGenders: ['Male'],
     teamGender: 'Male',
     headCoach: {

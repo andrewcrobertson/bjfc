@@ -15,7 +15,7 @@ export const preload = (_context: PreloadContext.PreloadContext) => (page: Prelo
   const team = find(teamsRaw, ({ code }) => code === player.teamCode);
   const transactionsAll = filter(transactionsRaw, ({ footyWebNumber }) => footyWebNumber === player.footyWebNumber);
   const transactionsRecent = filter(transactionsAll, ({ date }) => parseInt(date.substring(0, 4)) >= config.seasonYear - 1);
-  const transactions = map(transactionsRecent, ({ date, product, total, status }) => ({ date, product, total, status }));
+  const transactions = map(transactionsRecent, ({ date, product, total, status }) => ({ date, year: parseInt(date.substring(0, 4)), product, total, status }));
   const maxContactMethods = Math.max(...map(player.contacts, ({ contactMethods }) => contactMethods.length));
 
   const state = {

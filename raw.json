@@ -217,7 +217,7 @@
     {
       "code": "U12G",
       "name": "Under 12 Girls",
-      "ages": [12, 11, 10, 9],
+      "ages": [12, 11],
       "genders": ["Female"],
       "headCoach": {
         "lastName": "Maniscalchi",
@@ -233,7 +233,7 @@
     {
       "code": "U12B",
       "name": "Under 12 Boys",
-      "ages": [12, 11],
+      "ages": [12],
       "genders": ["Male"],
       "headCoach": {
         "lastName": "Rippon",

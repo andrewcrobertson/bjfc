@@ -27,6 +27,7 @@ export interface IContact {
 
 export interface ITransaction {
   date: string;
+  year: number;
   product: string;
   total: string;
   status: string;

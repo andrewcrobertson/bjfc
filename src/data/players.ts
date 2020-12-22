@@ -941,7 +941,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2020-06-19',
     lastTransactionDate: '2020-06-19',
-    teamCode: 'U12G',
+    teamCode: 'U09M',
     disability: null,
   },
   {
@@ -1218,14 +1218,14 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
     ],
-    club: 'Ferntree Gully Eagles',
+    club: 'Ferntree Gully',
     clubHistory: [
       {
         club: 'Bayswater',
         date: '2017-03-22',
       },
       {
-        club: 'Ferntree Gully Eagles',
+        club: 'Ferntree Gully',
         date: '2020-06-27',
       },
     ],
@@ -1665,7 +1665,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2018-02-18',
     lastTransactionDate: '2020-12-16',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -2787,7 +2787,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2018-03-24',
     lastTransactionDate: '2020-12-17',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -3171,7 +3171,7 @@ const data: IPlayer[] = [
     club: 'Wantirna South',
     clubHistory: [
       {
-        club: 'Berwick North Junior Football Club',
+        club: 'Berwick North',
         date: null,
       },
       {
@@ -4048,7 +4048,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2018-04-20',
     lastTransactionDate: '2020-02-13',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -4404,7 +4404,7 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
     ],
-    club: 'Ferntree Gully Eagles',
+    club: 'Ferntree Gully',
     clubHistory: [
       {
         club: 'Bayswater',
@@ -4419,7 +4419,7 @@ const data: IPlayer[] = [
         date: '2016-04-03',
       },
       {
-        club: 'Ferntree Gully Eagles',
+        club: 'Ferntree Gully',
         date: '2019-03-23',
       },
     ],
@@ -5445,7 +5445,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2018-04-11',
     lastTransactionDate: '2020-06-18',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -5679,14 +5679,14 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
     ],
-    club: 'Ferntree Gully Eagles',
+    club: 'Ferntree Gully',
     clubHistory: [
       {
         club: 'Bayswater',
         date: '2016-03-05',
       },
       {
-        club: 'Ferntree Gully Eagles',
+        club: 'Ferntree Gully',
         date: '2018-04-04',
       },
     ],
@@ -5965,7 +5965,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2020-03-15',
     lastTransactionDate: '2020-03-15',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -7001,7 +7001,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2017-11-12',
     lastTransactionDate: '2020-02-06',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -7778,14 +7778,14 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
     ],
-    club: 'Ferntree Gully Eagles',
+    club: 'Ferntree Gully',
     clubHistory: [
       {
         club: 'Bayswater',
         date: '2013-04-11',
       },
       {
-        club: 'Ferntree Gully Eagles',
+        club: 'Ferntree Gully',
         date: '2017-03-30',
       },
     ],
@@ -7942,7 +7942,7 @@ const data: IPlayer[] = [
     club: 'Bayswater',
     clubHistory: [
       {
-        club: 'Fitzroy Stars',
+        club: 'Fitzroy',
         date: null,
       },
       {
@@ -8108,14 +8108,14 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
     ],
-    club: 'Ferntree Gully Eagles',
+    club: 'Ferntree Gully',
     clubHistory: [
       {
         club: 'Bayswater',
         date: '2014-04-02',
       },
       {
-        club: 'Ferntree Gully Eagles',
+        club: 'Ferntree Gully',
         date: '2017-05-27',
       },
     ],
@@ -8765,7 +8765,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2017-11-12',
     lastTransactionDate: '2020-02-12',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -9306,7 +9306,7 @@ const data: IPlayer[] = [
     club: 'Bayswater',
     clubHistory: [
       {
-        club: 'Donvale Crusaders Primary School Football Club',
+        club: 'Donvale Crusaders PS',
         date: null,
       },
       {
@@ -10217,7 +10217,7 @@ const data: IPlayer[] = [
     club: 'Bayswater',
     clubHistory: [
       {
-        club: 'Bayswater Blues Primary School Football Club',
+        club: 'Bayswater Blues PS',
         date: null,
       },
       {
@@ -10315,7 +10315,7 @@ const data: IPlayer[] = [
     club: 'Bayswater',
     clubHistory: [
       {
-        club: 'Bayswater Blues Primary School Football Club',
+        club: 'Bayswater Blues PS',
         date: null,
       },
       {
@@ -11009,7 +11009,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2020-06-13',
     lastTransactionDate: '2019-04-04',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -11976,14 +11976,14 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
     ],
-    club: 'Rowville Knights Community Football Club',
+    club: 'Rowville Knights',
     clubHistory: [
       {
         club: 'Bayswater',
         date: '2015-05-29',
       },
       {
-        club: 'Rowville Knights Community Football Club',
+        club: 'Rowville Knights',
         date: '2018-05-05',
       },
     ],
@@ -16010,7 +16010,7 @@ const data: IPlayer[] = [
     club: 'Bayswater',
     clubHistory: [
       {
-        club: 'Berwick JFC',
+        club: 'Berwick',
         date: null,
       },
       {
@@ -16373,7 +16373,7 @@ const data: IPlayer[] = [
     club: 'Bayswater',
     clubHistory: [
       {
-        club: 'Woori Yallock Junior Football Club',
+        club: 'Woori Yallock',
         date: null,
       },
       {
@@ -17185,7 +17185,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2017-11-12',
     lastTransactionDate: '2020-12-11',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -17353,7 +17353,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2018-04-18',
     lastTransactionDate: '2018-04-23',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -17938,7 +17938,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2018-04-27',
     lastTransactionDate: '2018-05-02',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -18324,14 +18324,14 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
     ],
-    club: 'Rowville Hawks Football Club',
+    club: 'Rowville Hawks',
     clubHistory: [
       {
         club: 'Bayswater',
         date: '2013-03-23',
       },
       {
-        club: 'Rowville Hawks Football Club',
+        club: 'Rowville Hawks',
         date: '2017-06-17',
       },
     ],
@@ -19148,20 +19148,20 @@ const data: IPlayer[] = [
         assistInRole: 'General Helper',
       },
     ],
-    club: 'Rowville Hawks Football Club',
+    club: 'Rowville Hawks',
     clubHistory: [
       {
         club: 'Bayswater',
         date: '2017-03-29',
       },
       {
-        club: 'Rowville Hawks Football Club',
+        club: 'Rowville Hawks',
         date: '2018-02-20',
       },
     ],
     lastTransferDate: '2018-02-20',
     lastTransactionDate: '2017-03-29',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -19508,7 +19508,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2018-06-21',
     lastTransactionDate: '2020-03-11',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -19710,7 +19710,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2018-02-18',
     lastTransactionDate: '2020-02-05',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -20419,7 +20419,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2017-12-27',
     lastTransactionDate: '2020-06-19',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -20861,7 +20861,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2017-11-13',
     lastTransactionDate: '2019-02-24',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -21325,7 +21325,7 @@ const data: IPlayer[] = [
         date: '2016-03-23',
       },
       {
-        club: 'Ferntree Gully Eagles',
+        club: 'Ferntree Gully',
         date: '2018-01-31',
       },
       {
@@ -21784,7 +21784,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2017-11-12',
     lastTransactionDate: '2020-12-16',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -21854,14 +21854,14 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
     ],
-    club: 'Mount Evelyn Junior Football Club',
+    club: 'Mount Evelyn',
     clubHistory: [
       {
         club: 'Bayswater',
         date: '2016-04-06',
       },
       {
-        club: 'Mount Evelyn Junior Football Club',
+        club: 'Mount Evelyn',
         date: '2018-03-08',
       },
     ],
@@ -23083,14 +23083,14 @@ const data: IPlayer[] = [
         assistInRole: 'General Helper',
       },
     ],
-    club: 'Rowville Hawks Football Club',
+    club: 'Rowville Hawks',
     clubHistory: [
       {
         club: 'Bayswater',
         date: '2013-04-11',
       },
       {
-        club: 'Rowville Hawks Football Club',
+        club: 'Rowville Hawks',
         date: '2017-06-17',
       },
     ],
@@ -24809,7 +24809,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2017-11-01',
     lastTransactionDate: '2020-12-14',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -25940,7 +25940,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2019-03-06',
     lastTransactionDate: '2020-06-20',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -26389,7 +26389,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2018-11-22',
     lastTransactionDate: '2020-02-15',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -26615,7 +26615,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2017-11-13',
     lastTransactionDate: '2020-02-16',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -26910,7 +26910,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2019-11-02',
     lastTransactionDate: '2019-11-02',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -27392,7 +27392,7 @@ const data: IPlayer[] = [
         assistInRole: null,
       },
     ],
-    club: 'Ferntree Gully Eagles',
+    club: 'Ferntree Gully',
     clubHistory: [
       {
         club: 'Bayswater',
@@ -27407,7 +27407,7 @@ const data: IPlayer[] = [
         date: '2014-02-25',
       },
       {
-        club: 'Ferntree Gully Eagles',
+        club: 'Ferntree Gully',
         date: '2017-05-27',
       },
     ],
@@ -27731,7 +27731,7 @@ const data: IPlayer[] = [
     club: 'Bayswater',
     clubHistory: [
       {
-        club: 'Doncaster JFC',
+        club: 'Doncaster',
         date: null,
       },
       {
@@ -27919,7 +27919,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2017-11-11',
     lastTransactionDate: '2020-12-14',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {
@@ -28073,7 +28073,7 @@ const data: IPlayer[] = [
     club: 'Bayswater',
     clubHistory: [
       {
-        club: 'Ashwood Junior Football Club',
+        club: 'Ashwood',
         date: null,
       },
       {
@@ -29515,7 +29515,7 @@ const data: IPlayer[] = [
     ],
     lastTransferDate: '2018-04-21',
     lastTransactionDate: '2020-02-15',
-    teamCode: 'U12B',
+    teamCode: 'U11M',
     disability: null,
   },
   {

@@ -19,5 +19,5 @@
 
 <div class="{rootClass} flex items-center">
   <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{i}</div>
-  <h2 class="text-lg font-medium title-font ml-2">{text}</h2>
+  <h2 class="text-lg font-medium title-font truncate ml-2">{text}</h2>
 </div>
