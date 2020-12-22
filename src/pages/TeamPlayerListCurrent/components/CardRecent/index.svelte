@@ -1,6 +1,6 @@
 <script lang="ts">
   import AvatarHeading from '@this/components/common/AvatarHeading';
-  import DateLabelledIcon from '@this/components/labelledIcon/DateLabelledIcon';
+  import CalendarLabelledIcon from '@this/components/labelledIcon/CalendarLabelledIcon';
   import { background } from '@this/constants/theme';
   import type { ITeamPlayerRecent } from '../../state';
 
@@ -11,7 +11,7 @@
   const initials = player.initials;
   const text = `${player.lastName}, ${player.firstName}`;
   const href = `/players/${player.footyWebNumber}`;
-  const date = `Last Transaction: ${player.lastTransactionDate ?? 'Unknown'}`;
+  const label = `Last Transaction: ${player.lastTransactionDate ?? 'Unknown'}`;
   const colour = background[player.gender] ?? 'gray';
 </script>
 
@@ -19,7 +19,7 @@
   <div class="flex flex-col sm:flex-row sm:justify-between">
     <AvatarHeading {colour} {initials} {text} />
     <span class="flex justify-end text-sm">
-      <DateLabelledIcon iconClass="text-{colour}-500" {date} />
+      <CalendarLabelledIcon iconClass="text-{colour}-500" {label} />
     </span>
   </div>
 </a>

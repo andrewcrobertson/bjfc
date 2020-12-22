@@ -20,7 +20,7 @@
 <div class="container mx-auto xl:py-10">
   <div class="flex flex-col sm:flex-row sm:justify-between pb-5">
     <AvatarHeading {colour} {initials} {text} />
-    <div class="flex justify-end space-x-2 text-sm">
+    <div class="flex justify-end space-x-2 items-center text-sm">
       <a class="border border-gray-300 px-3 py-1" href={archivedHref}>Archived</a>
       <a class="border border-gray-300 px-3 py-1" href={officialsHref}>Officials</a>
     </div>

@@ -5,7 +5,7 @@
   let rootClass = '';
   export { rootClass as class };
   export let iconClass = '';
-  export let text: string = null;
+  export let label: string = null;
 </script>
 
-<LabelledIcon class={rootClass} {iconClass} icon={CurrencyDollarIcon}>{text}</LabelledIcon>
+<LabelledIcon class={rootClass} {iconClass} icon={CurrencyDollarIcon}>{label}</LabelledIcon>

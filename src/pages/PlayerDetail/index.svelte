@@ -27,7 +27,7 @@
     <AvatarHeading {colour} initials={player.initials} text="{player.firstName} {player.lastName}" />
     <div class="flex justify-end space-x-2 text-sm">
       <PlayerStatusLabelledIcon iconClass="text-{colour}-500" {status} {club} />
-      <BirthdayLabelledIcon iconClass="text-{colour}-500" date={player.dateOfBirth} />
+      <BirthdayLabelledIcon iconClass="text-{colour}-500" label={player.dateOfBirth} />
     </div>
   </div>
   {#if disability !== null}

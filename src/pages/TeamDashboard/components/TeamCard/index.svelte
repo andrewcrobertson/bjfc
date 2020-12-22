@@ -35,7 +35,7 @@
         {/each}
       </div>
     </div>
-    <div class="mt-4 flex justify-between w-full">
+    <div class="mt-4 flex justify-between w-full text-sm">
       <a class="border border-gray-300 px-3 py-1" href={playersHref}>Players</a>
       <a class="border border-gray-300 px-3 py-1" href={officialsHref}>Officials</a>
     </div>

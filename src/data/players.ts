@@ -868,7 +868,7 @@ const data: IPlayer[] = [
     lastName: 'Ashton',
     firstName: 'Tigerlily',
     dateOfBirth: '2012-07-29',
-    status: 'Recent',
+    status: 'Registered',
     gender: 'Female',
     contacts: [
       {
@@ -940,7 +940,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2020-06-19',
-    lastTransactionDate: '2020-06-19',
+    lastTransactionDate: '2020-12-22',
     teamCode: 'U09M',
     disability: null,
   },
@@ -15183,7 +15183,7 @@ const data: IPlayer[] = [
     lastName: 'Maloney',
     firstName: 'Sienna',
     dateOfBirth: '2003-12-11',
-    status: 'Recent',
+    status: 'Registered',
     gender: 'Female',
     contacts: [
       {
@@ -15255,7 +15255,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2019-03-27',
-    lastTransactionDate: '2020-06-19',
+    lastTransactionDate: '2020-12-22',
     teamCode: 'U18G',
     disability: null,
   },
@@ -15265,7 +15265,7 @@ const data: IPlayer[] = [
     lastName: 'Maloney',
     firstName: 'Zakiya',
     dateOfBirth: '2009-08-14',
-    status: 'Recent',
+    status: 'Registered',
     gender: 'Male',
     contacts: [
       {
@@ -15351,7 +15351,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2017-03-30',
-    lastTransactionDate: '2020-06-19',
+    lastTransactionDate: '2020-12-22',
     teamCode: 'U12B',
     disability: null,
   },
