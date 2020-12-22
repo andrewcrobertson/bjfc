@@ -5701,7 +5701,7 @@ const data: IPlayer[] = [
     lastName: 'Darmawan',
     firstName: 'Indah',
     dateOfBirth: '2005-09-20',
-    status: 'Recent',
+    status: 'Insured',
     gender: 'Female',
     contacts: [
       {
@@ -5799,7 +5799,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2016-11-25',
-    lastTransactionDate: '2019-11-14',
+    lastTransactionDate: '2020-12-22',
     teamCode: 'U16G',
     disability: null,
   },

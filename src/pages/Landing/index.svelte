@@ -1,7 +1,9 @@
 <script lang="ts">
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import logoUrl from './logo.png';
+  export const state = null;
 
+  // if(state) console.log(state);
   pageTitle.set('Home');
 </script>
 

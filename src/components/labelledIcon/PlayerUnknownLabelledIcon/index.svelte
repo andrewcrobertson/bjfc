@@ -1,13 +1,13 @@
 <script lang="ts">
-  import XIcon from '@this/components/icon/XIcon';
   import ExclamationIcon from '@this/components/icon/ExclamationIcon';
+  import LabelledIcon from '@this/components/labelledIcon/LabelledIcon';
 
   let rootClass = '';
   export { rootClass as class };
   export let iconClass = '';
-  export let text: string = null;
+  export let club: string = null;
 
-  const textSanitised = text ?? 'Unkown';
+  const textSanitised = club ?? 'Transferred';
 </script>
 
-<ExclamationIcon class={rootClass} {iconClass} icon={XIcon}>{textSanitised}</ExclamationIcon>
+<LabelledIcon class={rootClass} {iconClass} icon={ExclamationIcon}>{textSanitised}</LabelledIcon>
