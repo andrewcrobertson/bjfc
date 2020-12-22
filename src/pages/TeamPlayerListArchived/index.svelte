@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { Tabs, TabList, TabPanel, Tab } from '@this/components/common/Tabs';
   import AvatarHeading from '@this/components/common/AvatarHeading';
+  import { Tabs, TabList, TabPanel, Tab } from '@this/components/common/Tabs';
   import { background } from '@this/constants/theme';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import PanelTransferred from './components/PanelTransferred';
@@ -8,22 +8,21 @@
   import type { IState } from './state';
   export let state: IState = null;
 
-  const code = state.code;
-  const ageGroupCode = state.ageGroupCode;
-  const name = state.name;
-  const playersTransferred = state.playersTransferred;
-  const playersArchived = state.playersArchived;
+  const initials = state.ageGroupCode;
+  const text = state.name;
   const colour = background[state.teamGender];
+  const currentHref = `/teams/${state.code}/players`;
+  const officialsHref = `/teams/${state.code}/officials`;
 
   pageTitle.set('Team (Archived)');
 </script>
 
 <div class="container mx-auto xl:py-10">
   <div class="flex flex-col sm:flex-row sm:justify-between pb-5">
-    <AvatarHeading class="flex items-center space-x-2" {colour} initials={ageGroupCode} text={name} />
-    <div class="flex justify-end items-center text-sm py-1">
-      <a class="text-sm border border-gray-300 px-3 py-1 mr-2" href="/teams/{code}/players">Current</a>
-      <a class="text-sm border border-gray-300 px-3 py-1" href="/teams/{code}/officials">Officials</a>
+    <AvatarHeading {colour} {initials} {text} />
+    <div class="flex justify-end items-center text-sm">
+      <a class="text-sm border border-gray-300 px-3 py-1 mr-2" href={currentHref}>Current</a>
+      <a class="text-sm border border-gray-300 px-3 py-1" href={officialsHref}>Officials</a>
     </div>
   </div>
   <Tabs class="w-full">
@@ -32,10 +31,10 @@
       <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Historical</Tab>
     </TabList>
     <TabPanel>
-      <PanelTransferred class="mt-2" players={playersTransferred} />
+      <PanelTransferred class="mt-2" players={state.playersTransferred} />
     </TabPanel>
     <TabPanel>
-      <PanelHistorical class="mt-2" players={playersArchived} />
+      <PanelHistorical class="mt-2" players={state.playersArchived} />
     </TabPanel>
   </Tabs>
 </div>

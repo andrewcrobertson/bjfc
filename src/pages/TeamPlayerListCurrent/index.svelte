@@ -6,24 +6,23 @@
   import PanelActive from './components/PanelActive';
   import PanelRecent from './components/PanelRecent';
   import type { IState } from './state';
-  export let state: IState = null;
+  export let state: IState;
 
-  const code = state.code;
-  const ageGroupCode = state.ageGroupCode;
-  const name = state.name;
-  const playersActive = state.playersActive;
-  const playersRecent = state.playersRecent;
+  const initials = state.ageGroupCode;
+  const text = state.name;
   const colour = background[state.teamGender];
+  const archivedHref = `/teams/${state.code}/players/archived`;
+  const officialsHref = `/teams/${state.code}/officials`;
 
   pageTitle.set('Team');
 </script>
 
 <div class="container mx-auto xl:py-10">
   <div class="flex flex-col sm:flex-row sm:justify-between pb-5">
-    <AvatarHeading class="flex items-center space-x-2" {colour} initials={ageGroupCode} text={name} />
-    <div class="flex justify-end items-center text-sm py-1">
-      <a class="text-sm border border-gray-300 px-3 py-1 mr-2" href="/teams/{code}/players/archived">Archived</a>
-      <a class="text-sm border border-gray-300 px-3 py-1" href="/teams/{code}/officials">Officials</a>
+    <AvatarHeading {colour} {initials} {text} />
+    <div class="flex justify-end items-center text-sm">
+      <a class="border border-gray-300 px-3 py-1 mr-2" href={archivedHref}>Archived</a>
+      <a class="border border-gray-300 px-3 py-1" href={officialsHref}>Officials</a>
     </div>
   </div>
   <Tabs class="w-full">
@@ -32,10 +31,10 @@
       <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Recent</Tab>
     </TabList>
     <TabPanel>
-      <PanelActive class="mt-2" players={playersActive} />
+      <PanelActive class="mt-2" players={state.playersActive} />
     </TabPanel>
     <TabPanel>
-      <PanelRecent class="mt-2" players={playersRecent} />
+      <PanelRecent class="mt-2" players={state.playersRecent} />
     </TabPanel>
   </Tabs>
 </div>

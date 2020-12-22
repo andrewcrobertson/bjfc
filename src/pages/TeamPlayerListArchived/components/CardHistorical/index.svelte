@@ -1,31 +1,25 @@
 <script lang="ts">
+  import AvatarHeading from '@this/components/common/AvatarHeading';
+  import DateLabelledIcon from '@this/components/labelledIcon/DateLabelledIcon';
   import { background } from '@this/constants/theme';
-  import CalendarIcon from '@this/components/icon/CalendarIcon';
+  import type { ITeamPlayersHistorical } from '../../state';
 
   let rootClass = '';
   export { rootClass as class };
-  export let player: any = {};
+  export let player: ITeamPlayersHistorical;
 
-  const footyWebNumber = player.footyWebNumber;
   const initials = player.initials;
-  const lastName = player.lastName;
-  const firstName = player.firstName;
-  const gender = player.gender;
-  const lastTransactionDate = player.lastTransactionDate;
-  const url = `/players/${footyWebNumber}/`;
-  const colour = background[gender] ?? 'gray';
+  const text = `${player.lastName}, ${player.firstName}`;
+  const href = `/players/${player.footyWebNumber}/`;
+  const date = `Last Transaction: ${player.lastTransactionDate ?? 'Unknown'}`;
+  const colour = background[player.gender] ?? 'gray';
 </script>
 
-<a class="{rootClass} p-2" href={url}>
+<a class="{rootClass} p-2" {href}>
   <div class="flex flex-col sm:flex-row sm:justify-between">
-    <div class="flex items-center space-x-2">
-      <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-{colour}-100 text-{colour}-500">{initials}</div>
-      <h2 class="text-lg font-medium title-font">{lastName}, {firstName}</h2>
-    </div>
-    <span class="flex justify-end items-center text-sm mr-2 py-1">
-      <CalendarIcon class="w-5 h-5 mr-1 text-{colour}-500" />
-      Last Transaction:
-      {lastTransactionDate === null ? 'Unknown' : lastTransactionDate}
+    <AvatarHeading {colour} {initials} {text} />
+    <span class="flex justify-end">
+      <DateLabelledIcon class="text-sm" iconClass="text-{colour}-500" {date} />
     </span>
   </div>
 </a>

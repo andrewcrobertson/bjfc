@@ -1,3 +1,5 @@
+import { map } from 'lodash';
+import filter from 'lodash/filter';
 import path from 'path';
 import { extract } from './extract';
 import { load } from './load';
@@ -20,7 +22,11 @@ export const etl = async () => {
   load(data);
 
   if (false) recentlyRegisteredEmail(data.players);
-  // const tempData = uniq(flattenDeep(map(data1.members, (m) => map(m.transfers, (t) => [t.sourceClub, t.destinationClub])))).sort();
+  const tempData = map(
+    filter(data.players, (p) => p.status === 'Registered' || p.status === 'Insured'),
+    (p) => `${p.firstName} ${p.lastName.substring(0, 1)}.`
+  ).sort();
+  require('fs').writeFileSync('tempData.txt', tempData.join('\r\n'));
   require('fs').writeFileSync('raw.json', JSON.stringify(raw, null, 2));
   require('fs').writeFileSync('data.json', JSON.stringify(data, null, 2));
 };

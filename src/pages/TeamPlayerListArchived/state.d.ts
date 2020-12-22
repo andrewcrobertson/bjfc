@@ -8,7 +8,7 @@ export interface ITeamPlayerTransferred {
   lastTransferDate: string;
 }
 
-export interface IPlayersArchived {
+export interface ITeamPlayersHistorical {
   footyWebNumber: string;
   initials: string;
   lastName: string;
@@ -23,7 +23,7 @@ export interface IState {
   ageGroupCode: string;
   teamGender: string;
   playersTransferred: ITeamPlayerTransferred[];
-  playersArchived: IPlayersArchived[];
+  playersHistorical: ITeamPlayersHistorical[];
 }
 
 export interface IPreloadResponse {

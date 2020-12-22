@@ -13789,7 +13789,7 @@
       "lastName": "Kinstler",
       "firstName": "Dustin",
       "dateOfBirth": "2012-02-04",
-      "status": "Recent",
+      "status": "Insured",
       "gender": "Male",
       "contacts": [
         {
@@ -13865,7 +13865,7 @@
         }
       ],
       "lastTransferDate": "2020-02-16",
-      "lastTransactionDate": "2020-02-16",
+      "lastTransactionDate": "2020-12-22",
       "teamCode": "U09M",
       "disability": null
     },
@@ -40951,6 +40951,14 @@
       "date": "2020-02-16",
       "time": "11:20",
       "product": "2020 Registration Fees",
+      "total": "18.00",
+      "status": "Paid"
+    },
+    {
+      "footyWebNumber": "03055886",
+      "date": "2020-12-22",
+      "time": "11:47",
+      "product": "2021 Registration Fees",
       "total": "18.00",
       "status": "Paid"
     },

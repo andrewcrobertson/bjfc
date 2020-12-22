@@ -18,7 +18,7 @@
 
 <div class="container mx-auto xl:py-10">
   <div class="flex flex-col sm:flex-row sm:justify-between pb-5">
-    <AvatarHeading class="flex items-center space-x-2" {colour} initials={ageGroupCode} text={name} />
+    <AvatarHeading {colour} initials={ageGroupCode} text={name} />
     <div class="flex justify-end items-center text-sm py-1"><a class="text-sm border border-gray-300 px-3 py-1" href="/teams/{code}/players">Players</a></div>
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">

@@ -1,5 +1,6 @@
 <script lang="ts">
-  import AtSymbolIcon from '@this/components/icon/AtSymbolIcon';
+  import EmailLabelledIcon from '@this/components/labelledIcon/EmailLabelledIcon';
+
   let rootClass = '';
   export { rootClass as class };
   export let email = null;
@@ -8,12 +9,10 @@
 
 {#if email === null}
   <div class="{rootClass} cursor-default inline-flex items-center text-sm bg-gray-100 border border-gray-300 px-3 py-3">
-    <AtSymbolIcon class="w-5 h-5 mr-2 text-gray-500" />
-    Not Listed
+    <EmailLabelledIcon iconClass="text-gray-500" text="Not Listed" />
   </div>
 {:else}
   <a class="{rootClass} inline-flex items-center text-sm border border-gray-300 px-3 py-3" href="mailto:{email}">
-    <AtSymbolIcon class="w-5 h-5 mr-2 text-{colour}-500" />
-    <span class="truncate">{email}</span>
+    <EmailLabelledIcon iconClass="text-{colour}-500" text={email} />
   </a>
 {/if}

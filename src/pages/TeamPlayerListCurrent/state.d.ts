@@ -1,6 +1,8 @@
+import type { PlayerStatusEnum } from '@this/constants/enums';
+
 export interface ITeamPlayerActive {
   footyWebNumber: string;
-  status: string;
+  status: PlayerStatusEnum;
   initials: string;
   lastName: string;
   firstName: string;

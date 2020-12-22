@@ -14,7 +14,7 @@
 
 <div class={rootClass}>
   <div class="border border-gray-300 bg-gray-50 p-4 lg:p-6">
-    <AvatarHeading class="flex items-center mb-4" {colour} initials="TBD" text="To Be Determined" />
+    <AvatarHeading class="mb-4" {colour} initials="TBD" text="To Be Determined" />
     <div class="flex flex-col -mb-3">
       <PersonItem class="mb-2" {colour} text={role} />
       <EmptyButton class="mb-2" />

@@ -12906,7 +12906,7 @@ const data: IPlayer[] = [
     lastName: 'Kinstler',
     firstName: 'Dustin',
     dateOfBirth: '2012-02-04',
-    status: 'Recent',
+    status: 'Insured',
     gender: 'Male',
     contacts: [
       {
@@ -12982,7 +12982,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2020-02-16',
-    lastTransactionDate: '2020-02-16',
+    lastTransactionDate: '2020-12-22',
     teamCode: 'U09M',
     disability: null,
   },
