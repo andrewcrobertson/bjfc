@@ -1,8 +1,8 @@
 <script lang="ts">
   import split from 'lodash/split';
   import join from 'lodash/join';
-  import PhoneIcon from '@this/icons/PhoneIcon';
-  import ChatAltIcon from '@this/icons/ChatAltIcon';
+  import PhoneIcon from '@this/components/icon/PhoneIcon';
+  import ChatAltIcon from '@this/components/icon/ChatAltIcon';
   let rootClass = '';
   export { rootClass as class };
   export let phone = null;

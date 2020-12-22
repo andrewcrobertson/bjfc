@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ClipboardListIcon from '@this/icons/ClipboardListIcon';
+  import ClipboardListIcon from '@this/components/icon/ClipboardListIcon';
 
   export let registeredCount: number = 0;
   export let colour = 'gray';

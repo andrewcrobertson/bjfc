@@ -1,7 +1,7 @@
 <script lang="ts">
   import * as personGenderEnum from '@this/constants/personGenderEnum';
   import { personBackground } from '@this/constants/theme';
-  import EmojiHappyIcon from '@this/icons/EmojiHappyIcon';
+  import EmojiHappyIcon from '@this/components/icon/EmojiHappyIcon';
   let rootClass = '';
   export { rootClass as class };
   export let text = '';

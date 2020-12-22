@@ -1,7 +1,7 @@
 <script lang="ts">
-  import EmailButton from '@this/components/EmailButton';
-  import EmptyButton from '@this/components/EmptyButton';
-  import PhoneButton from '@this/components/PhoneButton';
+  import EmailButton from '@this/components/button/EmailButton';
+  import EmptyButton from '@this/components/button/EmptyButton';
+  import PhoneButton from '@this/components/button/PhoneButton';
 
   let rootClass = '';
   export { rootClass as class };

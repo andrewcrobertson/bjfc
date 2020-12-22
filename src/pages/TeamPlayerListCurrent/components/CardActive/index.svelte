@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { PlayerStatusEnum } from '@this/constants/enums';
   import { background } from '@this/constants/theme';
-  import PlayerStatus from '@this/components/PlayerStatus';
+  import PlayerStatus from '@this/components/iconTextPair/PlayerStatus';
 
   let rootClass = '';
   export { rootClass as class };

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import InformationCircleIcon from '@this/icons/InformationCircleIcon';
+  import InformationCircleIcon from '@this/components/icon/InformationCircleIcon';
 
   let rootClass = '';
   export { rootClass as class };

@@ -1,8 +1,8 @@
 <script lang="ts">
-  import AvatarHeading from '@this/components/AvatarHeading';
+  import AvatarHeading from '@this/components/common/AvatarHeading';
   import { background } from '@this/constants/theme';
-  import CalendarIcon from '@this/icons/CalendarIcon';
-  import LogoutIcon from '@this/icons/LogoutIcon';
+  import CalendarIcon from '@this/components/icon/CalendarIcon';
+  import LogoutIcon from '@this/components/icon/LogoutIcon';
 
   let rootClass = '';
   export { rootClass as class };

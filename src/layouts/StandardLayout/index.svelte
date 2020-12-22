@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Navbar from '@this/components/Navbar';
-  import Sidebar from '@this/components/Sidebar';
+  import Navbar from '@this/components/navigation/Navbar';
+  import Sidebar from '@this/components/navigation/Sidebar';
   import { pageTitleStore as pageTitle } from './data/pageTitleStore';
   import config from '@this/data/config';
 

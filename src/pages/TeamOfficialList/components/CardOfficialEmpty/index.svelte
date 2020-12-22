@@ -1,7 +1,7 @@
 <script lang="ts">
-  import AvatarHeading from '@this/components/AvatarHeading';
-  import EmptyButton from '@this/components/EmptyButton';
-  import PersonItem from '@this/components/PersonItem';
+  import AvatarHeading from '@this/components/common/AvatarHeading';
+  import EmptyButton from '@this/components/button/EmptyButton';
+  import PersonItem from '@this/components/common/PersonItem';
   import * as personGenderEnum from '@this/constants/personGenderEnum';
   import { personBackground } from '@this/constants/theme';
 

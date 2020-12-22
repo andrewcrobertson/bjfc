@@ -1,5 +1,5 @@
 <script lang="ts">
-  import AtSymbolIcon from '@this/icons/AtSymbolIcon';
+  import AtSymbolIcon from '@this/components/icon/AtSymbolIcon';
   let rootClass = '';
   export { rootClass as class };
   export let email = null;

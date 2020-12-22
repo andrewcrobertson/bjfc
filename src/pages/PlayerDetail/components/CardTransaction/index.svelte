@@ -1,7 +1,7 @@
 <script lang="ts">
-  import AvatarHeading from '@this/components/AvatarHeading';
-  import CalendarIcon from '@this/icons/CalendarIcon';
-  import CurrencyDollarIcon from '@this/icons/CurrencyDollarIcon';
+  import AvatarHeading from '@this/components/common/AvatarHeading';
+  import CalendarIcon from '@this/components/icon/CalendarIcon';
+  import CurrencyDollarIcon from '@this/components/icon/CurrencyDollarIcon';
 
   let rootClass = '';
   export { rootClass as class };

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import CakeIcon from '@this/icons/CakeIcon';
+  import CakeIcon from '@this/components/icon/CakeIcon';
 
   let rootClass = '';
   export { rootClass as class };

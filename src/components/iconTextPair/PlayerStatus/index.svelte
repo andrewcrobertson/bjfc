@@ -1,11 +1,11 @@
 <script lang="ts">
   import type { PlayerStatusEnum } from '@this/constants/enums';
   import * as playerStatusEnum from '@this/constants/playerStatusEnum';
-  import ClipboardListIcon from '@this/icons/ClipboardListIcon';
-  import ExclamationIcon from '@this/icons/ExclamationIcon';
-  import LogoutIcon from '@this/icons/LogoutIcon';
-  import ShieldCheckIcon from '@this/icons/ShieldCheckIcon';
-  import XIcon from '@this/icons/XIcon';
+  import ClipboardListIcon from '@this/components/icon/ClipboardListIcon';
+  import ExclamationIcon from '@this/components/icon/ExclamationIcon';
+  import LogoutIcon from '@this/components/icon/LogoutIcon';
+  import ShieldCheckIcon from '@this/components/icon/ShieldCheckIcon';
+  import XIcon from '@this/components/icon/XIcon';
 
   let rootClass = '';
   export { rootClass as class };

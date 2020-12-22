@@ -1,5 +1,5 @@
 <script lang="ts">
-  import AvatarHeading from '@this/components/AvatarHeading';
+  import AvatarHeading from '@this/components/common/AvatarHeading';
   import { background } from '@this/constants/theme';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import CardOfficial from './components/CardOfficial';

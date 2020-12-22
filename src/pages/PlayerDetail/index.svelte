@@ -1,9 +1,9 @@
 <script lang="ts">
-  import Birthday from '@this/components/Birthday';
-  import Disability from '@this/components/Disability';
-  import PlayerStatus from '@this/components/PlayerStatus';
-  import AvatarHeading from '@this/components/AvatarHeading';
-  import { Tabs, TabList, TabPanel, Tab } from '@this/components/Tabs';
+  import Birthday from '@this/components/iconTextPair/Birthday';
+  import Disability from '@this/components/common/Disability';
+  import PlayerStatus from '@this/components/iconTextPair/PlayerStatus';
+  import AvatarHeading from '@this/components/common/AvatarHeading';
+  import { Tabs, TabList, TabPanel, Tab } from '@this/components/common/Tabs';
   import * as personGenderEnum from '@this/constants/personGenderEnum';
   import { personBackground } from '@this/constants/theme';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';

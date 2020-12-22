@@ -1,6 +1,6 @@
 <script lang="ts">
-  import AvatarHeading from '@this/components/AvatarHeading';
-  import CalendarIcon from '@this/icons/CalendarIcon';
+  import AvatarHeading from '@this/components/common/AvatarHeading';
+  import CalendarIcon from '@this/components/icon/CalendarIcon';
 
   let rootClass = '';
   export { rootClass as class };

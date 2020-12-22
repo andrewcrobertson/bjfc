@@ -1,7 +1,7 @@
 <script lang="ts">
-  import AvatarHeading from '@this/components/AvatarHeading';
-  import ContactButton from '@this/components/ContactButton';
-  import PersonItem from '@this/components/PersonItem';
+  import AvatarHeading from '@this/components/common/AvatarHeading';
+  import ContactButton from '@this/components/button/ContactButton';
+  import PersonItem from '@this/components/common/PersonItem';
   import * as personGenderEnum from '@this/constants/personGenderEnum';
   import { personBackground } from '@this/constants/theme';
 

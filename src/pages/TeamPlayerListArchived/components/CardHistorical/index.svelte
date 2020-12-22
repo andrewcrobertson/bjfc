@@ -1,6 +1,6 @@
 <script lang="ts">
   import { background } from '@this/constants/theme';
-  import CalendarIcon from '@this/icons/CalendarIcon';
+  import CalendarIcon from '@this/components/icon/CalendarIcon';
 
   let rootClass = '';
   export { rootClass as class };

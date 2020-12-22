@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { Tabs, TabList, TabPanel, Tab } from '@this/components/Tabs';
-  import AvatarHeading from '@this/components/AvatarHeading';
+  import { Tabs, TabList, TabPanel, Tab } from '@this/components/common/Tabs';
+  import AvatarHeading from '@this/components/common/AvatarHeading';
   import { background } from '@this/constants/theme';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import PanelTransferred from './components/PanelTransferred';
