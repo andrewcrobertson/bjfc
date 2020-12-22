@@ -1,5 +1,5 @@
 <script lang="ts">
-  import CakeIcon from '@this/components/icon/CakeIcon';
+  import CalendarIcon from '@this/components/icon/CalendarIcon';
   import LabelledIcon from '@this/components/labelledIcon/LabelledIcon';
 
   let rootClass = '';
@@ -8,4 +8,4 @@
   export let date: string = null;
 </script>
 
-<LabelledIcon class={rootClass} {iconClass} icon={CakeIcon}>{date}</LabelledIcon>
+<LabelledIcon class={rootClass} {iconClass} icon={CalendarIcon}>{date}</LabelledIcon>

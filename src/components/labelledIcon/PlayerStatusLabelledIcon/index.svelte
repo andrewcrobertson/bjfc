@@ -1,12 +1,12 @@
 <script lang="ts">
-  import LabelledIcon from '@this/components/labelledIcon/LabelledIcon';
+  import PlayerHistoricalLabelledIcon from '@this/components/labelledIcon/PlayerHistoricalLabelledIcon';
+  import PlayerInsuredLabelledIcon from '@this/components/labelledIcon/PlayerInsuredLabelledIcon';
+  import PlayerRecentLabelledIcon from '@this/components/labelledIcon/PlayerRecentLabelledIcon';
+  import PlayerRegisteredLabelledIcon from '@this/components/labelledIcon/PlayerRegisteredLabelledIcon';
+  import PlayerTransferredLabelledIcon from '@this/components/labelledIcon/PlayerTransferredLabelledIcon';
+  import PlayerUnknownLabelledIcon from '@this/components/labelledIcon/PlayerUnknownLabelledIcon';
   import type { PlayerStatusEnum } from '@this/constants/enums';
   import * as playerStatusEnum from '@this/constants/playerStatusEnum';
-  import ClipboardListIcon from '@this/components/icon/ClipboardListIcon';
-  import ExclamationIcon from '@this/components/icon/ExclamationIcon';
-  import LogoutIcon from '@this/components/icon/LogoutIcon';
-  import ShieldCheckIcon from '@this/components/icon/ShieldCheckIcon';
-  import XIcon from '@this/components/icon/XIcon';
 
   let rootClass = '';
   export { rootClass as class };
@@ -15,25 +15,15 @@
   export let club: string = null;
 
   const iconMap = {
-    [playerStatusEnum.insured]: ShieldCheckIcon,
-    [playerStatusEnum.registered]: ClipboardListIcon,
-    [playerStatusEnum.recent]: ShieldCheckIcon,
-    [playerStatusEnum.transferred]: LogoutIcon,
-    [playerStatusEnum.historical]: XIcon,
-    [playerStatusEnum.unknown]: ExclamationIcon,
-  };
-
-  const textMap = {
-    [playerStatusEnum.insured]: 'Insured',
-    [playerStatusEnum.registered]: 'Registered',
-    [playerStatusEnum.recent]: 'Recent',
-    [playerStatusEnum.transferred]: club === null ? 'Transferred' : club,
-    [playerStatusEnum.historical]: 'Historical',
-    [playerStatusEnum.unknown]: 'Unkown',
+    [playerStatusEnum.insured]: PlayerInsuredLabelledIcon,
+    [playerStatusEnum.registered]: PlayerRegisteredLabelledIcon,
+    [playerStatusEnum.recent]: PlayerRecentLabelledIcon,
+    [playerStatusEnum.transferred]: PlayerTransferredLabelledIcon,
+    [playerStatusEnum.historical]: PlayerHistoricalLabelledIcon,
+    [playerStatusEnum.unknown]: PlayerUnknownLabelledIcon,
   };
 
   const icon = iconMap[status ?? playerStatusEnum.unknown];
-  const text = textMap[status ?? playerStatusEnum.unknown];
 </script>
 
-<LabelledIcon class={rootClass} {iconClass} {icon}>{text}</LabelledIcon>
+<svelte:component this={icon} class={rootClass} {iconClass} {club} />
