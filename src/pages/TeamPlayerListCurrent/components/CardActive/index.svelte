@@ -11,7 +11,7 @@
   const initials = player.initials;
   const text = `${player.lastName}, ${player.firstName}`;
   const status = player.status;
-  const href = `/players/${player.footyWebNumber}/`;
+  const href = `/players/${player.footyWebNumber}`;
   const colour = background[player.gender] ?? 'gray';
 </script>
 

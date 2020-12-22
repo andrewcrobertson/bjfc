@@ -11,7 +11,7 @@
 
   const initials = player.initials;
   const text = `${player.lastName}, ${player.firstName}`;
-  const href = `/players/${player.footyWebNumber}/`;
+  const href = `/players/${player.footyWebNumber}`;
   const club = player.club;
   const date = player.lastTransferDate ?? 'Unknown';
   const colour = background[player.gender] ?? 'gray';

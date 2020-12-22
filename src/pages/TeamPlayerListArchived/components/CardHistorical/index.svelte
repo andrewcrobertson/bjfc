@@ -10,7 +10,7 @@
 
   const initials = player.initials;
   const text = `${player.lastName}, ${player.firstName}`;
-  const href = `/players/${player.footyWebNumber}/`;
+  const href = `/players/${player.footyWebNumber}`;
   const date = `Last Transaction: ${player.lastTransactionDate ?? 'Unknown'}`;
   const colour = background[player.gender] ?? 'gray';
 </script>
