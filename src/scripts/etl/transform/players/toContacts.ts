@@ -1,5 +1,5 @@
 import type { IPlayerContact } from '@this/types/player';
-import { compact } from 'lodash';
+import compact from 'lodash/compact';
 import map from 'lodash/map';
 import type { IRawPlayer } from '../../types/rawPlayer';
 import { toContactEmergency } from './toContactEmergency';

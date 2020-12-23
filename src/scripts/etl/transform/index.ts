@@ -1,4 +1,4 @@
-import { fromPairs } from 'lodash';
+import fromPairs from 'lodash/fromPairs';
 import map from 'lodash/map';
 import zip from 'lodash/zip';
 import type { IRawCommittee } from '../types/rawCommittee';

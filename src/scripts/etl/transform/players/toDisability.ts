@@ -1,5 +1,5 @@
 import type { IPlayerDisability } from '@this/types/player';
-import { uniq } from 'lodash';
+import uniq from 'lodash/uniq';
 import type { IRawPlayerDisability } from '../../types/rawPlayer';
 import { arrayToString } from '../utility/arrayToString';
 

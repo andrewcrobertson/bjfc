@@ -3,6 +3,8 @@
   import filter from 'lodash/filter';
   import find from 'lodash/find';
   import includes from 'lodash/includes';
+  import toLower from 'lodash/toLower';
+  import trim from 'lodash/trim';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import CardPlayer from './components/CardPlayer';
   import type { IState } from './state';
@@ -11,8 +13,8 @@
   let searchTerm = '';
   let matchingPlayers = [];
 
-  const findPlayers = () => (matchingPlayers = filter(state.players, ({ searchTerms }) => find(searchTerms, (st) => includes(st, searchTerm)) !== undefined));
-  const handleInput = debounce(findPlayers, 250, { maxWait: 1000 });
+  const findPlayers = (term: string) => (term.length < 2 ? [] : filter(state.players, ({ searchTerms }) => includes(searchTerms, term)));
+  const handleInput = debounce(() => (matchingPlayers = findPlayers(toLower(trim(searchTerm)))), 250, { maxWait: 1000 });
 
   pageTitle.set('Search');
 </script>

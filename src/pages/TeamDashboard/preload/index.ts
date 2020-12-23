@@ -1,7 +1,9 @@
 import type { Preload, PreloadContext } from '@sapper/common';
 import playersRaw from '@this/data/players';
 import teamsRaw from '@this/data/teams';
-import { groupBy, map, orderBy } from 'lodash';
+import groupBy from 'lodash/groupBy';
+import map from 'lodash/map';
+import orderBy from 'lodash/orderBy';
 import type { IPreloadResponse } from '../state';
 import { mapTeam } from './mapTeam';
 

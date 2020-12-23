@@ -1,5 +1,5 @@
-import { map } from 'lodash';
 import filter from 'lodash/filter';
+import map from 'lodash/map';
 import path from 'path';
 import { extract } from './extract';
 import { load } from './load';

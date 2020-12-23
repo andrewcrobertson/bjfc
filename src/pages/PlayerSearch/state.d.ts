@@ -8,7 +8,7 @@ export interface IPlayer {
   firstName: string;
   gender: string;
   guardians: string;
-  searchTerms: string[];
+  searchTerms: string;
 }
 
 export interface IState {

@@ -3,10 +3,10 @@ import config from '@this/data/config';
 import playersRaw from '@this/data/players';
 import teamsRaw from '@this/data/teams';
 import transactionsRaw from '@this/data/transactions';
-import { orderBy } from 'lodash';
 import filter from 'lodash/filter';
 import find from 'lodash/find';
 import map from 'lodash/map';
+import orderBy from 'lodash/orderBy';
 import type { IPreloadResponse } from '../state';
 import { mapContact } from './mapContact';
 

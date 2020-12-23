@@ -1,7 +1,11 @@
-import { find, first, includes, last, mapValues } from 'lodash';
 import filter from 'lodash/filter';
+import find from 'lodash/find';
+import first from 'lodash/first';
 import groupBy from 'lodash/groupBy';
+import includes from 'lodash/includes';
+import last from 'lodash/last';
 import map from 'lodash/map';
+import mapValues from 'lodash/mapValues';
 import sortBy from 'lodash/sortBy';
 import type { IRawConfig } from '../../types/rawConfig';
 import type { IRawPlayer } from '../../types/rawPlayer';

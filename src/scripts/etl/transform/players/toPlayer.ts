@@ -1,5 +1,5 @@
 import type { IPlayer } from '@this/types/player';
-import { last } from 'lodash';
+import last from 'lodash/last';
 import type { IRawPlayer } from '../../types/rawPlayer';
 import { toInitials } from '../utility/toInitials';
 import { toContacts } from './toContacts';

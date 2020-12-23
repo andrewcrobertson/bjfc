@@ -3,7 +3,9 @@ import type { IPlayer } from '@this/types/player';
 import compact from 'lodash/compact';
 import filter from 'lodash/filter';
 import flatten from 'lodash/flatten';
+import join from 'lodash/join';
 import map from 'lodash/map';
+import replace from 'lodash/replace';
 import toLower from 'lodash/toLower';
 import uniq from 'lodash/uniq';
 import type { IPlayer as ITargetPlayer } from '../state';
@@ -37,7 +39,7 @@ export const mapPlayer = (player: IPlayer): ITargetPlayer => {
   const guardians = map(guardiansRaw, ({ name, gender }) => ({ firstName: (name as IPersonName).first, lastName: (name as IPersonName).last, gender }));
   const searchTermsPlayer = [player.firstName, player.lastName];
   const searchTermsGuardians = flatten(map(guardians, ({ firstName, lastName }) => [firstName, lastName]));
-  const searchTerms = uniq(map(compact([...searchTermsPlayer, ...searchTermsGuardians]), (term) => toLower(term))).sort();
+  const searchTerms = join(uniq(map(compact([...searchTermsPlayer, ...searchTermsGuardians]), (term) => toLower(replace(term, /\s/g, '')))).sort(), ' ');
 
   return {
     footyWebNumber: player.footyWebNumber,

@@ -1,5 +1,9 @@
-import { first, fromPairs, map, mapValues, sortBy } from 'lodash';
+import first from 'lodash/first';
+import fromPairs from 'lodash/fromPairs';
 import groupBy from 'lodash/groupBy';
+import map from 'lodash/map';
+import mapValues from 'lodash/mapValues';
+import sortBy from 'lodash/sortBy';
 import type { IRawConfig } from '../../types/rawConfig';
 import type { IRawTransfer } from '../../types/rawTransfer';
 
