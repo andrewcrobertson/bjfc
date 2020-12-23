@@ -1,6 +1,6 @@
 <script lang="ts">
   import AvatarHeading from '@this/components/common/AvatarHeading';
-  import InsuredLabelledIcon from '@this/components/labelledIcon/StatusLabelledIcon';
+  import InsuredLabelledIcon from '@this/components/labelledIcon/InsuredLabelledIcon';
   import RegisteredLabelledIcon from '@this/components/labelledIcon/RegisteredLabelledIcon';
   import PersonLabelledIcon from '@this/components/labelledIcon/PersonLabelledIcon';
   import * as teamGenderEnum from '@this/constants/teamGenderEnum';
