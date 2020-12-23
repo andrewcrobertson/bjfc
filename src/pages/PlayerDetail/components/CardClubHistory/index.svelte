@@ -11,9 +11,9 @@
   const label = date ?? 'Unknown';
 </script>
 
-<div class="{rootClass} p-2">
-  <div class="flex flex-col sm:flex-row sm:justify-between">
-    <AvatarHeading {colour} text={club} />
-    <CalendarLabelledIcon class="text-sm" iconClass="text-{colour}-500" {label} />
+<div class="{rootClass} flex flex-col sm:flex-row sm:justify-between p-2">
+  <AvatarHeading {colour} text={club} />
+  <div class="flex flex-col text-sm space-y-1">
+    <CalendarLabelledIcon class="self-end" iconClass="text-{colour}-500" {label} />
   </div>
 </div>

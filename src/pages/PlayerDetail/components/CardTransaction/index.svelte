@@ -15,9 +15,9 @@
 <div class="{rootClass} p-2">
   <div class="flex flex-col sm:flex-row sm:justify-between">
     <AvatarHeading {colour} {initials} {text} />
-    <div class="flex justify-between sm:space-x-4 text-sm">
-      <DollarLabelledIcon iconClass="text-{colour}-500" label="{transaction.total} {transaction.status}" />
-      <CalendarLabelledIcon iconClass="text-{colour}-500" label={transaction.date} />
+    <div class="flex flex-col text-sm space-y-1">
+      <DollarLabelledIcon class="self-end" iconClass="text-{colour}-500" label="{transaction.total} {transaction.status}" />
+      <CalendarLabelledIcon class="self-end" iconClass="text-{colour}-500" label={transaction.date} />
     </div>
   </div>
 </div>

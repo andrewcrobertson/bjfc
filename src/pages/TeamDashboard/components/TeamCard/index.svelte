@@ -1,7 +1,7 @@
 <script lang="ts">
   import AvatarHeading from '@this/components/common/AvatarHeading';
-  import PlayerInsuredLabelledIcon from '@this/components/labelledIcon/PlayerInsuredLabelledIcon';
-  import PlayerRegisteredLabelledIcon from '@this/components/labelledIcon/PlayerRegisteredLabelledIcon';
+  import InsuredLabelledIcon from '@this/components/labelledIcon/StatusLabelledIcon';
+  import RegisteredLabelledIcon from '@this/components/labelledIcon/RegisteredLabelledIcon';
   import PersonLabelledIcon from '@this/components/labelledIcon/PersonLabelledIcon';
   import * as teamGenderEnum from '@this/constants/teamGenderEnum';
   import { getUrlTeamOfficialList, getUrlTeamPlayerListCurrent } from '@this/utility/getUrl';
@@ -27,8 +27,8 @@
       <div class="flex flex-col">
         <PersonLabelledIcon iconClass="text-{colour}-500" text="{teamInfo.totalCount} Players" />
         <hr class="mt-1 mb-1 border border-gray-300 border-t-0" />
-        <PlayerInsuredLabelledIcon iconClass="text-{colour}-500" text="{teamInfo.insuredCount} Insured" />
-        <PlayerRegisteredLabelledIcon iconClass="text-{colour}-500" text="{teamInfo.registeredCount} Registered" />
+        <InsuredLabelledIcon iconClass="text-{colour}-500" text="{teamInfo.insuredCount} Insured" />
+        <RegisteredLabelledIcon iconClass="text-{colour}-500" text="{teamInfo.registeredCount} Registered" />
       </div>
       <div class="flex flex-col">
         {#each teamInfo.roles as { name, filled }}
