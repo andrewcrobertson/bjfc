@@ -2997,11 +2997,11 @@ const data: IPlayer[] = [
         type: 'Guardian',
         relationship: null,
         name: {
-          last: 'Mandy Maggs',
-          first: 'Mandy Maggs',
+          last: 'Maggs',
+          first: 'Mandy',
         },
         gender: 'Unknown',
-        initials: 'MMM',
+        initials: 'MM',
         contactMethods: [
           {
             type: 'Phone',
@@ -3019,7 +3019,7 @@ const data: IPlayer[] = [
         relationship: null,
         name: {
           last: 'Maggs',
-          first: 'Mandy Maggs',
+          first: 'Mandy',
         },
         gender: 'Unknown',
         initials: 'MM',
@@ -12929,7 +12929,7 @@ const data: IPlayer[] = [
           },
           {
             type: 'Email',
-            value: 'robertgk.66@gmail.com',
+            value: 'robert.kinstler@propertyrisk.com.au',
           },
         ],
         assistInRole: 'Coaching',
@@ -12950,7 +12950,7 @@ const data: IPlayer[] = [
           },
           {
             type: 'Email',
-            value: 'robertgk.66@gmail.com',
+            value: 'robert.kinstler@propertyrisk.com.au',
           },
         ],
         assistInRole: null,
@@ -12964,11 +12964,15 @@ const data: IPlayer[] = [
         contactMethods: [
           {
             type: 'Phone',
+            value: '0409 762 933',
+          },
+          {
+            type: 'Phone',
             value: '0407 096 343',
           },
           {
             type: 'Email',
-            value: 'robertgk.66@gmail.com',
+            value: 'robert.kinstler@propertyrisk.com.au',
           },
         ],
         assistInRole: null,

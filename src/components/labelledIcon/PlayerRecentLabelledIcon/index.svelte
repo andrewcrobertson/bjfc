@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ShieldCheckIcon from '@this/components/icon/ShieldCheckIcon';
+  import CheckIcon from '@this/components/icon/CheckIcon';
   import LabelledIcon from '@this/components/labelledIcon/LabelledIcon';
 
   let rootClass = '';
@@ -10,4 +10,4 @@
   const textSanitised = text ?? 'Recent';
 </script>
 
-<LabelledIcon class={rootClass} {iconClass} icon={ShieldCheckIcon}>{textSanitised}</LabelledIcon>
+<LabelledIcon class={rootClass} {iconClass} icon={CheckIcon}>{textSanitised}</LabelledIcon>

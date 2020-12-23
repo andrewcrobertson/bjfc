@@ -54,7 +54,7 @@ export const recentlyRegisteredEmail = (members: IPlayer[]) => {
     return recs;
   };
 
-  const tempData0 = filter(members, (m) => m.status === 'Recent');
+  const tempData0 = filter(members, (m) => m.status === 'Insured' || m.status === 'Registered' || m.status === 'Recent');
   const tempData1 = flattenDeep(map(tempData0, getRecs));
   require('fs').writeFileSync('email1.txt', JSON.stringify(tempData1, null, 2));
   const tempData2 = uniq(map(tempData1, ({ name, email }) => `${email}`)).sort();

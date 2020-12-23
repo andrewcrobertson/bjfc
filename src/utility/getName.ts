@@ -12,5 +12,5 @@ export const getName = (name: string | IPersonName) => {
     return name;
   }
 
-  return join(compact([(name as IPersonName).last, (name as IPersonName).first]), ' ');
+  return join(compact([(name as IPersonName).first, (name as IPersonName).last]), ' ');
 };

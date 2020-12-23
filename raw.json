@@ -2150,8 +2150,8 @@
       "gender": "Female",
       "guardians": [
         {
-          "lastName": "Mandy Maggs",
-          "firstName": "Mandy Maggs",
+          "lastName": "Maggs",
+          "firstName": "Mandy",
           "phone1": "0422 067 150",
           "phone2": null,
           "mobile": "0422 067 150",
@@ -2161,7 +2161,7 @@
         },
         {
           "lastName": "Maggs",
-          "firstName": "Mandy Maggs",
+          "firstName": "Mandy",
           "phone1": "0422 067 150",
           "phone2": null,
           "mobile": "0422 067 150",
@@ -7053,7 +7053,7 @@
           "phone1": "03 9762 4963",
           "phone2": null,
           "mobile": "0407 096 343",
-          "email": "robertgk.66@gmail.com",
+          "email": "robert.kinstler@propertyrisk.com.au",
           "assistInRole": "Coaching",
           "gender": "Unknown"
         },
@@ -7063,7 +7063,7 @@
           "phone1": "0422 676 781",
           "phone2": null,
           "mobile": null,
-          "email": "robertgk.66@gmail.com",
+          "email": "robert.kinstler@propertyrisk.com.au",
           "assistInRole": null,
           "gender": "Unknown"
         }
@@ -7072,8 +7072,8 @@
       "registeredContact": {
         "phoneHome": "0407 096 343",
         "phoneWork": null,
-        "phoneMobile": "0407 096 343",
-        "email1": "robertgk.66@gmail.com",
+        "phoneMobile": "0409 762 933",
+        "email1": "robert.kinstler@propertyrisk.com.au",
         "email2": null,
         "assistInRole1": null,
         "assistInRole2": null,

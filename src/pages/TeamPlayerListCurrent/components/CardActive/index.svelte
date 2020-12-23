@@ -16,11 +16,9 @@
   const colour = background[player.gender] ?? 'gray';
 </script>
 
-<a class="{rootClass} p-2" {href}>
-  <div class="flex flex-col sm:flex-row sm:justify-between">
-    <AvatarHeading {colour} {initials} {text} />
-    <span class="flex justify-end text-sm">
-      <PlayerStatusLabelledIcon iconClass="text-{colour}-500" {status} />
-    </span>
-  </div>
+<a class="{rootClass} flex flex-col sm:flex-row sm:justify-between p-2" {href}>
+  <AvatarHeading {colour} {initials} {text} />
+  <span class="flex justify-end text-sm">
+    <PlayerStatusLabelledIcon iconClass="text-{colour}-500" {status} />
+  </span>
 </a>

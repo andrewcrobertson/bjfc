@@ -10,13 +10,13 @@ Carly W.
 Cassie H.
 Chad H.
 Charli A.
-Charlie R.
+Charlie R. *
 Charlotte B.
 Claire J.
 Cooper B.
 Cooper M.
 Dakota S.
-Darcy R.
+Darcy R. *
 David D.
 Dustin K.
 Dustyn M.
@@ -49,7 +49,7 @@ Liam P.
 Liam R.
 Lily B.
 Logan R.
-Luca R.
+Luca R. *
 Mateo S.
 Matilda H.
 Matthew H.
@@ -69,7 +69,7 @@ Sienna M.
 Skye S.
 Summer-Lee S.
 Sydney R.
-Thomas W.
+Thomas W. *
 Tigerlily A.
 Tyler B.
 Tyler We.

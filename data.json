@@ -3880,11 +3880,11 @@
           "type": "Guardian",
           "relationship": null,
           "name": {
-            "last": "Mandy Maggs",
-            "first": "Mandy Maggs"
+            "last": "Maggs",
+            "first": "Mandy"
           },
           "gender": "Unknown",
-          "initials": "MMM",
+          "initials": "MM",
           "contactMethods": [
             {
               "type": "Phone",
@@ -3902,7 +3902,7 @@
           "relationship": null,
           "name": {
             "last": "Maggs",
-            "first": "Mandy Maggs"
+            "first": "Mandy"
           },
           "gender": "Unknown",
           "initials": "MM",
@@ -13812,7 +13812,7 @@
             },
             {
               "type": "Email",
-              "value": "robertgk.66@gmail.com"
+              "value": "robert.kinstler@propertyrisk.com.au"
             }
           ],
           "assistInRole": "Coaching"
@@ -13833,7 +13833,7 @@
             },
             {
               "type": "Email",
-              "value": "robertgk.66@gmail.com"
+              "value": "robert.kinstler@propertyrisk.com.au"
             }
           ],
           "assistInRole": null
@@ -13847,11 +13847,15 @@
           "contactMethods": [
             {
               "type": "Phone",
+              "value": "0409 762 933"
+            },
+            {
+              "type": "Phone",
               "value": "0407 096 343"
             },
             {
               "type": "Email",
-              "value": "robertgk.66@gmail.com"
+              "value": "robert.kinstler@propertyrisk.com.au"
             }
           ],
           "assistInRole": null

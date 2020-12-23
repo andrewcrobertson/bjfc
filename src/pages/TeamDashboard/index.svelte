@@ -4,7 +4,7 @@
   import type { IState } from './state';
   export let state: IState = null;
 
-  pageTitle.set('Team List');
+  pageTitle.set('Teams');
 </script>
 
 <div class="container mx-auto xl:py-10">
