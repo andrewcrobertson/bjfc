@@ -1,7 +1,6 @@
 <script lang="ts">
   import debounce from 'lodash/debounce';
   import filter from 'lodash/filter';
-  import find from 'lodash/find';
   import includes from 'lodash/includes';
   import toLower from 'lodash/toLower';
   import trim from 'lodash/trim';

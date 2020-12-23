@@ -1,6 +1,7 @@
 import * as playerStatusEnum from '@this/constants/playerStatusEnum';
 import type { IPlayer } from '@this/types/player';
 import { dateInfo } from '@this/utility/dateInfo';
+import trim from 'lodash/trim';
 
 export const getStatusInfo = (player: IPlayer) => {
   switch (player.status) {
@@ -9,11 +10,11 @@ export const getStatusInfo = (player: IPlayer) => {
     case playerStatusEnum.registered:
       return 'Registered';
     case playerStatusEnum.recent:
-      return `Recent (${dateInfo(player.lastTransactionDate) ?? 'Unknown'})`;
+      return trim(`Recent ${dateInfo(player.lastTransactionDate) ?? ''}`);
     case playerStatusEnum.transferred:
-      return `${player.club} (${dateInfo(player.lastTransferDate) ?? 'Unknown'})`;
+      return trim(`${player.club} ${dateInfo(player.lastTransferDate) ?? ''}`);
     case playerStatusEnum.historical:
-      return `Historical (${dateInfo(player.lastTransactionDate) ?? 'Unknown'})`;
+      return trim(`Historical ${dateInfo(player.lastTransactionDate) ?? ''}`);
     case playerStatusEnum.unknown:
     default:
       return 'Unknown';
