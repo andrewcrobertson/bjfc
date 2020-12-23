@@ -7,7 +7,7 @@
   export let iconClass = '';
   export let text: string = null;
 
-  const textSanitised = text ?? 'Recent';
+  const textSanitised = 'Recent' + (text === null ? '' : ` (${text})`);
 </script>
 
 <LabelledIcon class={rootClass} {iconClass} icon={CheckIcon}>{textSanitised}</LabelledIcon>

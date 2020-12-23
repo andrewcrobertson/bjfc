@@ -12,7 +12,7 @@
   export { rootClass as class };
   export let iconClass = '';
   export let status: PlayerStatusEnum = playerStatusEnum.unknown;
-  export let club: string = null;
+  export let text: string = null;
 
   const iconMap = {
     [playerStatusEnum.insured]: PlayerInsuredLabelledIcon,
@@ -26,4 +26,4 @@
   const icon = iconMap[status ?? playerStatusEnum.unknown];
 </script>
 
-<svelte:component this={icon} class={rootClass} {iconClass} {club} />
+<svelte:component this={icon} class={rootClass} {iconClass} {text} />

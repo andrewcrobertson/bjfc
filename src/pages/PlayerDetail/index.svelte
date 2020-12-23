@@ -15,7 +15,7 @@
   const player = state;
   const contacts = player.contacts;
   const status = player.status;
-  const club = player.club;
+  const text = player.club;
   const disability = player.disability;
   const colour = personBackground[player.gender ?? personGenderEnum.unknown];
 
@@ -26,7 +26,7 @@
   <div class="flex flex-col sm:flex-row sm:justify-between pb-5">
     <AvatarHeading {colour} initials={player.initials} text="{player.firstName} {player.lastName}" />
     <div class="flex justify-end space-x-2 text-sm">
-      <PlayerStatusLabelledIcon iconClass="text-{colour}-500" {status} {club} />
+      <PlayerStatusLabelledIcon iconClass="text-{colour}-500" {status} {text} />
       <BirthdayLabelledIcon iconClass="text-{colour}-500" label={player.dateOfBirth} />
     </div>
   </div>

@@ -12,13 +12,12 @@
   const initials = player.initials;
   const text = `${player.lastName}, ${player.firstName}`;
   const href = getUrlPlayer(player.footyWebNumber);
-  const club = player.clubInfo;
   const colour = background[player.gender] ?? 'gray';
 </script>
 
 <a class="{rootClass} flex flex-col sm:flex-row sm:justify-between p-2" {href}>
   <AvatarHeading {colour} {initials} {text} />
   <span class="flex justify-end text-sm">
-    <PlayerTransferredLabelledIcon class="mr-2" iconClass="text-{colour}-500" {club} />
+    <PlayerTransferredLabelledIcon class="mr-2" iconClass="text-{colour}-500" text={player.clubInfo} />
   </span>
 </a>

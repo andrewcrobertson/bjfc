@@ -4,8 +4,7 @@
   import { background } from '@this/constants/theme';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import { getUrlTeamOfficialList, getUrlTeamPlayerListArchived } from '@this/utility/getUrl';
-  import PanelActive from './components/PanelActive';
-  import PanelRecent from './components/PanelRecent';
+  import PanelPlayer from './components/PanelPlayer';
   import type { IState } from './state';
   export let state: IState;
 
@@ -32,10 +31,10 @@
       <Tab class="focus:outline-none inline-block rounded-t py-2 px-4" selectedClass="border-b border-gray-300">Recent</Tab>
     </TabList>
     <TabPanel>
-      <PanelActive class="mt-2" players={state.playersActive} />
+      <PanelPlayer class="mt-2" players={state.playersActive} emptyMessage="There are no active players" />
     </TabPanel>
     <TabPanel>
-      <PanelRecent class="mt-2" players={state.playersRecent} />
+      <PanelPlayer class="mt-2" players={state.playersRecent} emptyMessage="There are no recent players" />
     </TabPanel>
   </Tabs>
 </div>

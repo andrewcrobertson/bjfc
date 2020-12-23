@@ -1,21 +1,14 @@
 import type { PlayerStatusEnum } from '@this/constants/enums';
 
-export interface ITeamPlayerActive {
+export interface ITeamPlayer {
   footyWebNumber: string;
   status: PlayerStatusEnum;
+  statusInfo: string;
   initials: string;
   lastName: string;
   firstName: string;
+  dateOfBirth: string;
   gender: string;
-}
-
-export interface ITeamPlayerRecent {
-  footyWebNumber: string;
-  initials: string;
-  lastName: string;
-  firstName: string;
-  gender: string;
-  lastTransactionDate: string;
 }
 
 export interface IState {
@@ -23,8 +16,8 @@ export interface IState {
   name: string;
   ageGroupCode: string;
   teamGender: string;
-  playersActive: ITeamPlayerActive[];
-  playersRecent: ITeamPlayerRecent[];
+  playersActive: ITeamPlayer[];
+  playersRecent: ITeamPlayer[];
 }
 
 export interface IPreloadResponse {
