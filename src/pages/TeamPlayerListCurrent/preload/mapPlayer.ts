@@ -1,15 +1,15 @@
 import type { IPlayer } from '@this/types/player';
 import { birthdayInfo } from '@this/utility/birthdayInfo';
-import { dateInfo } from '@this/utility/dateInfo';
+import { getStatusInfo } from '@this/utility/getStatusInfo';
 import type { ITeamPlayer } from '../state';
 
-export const mapPlayerRecent = (player: IPlayer): ITeamPlayer => ({
+export const mapPlayer = (player: IPlayer): ITeamPlayer => ({
   footyWebNumber: player.footyWebNumber,
   status: player.status,
-  statusInfo: dateInfo(player.lastTransactionDate),
+  statusInfo: getStatusInfo(player),
   initials: player.initials,
   lastName: player.lastName,
   firstName: player.firstName,
-  gender: player.gender,
   dateOfBirth: birthdayInfo(player.dateOfBirth),
+  gender: player.gender,
 });

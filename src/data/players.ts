@@ -19092,7 +19092,7 @@ const data: IPlayer[] = [
     lastName: 'Pearson',
     firstName: 'Jack',
     dateOfBirth: '2010-07-08',
-    status: 'Recent',
+    status: 'Registered',
     gender: 'Male',
     contacts: [
       {
@@ -19172,7 +19172,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2018-02-18',
-    lastTransactionDate: '2020-02-05',
+    lastTransactionDate: '2020-12-23',
     teamCode: 'U11M',
     disability: null,
   },
@@ -25885,7 +25885,7 @@ const data: IPlayer[] = [
     lastName: 'Torney',
     firstName: 'Lachlan',
     dateOfBirth: '2011-08-28',
-    status: 'Recent',
+    status: 'Registered',
     gender: 'Male',
     contacts: [
       {
@@ -25937,7 +25937,7 @@ const data: IPlayer[] = [
       },
     ],
     lastTransferDate: '2020-02-16',
-    lastTransactionDate: '2020-02-16',
+    lastTransactionDate: '2020-12-23',
     teamCode: 'U10M',
     disability: null,
   },

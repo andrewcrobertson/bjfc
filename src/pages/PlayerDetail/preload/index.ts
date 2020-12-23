@@ -3,6 +3,8 @@ import config from '@this/data/config';
 import playersRaw from '@this/data/players';
 import teamsRaw from '@this/data/teams';
 import transactionsRaw from '@this/data/transactions';
+import { birthdayInfo } from '@this/utility/birthdayInfo';
+import { getStatusInfo } from '@this/utility/getStatusInfo';
 import filter from 'lodash/filter';
 import find from 'lodash/find';
 import map from 'lodash/map';
@@ -29,9 +31,10 @@ export const preload = (_context: PreloadContext.PreloadContext) => (page: Prelo
     initials: player.initials,
     lastName: player.lastName,
     firstName: player.firstName,
-    dateOfBirth: player.dateOfBirth,
+    dateOfBirth: birthdayInfo(player.dateOfBirth),
     club: player.club,
     status: player.status,
+    statusInfo: getStatusInfo(player),
     gender: player.gender,
     disability: player.disability,
     contacts: map(player.contacts, (c) => mapContact(c, maxContactMethods)),

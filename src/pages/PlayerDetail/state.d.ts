@@ -46,6 +46,7 @@ export interface IState {
   firstName: string;
   dateOfBirth: string;
   status: PlayerStatusEnum;
+  statusInfo: string;
   club: string;
   gender: string;
   disability: IDisability;

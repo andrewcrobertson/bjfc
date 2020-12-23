@@ -19975,7 +19975,7 @@
       "lastName": "Pearson",
       "firstName": "Jack",
       "dateOfBirth": "2010-07-08",
-      "status": "Recent",
+      "status": "Registered",
       "gender": "Male",
       "contacts": [
         {
@@ -20055,7 +20055,7 @@
         }
       ],
       "lastTransferDate": "2018-02-18",
-      "lastTransactionDate": "2020-02-05",
+      "lastTransactionDate": "2020-12-23",
       "teamCode": "U11M",
       "disability": null
     },
@@ -26768,7 +26768,7 @@
       "lastName": "Torney",
       "firstName": "Lachlan",
       "dateOfBirth": "2011-08-28",
-      "status": "Recent",
+      "status": "Registered",
       "gender": "Male",
       "contacts": [
         {
@@ -26820,7 +26820,7 @@
         }
       ],
       "lastTransferDate": "2020-02-16",
-      "lastTransactionDate": "2020-02-16",
+      "lastTransactionDate": "2020-12-23",
       "teamCode": "U10M",
       "disability": null
     },
@@ -45285,6 +45285,14 @@
       "status": "Paid"
     },
     {
+      "footyWebNumber": "02706999",
+      "date": "2020-12-23",
+      "time": "14:30",
+      "product": "2021 Registration Fees",
+      "total": "18.00",
+      "status": "Unpaid"
+    },
+    {
       "footyWebNumber": "02250406",
       "date": "2017-05-05",
       "time": "22:34",
@@ -50187,6 +50195,14 @@
       "product": "2020 Registration Fees",
       "total": "18.00",
       "status": "Paid"
+    },
+    {
+      "footyWebNumber": "03400860",
+      "date": "2020-12-23",
+      "time": "15:02",
+      "product": "2021 Registration Fees",
+      "total": "18.00",
+      "status": "Unpaid"
     },
     {
       "footyWebNumber": "00764061",
