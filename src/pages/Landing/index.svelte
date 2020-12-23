@@ -17,7 +17,7 @@
   } */
 </style>
 
-<div style="--background-url:url({logoUrl})">
+<div class="container mx-auto xl:py-10" style="--background-url:url({logoUrl})">
   <a class="block items-center border border-gray-300 px-6 py-3 mt-2" href={getUrlTeamList()}>Teams</a>
   <a class="block items-center border border-gray-300 px-6 py-3 mt-2" href={getUrlCommitteeList()}>Committee</a>
   <a class="block items-center border border-gray-300 px-6 py-3 mt-2" href={getUrlPlayerSearch()}>Search</a>
