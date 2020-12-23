@@ -27,10 +27,11 @@ Grace M.
 Hamish B.
 Heath K.
 Indah D.
+Jack P.
 Jackson M.
 James R.
 James V.
-Jamie P.
+Jamie P. *
 Jaslyn F.
 Jasper G.
 Jayden A.
@@ -41,6 +42,7 @@ Joshua H.
 Joshua R.
 Kai C.
 Kayden N.
+Lachlan T.
 Lawson G.
 Levi F.
 Levi M.
@@ -61,7 +63,7 @@ Owen S.
 Phoenix B.
 Rana K.
 Remi M.
-Rohan R.
+Rohan R. *
 Ryder B.
 Sean P.
 Sid J.

@@ -36,7 +36,7 @@ export const preload = (_context: PreloadContext.PreloadContext) => (page: Prelo
     disability: player.disability,
     contacts: map(player.contacts, (c) => mapContact(c, maxContactMethods)),
     transactions: orderBy(transactions, ['date', 'product', 'status'], ['desc']),
-    clubHistory: player.clubHistory,
+    clubHistory: orderBy(player.clubHistory, ['date'], ['desc']),
     team: {
       code: team.code,
       ageGroupCode: team.ageGroupCode,

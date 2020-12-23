@@ -12,7 +12,7 @@
   const initials = player.initials;
   const text = `${player.lastName}, ${player.firstName}`;
   const href = getUrlPlayer(player.footyWebNumber);
-  const label = `Last Transaction: ${player.lastTransactionDate ?? 'Unknown'}`;
+  const label = `Last transaction ${player.transactionInfo ?? 'unknown'}`;
   const colour = background[player.gender] ?? 'gray';
 </script>
 

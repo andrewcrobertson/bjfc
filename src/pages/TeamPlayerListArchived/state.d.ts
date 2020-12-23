@@ -4,8 +4,8 @@ export interface ITeamPlayerTransferred {
   lastName: string;
   firstName: string;
   gender: string;
-  club: string;
-  lastTransferDate: string;
+  dateOfBirth: string;
+  clubInfo: string;
 }
 
 export interface ITeamPlayersHistorical {
@@ -14,7 +14,8 @@ export interface ITeamPlayersHistorical {
   lastName: string;
   firstName: string;
   gender: string;
-  lastTransactionDate: string;
+  dateOfBirth: string;
+  transactionInfo: string;
 }
 
 export interface IState {

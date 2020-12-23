@@ -19,7 +19,7 @@
 
 <a class="{rootClass} flex flex-col sm:flex-row sm:justify-between p-2" {href}>
   <AvatarHeading {colour} {initials} {text} />
-  <span class="flex flex-col text-sm">
+  <span class="flex flex-col text-sm space-y-1">
     <PlayerStatusLabelledIcon class="self-end" iconClass="text-{colour}-500" {status} />
     <PersonLabelledIcon class="self-end" iconClass="text-{colour}-500" text={player.guardians} />
   </span>
