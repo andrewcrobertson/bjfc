@@ -3,6 +3,7 @@ import type { PlayerStatusEnum } from '@this/constants/enums';
 export interface IPlayer {
   footyWebNumber: string;
   status: PlayerStatusEnum;
+  statusInfo: string;
   initials: string;
   lastName: string;
   firstName: string;

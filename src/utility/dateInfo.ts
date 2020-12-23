@@ -1,3 +1,3 @@
 import { formatDistanceToNow, parseISO } from 'date-fns';
 
-export const dateInfo = (dateOfBirth: string) => (dateOfBirth === null ? null : formatDistanceToNow(parseISO(dateOfBirth), { addSuffix: true }));
+export const dateInfo = (date: string) => (date === null ? null : formatDistanceToNow(parseISO(date), { addSuffix: true }));

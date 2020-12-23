@@ -1,14 +1,14 @@
 <script lang="ts">
   import AvatarHeading from '@this/components/common/AvatarHeading';
-  import PersonLabelledIcon from '@this/components/labelledIcon/PersonLabelledIcon';
+  import BirthdayLabelledIcon from '@this/components/labelledIcon/BirthdayLabelledIcon';
   import PlayerStatusLabelledIcon from '@this/components/labelledIcon/PlayerStatusLabelledIcon';
   import { background } from '@this/constants/theme';
   import { getUrlPlayer } from '@this/utility/getUrl';
-  import type { IPlayer } from '../../state';
+  import type { ITeamPlayer } from '../../state';
 
   let rootClass = '';
   export { rootClass as class };
-  export let player: IPlayer;
+  export let player: ITeamPlayer;
 
   const initials = player.initials;
   const text = `${player.lastName}, ${player.firstName}`;
@@ -21,6 +21,6 @@
   <AvatarHeading {colour} {initials} {text} />
   <span class="flex flex-col text-sm space-y-1">
     <PlayerStatusLabelledIcon class="self-end" iconClass="text-{colour}-500" {status} text={player.statusInfo} />
-    <PersonLabelledIcon class="self-end" iconClass="text-{colour}-500" text={player.guardians} />
+    <BirthdayLabelledIcon class="self-end" iconClass="text-{colour}-500" label={player.dateOfBirth} />
   </span>
 </a>

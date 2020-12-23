@@ -6,7 +6,7 @@ import { mapPlayerHistorical } from './mapPlayerHistorical';
 import { mapPlayerTransferred } from './mapPlayerTransferred';
 
 export const mapTeam = (team: ITeam, players: IPlayer[]) => {
-  const playersTransferred = filter(players, (player) => player.status === 'Transferred');
+  const playerTransferred = filter(players, (player) => player.status === 'Transferred');
   const playersHistorical = filter(players, (player) => player.status === 'Historical');
 
   return {
@@ -14,7 +14,7 @@ export const mapTeam = (team: ITeam, players: IPlayer[]) => {
     ageGroupCode: team.ageGroupCode,
     name: team.name,
     teamGender: team.teamGender,
-    playersTransferred: map(playersTransferred, mapPlayerTransferred),
+    playersTransferred: map(playerTransferred, mapPlayerTransferred),
     playersHistorical: map(playersHistorical, mapPlayerHistorical),
   };
 };

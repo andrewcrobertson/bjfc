@@ -1,17 +1,21 @@
 import type { IPlayer } from '@this/types/player';
-import { formatDistanceToNow, parseISO } from 'date-fns';
-import type { ITeamPlayerTransferred } from '../state';
+import { birthdayInfo } from '@this/utility/birthdayInfo';
+import { dateInfo } from '@this/utility/dateInfo';
+import type { ITeamPlayer } from '../state';
 
-export const mapPlayerTransferred = (player: IPlayer): ITeamPlayerTransferred => {
-  const club = player.club;
-  const date = formatDistanceToNow(parseISO(player.lastTransferDate), { addSuffix: true });
-  return {
-    footyWebNumber: player.footyWebNumber,
-    initials: player.initials,
-    lastName: player.lastName,
-    firstName: player.firstName,
-    gender: player.gender,
-    dateOfBirth: player.dateOfBirth,
-    clubInfo: `${club} ${date}`,
-  };
+const statusInfo = (player: IPlayer) => {
+  const club = player.club ?? 'unknown';
+  const lastTransferDate = player.lastTransferDate === null ? 'unknown' : dateInfo(player.lastTransactionDate);
+  return `${club} (${lastTransferDate})`;
 };
+
+export const mapPlayerTransferred = (player: IPlayer): ITeamPlayer => ({
+  footyWebNumber: player.footyWebNumber,
+  status: player.status,
+  statusInfo: statusInfo(player),
+  initials: player.initials,
+  lastName: player.lastName,
+  firstName: player.firstName,
+  dateOfBirth: birthdayInfo(player.dateOfBirth),
+  gender: player.gender,
+});

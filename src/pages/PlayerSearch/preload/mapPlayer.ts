@@ -1,5 +1,6 @@
 import type { IPersonName } from '@this/types/common';
 import type { IPlayer } from '@this/types/player';
+import { dateInfo } from '@this/utility/dateInfo';
 import compact from 'lodash/compact';
 import filter from 'lodash/filter';
 import flatten from 'lodash/flatten';
@@ -12,7 +13,7 @@ import type { IPlayer as ITargetPlayer } from '../state';
 
 const mapGuardians = (guardians: any[]) => {
   if (guardians.length === 0) {
-    return null;
+    return 'Unknown';
   }
 
   const guardian1 = guardians[0];
@@ -34,6 +35,14 @@ const mapGuardians = (guardians: any[]) => {
   }
 };
 
+const statusInfo = (player: IPlayer) => {
+  if (player.status === 'Recent') {
+    return dateInfo(player.lastTransactionDate);
+  }
+
+  return null;
+};
+
 export const mapPlayer = (player: IPlayer): ITargetPlayer => {
   const guardiansRaw = filter(player.contacts, ({ type }) => type === 'Guardian');
   const guardians = map(guardiansRaw, ({ name, gender }) => ({ firstName: (name as IPersonName).first, lastName: (name as IPersonName).last, gender }));
@@ -44,6 +53,7 @@ export const mapPlayer = (player: IPlayer): ITargetPlayer => {
   return {
     footyWebNumber: player.footyWebNumber,
     status: player.status,
+    statusInfo: statusInfo(player),
     initials: player.initials,
     lastName: player.lastName,
     firstName: player.firstName,

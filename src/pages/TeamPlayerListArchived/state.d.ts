@@ -1,21 +1,14 @@
-export interface ITeamPlayerTransferred {
-  footyWebNumber: string;
-  initials: string;
-  lastName: string;
-  firstName: string;
-  gender: string;
-  dateOfBirth: string;
-  clubInfo: string;
-}
+import type { PlayerStatusEnum } from '@this/constants/enums';
 
-export interface ITeamPlayersHistorical {
+export interface ITeamPlayer {
   footyWebNumber: string;
+  status: PlayerStatusEnum;
+  statusInfo: string;
   initials: string;
   lastName: string;
   firstName: string;
-  gender: string;
   dateOfBirth: string;
-  transactionInfo: string;
+  gender: string;
 }
 
 export interface IState {
@@ -23,8 +16,8 @@ export interface IState {
   name: string;
   ageGroupCode: string;
   teamGender: string;
-  playersTransferred: ITeamPlayerTransferred[];
-  playersHistorical: ITeamPlayersHistorical[];
+  playersTransferred: ITeamPlayer[];
+  playersHistorical: ITeamPlayer[];
 }
 
 export interface IPreloadResponse {
