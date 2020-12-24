@@ -1,9 +1,9 @@
 import type { IPlayer } from '@this/types/player';
 import { getStatusInfo } from '@this/utility/getStatusInfo';
 import { nextBirthdayInfo } from '@this/utility/nextBirthdayInfo';
-import type { ITeamPlayer } from '../state';
+import type { IStatePlayer } from '../state';
 
-export const mapPlayer = (player: IPlayer, nextBirthday: string): ITeamPlayer => ({
+export const mapPlayer = (player: IPlayer, nextBirthday: string): IStatePlayer => ({
   footyWebNumber: player.footyWebNumber,
   status: player.status,
   statusInfo: getStatusInfo(player),

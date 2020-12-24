@@ -1,8 +1,7 @@
 import type { Preload, PreloadContext } from '@sapper/common';
+import config from '@this/data/config';
 import playersRaw from '@this/data/players';
-import add from 'date-fns/add';
 import format from 'date-fns/format';
-import startOfMonth from 'date-fns/startOfMonth';
 import filter from 'lodash/filter';
 import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
@@ -16,16 +15,16 @@ const getBirthdayAfter = (dateOfBirth: string, date: string) => {
 };
 
 export const preload = (_context: PreloadContext.PreloadContext) => (page: Preload.Page, _session: any): IPreloadResponse => {
-  const startDate = startOfMonth(new Date());
-  const endDate = add(startDate, { months: 12 });
-  const startDateStr = format(startDate, 'yyyy-MM-dd');
-  const endDateStr = format(endDate, 'yyyy-MM-dd');
-  const playersActive = filter(playersRaw, ({ status }) => status === 'Insured' || status === 'Registered' || status === 'Recent');
-  const playersWith = map(playersActive, (playersRaw) => ({ ...playersRaw, nextBirthday: getBirthdayAfter(playersRaw.dateOfBirth, startDateStr) }));
-  const playersBirthdays = orderBy(
-    filter(playersWith, ({ nextBirthday }) => nextBirthday >= startDateStr && nextBirthday <= endDateStr),
-    ['nextBirthday', 'lastName', 'firstName']
+  const month = parseInt(page.params.month);
+  const monthName = format(new Date(1900, month - 1, 1), 'MMMM');
+  const startDate = config.seasonYear.toString() + '-01-01';
+  const playersActive = filter(
+    playersRaw,
+    ({ dateOfBirth, status }) => parseInt(dateOfBirth.substring(5, 7)) === month && (status === 'Insured' || status === 'Registered' || status === 'Recent')
   );
-  const state = { startDate: startDateStr, endDate: endDateStr, players: map(playersBirthdays, (p) => mapPlayer(p, p.nextBirthday)) };
+  const playersWithNextBirthday = map(playersActive, (playersRaw) => ({ ...playersRaw, nextBirthday: getBirthdayAfter(playersRaw.dateOfBirth, startDate) }));
+  const playersBirthdays = orderBy(playersWithNextBirthday, ['nextBirthday', 'lastName', 'firstName']);
+  const birthdaysByMonth = [{ month: monthName, players: map(playersBirthdays, (p) => mapPlayer(p, p.nextBirthday)) }];
+  const state = { birthdaysByMonth };
   return { state };
 };

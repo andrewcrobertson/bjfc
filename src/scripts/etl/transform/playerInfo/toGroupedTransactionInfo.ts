@@ -38,8 +38,9 @@ export const toGroupedTransactionInfo = (options: Options) => {
     const registeredRecentlyProduct = find(sortedTransactions, ({ product }) => includes(registrationProductsRecent, product));
     const registeredRecently = registeredRecentlyProduct !== undefined;
     const registered = thisSeasonProduct !== undefined;
+    const lastRegisteredYear = 2020;
     const insured = thisSeasonProduct !== undefined && thisSeasonProduct.status === 'Paid';
-    return { registered, insured, registeredRecently, firstTransactionDate, lastTransactionDate };
+    return { registered, insured, registeredRecently, firstTransactionDate, lastTransactionDate, lastRegisteredYear };
   });
 
   return transactionInfo;

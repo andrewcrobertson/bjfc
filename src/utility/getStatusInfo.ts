@@ -10,11 +10,11 @@ export const getStatusInfo = (player: IPlayer) => {
     case playerStatusEnum.registered:
       return 'Registered';
     case playerStatusEnum.recent:
-      return trim(`Recent ${dateInfo(player.lastTransactionDate) ?? ''}`);
+      return trim(`Last active ${dateInfo(player.lastTransactionDate) ?? ' recently'}`);
     case playerStatusEnum.transferred:
       return trim(`${player.club} ${dateInfo(player.lastTransferDate) ?? ''}`);
     case playerStatusEnum.historical:
-      return trim(`Historical ${dateInfo(player.lastTransactionDate) ?? ''}`);
+      return trim(`Last active ${dateInfo(player.lastTransactionDate) ?? ' a long time ago'}`);
     case playerStatusEnum.unknown:
     default:
       return 'Unknown';

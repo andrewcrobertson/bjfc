@@ -4,11 +4,11 @@
   import StatusLabelledIcon from '@this/components/labelledIcon/StatusLabelledIcon';
   import { background } from '@this/constants/theme';
   import { getUrlPlayer } from '@this/utility/getUrl';
-  import type { ITeamPlayer } from '../../state';
+  import type { IStatePlayer } from '../../state';
 
   let rootClass = '';
   export { rootClass as class };
-  export let player: ITeamPlayer;
+  export let player: IStatePlayer;
 
   const initials = player.initials;
   const text = `${player.lastName}, ${player.firstName}`;

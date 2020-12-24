@@ -1,6 +1,6 @@
 import type { PlayerStatusEnum } from '@this/constants/enums';
 
-export interface ITeamPlayer {
+export interface IStatePlayer {
   footyWebNumber: string;
   status: PlayerStatusEnum;
   statusInfo: string;
@@ -11,10 +11,13 @@ export interface ITeamPlayer {
   gender: string;
 }
 
+export interface IBirthdaysByMonth {
+  month: string;
+  players: IStatePlayer[];
+}
+
 export interface IState {
-  startDate: string;
-  endDate: string;
-  players: ITeamPlayer[];
+  birthdaysByMonth: IBirthdaysByMonth[];
 }
 
 export interface IPreloadResponse {

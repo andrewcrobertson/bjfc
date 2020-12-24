@@ -24,6 +24,7 @@ export const toPlayer = (player: IRawPlayer, teamCode: string, groupedPlayerInfo
     clubHistory,
     lastTransferDate: currentClubRecord === 'Bayswater' ? null : currentClubRecord.date,
     lastTransactionDate: playerInfo.lastTransactionDate ?? null,
+    lastRegisteredYear: playerInfo.lastRegisteredYear,
     teamCode,
     disability: player.disability === null ? null : toDisability(player.disability),
   };
