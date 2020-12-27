@@ -34,7 +34,6 @@ export interface IPlayer {
   clubHistory: IPlayerClubRecord[];
   lastTransferDate: string;
   lastTransactionDate: string;
-  lastRegisteredYear: number;
   teamCode: string;
   disability: IPlayerDisability;
 }

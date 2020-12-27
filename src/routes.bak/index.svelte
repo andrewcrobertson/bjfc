@@ -1,10 +1,9 @@
 <script lang="ts" context="module">
   import type { PreloadContext, PreloadPage } from '@sapper/common';
+  import { preload as preloadFn } from '@this/pages/Landing/preload';
 
-  export async function preload(this: PreloadContext.PreloadContext, page: PreloadPage.Page, _session: any) {
-    const res = await this.fetch(page.path);
-    const data = await res.json();
-    return { state: data };
+  export function preload(this: PreloadContext.PreloadContext, page: PreloadPage.Page, session: any) {
+    return preloadFn(this)(page, session);
   }
 </script>
 

@@ -1,6 +1,4 @@
-export interface IState {
-  links: string[];
-}
+export interface IState {}
 
 export interface IPreloadResponse {
   state: IState;
