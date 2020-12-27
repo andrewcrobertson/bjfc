@@ -10,10 +10,10 @@
 
 <script lang="ts">
   import { onMount } from 'svelte';
-  import LandingPage from '@this/pages/Landing';
+  import AnchorListPage from '@this/pages/AnchorList';
   export let state = null;
 
   onMount(() => window.scrollTo(0, 0));
 </script>
 
-<LandingPage {state} />
+<AnchorListPage {state} />
