@@ -5,8 +5,8 @@ import map from 'lodash/map';
 import orderBy from 'lodash/orderBy';
 import type { Request } from 'polka';
 import type { IState } from '../state';
-import { getPlayers } from './utility/dataAccess/getPlayers';
-import { toPlayer } from './utility/mappers/toPlayer';
+import { getPlayers } from './dataAccess/getPlayers';
+import { toPlayer } from './mappers/toPlayer';
 
 // TODO: Fix
 const config = { seasonYear: 2021 };

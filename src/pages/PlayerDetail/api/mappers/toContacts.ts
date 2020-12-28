@@ -1,6 +1,6 @@
 import compact from 'lodash/compact';
 import map from 'lodash/map';
-import type { IContact } from '../../../state';
+import type { IContact } from '../../state';
 import type { IContactEmergencyDb } from '../dataAccess/getContactsEmergency';
 import type { IContactGuardianDb } from '../dataAccess/getContactsGuardian';
 import type { IContactRegisteredDb } from '../dataAccess/getContactsRegistered';

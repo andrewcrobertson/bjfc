@@ -1,6 +1,6 @@
 import filter from 'lodash/filter';
 import uniqBy from 'lodash/uniqBy';
-import type { IContactMethod } from '../../../state';
+import type { IContactMethod } from '../../state';
 
 export const toContactMethods = (contactMethods: IContactMethod[], maxContactMethods: number) => {
   const output: IContactMethod[] = uniqBy(

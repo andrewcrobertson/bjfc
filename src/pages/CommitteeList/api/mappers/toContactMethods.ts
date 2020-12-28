@@ -1,4 +1,4 @@
-import type { IContactMethod } from '../../../state';
+import type { IContactMethod } from '../../state';
 
 export const toContactMethods = (contactMethods: IContactMethod[]): IContactMethod[] => {
   const phone = [];

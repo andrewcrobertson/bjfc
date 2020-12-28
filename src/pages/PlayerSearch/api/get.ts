@@ -1,9 +1,9 @@
 import { getDatabase } from '@this/scripts/utility/getDatabase';
 import type { Request } from 'polka';
 import type { IState } from '../state';
-import { getGuardians } from './utility/dataAccess/getGuardians';
-import { getPlayers } from './utility/dataAccess/getPlayers';
-import { toPlayer } from './utility/mappers/toPlayer';
+import { getGuardians } from './dataAccess/getGuardians';
+import { getPlayers } from './dataAccess/getPlayers';
+import { toPlayer } from './mappers/toPlayer';
 
 export const get = async (_req: Request): Promise<IState> => {
   const db = getDatabase();

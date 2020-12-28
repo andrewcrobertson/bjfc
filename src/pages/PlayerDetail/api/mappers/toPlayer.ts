@@ -1,7 +1,7 @@
 import { getStatusInfo } from '@this/scripts/utility/getStatusInfo';
 import { toInitials } from '@this/scripts/utility/toInitials';
 import map from 'lodash/map';
-import type { IState } from '../../../state';
+import type { IState } from '../../state';
 import type { IClubHistoryDb } from '../dataAccess/getClubHistory';
 import type { IContactEmergencyDb } from '../dataAccess/getContactsEmergency';
 import type { IContactGuardianDb } from '../dataAccess/getContactsGuardian';

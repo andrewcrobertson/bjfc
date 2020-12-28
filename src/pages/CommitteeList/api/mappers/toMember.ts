@@ -1,5 +1,5 @@
 import { toInitials } from '@this/scripts/utility/toInitials';
-import type { IMember } from '../../../state';
+import type { IMember } from '../../state';
 import type { IMemberDb } from '../dataAccess/getMembers';
 import { toContactMethods } from './toContactMethods';
 

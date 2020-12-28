@@ -1,15 +1,15 @@
 import { getDatabase } from '@this/scripts/utility/getDatabase';
 import type { Request } from 'polka';
 import type { IState } from '../state';
-import { getClubHistory } from './utility/dataAccess/getClubHistory';
-import { getContactsEmergency } from './utility/dataAccess/getContactsEmergency';
-import { getContactsGuardian } from './utility/dataAccess/getContactsGuardian';
-import { getContactsRegistered } from './utility/dataAccess/getContactsRegistered';
-import { getDisability } from './utility/dataAccess/getDisability';
-import { getPlayer } from './utility/dataAccess/getPlayer';
-import { getRecentTransactions } from './utility/dataAccess/getRecentTransactions';
-import { getTeam } from './utility/dataAccess/getTeam';
-import { toPlayer } from './utility/mappers/toPlayer';
+import { getClubHistory } from './dataAccess/getClubHistory';
+import { getContactsEmergency } from './dataAccess/getContactsEmergency';
+import { getContactsGuardian } from './dataAccess/getContactsGuardian';
+import { getContactsRegistered } from './dataAccess/getContactsRegistered';
+import { getDisability } from './dataAccess/getDisability';
+import { getPlayer } from './dataAccess/getPlayer';
+import { getRecentTransactions } from './dataAccess/getRecentTransactions';
+import { getTeam } from './dataAccess/getTeam';
+import { toPlayer } from './mappers/toPlayer';
 
 export const get = async (req: Request): Promise<IState> => {
   const db = getDatabase();

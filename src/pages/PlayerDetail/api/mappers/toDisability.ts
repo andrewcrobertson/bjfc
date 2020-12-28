@@ -1,5 +1,5 @@
 import uniq from 'lodash/uniq';
-import type { IDisability } from '../../../state';
+import type { IDisability } from '../../state';
 import type { IDisabilityDb } from '../dataAccess/getDisability';
 import { arrayToString } from './arrayToString';
 

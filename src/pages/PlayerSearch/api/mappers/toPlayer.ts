@@ -2,7 +2,7 @@ import { getStatusInfo } from '@this/scripts/utility/getStatusInfo';
 import { toInitials } from '@this/scripts/utility/toInitials';
 import { groupBy } from 'lodash';
 import map from 'lodash/map';
-import type { IPlayer } from '../../../state';
+import type { IPlayer } from '../../state';
 import type { IGuardianDb } from '../dataAccess/getGuardians';
 import type { IPlayerDb } from '../dataAccess/getPlayers';
 import { toGuardians } from './toGuardians';

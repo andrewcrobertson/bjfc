@@ -1,6 +1,6 @@
 import type { PlayerContactTypeEnum } from '@this/scripts/constants/enums';
 import { toInitials } from '@this/scripts/utility/toInitials';
-import type { IContact } from '../../../state';
+import type { IContact } from '../../state';
 import type { IContactEmergencyDb } from '../dataAccess/getContactsEmergency';
 import { toContactMethods } from './toContactMethods';
 
