@@ -1,7 +1,9 @@
 import { differenceInYears, parseISO } from 'date-fns';
-import { groupBy, orderBy, toPairs } from 'lodash';
+import groupBy from 'lodash/groupBy';
 import join from 'lodash/join';
 import map from 'lodash/map';
+import orderBy from 'lodash/orderBy';
+import toPairs from 'lodash/toPairs';
 import { getNextBirthday } from './getNextBirthday';
 
 export interface IPlayer {
