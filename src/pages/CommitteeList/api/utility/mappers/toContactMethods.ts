@@ -1,4 +1,6 @@
-export const toContactMethods = (contactMethods: any[]) => {
+import type { IContactMethod } from '../../../state';
+
+export const toContactMethods = (contactMethods: IContactMethod[]): IContactMethod[] => {
   const phone = [];
   const email = [];
   const used = {};
