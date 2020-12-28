@@ -12,12 +12,14 @@ export const getStatusInfoTransferred = (club: string, yearLastTransferred: numb
 
 export const getStatusInfoHistorical = (yearLastRegistered: number) => trim(`Last registered ${yearLastRegistered ?? ' a long time ago'}`);
 
-export const getStatusInfoCurrent = (status: PlayerStatusEnum) => {
+export const getStatusInfoCurrent = (status: PlayerStatusEnum, yearLastRegistered: number) => {
   switch (status) {
     case playerStatusEnum.insured:
       return getStatusInfoInsured();
     case playerStatusEnum.registered:
       return getStatusInfoRegistered();
+    case playerStatusEnum.recent:
+      return getStatusInfoRecent(yearLastRegistered);
     case playerStatusEnum.unknown:
     default:
       return 'Unknown';

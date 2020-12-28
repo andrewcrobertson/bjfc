@@ -19,6 +19,7 @@ const playersSql = `SELECT footyWebNumber,
   gender,
   status,
   yearLastRegistered,
+  yearLastTransferred,
   club,
   teamCode
 FROM player

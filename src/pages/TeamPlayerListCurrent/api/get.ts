@@ -18,7 +18,8 @@ const playersSql = `SELECT footyWebNumber,
   dateOfBirth,
   gender,
   status,
-  teamCode
+  teamCode,
+  yearLastRegistered
 FROM player
 WHERE teamCode = @code
   AND status IN ('Insured', 'Registered', 'Recent');`;
@@ -26,7 +27,7 @@ WHERE teamCode = @code
 export const mapPlayer = (player: any) => ({
   footyWebNumber: player.footyWebNumber,
   status: player.status,
-  statusInfo: getStatusInfoCurrent(player.status),
+  statusInfo: getStatusInfoCurrent(player.status, player.yearLastRegistered),
   initials: toInitials(`${player.firstName}, ${player.lastName}`),
   lastName: player.lastName,
   firstName: player.firstName,
