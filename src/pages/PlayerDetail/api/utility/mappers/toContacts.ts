@@ -42,7 +42,7 @@ export const toContacts = (contacts: IContactsDb): IContact[] => {
     })),
     ...map(contacts.contactsEmergency, (c) => ({
       type: 'Emergency' as PlayerContactTypeEnum,
-      relationship: 'Emergency Contact',
+      relationship: `Emergency Contact ${c.relationship === null ? '' : '(' + c.relationship + ')'}`,
       name: `${c.name}`,
       gender: c.gender,
       initials: toInitials(`Emergency Contact`),
