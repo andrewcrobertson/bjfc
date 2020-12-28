@@ -2,13 +2,13 @@
   import AvatarHeading from '@this/components/common/AvatarHeading';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import { copyToClipboard } from '@this/scripts/utility/copyToClipboard';
-  import { xxx } from '@this/scripts/utility/xxx';
+  import { getBirthdayClipboardText } from '@this/scripts/utility/getBirthdayClipboardText';
 
   import CardPlayer from './components/CardPlayer';
   import type { IState } from './state';
   export let state: IState;
 
-  const clipboardText = xxx(state.monthName, state.players);
+  const clipboardText = getBirthdayClipboardText(state.monthName, state.players);
   const colour = 'gray';
   const handleCopy = () => copyToClipboard(clipboardText);
 

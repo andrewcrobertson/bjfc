@@ -10,7 +10,7 @@ export interface IPlayer {
   dateOfBirth: string;
 }
 
-export const xxx = (monthName: string, players: IPlayer[]) => {
+export const getBirthdayClipboardText = (monthName: string, players: IPlayer[]) => {
   const playersMapped = map(players, ({ firstName, lastName, dateOfBirth }) => {
     const nextBirthday = getNextBirthday(dateOfBirth);
     const age = differenceInYears(parseISO(nextBirthday), parseISO(dateOfBirth));
