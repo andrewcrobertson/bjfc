@@ -1,12 +1,12 @@
-import type { PlayerContactTypeEnum } from '@this/constants/enums';
-import { toInitials } from '@this/utility/toInitials';
 import compact from 'lodash/compact';
 import map from 'lodash/map';
 import type { IContact } from '../../../state';
 import type { IContactEmergencyDb } from '../dataAccess/getContactsEmergency';
 import type { IContactGuardianDb } from '../dataAccess/getContactsGuardian';
 import type { IContactRegisteredDb } from '../dataAccess/getContactsRegistered';
-import { toContactMethods } from './toContactMethods';
+import { toContactEmergency } from './toContactEmergency';
+import { toContactGuardian } from './toContactGuardian';
+import { toContactRegistered } from './toContactRegistered';
 
 export interface IContactsDb {
   contactsEmergency: IContactEmergencyDb[];
@@ -23,53 +23,9 @@ export const toContacts = (contacts: IContactsDb): IContact[] => {
     ]
   );
 
-  return [
-    ...map(contacts.contactsGuardian, (c) => ({
-      type: 'Guardian' as PlayerContactTypeEnum,
-      relationship: 'Parent/Guardian',
-      name: `${c.firstName} ${c.lastName}`,
-      gender: c.gender,
-      initials: toInitials(`${c.firstName} ${c.lastName}`),
-      contactMethods: toContactMethods(
-        [
-          { type: 'Phone', value: c.phone1 },
-          { type: 'Phone', value: c.phone2 },
-          { type: 'Phone', value: c.mobile },
-          { type: 'Email', value: c.email },
-        ],
-        maxContactMethods
-      ),
-    })),
-    ...map(contacts.contactsEmergency, (c) => ({
-      type: 'Emergency' as PlayerContactTypeEnum,
-      relationship: `Emergency Contact ${c.relationship === null ? '' : '(' + c.relationship + ')'}`,
-      name: `${c.name}`,
-      gender: c.gender,
-      initials: toInitials(`Emergency Contact`),
-      contactMethods: toContactMethods(
-        [
-          { type: 'Phone', value: c.phone1 },
-          { type: 'Phone', value: c.phone2 },
-        ],
-        maxContactMethods
-      ),
-    })),
-    ...map(contacts.contactsRegistered, (c) => ({
-      type: 'Registered' as PlayerContactTypeEnum,
-      relationship: 'Registered Contact',
-      name: `Registered Contact`,
-      gender: c.gender,
-      initials: toInitials(`Registered Contact`),
-      contactMethods: toContactMethods(
-        [
-          { type: 'Phone', value: c.phoneHome },
-          { type: 'Phone', value: c.phoneMobile },
-          { type: 'Phone', value: c.phoneWork },
-          { type: 'Email', value: c.email1 },
-          { type: 'Email', value: c.email2 },
-        ],
-        maxContactMethods
-      ),
-    })),
-  ];
+  const contactGuardians = map(contacts.contactsGuardian, (c) => toContactGuardian(c, maxContactMethods));
+  const contactsEmergency = map(contacts.contactsEmergency, (c) => toContactEmergency(c, maxContactMethods));
+  const contactsRegistered = map(contacts.contactsRegistered, (c) => toContactRegistered(c, maxContactMethods));
+
+  return [...contactGuardians, ...contactsEmergency, ...contactsRegistered];
 };
