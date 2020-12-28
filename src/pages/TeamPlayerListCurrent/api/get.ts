@@ -1,58 +1,13 @@
 import { getDatabase } from '@this/scripts/utility/getDatabase';
-import { getStatusInfoCurrent } from '@this/scripts/utility/getStatusInfo';
-import { toInitials } from '@this/scripts/utility/toInitials';
-import { filter, map } from 'lodash';
 import type { Request } from 'polka';
 import type { IState } from '../state';
-
-const teamSql = `SELECT code,
-  name,
-  topAge,
-  gender
-FROM team
-WHERE code = @code;`;
-
-const playersSql = `SELECT footyWebNumber,
-  lastName,
-  firstName,
-  dateOfBirth,
-  gender,
-  status,
-  teamCode,
-  yearLastRegistered
-FROM player
-WHERE teamCode = @code
-  AND status IN ('Insured', 'Registered', 'Recent');`;
-
-export const mapPlayer = (player: any) => ({
-  footyWebNumber: player.footyWebNumber,
-  status: player.status,
-  statusInfo: getStatusInfoCurrent(player.status, player.yearLastRegistered),
-  initials: toInitials(`${player.firstName}, ${player.lastName}`),
-  lastName: player.lastName,
-  firstName: player.firstName,
-  dateOfBirth: player.dateOfBirth,
-  gender: player.gender,
-});
+import { getPlayers } from './dataAccess/getPlayers';
+import { getTeam } from './dataAccess/getTeam';
+import { toTeam } from './mappers/toTeam';
 
 export const get = async (req: Request): Promise<IState> => {
   const db = getDatabase();
-
-  const teamRaw = db.prepare(teamSql).get({ code: req.params.code });
-  const playersRaw = db.prepare(playersSql).all({ code: req.params.code });
-
-  return {
-    code: teamRaw.code,
-    ageGroupCode: `U${teamRaw.topAge}`,
-    name: teamRaw.name,
-    teamGender: teamRaw.gender,
-    playersActive: map(
-      filter(playersRaw, (p) => p.status === 'Insured' || p.status === 'Registered'),
-      mapPlayer
-    ),
-    playersRecent: map(
-      filter(playersRaw, (p) => p.status === 'Recent'),
-      mapPlayer
-    ),
-  };
+  const teamDb = getTeam(db, req.params.code);
+  const playersDb = getPlayers(db, req.params.code);
+  return toTeam({ team: teamDb, players: playersDb });
 };
