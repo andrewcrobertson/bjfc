@@ -1,4 +1,4 @@
-import type { PlayerStatusEnum } from '@this/common/constants/enums';
+import type { PlayerStatusEnum } from '@this/scripts/constants/enums';
 import type { Database } from 'better-sqlite3';
 
 const sql = `SELECT footyWebNumber,

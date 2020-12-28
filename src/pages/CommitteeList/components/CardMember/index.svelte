@@ -2,8 +2,8 @@
   import AvatarHeading from '@this/components/common/AvatarHeading';
   import ContactButton from '@this/components/button/ContactButton';
   import PersonItem from '@this/components/common/PersonItem';
-  import * as personGenderEnum from '@this/common/constants/personGenderEnum';
-  import { personBackground } from '@this/common/constants/theme';
+  import * as personGenderEnum from '@this/scripts/constants/personGenderEnum';
+  import { personBackground } from '@this/scripts/constants/theme';
   import type { IMember } from '../../state';
 
   let rootClass = '';

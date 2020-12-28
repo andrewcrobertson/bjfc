@@ -1,6 +1,6 @@
 <script lang="ts">
-  import * as personGenderEnum from '@this/common/constants/personGenderEnum';
-  import { personBackground } from '@this/common/constants/theme';
+  import * as personGenderEnum from '@this/scripts/constants/personGenderEnum';
+  import { personBackground } from '@this/scripts/constants/theme';
   import PersonLabelledIcon from '@this/components/labelledIcon/PersonLabelledIcon';
 
   let rootClass = '';

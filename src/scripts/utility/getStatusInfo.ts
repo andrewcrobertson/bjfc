@@ -1,5 +1,5 @@
-import type { PlayerStatusEnum } from '@this/common/constants/enums';
-import * as playerStatusEnum from '@this/common/constants/playerStatusEnum';
+import type { PlayerStatusEnum } from '@this/scripts/constants/enums';
+import * as playerStatusEnum from '@this/scripts/constants/playerStatusEnum';
 import trim from 'lodash/trim';
 
 export const getStatusInfoInsured = () => 'Insured';

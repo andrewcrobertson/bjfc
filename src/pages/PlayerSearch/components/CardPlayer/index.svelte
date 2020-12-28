@@ -2,8 +2,8 @@
   import AvatarHeading from '@this/components/common/AvatarHeading';
   import PersonLabelledIcon from '@this/components/labelledIcon/PersonLabelledIcon';
   import StatusLabelledIcon from '@this/components/labelledIcon/StatusLabelledIcon';
-  import { background } from '@this/common/constants/theme';
-  import { getUrlPlayer } from '@this/common/utility/getUrl';
+  import { background } from '@this/scripts/constants/theme';
+  import { getUrlPlayer } from '@this/scripts/utility/getUrl';
   import type { IPlayer } from '../../state';
 
   let rootClass = '';

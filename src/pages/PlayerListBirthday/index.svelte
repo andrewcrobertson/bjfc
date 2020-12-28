@@ -1,7 +1,7 @@
 <script lang="ts">
   import AvatarHeading from '@this/components/common/AvatarHeading';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
-  import { copyToClipboard } from '@this/common/utility/copyToClipboard';
+  import { copyToClipboard } from '@this/scripts/utility/copyToClipboard';
   import CardPlayer from './components/CardPlayer';
   import type { IState } from './state';
   export let state: IState;

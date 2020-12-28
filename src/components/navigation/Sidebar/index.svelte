@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { getUrlCommitteeList, getUrlHome, getUrlPlayerBirthdayList, getUrlPlayerSearch, getUrlTeamList } from '@this/common/utility/getUrl';
+  import { getUrlCommitteeList, getUrlHome, getUrlPlayerBirthdayList, getUrlPlayerSearch, getUrlTeamList } from '@this/scripts/utility/getUrl';
 
   let rootClass = '';
   export { rootClass as class };

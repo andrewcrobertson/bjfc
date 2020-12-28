@@ -1,5 +1,5 @@
-import * as personGenderEnum from '@this/common/constants/personGenderEnum';
-import * as teamGenderEnum from '@this/common/constants/teamGenderEnum';
+import * as personGenderEnum from '@this/scripts/constants/personGenderEnum';
+import * as teamGenderEnum from '@this/scripts/constants/teamGenderEnum';
 
 export const background = {
   [teamGenderEnum.female]: 'yellow',

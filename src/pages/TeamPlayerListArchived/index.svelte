@@ -1,9 +1,9 @@
 <script lang="ts">
   import AvatarHeading from '@this/components/common/AvatarHeading';
   import { Tabs, TabList, TabPanel, Tab } from '@this/components/common/Tabs';
-  import { background } from '@this/common/constants/theme';
+  import { background } from '@this/scripts/constants/theme';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
-  import { getUrlTeamOfficialList, getUrlTeamPlayerListCurrent } from '@this/common/utility/getUrl';
+  import { getUrlTeamOfficialList, getUrlTeamPlayerListCurrent } from '@this/scripts/utility/getUrl';
   import PanelPlayer from './components/PanelPlayer';
   import type { IState } from './state';
   export let state: IState;

@@ -1,4 +1,4 @@
-import { getDatabase } from '@this/common/utility/getDatabase';
+import { getDatabase } from '@this/scripts/utility/getDatabase';
 import type { Request } from 'polka';
 import type { IState } from '../state';
 import { getGuardians } from './utility/dataAccess/getGuardians';

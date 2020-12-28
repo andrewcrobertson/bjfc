@@ -1,8 +1,8 @@
 <script lang="ts">
   import AvatarHeading from '@this/components/common/AvatarHeading';
-  import { background } from '@this/common/constants/theme';
+  import { background } from '@this/scripts/constants/theme';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
-  import { getUrlTeamPlayerListCurrent } from '@this/common/utility/getUrl';
+  import { getUrlTeamPlayerListCurrent } from '@this/scripts/utility/getUrl';
   import CardOfficial from './components/CardOfficial';
   import type { IState } from './state';
   export let state: IState = null;

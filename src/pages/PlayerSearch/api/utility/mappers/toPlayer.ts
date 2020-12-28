@@ -1,5 +1,5 @@
-import { getStatusInfo } from '@this/common/utility/getStatusInfo';
-import { toInitials } from '@this/common/utility/toInitials';
+import { getStatusInfo } from '@this/scripts/utility/getStatusInfo';
+import { toInitials } from '@this/scripts/utility/toInitials';
 import { groupBy } from 'lodash';
 import map from 'lodash/map';
 import type { IPlayer } from '../../../state';
