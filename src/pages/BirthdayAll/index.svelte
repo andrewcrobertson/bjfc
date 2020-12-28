@@ -1,6 +1,6 @@
 <script lang="ts">
   import format from 'date-fns/format';
-  import { getUrlPlayerBirthdayList } from '@this/scripts/utility/getUrl';
+  import { getUrlBirthdayMonth } from '@this/scripts/utility/getUrl';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import logoUrl from './logo.png';
   export const state = null;
@@ -13,6 +13,6 @@
 
 <div class="container mx-auto xl:py-10" style="--background-url:url({logoUrl})">
   {#each months as month}
-    <a class="block items-center border border-gray-300 px-6 py-3 mt-2" href={getUrlPlayerBirthdayList(month.toString())}>{getMonthName(month)}</a>
+    <a class="block items-center border border-gray-300 px-6 py-3 mt-2" href={getUrlBirthdayMonth(month.toString())}>{getMonthName(month)}</a>
   {/each}
 </div>
