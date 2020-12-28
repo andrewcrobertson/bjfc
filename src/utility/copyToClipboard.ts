@@ -3,7 +3,7 @@
 // this is not always possible. Browser support for Chrome 43+, Firefox 42+, Safari 10+, Edge and Internet Explorer 10+.
 // Internet Explorer: The clipboard feature may be disabled by an administrator. By default a prompt is shown the first
 // time the clipboard is used (per session).
-export const birthdayInfo = (text: string) => {
+export const copyToClipboard = (text: string) => {
   if (window['clipboardData'] && window['clipboardData'].setData) {
     // Internet Explorer-specific code path to prevent textarea being shown while dialog is visible.
     return window['clipboardData'].setData('Text', text);

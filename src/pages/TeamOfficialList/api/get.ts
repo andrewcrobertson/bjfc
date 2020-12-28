@@ -1,9 +1,9 @@
 import { getDatabase } from '@this/utility/getDatabase';
-import { toContactMethods } from '@this/utility/toContactMethods';
 import { toInitials } from '@this/utility/toInitials';
 import find from 'lodash/find';
 import type { Request } from 'polka';
 import type { IState } from '../state';
+import { toContactMethods } from './toContactMethods';
 
 const teamSql = `SELECT code, name, topAge, gender FROM team WHERE code = @code;`;
 const teamOfficialsSql = `SELECT teamCode, role, lastName, firstName, gender, phone, email FROM teamOfficial WHERE teamCode = @code;`;

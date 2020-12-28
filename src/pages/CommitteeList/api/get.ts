@@ -1,9 +1,9 @@
 import { getDatabase } from '@this/utility/getDatabase';
-import { toContactMethods } from '@this/utility/toContactMethods';
 import { toInitials } from '@this/utility/toInitials';
 import map from 'lodash/map';
 import type { Request } from 'polka';
 import type { IState } from '../state';
+import { toContactMethods } from './toContactMethods';
 
 const comitteeSql = `SELECT role, firstName, lastName, gender, phone, email FROM committee;`;
 
