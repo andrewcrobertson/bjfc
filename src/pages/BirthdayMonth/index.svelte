@@ -18,7 +18,7 @@
 <div class="container mx-auto xl:py-10">
   <div class="flex flex-col sm:flex-row sm:justify-between p-2 mb-4">
     <AvatarHeading {colour} text={state.monthName} />
-    <div class="flex flex-col text-sm space-y-1"><button class="border border-gray-300 px-3 py-1" on:click={handleCopy}>Copy</button></div>
+    <div class="flex justify-end items-center text-sm"><button class="border border-gray-300 px-3 py-1" on:click={handleCopy}>Copy</button></div>
   </div>
   {#each state.players as player, i}
     <CardPlayer class="w-full {i === 0 ? 'border-t' : ''} border-r border-b border-l border-gray-300" {player} />
