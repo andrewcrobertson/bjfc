@@ -2,9 +2,11 @@
   import Navbar from '@this/components/navigation/Navbar';
   import Sidebar from '@this/components/navigation/Sidebar';
   import { pageTitleStore as pageTitle } from './data/pageTitleStore';
-  import config from '@this/data/config';
 
   let open = false;
+
+  // TODO: Fix
+  const config = { seasonYear: 2021 };
 </script>
 
 <div class="flex flex-col h-screen">
