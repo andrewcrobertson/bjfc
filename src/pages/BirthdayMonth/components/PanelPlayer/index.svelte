@@ -1,10 +1,10 @@
 <script lang="ts">
   import CardPlayer from '../CardPlayer';
-  import type { ITeamPlayer } from '../../state';
+  import type { IStatePlayer } from '../../state';
 
   let rootClass = '';
   export { rootClass as class };
-  export let players: ITeamPlayer[] = [];
+  export let players: IStatePlayer[] = [];
   export let emptyMessage = '';
 </script>
 
