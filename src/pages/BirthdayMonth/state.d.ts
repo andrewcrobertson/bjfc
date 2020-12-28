@@ -7,17 +7,14 @@ export interface IStatePlayer {
   initials: string;
   lastName: string;
   firstName: string;
-  nextBirthdayInfo: string;
+  dateOfBirth: string;
   gender: string;
 }
 
-export interface IBirthdaysByMonth {
-  month: string;
-  players: IStatePlayer[];
-}
-
 export interface IState {
-  birthdaysByMonth: IBirthdaysByMonth[];
+  month: number;
+  monthName: string;
+  players: IStatePlayer[];
 }
 
 export interface IPreloadResponse {

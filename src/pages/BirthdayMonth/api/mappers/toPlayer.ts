@@ -1,14 +1,15 @@
 import { getStatusInfo } from '@this/scripts/utility/getStatusInfo';
-import { nextBirthdayInfo } from '@this/scripts/utility/nextBirthdayInfo';
 import { toInitials } from '@this/scripts/utility/toInitials';
+import type { IStatePlayer } from '../../state';
+import type { IPlayerDb } from '../dataAccess/getPlayers';
 
-export const toPlayer = (player: any, nextBirthday: string): any => ({
+export const toPlayer = (player: IPlayerDb): IStatePlayer => ({
   footyWebNumber: player.footyWebNumber,
   status: player.status,
   statusInfo: getStatusInfo(player.status, player.club, player.yearLastRegistered, player.yearLastTransferred),
   initials: toInitials(`${player.firstName}, ${player.lastName}`),
   lastName: player.lastName,
   firstName: player.firstName,
-  nextBirthdayInfo: nextBirthdayInfo(player.dateOfBirth, nextBirthday),
+  dateOfBirth: player.dateOfBirth,
   gender: player.gender,
 });

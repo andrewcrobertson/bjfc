@@ -16,17 +16,13 @@
 </script>
 
 <div class="container mx-auto xl:py-10">
-  {#each state.birthdaysByMonth as { month, players }, i}
-    <div class="flex flex-col sm:flex-row sm:justify-between p-2 mb-4 {i === 0 ? '' : 'mt-4'}">
-      <AvatarHeading {colour} text={month} />
-      <div class="flex flex-col text-sm space-y-1"><button class="border border-gray-300 px-3 py-1" on:click={handleCopy}>Copy</button></div>
-    </div>
-    {#each players as player, i}
-      <CardPlayer class="w-full {i === 0 ? 'border-t' : ''} border-r border-b border-l border-gray-300" {player} />
-    {:else}
-      <p class="p-4">No players with {month} birthdays</p>
-    {/each}
+  <div class="flex flex-col sm:flex-row sm:justify-between p-2 mb-4">
+    <AvatarHeading {colour} text={state.monthName} />
+    <div class="flex flex-col text-sm space-y-1"><button class="border border-gray-300 px-3 py-1" on:click={handleCopy}>Copy</button></div>
+  </div>
+  {#each state.players as player, i}
+    <CardPlayer class="w-full {i === 0 ? 'border-t' : ''} border-r border-b border-l border-gray-300" {player} />
   {:else}
-    <p class="p-4">No players with upcoming birthdays</p>
+    <p class="p-4">No players with {state.monthName} birthdays</p>
   {/each}
 </div>

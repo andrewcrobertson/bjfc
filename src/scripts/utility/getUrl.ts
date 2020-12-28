@@ -1,5 +1,5 @@
 export const getUrlHome = () => '/';
-export const getUrlBirthdayAll = () => `/players/birthdays`;
+export const getUrlBirthdayAll = () => `/birthdays`;
 export const getUrlBirthdayMonth = (month: string) => `/birthdays/${month}`;
 export const getUrlCommitteeList = () => '/committee';
 export const getUrlPlayer = (footyWebNumber: string) => `/players/${footyWebNumber}`;
