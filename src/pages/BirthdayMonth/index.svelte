@@ -2,15 +2,15 @@
   import AvatarHeading from '@this/components/common/AvatarHeading';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import { copyToClipboard } from '@this/scripts/utility/copyToClipboard';
+  import { xxx } from '@this/scripts/utility/xxx';
+
   import CardPlayer from './components/CardPlayer';
   import type { IState } from './state';
   export let state: IState;
 
+  const clipboardText = xxx(state.monthName, state.players);
   const colour = 'gray';
-  const handleCopy = () => {
-    const copyText = 'some cool text';
-    copyToClipboard(copyText);
-  };
+  const handleCopy = () => copyToClipboard(clipboardText);
 
   pageTitle.set('Birthdays');
 </script>

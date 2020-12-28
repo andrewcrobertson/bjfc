@@ -3,7 +3,7 @@
   import BirthdayLabelledIcon from '@this/components/labelledIcon/BirthdayLabelledIcon';
   import StatusLabelledIcon from '@this/components/labelledIcon/StatusLabelledIcon';
   import { background } from '@this/scripts/constants/theme';
-  import { nextBirthdayInfo as getNextBirthdayInfo } from '@this/scripts/utility/nextBirthdayInfo';
+  import { getNextBirthdayInfo } from '@this/scripts/utility/getNextBirthdayInfo';
   import { getUrlPlayer } from '@this/scripts/utility/getUrl';
   import type { IStatePlayer } from '../../state';
 
