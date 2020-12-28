@@ -1,20 +1,53 @@
+import type { PlayerStatusEnum } from '@this/constants/enums';
 import * as playerStatusEnum from '@this/constants/playerStatusEnum';
-import type { IPlayer } from '@this/types/player';
-import { dateInfo } from '@this/utility/dateInfo';
 import trim from 'lodash/trim';
 
-export const getStatusInfo = (player: IPlayer) => {
-  switch (player.status) {
+export const getStatusInfoInsured = () => 'Insured';
+
+export const getStatusInfoRegistered = () => 'Registered';
+
+export const getStatusInfoRecent = (yearLastRegistered: number) => trim(`Last registered ${yearLastRegistered ?? ' recently'}`);
+
+export const getStatusInfoTransferred = (club: string, yearLastTransferred: number) => trim(`${club} ${yearLastTransferred ?? ''}`);
+
+export const getStatusInfoHistorical = (yearLastRegistered: number) => trim(`Last registered ${yearLastRegistered ?? ' a long time ago'}`);
+
+export const getStatusInfoCurrent = (status: PlayerStatusEnum) => {
+  switch (status) {
     case playerStatusEnum.insured:
-      return 'Insured';
+      return getStatusInfoInsured();
     case playerStatusEnum.registered:
-      return 'Registered';
-    case playerStatusEnum.recent:
-      return trim(`Last active ${dateInfo(player.lastTransactionDate) ?? ' recently'}`);
+      return getStatusInfoRegistered();
+    case playerStatusEnum.unknown:
+    default:
+      return 'Unknown';
+  }
+};
+
+export const getStatusInfoArchived = (status: PlayerStatusEnum, club: string, yearLastRegistered: number, yearLastTransferred: number) => {
+  switch (status) {
     case playerStatusEnum.transferred:
-      return trim(`${player.club} ${dateInfo(player.lastTransferDate) ?? ''}`);
+      return getStatusInfoTransferred(club, yearLastTransferred);
     case playerStatusEnum.historical:
-      return trim(`Last active ${dateInfo(player.lastTransactionDate) ?? ' a long time ago'}`);
+      return getStatusInfoHistorical(yearLastRegistered);
+    case playerStatusEnum.unknown:
+    default:
+      return 'Unknown';
+  }
+};
+
+export const getStatusInfo = (status: PlayerStatusEnum, club: string, yearLastRegistered: number, yearLastTransferred: number) => {
+  switch (status) {
+    case playerStatusEnum.insured:
+      return getStatusInfoInsured();
+    case playerStatusEnum.registered:
+      return getStatusInfoRegistered();
+    case playerStatusEnum.recent:
+      return getStatusInfoRecent(yearLastRegistered);
+    case playerStatusEnum.transferred:
+      return getStatusInfoTransferred(club, yearLastTransferred);
+    case playerStatusEnum.historical:
+      return getStatusInfoHistorical(yearLastRegistered);
     case playerStatusEnum.unknown:
     default:
       return 'Unknown';
