@@ -1,3 +1,4 @@
+import type { PlayerContactTypeEnum } from '@this/constants/enums';
 import { toInitials } from '@this/utility/toInitials';
 import compact from 'lodash/compact';
 import map from 'lodash/map';
@@ -24,7 +25,7 @@ export const toContacts = (contacts: IContactsDb): IContact[] => {
 
   return [
     ...map(contacts.contactsGuardian, (c) => ({
-      type: '',
+      type: 'Guardian' as PlayerContactTypeEnum,
       relationship: 'Parent/Guardian',
       name: `${c.firstName} ${c.lastName}`,
       gender: c.gender,
@@ -40,7 +41,7 @@ export const toContacts = (contacts: IContactsDb): IContact[] => {
       ),
     })),
     ...map(contacts.contactsEmergency, (c) => ({
-      type: 'Emergency Contact',
+      type: 'Emergency' as PlayerContactTypeEnum,
       relationship: 'Emergency Contact',
       name: `${c.name}`,
       gender: c.gender,
@@ -54,7 +55,7 @@ export const toContacts = (contacts: IContactsDb): IContact[] => {
       ),
     })),
     ...map(contacts.contactsRegistered, (c) => ({
-      type: 'Registered Contact',
+      type: 'Registered' as PlayerContactTypeEnum,
       relationship: 'Registered Contact',
       name: `Registered Contact`,
       gender: c.gender,

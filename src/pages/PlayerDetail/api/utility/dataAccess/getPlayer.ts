@@ -12,7 +12,7 @@ const sql = `SELECT footyWebNumber,
   club,
   teamCode
 FROM player
-WHERE footyWebNumber = @code;`;
+WHERE footyWebNumber = @footyWebNumber;`;
 
 export interface IPlayerDb {
   footyWebNumber: string;

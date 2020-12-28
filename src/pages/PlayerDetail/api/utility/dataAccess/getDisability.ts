@@ -5,7 +5,7 @@ const sql = `SELECT type1,
   note1,
   note2
 FROM playerDisability
-WHERE footyWebNumber = @code;`;
+WHERE footyWebNumber = @footyWebNumber;`;
 
 export interface IDisabilityDb {
   type1: string;
@@ -14,4 +14,4 @@ export interface IDisabilityDb {
   note2: string;
 }
 
-export const getDisability = (db: Database, footyWebNumber: string): IDisabilityDb => db.prepare(sql).get({ footyWebNumber });
+export const getDisability = (db: Database, footyWebNumber: string): IDisabilityDb => db.prepare(sql).get({ footyWebNumber }) ?? null;

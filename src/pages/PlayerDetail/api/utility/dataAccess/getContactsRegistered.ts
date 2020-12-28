@@ -1,7 +1,6 @@
 import type { Database } from 'better-sqlite3';
 
-const sql = `SELECT footyWebNumber,
-  gender,
+const sql = `SELECT gender,
   phoneHome,
   phoneWork,
   phoneMobile,
@@ -11,10 +10,10 @@ const sql = `SELECT footyWebNumber,
   assistInRole2,
   assistInRole3
 FROM playerContactRegistered
-WHERE footyWebNumber = @code;`;
+WHERE footyWebNumber = @footyWebNumber
+ORDER BY sequence;`;
 
 export interface IContactRegisteredDb {
-  footyWebNumber: string;
   gender: string;
   phoneHome: string;
   phoneWork: string;
@@ -27,5 +26,5 @@ export interface IContactRegisteredDb {
 }
 
 export const getContactsRegistered = (db: Database, footyWebNumber: string): IContactRegisteredDb[] => {
-  return db.prepare(sql).all({ code: footyWebNumber });
+  return db.prepare(sql).all({ footyWebNumber });
 };

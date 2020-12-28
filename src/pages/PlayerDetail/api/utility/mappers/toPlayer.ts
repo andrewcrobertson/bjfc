@@ -1,5 +1,6 @@
 import { getStatusInfo } from '@this/utility/getStatusInfo';
 import { toInitials } from '@this/utility/toInitials';
+import map from 'lodash/map';
 import type { IState } from '../../../state';
 import type { IClubHistoryDb } from '../dataAccess/getClubHistory';
 import type { IContactEmergencyDb } from '../dataAccess/getContactsEmergency';
@@ -36,7 +37,7 @@ export const toPlayer = (data: IDataDb): IState => {
     gender: data.player.gender,
     disability: toDisability(data.disability),
     contacts: toContacts(data),
-    transactions: data.recentTransactions,
+    transactions: map(data.recentTransactions, (t) => ({ ...t, year: parseInt(t.year.toString().substring(2, 4)) })),
     clubHistory: data.clubHistory,
     team: {
       code: data.team.code,
