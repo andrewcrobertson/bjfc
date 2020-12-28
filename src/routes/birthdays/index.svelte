@@ -10,10 +10,10 @@
 
 <script lang="ts">
   import { onMount } from 'svelte';
-  import BirthdayMonthPage from '@this/pages/BirthdayMonth';
+  import BirthdayAllPage from '@this/pages/BirthdayAll';
   export let state = null;
 
   onMount(() => window.scrollTo(0, 0));
 </script>
 
-<BirthdayMonthPage {state} />
+<BirthdayAllPage {state} />

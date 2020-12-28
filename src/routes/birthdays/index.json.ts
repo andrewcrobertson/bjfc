@@ -1,4 +1,4 @@
-import { get as getFn } from '@this/pages/BirthdayMonth/api';
+import { get as getFn } from '@this/pages/BirthdayAll/api';
 import type { Request } from 'polka';
 
 export async function get(req: Request, res: any, next: any) {

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { getUrlCommitteeList, getUrlHome, getUrlPlayerBirthdayList, getUrlPlayerSearch, getUrlTeamList } from '@this/scripts/utility/getUrl';
+  import { getUrlBirthdayAll, getUrlCommitteeList, getUrlHome, getUrlPlayerSearch, getUrlTeamList } from '@this/scripts/utility/getUrl';
 
   let rootClass = '';
   export { rootClass as class };
@@ -22,7 +22,7 @@
     <a class="block items-center border border-gray-300 px-6 py-3 mt-2" href={getUrlHome()} on:click={() => (open = false)}>Home</a>
     <a class="block items-center border border-gray-300 px-6 py-3 mt-2" href={getUrlTeamList()} on:click={() => (open = false)}>Teams</a>
     <a class="block items-center border border-gray-300 px-6 py-3 mt-2" href={getUrlCommitteeList()} on:click={() => (open = false)}>Committee</a>
-    <a class="block items-center border border-gray-300 px-6 py-3 mt-2" href={getUrlPlayerBirthdayList()} on:click={() => (open = false)}>Birthdays</a>
+    <a class="block items-center border border-gray-300 px-6 py-3 mt-2" href={getUrlBirthdayAll()} on:click={() => (open = false)}>Birthdays</a>
     <a class="block items-center border border-gray-300 px-6 py-3 mt-2" href={getUrlPlayerSearch()} on:click={() => (open = false)}>Search</a>
   </nav>
 </aside>

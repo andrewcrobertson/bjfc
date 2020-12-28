@@ -18,7 +18,7 @@
 <div class="container mx-auto xl:py-10">
   {#each state.birthdaysByMonth as { month, players }, i}
     <div class="flex flex-col sm:flex-row sm:justify-between p-2 mb-4 {i === 0 ? '' : 'mt-4'}">
-      <AvatarHeading {colour} text="{month} Birthdays" />
+      <AvatarHeading {colour} text={month} />
       <div class="flex flex-col text-sm space-y-1"><button class="border border-gray-300 px-3 py-1" on:click={handleCopy}>Copy</button></div>
     </div>
     {#each players as player, i}
