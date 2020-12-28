@@ -28,14 +28,5 @@ export const get = async (req: Request): Promise<IState> => {
   const recentTransactions = getRecentTransactions(db, player.footyWebNumber);
   const team = getTeam(db, player.teamCode);
 
-  return toPlayer({
-    clubHistory,
-    contactsEmergency,
-    contactsGuardian,
-    contactsRegistered,
-    disability,
-    player,
-    recentTransactions,
-    team,
-  });
+  return toPlayer({ clubHistory, contactsEmergency, contactsGuardian, contactsRegistered, disability, player, recentTransactions, team });
 };
