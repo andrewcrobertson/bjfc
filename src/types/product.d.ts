@@ -1,4 +1,4 @@
-import type { TransactionTypeEnum } from '@this/constants/enums';
+import type { TransactionTypeEnum } from '@this/utility/constants/enums';
 
 export interface IProduct {
   name: string;

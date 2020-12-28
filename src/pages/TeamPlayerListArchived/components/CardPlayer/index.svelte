@@ -3,7 +3,7 @@
   import AvatarHeading from '@this/components/common/AvatarHeading';
   import BirthdayLabelledIcon from '@this/components/labelledIcon/BirthdayLabelledIcon';
   import StatusLabelledIcon from '@this/components/labelledIcon/StatusLabelledIcon';
-  import { background } from '@this/constants/theme';
+  import { background } from '@this/utility/constants/theme';
   import { getUrlPlayer } from '@this/utility/getUrl';
   import type { ITeamPlayer } from '../../state';
 

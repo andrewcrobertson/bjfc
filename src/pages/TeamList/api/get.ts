@@ -1,4 +1,4 @@
-import { getDatabase } from '@this/data/getDatabase';
+import { getDatabase } from '@this/utility/getDatabase';
 import map from 'lodash/map';
 import type { Request } from 'polka';
 import type { IState } from '../state';

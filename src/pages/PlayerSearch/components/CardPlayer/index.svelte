@@ -2,7 +2,7 @@
   import AvatarHeading from '@this/components/common/AvatarHeading';
   import PersonLabelledIcon from '@this/components/labelledIcon/PersonLabelledIcon';
   import StatusLabelledIcon from '@this/components/labelledIcon/StatusLabelledIcon';
-  import { background } from '@this/constants/theme';
+  import { background } from '@this/utility/constants/theme';
   import { getUrlPlayer } from '@this/utility/getUrl';
   import type { IPlayer } from '../../state';
 

@@ -1,4 +1,4 @@
-import { getDatabase } from '@this/data/getDatabase';
+import { getDatabase } from '@this/utility/getDatabase';
 import { getStatusInfoCurrent } from '@this/utility/getStatusInfo';
 import { toInitials } from '@this/utility/toInitials';
 import { filter, map } from 'lodash';

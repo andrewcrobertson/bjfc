@@ -1,6 +1,6 @@
 <script lang="ts">
   import AvatarHeading from '@this/components/common/AvatarHeading';
-  import { background } from '@this/constants/theme';
+  import { background } from '@this/utility/constants/theme';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import { getUrlTeamPlayerListCurrent } from '@this/utility/getUrl';
   import CardOfficial from './components/CardOfficial';

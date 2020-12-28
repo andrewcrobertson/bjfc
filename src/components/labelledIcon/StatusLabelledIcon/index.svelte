@@ -6,8 +6,8 @@
   import LabelledIcon from '@this/components/labelledIcon/LabelledIcon';
   import LogoutIcon from '@this/components/icon/LogoutIcon';
   import ShieldCheckIcon from '@this/components/icon/ShieldCheckIcon';
-  import type { PlayerStatusEnum } from '@this/constants/enums';
-  import * as playerStatusEnum from '@this/constants/playerStatusEnum';
+  import type { PlayerStatusEnum } from '@this/utility/constants/enums';
+  import * as playerStatusEnum from '@this/utility/constants/playerStatusEnum';
 
   let rootClass = '';
   export { rootClass as class };

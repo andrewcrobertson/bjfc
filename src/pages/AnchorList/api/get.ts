@@ -1,4 +1,4 @@
-import { getDatabase } from '@this/data/getDatabase';
+import { getDatabase } from '@this/utility/getDatabase';
 import {
   getUrlCommitteeList,
   getUrlHome,

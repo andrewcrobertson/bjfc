@@ -1,4 +1,4 @@
-import { getDatabase } from '@this/data/getDatabase';
+import { getDatabase } from '@this/utility/getDatabase';
 import { toContactMethods } from '@this/utility/toContactMethods';
 import { toInitials } from '@this/utility/toInitials';
 import find from 'lodash/find';

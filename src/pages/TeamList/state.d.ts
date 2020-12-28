@@ -1,4 +1,4 @@
-import type { TeamGenderEnum } from '@this/constants/enums';
+import type { TeamGenderEnum } from '@this/utility/constants/enums';
 
 export interface IRole {
   name: string;

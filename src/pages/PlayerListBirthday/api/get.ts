@@ -1,4 +1,4 @@
-import { getDatabase } from '@this/data/getDatabase';
+import { getDatabase } from '@this/utility/getDatabase';
 import format from 'date-fns/format';
 import filter from 'lodash/filter';
 import map from 'lodash/map';

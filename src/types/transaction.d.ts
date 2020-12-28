@@ -1,4 +1,4 @@
-import type { TransactionStatusEnum } from '@this/constants/enums';
+import type { TransactionStatusEnum } from '@this/utility/constants/enums';
 
 export interface ITransaction {
   footyWebNumber: string;
