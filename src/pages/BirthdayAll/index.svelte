@@ -5,7 +5,12 @@
   import logoUrl from './logo.png';
   export const state = null;
 
-  const months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+  const currentMonth = new Date().getMonth() + 1;
+  const months = [];
+  for (let i = 0; i < 12; i++) {
+    months.push((i + currentMonth) % 12);
+  }
+
   const getMonthName = (month: number) => format(new Date(1900, month - 1, 1), 'MMMM');
 
   pageTitle.set('Birthdays');
