@@ -10,10 +10,10 @@
 
 <script lang="ts">
   import { onMount } from 'svelte';
-  import TeamDashboardPage from '@this/pages/TeamDashboard';
+  import TeamListPage from '@this/pages/TeamList';
   export let state = null;
 
   onMount(() => window.scrollTo(0, 0));
 </script>
 
-<TeamDashboardPage {state} />
+<TeamListPage {state} />
