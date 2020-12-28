@@ -3,8 +3,8 @@
   import AvatarHeading from '@this/components/common/AvatarHeading';
   import ContactButton from '@this/components/button/ContactButton';
   import FingerPrintIcon from '@this/components/icon/FingerPrintIcon';
-  import * as personGenderEnum from '@this/utility/constants/personGenderEnum';
-  import { personBackground } from '@this/utility/constants/theme';
+  import * as personGenderEnum from '@this/common/constants/personGenderEnum';
+  import { personBackground } from '@this/common/constants/theme';
   import type { IContact } from '../../state';
 
   let rootClass = '';

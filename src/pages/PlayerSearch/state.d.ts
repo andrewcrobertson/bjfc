@@ -1,4 +1,4 @@
-import type { PlayerStatusEnum } from '@this/utility/constants/enums';
+import type { PlayerStatusEnum } from '@this/common/constants/enums';
 
 export interface IPlayer {
   footyWebNumber: string;

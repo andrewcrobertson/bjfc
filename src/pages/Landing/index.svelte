@@ -1,6 +1,6 @@
 <script lang="ts">
   import format from 'date-fns/format';
-  import { getUrlCommitteeList, getUrlPlayerBirthdayList, getUrlPlayerSearch, getUrlTeamList } from '@this/utility/getUrl';
+  import { getUrlCommitteeList, getUrlPlayerBirthdayList, getUrlPlayerSearch, getUrlTeamList } from '@this/common/utility/getUrl';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import logoUrl from './logo.png';
   export const state = null;

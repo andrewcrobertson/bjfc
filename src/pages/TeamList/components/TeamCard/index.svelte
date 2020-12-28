@@ -3,9 +3,9 @@
   import InsuredLabelledIcon from '@this/components/labelledIcon/InsuredLabelledIcon';
   import RegisteredLabelledIcon from '@this/components/labelledIcon/RegisteredLabelledIcon';
   import PersonLabelledIcon from '@this/components/labelledIcon/PersonLabelledIcon';
-  import * as teamGenderEnum from '@this/utility/constants/teamGenderEnum';
-  import { getUrlTeamOfficialList, getUrlTeamPlayerListCurrent } from '@this/utility/getUrl';
-  import { background } from '@this/utility/constants/theme';
+  import * as teamGenderEnum from '@this/common/constants/teamGenderEnum';
+  import { getUrlTeamOfficialList, getUrlTeamPlayerListCurrent } from '@this/common/utility/getUrl';
+  import { background } from '@this/common/constants/theme';
   import OfficialStatus from '../OfficialStatus';
   import type { ITeamInfo } from '../../state';
 

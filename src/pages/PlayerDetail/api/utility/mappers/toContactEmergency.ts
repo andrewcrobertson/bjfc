@@ -1,5 +1,5 @@
-import type { PlayerContactTypeEnum } from '@this/utility/constants/enums';
-import { toInitials } from '@this/utility/toInitials';
+import type { PlayerContactTypeEnum } from '@this/common/constants/enums';
+import { toInitials } from '@this/common/utility/toInitials';
 import type { IContact } from '../../../state';
 import type { IContactEmergencyDb } from '../dataAccess/getContactsEmergency';
 import { toContactMethods } from './toContactMethods';

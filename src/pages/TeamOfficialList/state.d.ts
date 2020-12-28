@@ -1,4 +1,4 @@
-import type { ContactMethodEnum, PersonGenderEnum, TeamGenderEnum } from '@this/utility/constants/enums';
+import type { ContactMethodEnum, PersonGenderEnum, TeamGenderEnum } from '@this/common/constants/enums';
 
 export interface IContactMethod {
   type: ContactMethodEnum;

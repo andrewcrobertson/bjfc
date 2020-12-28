@@ -4,8 +4,8 @@
   import StatusLabelledIcon from '@this/components/labelledIcon/StatusLabelledIcon';
   import AvatarHeading from '@this/components/common/AvatarHeading';
   import { Tabs, TabList, TabPanel, Tab } from '@this/components/common/Tabs';
-  import * as personGenderEnum from '@this/utility/constants/personGenderEnum';
-  import { personBackground } from '@this/utility/constants/theme';
+  import * as personGenderEnum from '@this/common/constants/personGenderEnum';
+  import { personBackground } from '@this/common/constants/theme';
   import { pageTitleStore as pageTitle } from '@this/layouts/StandardLayout';
   import PanelContacts from './components/PanelContacts';
   import PanelOther from './components/PanelOther';

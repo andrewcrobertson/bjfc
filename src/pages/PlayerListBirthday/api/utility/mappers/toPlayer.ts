@@ -1,6 +1,6 @@
-import { getStatusInfo } from '@this/utility/getStatusInfo';
-import { nextBirthdayInfo } from '@this/utility/nextBirthdayInfo';
-import { toInitials } from '@this/utility/toInitials';
+import { getStatusInfo } from '@this/common/utility/getStatusInfo';
+import { nextBirthdayInfo } from '@this/common/utility/nextBirthdayInfo';
+import { toInitials } from '@this/common/utility/toInitials';
 
 export const toPlayer = (player: any, nextBirthday: string): any => ({
   footyWebNumber: player.footyWebNumber,

@@ -1,6 +1,6 @@
-import { getDatabase } from '@this/utility/getDatabase';
-import { getStatusInfoCurrent } from '@this/utility/getStatusInfo';
-import { toInitials } from '@this/utility/toInitials';
+import { getDatabase } from '@this/common/utility/getDatabase';
+import { getStatusInfoCurrent } from '@this/common/utility/getStatusInfo';
+import { toInitials } from '@this/common/utility/toInitials';
 import { filter, map } from 'lodash';
 import type { Request } from 'polka';
 import type { IState } from '../state';

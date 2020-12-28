@@ -1,5 +1,5 @@
-import { getDatabase } from '@this/utility/getDatabase';
-import { toInitials } from '@this/utility/toInitials';
+import { getDatabase } from '@this/common/utility/getDatabase';
+import { toInitials } from '@this/common/utility/toInitials';
 import map from 'lodash/map';
 import type { Request } from 'polka';
 import type { IState } from '../state';
