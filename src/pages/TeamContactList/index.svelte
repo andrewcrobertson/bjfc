@@ -9,7 +9,6 @@
   const initials = state.ageGroupCode;
   const text = state.name;
 
-  console.log(logoUrl);
   pageTitle.set('Contact');
 </script>
 
