@@ -2,6 +2,7 @@ import {
   getUrlCommitteeList,
   getUrlHome,
   getUrlPlayer,
+  getUrlTeamContactPdf,
   getUrlTeamList,
   getUrlTeamOfficialList,
   getUrlTeamPlayerListArchived,
@@ -25,6 +26,7 @@ export const toLinks = (data: IDataDb): string[] => {
   links.push(...map(data.teams, ({ code }) => getUrlTeamOfficialList(code)));
   links.push(...map(data.teams, ({ code }) => getUrlTeamPlayerListCurrent(code)));
   links.push(...map(data.teams, ({ code }) => getUrlTeamPlayerListArchived(code)));
+  links.push(...map(data.teams, ({ code }) => getUrlTeamContactPdf(code)));
   links.sort();
   return links;
 };

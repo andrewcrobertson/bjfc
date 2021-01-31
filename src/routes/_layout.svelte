@@ -1,5 +1,10 @@
 <script lang="ts">
   import StandardLayout from '@this/layouts/StandardLayout';
+  import endsWith from 'lodash/endsWith';
+  import { stores } from '@sapper/app';
+
+  const { page } = stores();
+  const isPdf = endsWith($page.path, '/contact');
 </script>
 
 <svelte:head>
@@ -10,6 +15,10 @@
   <title>BJFC</title>
 </svelte:head>
 
-<StandardLayout>
+{#if isPdf}
   <slot />
-</StandardLayout>
+{:else}
+  <StandardLayout>
+    <slot />
+  </StandardLayout>
+{/if}
