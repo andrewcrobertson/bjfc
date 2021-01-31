@@ -10,7 +10,7 @@
 </script>
 
 <div class={rootClass}>
-  <h2 class="">{heading}</h2>
+  <h2>{heading}</h2>
   {#each players as player, i}
     <CardPlayer class="w-full pt-1 pl-4" {player} />
   {:else}

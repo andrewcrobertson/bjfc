@@ -10,7 +10,7 @@ export const getStatusInfoRecent = (yearLastRegistered: number) => trim(`Last re
 
 export const getStatusInfoTransferred = (club: string, yearLastTransferred: number) => trim(`${club} ${yearLastTransferred ?? ''}`);
 
-export const getStatusInfoHistorical = (yearLastRegistered: number) => trim(`Last registered ${yearLastRegistered ?? ' a long time ago'}`);
+export const getStatusInfoHistorical = (yearLastRegistered: number) => trim(`Last registered ${yearLastRegistered ?? ' unknown'}`);
 
 export const getStatusInfoCurrent = (status: PlayerStatusEnum, yearLastRegistered: number) => {
   switch (status) {

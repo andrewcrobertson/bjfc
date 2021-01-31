@@ -1,15 +1,10 @@
 import type { PlayerStatusEnum } from '@this/scripts/constants/enums';
 
-export interface IContactMethod {
-  type: ContactMethodEnum;
-  value: string;
-}
-
 export interface IContact {
   type: PlayerContactTypeEnum;
   relationship: string;
   name: string;
-  contactMethods: IContactMethod[];
+  contactMethods: string[];
 }
 
 export interface ITeamPlayer {

@@ -1,4 +1,3 @@
-import compact from 'lodash/compact';
 import map from 'lodash/map';
 import type { IContact } from '../../state';
 import type { IContactEmergencyDb } from '../dataAccess/getContactsEmergency';
@@ -15,17 +14,8 @@ export interface IContactsDb {
 }
 
 export const toContacts = (contacts: IContactsDb): IContact[] => {
-  const maxContactMethods = Math.max(
-    ...[
-      ...map(contacts.contactsEmergency, (c) => compact([c.phone1, c.phone2]).length),
-      ...map(contacts.contactsGuardian, (c) => compact([c.phone1, c.phone2, c.mobile, c.email]).length),
-      ...map(contacts.contactsRegistered, (c) => compact([c.phoneHome, c.phoneMobile, c.phoneWork, c.email1, c.email2]).length),
-    ]
-  );
-
-  const contactGuardians = map(contacts.contactsGuardian, (c) => toContactGuardian(c, maxContactMethods));
-  const contactsEmergency = map(contacts.contactsEmergency, (c) => toContactEmergency(c, maxContactMethods));
-  const contactsRegistered = map(contacts.contactsRegistered, (c) => toContactRegistered(c, maxContactMethods));
-
+  const contactGuardians = map(contacts.contactsGuardian, (c) => toContactGuardian(c));
+  const contactsEmergency = map(contacts.contactsEmergency, (c) => toContactEmergency(c));
+  const contactsRegistered = map(contacts.contactsRegistered, (c) => toContactRegistered(c));
   return [...contactGuardians, ...contactsEmergency, ...contactsRegistered];
 };

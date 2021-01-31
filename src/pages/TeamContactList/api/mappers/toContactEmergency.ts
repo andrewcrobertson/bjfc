@@ -3,15 +3,9 @@ import type { IContact } from '../../state';
 import type { IContactEmergencyDb } from '../dataAccess/getContactsEmergency';
 import { toContactMethods } from './toContactMethods';
 
-export const toContactEmergency = (c: IContactEmergencyDb, maxContactMethods: number): IContact => ({
+export const toContactEmergency = (c: IContactEmergencyDb): IContact => ({
   type: 'Emergency' as PlayerContactTypeEnum,
-  relationship: `Emergency Contact ${c.relationship === null ? '' : '(' + c.relationship + ')'}`,
+  relationship: `Emergency Contact ${c.relationship === null ? '' : '- ' + c.relationship}`,
   name: `${c.name}`,
-  contactMethods: toContactMethods(
-    [
-      { type: 'Phone', value: c.phone1 },
-      { type: 'Phone', value: c.phone2 },
-    ],
-    maxContactMethods
-  ),
+  contactMethods: toContactMethods([c.phone1, c.phone2]),
 });

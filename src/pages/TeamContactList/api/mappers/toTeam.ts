@@ -21,7 +21,7 @@ export const toTeam = (data: IDataDb): IState => {
   return {
     code: team.code,
     ageGroupCode: `U${team.topAge}`,
-    name: team.name,
+    name: `BJFC ${team.name}`,
     teamGender: team.gender,
     playersActive: map(
       filter(players, (p) => p.status === 'Insured' || p.status === 'Registered'),
