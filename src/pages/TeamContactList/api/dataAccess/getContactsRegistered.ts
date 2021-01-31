@@ -1,7 +1,6 @@
 import type { Database } from 'better-sqlite3';
 
 const sql = `SELECT pcr.footyWebNumber,
-  pcr.gender,
   pcr.phoneHome,
   pcr.phoneWork,
   pcr.phoneMobile,
@@ -17,7 +16,6 @@ ORDER BY pcr.sequence;`;
 
 export interface IContactRegisteredDb {
   footyWebNumber: string;
-  gender: string;
   phoneHome: string;
   phoneWork: string;
   phoneMobile: string;

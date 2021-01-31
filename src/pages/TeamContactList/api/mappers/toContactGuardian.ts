@@ -1,5 +1,4 @@
 import type { PlayerContactTypeEnum } from '@this/scripts/constants/enums';
-import { toInitials } from '@this/scripts/utility/toInitials';
 import type { IContact } from '../../state';
 import type { IContactGuardianDb } from '../dataAccess/getContactsGuardian';
 import { toContactMethods } from './toContactMethods';
@@ -8,8 +7,6 @@ export const toContactGuardian = (contact: IContactGuardianDb, maxContactMethods
   type: 'Guardian' as PlayerContactTypeEnum,
   relationship: 'Parent/Guardian',
   name: `${contact.firstName} ${contact.lastName}`,
-  gender: contact.gender,
-  initials: toInitials(`${contact.firstName} ${contact.lastName}`),
   contactMethods: toContactMethods(
     [
       { type: 'Phone', value: contact.phone1 },

@@ -3,7 +3,6 @@ import type { Database } from 'better-sqlite3';
 const sql = `SELECT pce.footyWebNumber,
   pce.relationship,
   pce.name,
-  pce.gender,
   pce.phone1,
   pce.phone2
 FROM playerContactEmergency pce
@@ -15,7 +14,6 @@ export interface IContactEmergencyDb {
   footyWebNumber: string;
   relationship: string;
   name: string;
-  gender: string;
   phone1: string;
   phone2: string;
 }

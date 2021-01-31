@@ -1,11 +1,10 @@
-import type { PersonGenderEnum, PlayerStatusEnum } from '@this/scripts/constants/enums';
+import type { PlayerStatusEnum } from '@this/scripts/constants/enums';
 import type { Database } from 'better-sqlite3';
 
 const sql = `SELECT footyWebNumber,
   lastName,
   firstName,
   dateOfBirth,
-  gender,
   status,
   teamCode,
   yearLastRegistered,
@@ -20,7 +19,6 @@ export interface IPlayerDb {
   lastName: string;
   firstName: string;
   dateOfBirth: string;
-  gender: PersonGenderEnum;
   status: PlayerStatusEnum;
   yearLastRegistered: number;
   yearLastTransferred: number;

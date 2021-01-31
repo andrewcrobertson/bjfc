@@ -1,18 +1,18 @@
 <script lang="ts">
-  import PanelContacts from '../PanelContacts';
   import CardPlayer from '../CardPlayer';
   import type { ITeamPlayer } from '../../state';
 
   let rootClass = '';
   export { rootClass as class };
   export let players: ITeamPlayer[] = [];
+  export let heading = '';
   export let emptyMessage = '';
 </script>
 
-<div class="{rootClass} flex flex-wrap">
+<div class={rootClass}>
+  <h2 class="">{heading}</h2>
   {#each players as player, i}
-    <CardPlayer class="w-full {i === 0 ? 'border-t' : ''} border-r border-b border-l border-gray-300" {player} />
-    <PanelContacts contacts={player.contacts} />
+    <CardPlayer class="w-full pt-1 pl-4" {player} />
   {:else}
     <p class="p-4">{emptyMessage}</p>
   {/each}
