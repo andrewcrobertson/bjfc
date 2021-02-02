@@ -17,7 +17,7 @@
     position: fixed;
     bottom: 0;
     right: -270px;
-    opacity: 0.05;
+    opacity: 0.2;
     z-index: 99;
   }
 

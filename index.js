@@ -6,7 +6,7 @@ const { chromium } = require('playwright');
   const page = await browser.newPage();
 
   for (let i = 0; i < teams.length; i++) {
-    await page.goto(`http://localhost:3000/teams/${teams[i]}/pdfs`);
+    await page.goto(`http://localhost:3000/teams/${teams[i]}/contact`);
     await page.pdf({ path: `static/pdfs/${teams[i]}.pdf` });
   }
 
