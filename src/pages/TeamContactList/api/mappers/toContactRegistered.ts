@@ -6,6 +6,6 @@ import { toContactMethods } from './toContactMethods';
 export const toContactRegistered = (c: IContactRegisteredDb): IContact => ({
   type: 'Registered' as PlayerContactTypeEnum,
   relationship: '',
-  name: `Registered`,
+  name: `SportsTG`,
   contactMethods: toContactMethods([c.phoneHome, c.phoneMobile, c.phoneWork, c.email1, c.email2]),
 });
