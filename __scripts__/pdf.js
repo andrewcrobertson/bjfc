@@ -2,7 +2,7 @@ const Database = require('better-sqlite3');
 const { chromium } = require('playwright');
 const path = require('path');
 
-const sql = `SELECT code,
+const allTeamSql = `SELECT code,
   name,
   topAge,
   gender
@@ -18,9 +18,9 @@ const headerTemplate = (name) => `<table style="width:100%; font-size: 8px;">
 </table>`;
 
 (async () => {
-  const dbFile = path.resolve(__dirname, 'data', 'team.db');
+  const dbFile = path.resolve(__dirname, '..', 'data', 'team.db');
   const db = new Database(dbFile);
-  const teams = db.prepare(sql).all();
+  const teams = db.prepare(allTeamSql).all();
 
   const browser = await chromium.launch();
   const page = await browser.newPage();
