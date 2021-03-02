@@ -3,7 +3,7 @@ Under 8 Mixed
 
 Officials
 ------------------------------
-shaunj_footy@hotmail.com
+shaunj_footy@hotmail.com;
 
 Active Players
 ------------------------------
@@ -17,7 +17,7 @@ lyndlu2010@hotmail.com;
 nkarakasch@optusnet.com.au;
 rachfbaker@yahoo.com;
 shaunj_footy@hotmail.com;
-venetta.spencer@hotmail.com
+venetta.spencer@hotmail.com;
 
 Active and Recent Players
 ------------------------------
@@ -31,4 +31,4 @@ lyndlu2010@hotmail.com;
 nkarakasch@optusnet.com.au;
 rachfbaker@yahoo.com;
 shaunj_footy@hotmail.com;
-venetta.spencer@hotmail.com
+venetta.spencer@hotmail.com;
