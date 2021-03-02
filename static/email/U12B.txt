@@ -4,7 +4,7 @@ Under 12 Boys
 Officials
 ------------------------------
 beccydawber@bigpond.com;
-chipsbricklaying@hotmail.com
+chipsbricklaying@hotmail.com;
 
 Active Players
 ------------------------------
@@ -39,7 +39,7 @@ peter.groenewegen@bigpond.com;
 petrasales777@gmail.com;
 rachelleetalent@hotmail.com;
 stevenabickers@gmail.com;
-tmlaureyssens@gmail.com
+tmlaureyssens@gmail.com;
 
 Active and Recent Players
 ------------------------------
@@ -79,4 +79,4 @@ peter.groenewegen@bigpond.com;
 petrasales777@gmail.com;
 rachelleetalent@hotmail.com;
 stevenabickers@gmail.com;
-tmlaureyssens@gmail.com
+tmlaureyssens@gmail.com;

@@ -5,7 +5,7 @@ Officials
 ------------------------------
 apeters@swin.edu.au;
 cbrsteve.roberts@gmail.com;
-dderham@ldb.com.au
+dderham@ldb.com.au;
 
 Active Players
 ------------------------------
@@ -25,7 +25,7 @@ rachel.peake5@bigpond.com;
 rcattunar22@gmail.com;
 tanderson@starcorptextiles.com;
 tdrew@starcorptextiles.com;
-youngderham@bigpond.com
+youngderham@bigpond.com;
 
 Active and Recent Players
 ------------------------------
@@ -64,4 +64,4 @@ tasbella@gmail.com;
 tdrew@starcorptextiles.com;
 trace.1973@bigpond.com;
 tundemathews@gmail.com;
-youngderham@bigpond.com
+youngderham@bigpond.com;
