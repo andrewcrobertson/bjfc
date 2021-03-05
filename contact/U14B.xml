@@ -297,6 +297,29 @@
       </Row>
       <Row ss:AutoFitHeight="0">
         <Cell>
+          <Data ss:Type="String">White, Blake</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">White, Shannon</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0447 862 273</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">hello@shannonwhite.com.au</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">White, Guy</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0447 969 659</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">hello@shannonwhite.com.au</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
           <Data ss:Type="String">Wood, Xavier</Data>
         </Cell>
         <Cell>
@@ -398,29 +421,6 @@
         </Cell>
         <Cell>
           <Data ss:Type="String">michaelc@conwayelectrics.com.au</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Darmawan, Zyon</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Darmawan, Tracey</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0402 289 783</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">darmawan1@bigpond.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Darmawan, Gede</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0400 848 167</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">darmawan1@bigpond.com</Data>
         </Cell>
       </Row>
       <Row ss:AutoFitHeight="0">
@@ -894,29 +894,6 @@
         </Cell>
         <Cell>
           <Data ss:Type="String">brooke.williamson@griffithuni.edu.au</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">White, Blake</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">White, Shannon</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0447 969 659</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">fleur_gilmore@hotmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">White, Guy</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0447 862 273</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">fleur_gilmore@hotmail.com</Data>
         </Cell>
       </Row>
       <Row ss:AutoFitHeight="0">
