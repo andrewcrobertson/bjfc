@@ -159,6 +159,29 @@
       </Row>
       <Row ss:AutoFitHeight="0">
         <Cell>
+          <Data ss:Type="String">Kane, Alex</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kane, Warwick</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0407 546 755</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">warwick.kane@gmail.com</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">warwick.kane@gmail.com</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
           <Data ss:Type="String">Maxwell, Jayden</Data>
         </Cell>
         <Cell>
@@ -444,29 +467,6 @@
         </Cell>
         <Cell>
           <Data ss:Type="String">kelly1969@live.com.au</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Kane, Alex</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Kane, Warwick</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0407 546 755</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">warwick.kane@gmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">warwick.kane@gmail.com</Data>
         </Cell>
       </Row>
       <Row ss:AutoFitHeight="0">
