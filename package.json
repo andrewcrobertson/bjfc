@@ -14,7 +14,7 @@
     "_create-artefacts:02": "node ./__scripts__/contact-csv.js",
     "_create-artefacts:03": "node ./__scripts__/contact-pdf.js",
     "_create-artefacts:04": "node ./__scripts__/email.js",
-    "_create-artefacts:05": "kill-port 3000",
+    "_no.create-artefacts:05": "kill-port 3000",
     "_sapper:build": "sapper build",
     "_sapper:dev": "sapper dev",
     "_sapper:export": "sapper export --legacy --entry \"/anchors/\"",
