@@ -56,7 +56,7 @@
       <Column ss:AutoFitWidth="0" ss:Width="160"/>
       <Row ss:AutoFitHeight="0" ss:Height="18.75">
         <Cell ss:StyleID="s62">
-          <Data ss:Type="String">Active Players</Data>
+          <Data ss:Type="String">Registered Players</Data>
         </Cell>
         <Cell ss:MergeAcross="2" ss:StyleID="s69">
           <Data ss:Type="String">Guardian 1</Data>
@@ -469,42 +469,22 @@
           <Data ss:Type="String">ross_morgans@bigpond.com</Data>
         </Cell>
       </Row>
-      <Row ss:AutoFitHeight="0">
-      </Row>
-      <Row ss:AutoFitHeight="0" ss:Height="18.75">
-        <Cell ss:StyleID="s62">
-          <Data ss:Type="String">Historical Players</Data>
-        </Cell>
-        <Cell ss:MergeAcross="2" ss:StyleID="s69">
-          <Data ss:Type="String">Guardian 1</Data>
-        </Cell>
-        <Cell ss:MergeAcross="2" ss:StyleID="s70">
-          <Data ss:Type="String">Guardian 2</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Player Name</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Name</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Phone</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Email</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Name</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Phone</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Email</Data>
-        </Cell>
-      </Row>
+      <!-- <Row ss:AutoFitHeight="0">
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Historical Players</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Guardian 1</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s70"><Data ss:Type="String">Guardian 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Player Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Phone</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Email</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Phone</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Email</Data></Cell>
+   </Row> -->
     </Table>
     <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
       <PageSetup>

@@ -25,8 +25,8 @@
 <div class="container">
   <img id="watermark" src={logoUrl} alt="Warermark" />
   <h2 class="text-lg font-medium title-font pb-2">{state.name}</h2>
-  <PanelPlayer class="pt-2 pb-2" players={state.playersActive} heading="Active Players" emptyMessage="There are no active players" />
+  <PanelPlayer class="pt-2 pb-2" players={state.playersActive} heading="Registered Players" emptyMessage="There are no registered players" />
   <PanelPlayer class="pt-2 pb-2" players={state.playersRecent} heading="Recent Players" emptyMessage="There are no recent players" />
-  <PanelPlayer class="pt-2 pb-2" players={state.playersHistorical} heading="Historical Players" emptyMessage="There are no historical players" />
+  <!-- <PanelPlayer class="pt-2 pb-2" players={state.playersHistorical} heading="Historical Players" emptyMessage="There are no historical players" /> -->
   <!-- <PanelPlayer class="pt-2 pb-2" players={state.playersTransferred} heading="Transferred Players" emptyMessage="There are no transferred players" /> -->
 </div>

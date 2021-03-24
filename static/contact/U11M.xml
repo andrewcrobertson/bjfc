@@ -56,7 +56,7 @@
       <Column ss:AutoFitWidth="0" ss:Width="160"/>
       <Row ss:AutoFitHeight="0" ss:Height="18.75">
         <Cell ss:StyleID="s62">
-          <Data ss:Type="String">Active Players</Data>
+          <Data ss:Type="String">Registered Players</Data>
         </Cell>
         <Cell ss:MergeAcross="2" ss:StyleID="s69">
           <Data ss:Type="String">Guardian 1</Data>
@@ -527,6 +527,29 @@
       </Row>
       <Row ss:AutoFitHeight="0">
         <Cell>
+          <Data ss:Type="String">Woolard, Martin</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Burgess, Heidi</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0407 512 938</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">hrwoolard@hotmail.com</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">hrwoolard@hotmail.com</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
           <Data ss:Type="String">spencer, owen</Data>
         </Cell>
         <Cell>
@@ -699,111 +722,22 @@
           <Data ss:Type="String"></Data>
         </Cell>
       </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Woolard, Martin</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Burgess, Heidi</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0407 512 938</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">hrwoolard@hotmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">hrwoolard@hotmail.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-      </Row>
-      <Row ss:AutoFitHeight="0" ss:Height="18.75">
-        <Cell ss:StyleID="s62">
-          <Data ss:Type="String">Historical Players</Data>
-        </Cell>
-        <Cell ss:MergeAcross="2" ss:StyleID="s69">
-          <Data ss:Type="String">Guardian 1</Data>
-        </Cell>
-        <Cell ss:MergeAcross="2" ss:StyleID="s70">
-          <Data ss:Type="String">Guardian 2</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Player Name</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Name</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Phone</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Email</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Name</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Phone</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Email</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Miller, Cooper</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Miller, Samantha</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0425 869 140</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">sam_skadins@hotmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Miller, Justin</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0425 869 140</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">sam_skadins@hotmail.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Munro, Boyd</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Munro, Julia</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0433 540 858</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">juliammunro@hotmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Munro, Brodie</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0457 001 575</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">juliammunro@hotmail.com</Data>
-        </Cell>
-      </Row>
+      <!-- <Row ss:AutoFitHeight="0">
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Historical Players</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Guardian 1</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s70"><Data ss:Type="String">Guardian 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Player Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Phone</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Email</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Phone</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Email</Data></Cell>
+   </Row> -->
     </Table>
     <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
       <PageSetup>

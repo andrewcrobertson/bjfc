@@ -61,7 +61,7 @@
    <Column ss:AutoFitWidth="0" ss:Width="80"/>
    <Column ss:AutoFitWidth="0" ss:Width="160"/>
    <Row ss:AutoFitHeight="0" ss:Height="18.75">
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Active Players</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Registered Players</Data></Cell>
     <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Guardian 1</Data></Cell>
     <Cell ss:MergeAcross="2" ss:StyleID="s70"><Data ss:Type="String">Guardian 2</Data></Cell>
    </Row>
@@ -118,7 +118,7 @@
     print(`</Row>`);
   }
 %>
-   <Row ss:AutoFitHeight="0">
+   <!-- <Row ss:AutoFitHeight="0">
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="18.75">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Historical Players</Data></Cell>
@@ -133,20 +133,20 @@
     <Cell ss:StyleID="s63"><Data ss:Type="String">Name</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">Phone</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">Email</Data></Cell>
-   </Row>
+   </Row> -->
 <% 
-  for (let i = 0; i < historicalPlayers.length; i++) {
-    const { playerName, guardian1Name, guardian1Phone, guardian1Email, guardian2Name, guardian2Phone, guardian2Email } = historicalPlayers[i];
-    print(`<Row ss:AutoFitHeight="0">`);
-    print(`<Cell><Data ss:Type="String">${playerName}</Data></Cell>\n`);
-    print(`<Cell><Data ss:Type="String">${guardian1Name}</Data></Cell>\n`);
-    print(`<Cell><Data ss:Type="String">${guardian1Phone}</Data></Cell>\n`);
-    print(`<Cell><Data ss:Type="String">${guardian1Email}</Data></Cell>\n`);
-    print(`<Cell><Data ss:Type="String">${guardian2Name}</Data></Cell>\n`);
-    print(`<Cell><Data ss:Type="String">${guardian2Phone}</Data></Cell>\n`);
-    print(`<Cell><Data ss:Type="String">${guardian2Email}</Data></Cell>\n`);
-    print(`</Row>`);
-  }
+// for (let i = 0; i < historicalPlayers.length; i++) {
+//   const { playerName, guardian1Name, guardian1Phone, guardian1Email, guardian2Name, guardian2Phone, guardian2Email } = historicalPlayers[i];
+//   print(`<Row ss:AutoFitHeight="0">`);
+//   print(`<Cell><Data ss:Type="String">${playerName}</Data></Cell>\n`);
+//   print(`<Cell><Data ss:Type="String">${guardian1Name}</Data></Cell>\n`);
+//   print(`<Cell><Data ss:Type="String">${guardian1Phone}</Data></Cell>\n`);
+//   print(`<Cell><Data ss:Type="String">${guardian1Email}</Data></Cell>\n`);
+//   print(`<Cell><Data ss:Type="String">${guardian2Name}</Data></Cell>\n`);
+//   print(`<Cell><Data ss:Type="String">${guardian2Phone}</Data></Cell>\n`);
+//   print(`<Cell><Data ss:Type="String">${guardian2Email}</Data></Cell>\n`);
+//   print(`</Row>`);
+// }
 %>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
