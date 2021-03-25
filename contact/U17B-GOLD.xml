@@ -56,7 +56,7 @@
       <Column ss:AutoFitWidth="0" ss:Width="160"/>
       <Row ss:AutoFitHeight="0" ss:Height="18.75">
         <Cell ss:StyleID="s62">
-          <Data ss:Type="String">Active Players</Data>
+          <Data ss:Type="String">Registered Players</Data>
         </Cell>
         <Cell ss:MergeAcross="2" ss:StyleID="s69">
           <Data ss:Type="String">Guardian 1</Data>
@@ -586,29 +586,6 @@
       </Row>
       <Row ss:AutoFitHeight="0">
         <Cell>
-          <Data ss:Type="String">Bright, Jacob</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Bright, Andrew</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0425 817 084</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">youngandbright@optusnet.com.au</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Bright, Helen</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0438 729 190</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">youngandbright@optusnet.com.au</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
           <Data ss:Type="String">Calcraft, Benjamin</Data>
         </Cell>
         <Cell>
@@ -814,203 +791,22 @@
           <Data ss:Type="String">markwaterworth@gmail.com</Data>
         </Cell>
       </Row>
-      <Row ss:AutoFitHeight="0">
-      </Row>
-      <Row ss:AutoFitHeight="0" ss:Height="18.75">
-        <Cell ss:StyleID="s62">
-          <Data ss:Type="String">Historical Players</Data>
-        </Cell>
-        <Cell ss:MergeAcross="2" ss:StyleID="s69">
-          <Data ss:Type="String">Guardian 1</Data>
-        </Cell>
-        <Cell ss:MergeAcross="2" ss:StyleID="s70">
-          <Data ss:Type="String">Guardian 2</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Player Name</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Name</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Phone</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Email</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Name</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Phone</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Email</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Bannan, Daniel</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Gielen, Wendy</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0414 747 608</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">wendygielen11@gmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Bannan, Grant</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0414 442 294</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">wendygielen11@gmail.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Bellingham, Tait</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Black, Matt</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0487 262 228</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">mattmoo8@bigpong.net.au</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">mattmoo8@bigpong.net.au</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Dewar, Daniel</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Dewar, Rebecca</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0408 102 530</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">nrdewar@bigpond.net.au</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Dewar, Nathan</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0417 309 089</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">nrdewar@bigpond.net.au</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Higgins, Matthew</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Higgins, Michele</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0400 102 377</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">higginspeeps@gmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Higgins, Mark</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0448 558 158</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">higginspeeps@gmail.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Kordatou, Bill</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Nelsson, Brandon</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Nelsson, Peter</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0417 339 311</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">peternelsson@bigpond.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">nelsson, peter</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0417 339 311</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">peternelsson@bigpond.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Petropoulos, Nick</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Petropoulos, Mr</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0421 730 133</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">alexnpetropoulos@hotmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">alexnpetropoulos@hotmail.com</Data>
-        </Cell>
-      </Row>
+      <!-- <Row ss:AutoFitHeight="0">
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Historical Players</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Guardian 1</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s70"><Data ss:Type="String">Guardian 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Player Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Phone</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Email</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Phone</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Email</Data></Cell>
+   </Row> -->
     </Table>
     <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
       <PageSetup>

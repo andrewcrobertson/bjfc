@@ -56,7 +56,7 @@
       <Column ss:AutoFitWidth="0" ss:Width="160"/>
       <Row ss:AutoFitHeight="0" ss:Height="18.75">
         <Cell ss:StyleID="s62">
-          <Data ss:Type="String">Active Players</Data>
+          <Data ss:Type="String">Registered Players</Data>
         </Cell>
         <Cell ss:MergeAcross="2" ss:StyleID="s69">
           <Data ss:Type="String">Guardian 1</Data>
@@ -224,6 +224,29 @@
         </Cell>
         <Cell>
           <Data ss:Type="String">apeters@swin.edu.au</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">Pollard, Mason</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pollard, Damon</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0400 131 510</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">dpollard120887@gmail.com</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pollard, Ashleigh</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0413 213 001</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">dpollard120887@gmail.com</Data>
         </Cell>
       </Row>
       <Row ss:AutoFitHeight="0">
@@ -630,295 +653,22 @@
           <Data ss:Type="String">bkck0208@gmail.com</Data>
         </Cell>
       </Row>
-      <Row ss:AutoFitHeight="0">
-      </Row>
-      <Row ss:AutoFitHeight="0" ss:Height="18.75">
-        <Cell ss:StyleID="s62">
-          <Data ss:Type="String">Historical Players</Data>
-        </Cell>
-        <Cell ss:MergeAcross="2" ss:StyleID="s69">
-          <Data ss:Type="String">Guardian 1</Data>
-        </Cell>
-        <Cell ss:MergeAcross="2" ss:StyleID="s70">
-          <Data ss:Type="String">Guardian 2</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Player Name</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Name</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Phone</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Email</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Name</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Phone</Data>
-        </Cell>
-        <Cell ss:StyleID="s63">
-          <Data ss:Type="String">Email</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Caird, Nicholas</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Rowles, Cynthia</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0405 104 279</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">cynthia.rowles@y7mail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Caird, Robert</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0405 382 911</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">cynthia.rowles@y7mail.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Jones, Oliver</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">de Bruin, Karla</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0415 922 667</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">karlatw@live.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">karlatw@live.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Obrien, William</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Davis, Rebecca</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0474 804 401</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">bexobr@gmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Davis, Rebecca</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0474 804 401</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">bexobr@gmail.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Peppler, Jack</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Peppler, Damien</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0413 125 590</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">nadfoz@bigpond.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Peppler, Nadine</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0488 444 367</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">nadfoz@bigpond.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Scott, Brodie</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Scott, Meaghan</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0434 770 174</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">megscott12@outlook.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">megscott12@outlook.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Stafford, Aiden</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Stafford, Andrew</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0450 784 904</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">staffman1973@gmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">staffman1973@gmail.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Tuigamala-Nukunuku, Pakura Johnson</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Faasalafa, Florence</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0487 405 857</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">florence.faasalafa@gmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Nukunuku, Tee</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0414 131 923</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">florence.faasalafa@gmail.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Tuigamala-faasalafa, Pakura Johnson</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Faasalafa, Florence</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0481 270 993</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">florence.faasalafa@hotmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Nukunuku, Tekooti</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0450 230 834</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">florence.faasalafa@hotmail.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Ul-Malik, Naim</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Malik, Nadeem</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0433 937 900</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">nadeemask_75@hotmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">nadeemask_75@hotmail.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Urban, Tyler</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">williamson, brooke</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0402 624 557</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">brooke.williamson@griffithuni.edu.au</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">urban, shayne</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0422 743 034</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">brooke.williamson@griffithuni.edu.au</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">rogers, travis</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">rogers, vanessa</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0431 258 315</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">vanessa71171@hotmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">vanessa71171@hotmail.com</Data>
-        </Cell>
-      </Row>
+      <!-- <Row ss:AutoFitHeight="0">
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Historical Players</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Guardian 1</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s70"><Data ss:Type="String">Guardian 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Player Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Phone</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Email</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Phone</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Email</Data></Cell>
+   </Row> -->
     </Table>
     <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
       <PageSetup>
