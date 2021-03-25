@@ -136,6 +136,29 @@
       </Row>
       <Row ss:AutoFitHeight="0">
         <Cell>
+          <Data ss:Type="String">GauciFraser, Shaylee</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fraser, Kim</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0402 939 192</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">kynmii495@gmail.com</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gauci, Glen</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0478 660 172</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">kynmii495@gmail.com</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
           <Data ss:Type="String">Jolly, Ella</Data>
         </Cell>
         <Cell>
@@ -421,29 +444,6 @@
         </Cell>
         <Cell ss:StyleID="s63">
           <Data ss:Type="String">Email</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">GauciFraser, Shaylee</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Fraser, Kim</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0402 939 192</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">kynmii495@gmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Gauci, Glen</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0478 660 172</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">kynmii495@gmail.com</Data>
         </Cell>
       </Row>
       <Row ss:AutoFitHeight="0">
