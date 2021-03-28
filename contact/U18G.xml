@@ -205,6 +205,29 @@
       </Row>
       <Row ss:AutoFitHeight="0">
         <Cell>
+          <Data ss:Type="String">Prior, Emily</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bird, Tracey</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0438 361 434</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">traceybird462@gmail.com</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Prior, Martin</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0430 219 376</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">traceybird462@gmail.com</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
           <Data ss:Type="String">Robertson, Darcy</Data>
         </Cell>
         <Cell>
@@ -398,29 +421,6 @@
         </Cell>
         <Cell>
           <Data ss:Type="String">pottenger008@gmail.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Prior, Emily</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Prior, Tracey</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0438 361 434</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">trace.1973@bigpond.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Bird, Martin</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0430 219 376</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">trace.1973@bigpond.com</Data>
         </Cell>
       </Row>
       <Row ss:AutoFitHeight="0">
