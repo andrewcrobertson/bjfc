@@ -113,6 +113,29 @@
       </Row>
       <Row ss:AutoFitHeight="0">
         <Cell>
+          <Data ss:Type="String">Glenn, Jack</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Van Looy, Bianca</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0448 137 205</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">bvanlooy1982@hotmail.com</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">bvanlooy1982@hotmail.com</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
           <Data ss:Type="String">Higgins, Joshua</Data>
         </Cell>
         <Cell>
@@ -490,29 +513,6 @@
         </Cell>
         <Cell>
           <Data ss:Type="String">office.cablecom@gmail.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Glenn, Jack</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Van Looy, Bianca</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0448 137 205</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">bvanlooy1982@hotmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">bvanlooy1982@hotmail.com</Data>
         </Cell>
       </Row>
       <Row ss:AutoFitHeight="0">
