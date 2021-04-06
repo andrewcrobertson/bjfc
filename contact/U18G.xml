@@ -136,6 +136,29 @@
       </Row>
       <Row ss:AutoFitHeight="0">
         <Cell>
+          <Data ss:Type="String">Cathro-Turner, Emily</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cathro, Brooke</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0450 257 342</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">smokin876@gmail.com</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">smokin876@gmail.com</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
           <Data ss:Type="String">Foster-Davies, Jaslyn</Data>
         </Cell>
         <Cell>
@@ -201,6 +224,29 @@
         </Cell>
         <Cell>
           <Data ss:Type="String">salliw79@gmail.com</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">Peterson, Chenoa</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Penrose, Rachel</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0416 391 178</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">rachel_mark_chenoa@live.com.au</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Peterson, Mark</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0422 169 913</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">rachel_mark_chenoa@live.com.au</Data>
         </Cell>
       </Row>
       <Row ss:AutoFitHeight="0">
@@ -310,29 +356,6 @@
       </Row>
       <Row ss:AutoFitHeight="0">
         <Cell>
-          <Data ss:Type="String">Cathro-Turner, Emily</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Cathro, Brooke</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0450 257 342</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">smokin876@gmail.com</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String"></Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">smokin876@gmail.com</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
           <Data ss:Type="String">De Losa, Isabella</Data>
         </Cell>
         <Cell>
@@ -375,29 +398,6 @@
         </Cell>
         <Cell>
           <Data ss:Type="String">fmartin1@bigpond.net.au</Data>
-        </Cell>
-      </Row>
-      <Row ss:AutoFitHeight="0">
-        <Cell>
-          <Data ss:Type="String">Peterson, Chenoa</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Penrose, Rachel</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0416 391 178</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">rachel_mark_chenoa@live.com.au</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">Peterson, Mark</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">0422 169 913</Data>
-        </Cell>
-        <Cell>
-          <Data ss:Type="String">rachel_mark_chenoa@live.com.au</Data>
         </Cell>
       </Row>
       <Row ss:AutoFitHeight="0">
