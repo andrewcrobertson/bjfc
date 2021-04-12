@@ -11,7 +11,11 @@ const sql = `SELECT footyWebNumber,
   yearLastRegistered
   FROM player
 WHERE teamCode = @code
-AND status IN ('Insured', 'Registered', 'Recent');`;
+AND status IN ('Insured', 'Registered', 'Recent')
+ORDER BY
+  lastName,
+  firstName,
+  dateOfBirth;`;
 
 export interface IPlayerDb {
   footyWebNumber: string;
