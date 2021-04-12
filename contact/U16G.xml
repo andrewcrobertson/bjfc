@@ -471,6 +471,29 @@
       </Row>
       <Row ss:AutoFitHeight="0">
         <Cell>
+          <Data ss:Type="String">Self, Skye</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bear, Kellie</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0415 454 143</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">kelliebear15@gmail.com</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">kelliebear15@gmail.com</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
           <Data ss:Type="String">Walters, Jade</Data>
         </Cell>
         <Cell>
