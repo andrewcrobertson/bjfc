@@ -8,10 +8,10 @@ const allTeamSql = `SELECT code, name FROM team ORDER BY topAge, gender;`;
 
 const teamPlayerActiveSql = `SELECT p.lastName || ', ' || p.firstName playerName,
   COALESCE(pcg1.lastName || ', ' || pcg1.firstName, '') guardian1Name,
-  COALESCE(pcg1.email, '') guardian1Email,
-  COALESCE(pcg1.mobile, pcg1.phone1, pcg1.phone2, '') guardian1Phone,
+  COALESCE(pcg1.email, pcr.email1, pcr.email2, '') guardian1Email,
+  COALESCE(pcg1.mobile, pcg1.phone1, pcg1.phone2, pcr.phoneMobile, pcr.phoneHome, pcr.phoneWork, '') guardian1Phone,
   COALESCE(pcg2.lastName || ', ' || pcg2.firstName, '') guardian2Name,
-  COALESCE(pcg1.email, '') guardian2Email,
+  COALESCE(pcg2.email, '') guardian2Email,
   COALESCE(pcg2.mobile, pcg2.phone1, pcg2.phone2, '') guardian2Phone
 FROM player p
 LEFT JOIN playerContactGuardian pcg1 ON p.footyWebNumber = pcg1.footyWebNumber AND pcg1.sequence = 1
@@ -23,10 +23,10 @@ ORDER BY p.lastName, p.firstName;`;
 
 const teamPlayerRecentSql = `SELECT p.lastName || ', ' || p.firstName playerName,
   COALESCE(pcg1.lastName || ', ' || pcg1.firstName, '') guardian1Name,
-  COALESCE(pcg1.email, '') guardian1Email,
-  COALESCE(pcg1.mobile, pcg1.phone1, pcg1.phone2, '') guardian1Phone,
+  COALESCE(pcg1.email, pcr.email1, pcr.email2, '') guardian1Email,
+  COALESCE(pcg1.mobile, pcg1.phone1, pcg1.phone2, pcr.phoneMobile, pcr.phoneHome, pcr.phoneWork, '') guardian1Phone,
   COALESCE(pcg2.lastName || ', ' || pcg2.firstName, '') guardian2Name,
-  COALESCE(pcg1.email, '') guardian2Email,
+  COALESCE(pcg2.email, '') guardian2Email,
   COALESCE(pcg2.mobile, pcg2.phone1, pcg2.phone2, '') guardian2Phone
 FROM player p
 LEFT JOIN playerContactGuardian pcg1 ON p.footyWebNumber = pcg1.footyWebNumber AND pcg1.sequence = 1
@@ -38,10 +38,10 @@ ORDER BY p.lastName, p.firstName;`;
 
 const teamPlayerHistoricalSql = `SELECT p.lastName || ', ' || p.firstName playerName,
   COALESCE(pcg1.lastName || ', ' || pcg1.firstName, '') guardian1Name,
-  COALESCE(pcg1.email, '') guardian1Email,
-  COALESCE(pcg1.mobile, pcg1.phone1, pcg1.phone2, '') guardian1Phone,
+  COALESCE(pcg1.email, pcr.email1, pcr.email2, '') guardian1Email,
+  COALESCE(pcg1.mobile, pcg1.phone1, pcg1.phone2, pcr.phoneMobile, pcr.phoneHome, pcr.phoneWork, '') guardian1Phone,
   COALESCE(pcg2.lastName || ', ' || pcg2.firstName, '') guardian2Name,
-  COALESCE(pcg1.email, '') guardian2Email,
+  COALESCE(pcg2.email, '') guardian2Email,
   COALESCE(pcg2.mobile, pcg2.phone1, pcg2.phone2, '') guardian2Phone
 FROM player p
 LEFT JOIN playerContactGuardian pcg1 ON p.footyWebNumber = pcg1.footyWebNumber AND pcg1.sequence = 1
