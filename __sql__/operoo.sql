@@ -26,6 +26,16 @@ LEFT JOIN playerContactRegistered pcr ON pcr.footyWebNumber = p.footyWebNumber
 WHERE p.status IN ('Registered', 'Insured')
   AND COALESCE(pcg.sequence, 1) = 1
   AND p.footyWebNumber NOT IN (
+      '03530829', -- Isabella Crane
+      '01612058', -- Kaiyla Dybing
+      '01255889', -- Scarlett Barnett
+      '03043657', -- Tahlia Dannefaerd
+      '01364241', -- Viveca Kleinert
+      '02047322', -- Olivia Koch
+      '02873325', -- Lillie Marotti
+      '03221507'  -- Jocelyn Thomas
+  )
+  AND p.footyWebNumber NOT IN (
   )
 ORDER BY t.code,
   p.lastName,
