@@ -297,6 +297,29 @@
       </Row>
       <Row ss:AutoFitHeight="0">
         <Cell>
+          <Data ss:Type="String">Rowe, Maddison</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0422 536 882</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">cazdavis700@gmail.com</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
           <Data ss:Type="String">Torney, Lachlan</Data>
         </Cell>
         <Cell>
