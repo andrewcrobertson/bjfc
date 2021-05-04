@@ -19,7 +19,7 @@ LEFT JOIN playerContactGuardian pcg2 ON p.footyWebNumber = pcg2.footyWebNumber A
 LEFT JOIN playerContactRegistered pcr ON p.footyWebNumber = pcr.footyWebNumber
 WHERE p.teamCode = @teamCode
   AND p.status IN ('Registered', 'Insured')
-ORDER BY p.lastName, p.firstName;`;
+ORDER BY UPPER(p.lastName), UPPER(p.firstName);`;
 
 const teamPlayerRecentSql = `SELECT p.lastName || ', ' || p.firstName playerName,
   COALESCE(pcg1.lastName || ', ' || pcg1.firstName, '') guardian1Name,
@@ -34,7 +34,7 @@ LEFT JOIN playerContactGuardian pcg2 ON p.footyWebNumber = pcg2.footyWebNumber A
 LEFT JOIN playerContactRegistered pcr ON p.footyWebNumber = pcr.footyWebNumber
 WHERE p.teamCode = @teamCode
   AND p.status IN ('Recent')
-ORDER BY p.lastName, p.firstName;`;
+ORDER BY UPPER(p.lastName), UPPER(p.firstName);`;
 
 const teamPlayerHistoricalSql = `SELECT p.lastName || ', ' || p.firstName playerName,
   COALESCE(pcg1.lastName || ', ' || pcg1.firstName, '') guardian1Name,
@@ -49,7 +49,7 @@ LEFT JOIN playerContactGuardian pcg2 ON p.footyWebNumber = pcg2.footyWebNumber A
 LEFT JOIN playerContactRegistered pcr ON p.footyWebNumber = pcr.footyWebNumber
 WHERE p.teamCode = @teamCode
   AND p.status IN ('Historical')
-ORDER BY p.lastName, p.firstName;`;
+ORDER BY UPPER(p.lastName), UPPER(p.firstName);`;
 
 (async () => {
   const dbFile = path.resolve(__dirname, '..', 'data', 'team.db');

@@ -13,8 +13,8 @@ const sql = `SELECT footyWebNumber,
 WHERE teamCode = @code
 AND status IN ('Insured', 'Registered', 'Recent')
 ORDER BY
-  lastName,
-  firstName,
+  UPPER(lastName),
+  UPPER(firstName),
   dateOfBirth;`;
 
 export interface IPlayerDb {

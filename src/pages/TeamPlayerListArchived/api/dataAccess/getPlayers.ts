@@ -15,8 +15,8 @@ FROM player
 WHERE teamCode = @code
 AND status IN ('Transferred', 'Historical')
 ORDER BY
-  lastName,
-  firstName,
+  UPPER(lastName),
+  UPPER(firstName),
   dateOfBirth;`;
 
 export interface IPlayerDb {

@@ -11,7 +11,7 @@ const teamPlayerEmailActiveSql = `SELECT DISTINCT a.email
       UNION SELECT email2 email FROM playerContactRegistered pcr INNER JOIN player p ON pcr.footyWebNumber = p.footyWebNumber WHERE p.status IN ('Insured', 'Registered') AND p.teamCode = @teamCode
   ) a
   WHERE a.email IS NOT NULL
-  ORDER BY a.email;`;
+  ORDER BY UPPER(a.email);`;
 
 const teamPlayerEmailActiveAndRecentSql = `SELECT DISTINCT a.email
   FROM (
@@ -20,12 +20,12 @@ const teamPlayerEmailActiveAndRecentSql = `SELECT DISTINCT a.email
       UNION SELECT email2 email FROM playerContactRegistered pcr INNER JOIN player p ON pcr.footyWebNumber = p.footyWebNumber WHERE p.status IN ('Insured', 'Registered', 'Recent') AND p.teamCode = @teamCode
   ) a
   WHERE a.email IS NOT NULL
-  ORDER BY a.email;`;
+  ORDER BY UPPER(a.email);`;
 
 const teamOfficialEmailSql = `SELECT DISTINCT tof.email FROM teamOfficial tof
 WHERE tof.teamCode = @teamCode
   AND tof.email IS NOT NULL
-ORDER BY tof.email;`;
+ORDER BY UPPER(tof.email);`;
 
 (async () => {
   const dbFile = path.resolve(__dirname, '..', 'data', 'team.db');

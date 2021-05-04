@@ -15,8 +15,8 @@ FROM player
 WHERE status IN ('Insured', 'Registered', 'Recent')
   AND CAST(substr(dateOfBirth, 6, 2) AS INTEGER) = @month
 ORDER BY CAST(substr(dateOfBirth, 9, 2) AS INTEGER),
-  lastName,
-  firstName;`;
+  UPPER(lastName),
+  UPPER(firstName);`;
 
 export interface IPlayerDb {
   footyWebNumber: string;
